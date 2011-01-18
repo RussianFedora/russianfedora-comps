@@ -69,20 +69,17 @@
       <packagereq type="optional">akmod-nvidia</packagereq>
       <packagereq type="optional">akmod-nvidia-173xx</packagereq>
       <packagereq type="optional">akmod-nvidia-96xx</packagereq>
+      <packagereq type="optional">akmod-nvidia-beta</packagereq>
       <packagereq type="optional">akmod-slmodem</packagereq>
       <packagereq type="optional">akmod-wl</packagereq>
       <packagereq type="optional">broadcom-wl</packagereq>
       <packagereq type="optional">Cg</packagereq>
       <packagereq type="optional">ogre-cg</packagereq>
       <packagereq type="optional">slmodem</packagereq>
-      <packagereq type="optional">xorg-x11-drv-catalyst</packagereq>
-      <packagereq type="conditional" requires="xorg-x11-drv-catalyst">kmod-catalyst</packagereq>
+      <packagereq type="optional">xorg-x11-drv-fglrx</packagereq>
       <packagereq type="optional">xorg-x11-drv-nvidia</packagereq>
-      <packagereq type="conditional" requires="xorg-x11-drv-nvidia">kmod-nvidia</packagereq>
       <packagereq type="optional">xorg-x11-drv-nvidia-173xx</packagereq>
-      <packagereq type="conditional" requires="xorg-x11-drv-nvidia-173xx">kmod-nvidia-173xx</packagereq>
       <packagereq type="optional">xorg-x11-drv-nvidia-96xx</packagereq>
-      <packagereq type="conditional" requires="xorg-x11-drv-nvidia-96xx">kmod-nvidia-96xx</packagereq>
     </packagelist>
   </group>
   <group>

@@ -28,7 +28,6 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="conditional" requires="kdemultimedia">kdemultimedia-extras-freeworld</packagereq>
       <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kmediafactory</packagereq>
       <packagereq type="optional">kplayer</packagereq>
@@ -62,24 +61,12 @@
       <packagereq type="default">foo2slx</packagereq>
       <packagereq type="default">foo2xqx</packagereq>
       <packagereq type="default">foo2zjs</packagereq>
-      <packagereq type="optional">akmod-em8300</packagereq>
-      <packagereq type="optional">akmod-kqemu</packagereq>
-      <packagereq type="optional">akmod-ndiswrapper</packagereq>
-      <packagereq type="optional">akmod-rt2860</packagereq>
-      <packagereq type="optional">akmod-rt2870</packagereq>
-      <packagereq type="optional">akmod-rt3070</packagereq>
-      <packagereq type="optional">em8300</packagereq>
-      <packagereq type="conditional" requires="em8300">kmod-em8300</packagereq>
+      <packagereq type="optional">kmod-em8300</packagereq>
       <packagereq type="optional">kqemu</packagereq>
-      <packagereq type="conditional" requires="kqemu">kmod-kqemu</packagereq>
       <packagereq type="optional">ndiswrapper</packagereq>
-      <packagereq type="conditional" requires="ndiswrapper">kmod-ndiswrapper</packagereq>
       <packagereq type="optional">rt2860</packagereq>
-      <packagereq type="conditional" requires="rt2860">kmod-rt2860</packagereq>
       <packagereq type="optional">rt2870</packagereq>
-      <packagereq type="conditional" requires="rt2870">kmod-rt2870</packagereq>
       <packagereq type="optional">rt3070</packagereq>
-      <packagereq type="conditional" requires="rt3070">kmod-rt3070</packagereq>
     </packagelist>
   </group>
   <group>
@@ -178,9 +165,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">akmod-VirtualBox-OSE</packagereq>
       <packagereq type="optional">VirtualBox-OSE</packagereq>
-      <packagereq type="conditional" requires="VirtualBox-OSE">kmod-VirtualBox-OSE</packagereq>
     </packagelist>
   </group>
   <category>

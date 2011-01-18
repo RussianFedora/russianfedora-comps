@@ -739,7 +739,6 @@
     <name xml:lang="pt">Suporte a Asturiano</name>
     <name xml:lang="pt_BR">Suporte à Armênio</name>
     <name xml:lang="ru">Поддержка астурийского языка</name>
-    <name xml:lang="sk">Astúrska podpora</name>
     <name xml:lang="sv">Stöd för asturiska</name>
     <name xml:lang="uk">Підтримка астурійської мови</name>
     <name xml:lang="zh_TW">阿斯圖裡亞斯語支援</name>
@@ -1377,7 +1376,7 @@
     <description xml:lang="id">Install paket dari group ini untuk grasif dasar (X) interface user.</description>
     <description xml:lang="is">Settu þessa pakka inn ef þú vilt nota myndræn forrit (X).</description>
     <description xml:lang="it">Installare questo gruppo di pacchetti per utilizzare l'interfaccia grafica di base (X).</description>
-    <description xml:lang="ja">基本的なグラフィカルユーザーインターフェース (X Window System) を使用するには、このパッケージグループをインストールしてください。</description>
+    <description xml:lang="ja">基本的なグラフィカル (X) ユーザーインターフェースを使用するには、このパッケージグループをインストールしてください。</description>
     <description xml:lang="kn">ಮೂಲ ಚಿತ್ರಾತ್ಮಕ ಸಂಪರ್ಕ ಸಾಧನ (X ಸಾಧನ) ಬಳಸಿಕೊಳ್ಳಲು ಈ ಪ್ಯಾಕೇಜ್ ಸಮೂಹವನ್ನು ಅನುಸ್ಥಾಪಿಸಿ.</description>
     <description xml:lang="ko">기본 그래픽 (X) 사용자 인터페이스를 사용하시려면 이 패키지 그룹을 설치하십시오.</description>
     <description xml:lang="lv">Uzstādiet šīs pakotnes, ja vēlaties izmantot grafisku lietotāja saskarni (X).</description>
@@ -1415,7 +1414,7 @@
     <description xml:lang="ur">یہ  مجموعہ انسٹال کر ے ،جو تصویراتی (X) نظارے دے گا</description>
     <description xml:lang="vi">Cài đặt những gói này để dùng giao diện đồ họa cơ bản (X).</description>
     <description xml:lang="zh_CN">安装这个软件包组群使用基本图形（X）用户界面。</description>
-    <description xml:lang="zh_TW">安裝這個套件群組以使用基礎的圖形(X)使用者介面。</description>
+    <description xml:lang="zh_TW">安裝這個套件群組以使用基礎的圖形（X）使用者介面。</description>
     <description xml:lang="zu">Faka leli qembu lama phakethe elizosetshenziswa kwisiqu soxhumano lomsebenzisi lemidwebo (X).</description>
     <default>true</default>
     <uservisible>true</uservisible>
@@ -1433,7 +1432,6 @@
       <packagereq type="default">krb5-auth-dialog</packagereq>
       <packagereq type="default">mesa-libGL</packagereq>
       <packagereq type="default">mesa-libGLU</packagereq>
-      <packagereq type="default">mesa-dri-drivers-experimental</packagereq>
       <packagereq type="default">openssh-askpass</packagereq>
       <packagereq type="default">plymouth-system-theme</packagereq>
       <packagereq type="default">policycoreutils-gui</packagereq>
@@ -1451,6 +1449,7 @@
       <packagereq type="optional">gdm</packagereq>
       <packagereq type="optional">gxmessage</packagereq>
       <packagereq type="optional">lilyterm</packagereq>
+      <packagereq type="optional">mesa-dri-drivers-experimental</packagereq>
       <packagereq type="optional">roxterm</packagereq>
       <packagereq type="optional">rss-glx</packagereq>
       <packagereq type="optional">rss-glx-xscreensaver</packagereq>
@@ -1855,7 +1854,7 @@
     <description xml:lang="hu">Könyvek és segédletek Fedora használóknak és fejlesztőknek</description>
     <description xml:lang="is">Bækur og leiðarvísar fyrir Fedora notendur og forritara</description>
     <description xml:lang="it">Libri e guide per gli sviluppatori e gli utenti di Fedora</description>
-    <description xml:lang="ja">Fedora ユーザーと Fedora 開発者のための書籍とガイド</description>
+    <description xml:lang="ja">Fedora のユーザーと開発者の為の本とガイド</description>
     <description xml:lang="kn">ಫೆಡೋರ ಬಳಕೆದಾರರಿಗಾಗಿ ಹಾಗು ವಿಕಸನಾಗಾರರಿಗಾಗಿನ ಪುಸ್ತಕಗಳು ಹಾಗು ಮಾರ್ಗದರ್ಶಿಗಳು</description>
     <description xml:lang="ko">Fedora 사용자 및 개발자를 위한 관련 서적 및 가이드  </description>
     <description xml:lang="mai">फेडोरा प्रयोक्ता आओर विकासकर्ताक लेल पुस्तक आओर गाइड</description>
@@ -3131,7 +3130,6 @@
     <name xml:lang="pt">Caminho Crítico (Aplicações)</name>
     <name xml:lang="pt_BR">Critical Path (Aplicações)</name>
     <name xml:lang="ru">Критический путь (приложения)</name>
-    <name xml:lang="sk">Kritická cesta (Aplikácie)</name>
     <name xml:lang="sr">Критична путања (програми)</name>
     <name xml:lang="sr@latin">Kritična putanja (programi)</name>
     <name xml:lang="sv">Kritisk linje (program)</name>
@@ -3160,7 +3158,6 @@
     <description xml:lang="pt">Um conjunto de aplicações que são consideradas Caminho Crítico</description>
     <description xml:lang="pt_BR">Um conjunto de aplicações que são consideradas critical path</description>
     <description xml:lang="ru">Набор приложений, составляющих критический путь</description>
-    <description xml:lang="sk">Súbor aplikácií považovaných za kritickú cestu</description>
     <description xml:lang="sr">Скуп програма који се сматрају за критичну путању</description>
     <description xml:lang="sr@latin">Skup programa koji se smatraju za kritičnu putanju</description>
     <description xml:lang="sv">Ett antal program som anses ligga på den kritiska linjen</description>
@@ -3221,7 +3218,7 @@
     <name xml:lang="te">క్రిటికల్ పాత్ (బేస్)</name>
     <name xml:lang="uk">Critical Path (Основа)</name>
     <name xml:lang="zh_CN">重要路径（基本）</name>
-    <name xml:lang="zh_TW">關鍵路徑 (Base)</name>
+    <name xml:lang="zh_TW">關鍵路徑（Base）</name>
     <description>A set of packages that provide the shared platform for Critical Path functionality on all Fedora spins</description>
     <description xml:lang="ar">هناك مجموعة من الحزم التي توفر منصة وظائف مشتركة للمسار الحرجوظائف في جميع جوانب فيدورا</description>
     <description xml:lang="as">Fedora-ৰ সকলো স্পিনৰ ক্ষেত্ৰত Critical Path-ৰ বৈশিষ্ট্য উপলব্ধকৰ্তা সৰঞ্জামৰ সংকলন ।</description>
@@ -3330,7 +3327,7 @@
     <name xml:lang="te">క్రిటికల్ పాత్ (GNOME)</name>
     <name xml:lang="uk">Critical Path (GNOME)</name>
     <name xml:lang="zh_CN">重要路径（GNOME）</name>
-    <name xml:lang="zh_TW">關鍵路徑 (GNOME)</name>
+    <name xml:lang="zh_TW">關鍵路徑（GNOME）</name>
     <description>A set of packages that provide the Critical Path functionality for the GNOME desktop</description>
     <description xml:lang="ar">هناك مجموعة من الحزم التي توفر وظائف المسار الحرج لسطح مكتب GNOME</description>
     <description xml:lang="as">GNOME ডেস্কট'পৰ ক্ষেত্ৰত Critical Path-ৰ বৈশিষ্ট্য উপলব্ধকৰ্তা সৰঞ্জামৰ সংকলন ।</description>
@@ -3429,7 +3426,6 @@
     <name xml:lang="pt">Caminho Crítico (KDE)</name>
     <name xml:lang="pt_BR">Critical Path (KDE)</name>
     <name xml:lang="ru">Критический путь (KDE)</name>
-    <name xml:lang="sk">Kritická cesta (KDE)</name>
     <name xml:lang="sr">Критична путања (KDE)</name>
     <name xml:lang="sr@latin">Kritična putanja (KDE)</name>
     <name xml:lang="sv">Kritisk linje (KDE)</name>
@@ -3458,7 +3454,6 @@
     <description xml:lang="pt">Um conjunto de pacotes que disponibilizam a funcionalidade de Caminho Crítico para o ambiente de trabalho KDE</description>
     <description xml:lang="pt_BR">Um conjunto de pacotes que fornecem as funcionalidades do Critical Path para o ambiente de trabalho KDE</description>
     <description xml:lang="ru">Набор пакетов, составляющих критический путь для KDE</description>
-    <description xml:lang="sk">Súbor balíčkov, ktoré poskytujú funkcionalitu kritickej cesty pre prostredie KDE</description>
     <description xml:lang="sr">Скуп пакета који пружа функционалност критичне путање за KDE окружење</description>
     <description xml:lang="sr@latin">Skup paketa koji pruža funkcionalnost kritične putanje za KDE okruženje</description>
     <description xml:lang="sv">Ett antal paket som ger den kritiska linjens funktionalitet för KDE-skrivbordet</description>
@@ -3497,7 +3492,6 @@
     <name xml:lang="pt">Caminho Crítico (LXDE)</name>
     <name xml:lang="pt_BR">Critical Path (LXDE)</name>
     <name xml:lang="ru">Критический путь (GNOME)</name>
-    <name xml:lang="sk">Kritická cesta (LXDE)</name>
     <name xml:lang="sr">Критична путања (LXDE)</name>
     <name xml:lang="sr@latin">Kritična putanja (LXDE)</name>
     <name xml:lang="sv">Kritisk linje (LXDE)</name>
@@ -3526,7 +3520,6 @@
     <description xml:lang="pt">Um conjunto de pacotes que disponibilizam a funcionalidade de Caminho Crítico para o ambiente de trabalho LXDE</description>
     <description xml:lang="pt_BR">Um conjunto de pacotes que fornecem as funcionalidades do Critical Path para o ambiente de trabalho LXDE</description>
     <description xml:lang="ru">Набор пакетов, составляющих критический путь для LXDE</description>
-    <description xml:lang="sk">Súbor balíčkov, ktoré poskytujú funkcionalitu kritickej cesty pre prostredie LXDE</description>
     <description xml:lang="sr">Скуп пакета који пружа функционалност критичне путање за LXDE окружење</description>
     <description xml:lang="sr@latin">Skup paketa koji pruža funkcionalnost kritične putanje za LXDE okruženje</description>
     <description xml:lang="sv">Ett antal paket som ger den kritiska linjens funktionalitet för LXDE-skrivbordet</description>
@@ -3566,7 +3559,6 @@
     <name xml:lang="pt">Caminho Crítico (Xfce)</name>
     <name xml:lang="pt_BR">Critical Path (Xfce)</name>
     <name xml:lang="ru">Критический путь (Xfce)</name>
-    <name xml:lang="sk">Kritická cesta (Xfce)</name>
     <name xml:lang="sr">Критична путања (Xfce)</name>
     <name xml:lang="sr@latin">Kritična putanja (Xfce)</name>
     <name xml:lang="sv">Kritisk linje (Xfce)</name>
@@ -3595,7 +3587,6 @@
     <description xml:lang="pt">Um conjunto de pacotes que disponibilizam a funcionalidade de Caminho Crítico para o ambiente de trabalho Xfce</description>
     <description xml:lang="pt_BR">Um conjunto de pacotes que fornecem as funcionalidades do Critical Path para o ambiente de trabalho Xfce</description>
     <description xml:lang="ru">Набор пакетов, составляющих критический путь для Xfce</description>
-    <description xml:lang="sk">Súbor balíčkov, ktoré poskytujú funkcionalitu kritickej cesty pre prostredie Xfce</description>
     <description xml:lang="sr">Скуп пакета који пружа функционалност критичне путање за Xfce окружење</description>
     <description xml:lang="sr@latin">Skup paketa koji pruža funkcionalnost kritične putanje za Xfce okruženje</description>
     <description xml:lang="sv">Ett antal paket som ger den kritiska linjens funktionalitet för Xfce-skrivbordet</description>
@@ -3928,7 +3919,7 @@
     <name xml:lang="ilo">Biblioteka Pambukel</name>
     <name xml:lang="is">Þróunaraðgerðasöfn</name>
     <name xml:lang="it">Librerie di sviluppo</name>
-    <name xml:lang="ja">開発ライブラリー</name>
+    <name xml:lang="ja">開発ライブラリ</name>
     <name xml:lang="ka">პროგრამირების ბიბლიოთეკები</name>
     <name xml:lang="kn">ವಿಕಾಸನ ಭಂಡಾರ</name>
     <name xml:lang="ko">개발용 라이브러리</name>
@@ -4000,7 +3991,7 @@
     <description xml:lang="id">Paket dalam group ini adalah core dari librari yang dibutuhkan untuk mendevelop aplikasi.</description>
     <description xml:lang="is">Pakkarnir í þessum hóp eru grunnaðgerðasöfnin sem þarf til að þróa hugbúnað.</description>
     <description xml:lang="it">I pacchetti di questo gruppo sono librerie di base necessarie per lo sviluppo di applicazioni.</description>
-    <description xml:lang="ja">このグループのパッケージ群はアプリケーションの開発に必要なコアライブラリーです。</description>
+    <description xml:lang="ja">このグループのパッケージ群はアプリケーションの開発に必要なコアライブラリです。</description>
     <description xml:lang="kn">ಅನ್ವಯಗಳನ್ನು ವಿಕಸಿಸಲು ಅಗತ್ಯವಾದ ಕೋರ್ ಲೈಬ್ರರಿಗಳು ಈ ಪ್ಯಾಕೇಜ್ ಸಮೂಹದಲ್ಲಿವೆ.</description>
     <description xml:lang="ko">이 패키지 그룹은 응용 프로그램을 개발하는데 필요한 핵심 라이브러리입니다.</description>
     <description xml:lang="lv">Šī grupa ietver bibliotekas, kas nepieciešamas programmu izstrādei.</description>
@@ -4487,7 +4478,7 @@
     <name xml:lang="id">Dukungan Dialup Networking</name>
     <name xml:lang="is">Upphringinetsstuðningur</name>
     <name xml:lang="it">Supporto connesioni remote dial-up</name>
-    <name xml:lang="ja">ダイヤルアップネットワークのサポート</name>
+    <name xml:lang="ja">ダイヤルアップネットワークサポート</name>
     <name xml:lang="kn">ದೂರವಾಣಿ ಮೂಲಕ ಜಾಲವ್ಯವಸ್ಥೆಯ ಬೆಂಬಲ</name>
     <name xml:lang="ko">전화연결 네트워킹 지원</name>
     <name xml:lang="lv">Iezvanpiekļuve datortīkliem</name>
@@ -4560,7 +4551,7 @@
     <name xml:lang="hu">Könyvtár kiszolgáló</name>
     <name xml:lang="is">Möppumiðlari</name>
     <name xml:lang="it">Directory Server</name>
-    <name xml:lang="ja">ディレクトリーサーバー</name>
+    <name xml:lang="ja">ディレクトリサーバー</name>
     <name xml:lang="kn">ಡಿರೆಕ್ಟರಿ ಪರಿಚಾರಕ</name>
     <name xml:lang="ko">디렉토리 서버 </name>
     <name xml:lang="mai">निर्देशिका सर्वर</name>
@@ -4788,7 +4779,7 @@
     <description xml:lang="ur">یھ مجموعہ اپ کو اجازت د ے  گا نظام  پر   DNS name server (BIND) چلانے کے لے</description>
     <description xml:lang="vi">Nhóm gói này cho phép bạn chạy Server tên miền DNS (BIND) trên hệ thống.</description>
     <description xml:lang="zh_CN">这个软件包组群允许您在系统中运行 DNS 名称服务器（BIND）。</description>
-    <description xml:lang="zh_TW">這個套件群組讓您可以在系統上執行 DNS 名稱伺服器 (BIND)。</description>
+    <description xml:lang="zh_TW">這個套件群組讓您可以在系統上執行 DNS 名稱伺服器（BIND）。</description>
     <description xml:lang="zu">Leli qembu likuvuma ukuba usebenzise igama lomlekeleli we-DNS (BIND) kulesistimu</description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -5490,7 +5481,7 @@
     <name xml:lang="th">ห้องทดลองไฟฟ้า</name>
     <name xml:lang="uk">Електронна лабораторія</name>
     <name xml:lang="zh_CN">电子实验室</name>
-    <name xml:lang="zh_TW">電子實驗室</name>
+    <name xml:lang="zh_TW">Electronic Lab（電子實驗室）</name>
     <description>Design and Simulation tools for hardware engineers</description>
     <description xml:lang="ar">أدوات تصميم ومحاكاة لمهندسين البرامج</description>
     <description xml:lang="as">যান্ত্ৰিক সামগ্ৰীৰ অভিযন্তাৰ কাৰণে ৰূপাঙ্কণ আৰু ছিমুলেছনৰ সৰঞ্জাম</description>
@@ -5512,7 +5503,7 @@
     <description xml:lang="hu">Tervező és szimulációs eszközök hardvermérnököknek</description>
     <description xml:lang="is">Hönnunar- og hermitól fyrir vélbúnaðarhönnuði</description>
     <description xml:lang="it">Strumenti di disegno e simulazione per ingegneri.</description>
-    <description xml:lang="ja">ハードウェアエンジニアのためにデザインされたシミュレーションツール</description>
+    <description xml:lang="ja">ハードウェアエンジニアの為にデザインされたシミュレーションツール</description>
     <description xml:lang="kn">ಯಂತ್ರಾಂಶ ಇಂಜಿನಿಯರುಗಳಿಗಾಗಿನ ವಿನ್ಯಾಸ ಹಾಗು ಸಿಮುಲೇಶನ್ ಉಪಕರಣಗಳು</description>
     <description xml:lang="ko">하드웨어 엔지니어를 위한 디자인 및 시뮬레이션 도구 </description>
     <description xml:lang="mai">हार्डवेयर इंजीनियरक लेल डिजायन आ सिमुलेशन अओजार</description>
@@ -6424,7 +6415,7 @@
     <name xml:lang="th">การสนับสนุนภาษาฟิจิ</name>
     <name xml:lang="uk">Підтримка мови Фіджі</name>
     <name xml:lang="zh_CN">斐济语支持</name>
-    <name xml:lang="zh_TW">斐濟群島語支援</name>
+    <name xml:lang="zh_TW">斐濟群島語語支援</name>
     <description/>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -8428,7 +8419,7 @@
     <description xml:lang="id">GNOME adalah user interface grafis yang powerful yang di dalam terdapat panel, dekstop, icons sitem, dan file manager grafis.</description>
     <description xml:lang="is">GNOME er öflugt myndrænt vinnuumhverfi sem inniheldur spjald, skjáborð, kerfissmámyndir og myndrænan skráarstjóra.</description>
     <description xml:lang="it">GNOME è una potente interfaccia utente grafica, comprensiva di un gestore di file grafico, di un pannello per gestire il desktop e delle icone di sistema.</description>
-    <description xml:lang="ja">GNOMEは、パネル、デスクトップ、システムアイコン、グラフィカルなファイルマネジャーなどが含まれている強力なグラフィカルユーザーインターフェースです。</description>
+    <description xml:lang="ja">GNOMEは、パネル、デスクトップ、システムアイコン、グラフィカルなファイルマネジャなどが含まれている強力なグラフィカルユーザーインターフェースです。</description>
     <description xml:lang="kn">GNOME ಒಂದು ಪ್ರಬಲ ಚಿತ್ರಾತ್ಮಕ ಬಳಕೆದಾರ ಅಂತರಮುಖವಾಗಿದ್ದು, ಕಾರ್ಯಪಟ್ಟಿಕೆ, ಗಣಕತೆರೆ, ವ್ಯವಸ್ಥಾ ಚಿಹ್ನೆಗಳು,ಮತ್ತು ಒಂದು ಚಿತ್ರಾತ್ಮಕ ಕಡತ ನಿರ್ವಾಹಕಗಳನ್ನೊಳಗೊಂಡಿದೆ.</description>
     <description xml:lang="ko">GNOME은 강력한 그래픽 사용자 인터페이스로서 패널, 데스크탑, 시스템 아이콘과 그래픽 파일 관리자 기능을 갖추고 있습니다.</description>
     <description xml:lang="lv">GNOME ir jaudīga, grafiska lietotāja saskarne, kas ietver rīkjoslas, darbvirsmu, sistēmas piktogrammas un grafisku datņu pārvaldnieku.</description>
@@ -8621,14 +8612,14 @@
       <packagereq type="optional">xiphos</packagereq>
       <packagereq type="optional">xscreensaver-extras-gss</packagereq>
       <packagereq type="optional">xscreensaver-gl-extras-gss</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compizconfig-backend-gconf</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-extras-gnome</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-extras</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-gnome</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-unsupported-gnome</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-unsupported</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">fusion-icon-gtk</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">compizconfig-backend-gconf</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">compiz-fusion-extras-gnome</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">compiz-fusion-extras</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">compiz-fusion-gnome</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">compiz-fusion</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">compiz-fusion-unsupported-gnome</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">compiz-fusion-unsupported</packagereq>
+      <packagereq type="condtional" requires="compiz-gnome">fusion-icon-gtk</packagereq>
     </packagelist>
   </group>
   <group>
@@ -8710,7 +8701,7 @@
     <name xml:lang="id">Pengembangan Piranti Lunak GNOME</name>
     <name xml:lang="is">Hugbúnaðarþróun fyrir GNOME</name>
     <name xml:lang="it">Sviluppo applicativi GNOME</name>
-    <name xml:lang="ja">GNOME ソフトウェア開発環境</name>
+    <name xml:lang="ja">GNOME ソフトウェア開発</name>
     <name xml:lang="ka">GNOME-ის პროგრამების შექმნა</name>
     <name xml:lang="kn">GNOME ತಂತ್ರಾಂಶ ವಿಕಾಸನ</name>
     <name xml:lang="ko">GNOME 소프트웨어 개발</name>
@@ -9099,7 +9090,6 @@
       <packagereq type="optional">gtk-gnutella</packagereq>
       <packagereq type="optional">gtorrentviewer</packagereq>
       <packagereq type="optional">gwget</packagereq>
-      <packagereq type="optional">gwibber</packagereq>
       <packagereq type="optional">gyachi</packagereq>
       <packagereq type="optional">jabbim</packagereq>
       <packagereq type="optional">jd</packagereq>
@@ -9112,8 +9102,8 @@
       <packagereq type="optional">konversation</packagereq>
       <packagereq type="optional">kvirc</packagereq>
       <packagereq type="optional">licq</packagereq>
-      <packagereq type="optional">liferea</packagereq>
       <packagereq type="optional">linphone</packagereq>
+      <packagereq type="optional">liferea</packagereq>
       <packagereq type="optional">logjam</packagereq>
       <packagereq type="optional">mail-notification</packagereq>
       <packagereq type="optional">meiga</packagereq>
@@ -9189,7 +9179,7 @@
     <name xml:lang="ilo">Grapika</name>
     <name xml:lang="is">Myndvinnsla</name>
     <name xml:lang="it">Grafica</name>
-    <name xml:lang="ja">グラフィックス</name>
+    <name xml:lang="ja">グラフィクス</name>
     <name xml:lang="ka">გრაფიკა</name>
     <name xml:lang="kn">ಚಿತ್ರಗಳು</name>
     <name xml:lang="ko">그래픽</name>
@@ -9776,7 +9766,7 @@
     <name xml:lang="hu">Haskell</name>
     <name xml:lang="is">Haskell</name>
     <name xml:lang="it">Haskell</name>
-    <name xml:lang="ja">Haskell のサポート</name>
+    <name xml:lang="ja">Haskell</name>
     <name xml:lang="kn">ಹ್ಯಾಸ್ಕೆಲ್</name>
     <name xml:lang="ko">Haskell</name>
     <name xml:lang="mai">हास्कल</name>
@@ -9823,7 +9813,7 @@
     <description xml:lang="id">Dukungan untuk mengembangkan program dalam bahasa pemrograman Haskell. </description>
     <description xml:lang="is">Þróunartól fyrir Haskell forritunarmálið.</description>
     <description xml:lang="it">Supporto per lo sviluppo di programmi nel linguaggio Haskell.</description>
-    <description xml:lang="ja">Haskell プログラミング言語のプログラム開発環境のサポート</description>
+    <description xml:lang="ja">Haskell プログラミング言語のプログラム開発サポート</description>
     <description xml:lang="kn">ಹ್ಯಾಸ್ಕೆಲ್ ಪ್ರೊಗ್ರಾಂಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಪ್ರೊಗ್ರಾಂಗಳನ್ನು ವಿಕಸಿಸಲು ಬೆಂಬಲ.</description>
     <description xml:lang="ko">Haskell 프로그래밍 언어로 작성된 개발용 프로그램 지원. </description>
     <description xml:lang="lv">Atbalsts programmu izstrādāšanai Haskell programmēšanas valodā.</description>
@@ -11210,7 +11200,7 @@
     <name xml:lang="ilo">Panagbukel ti Java</name>
     <name xml:lang="is">Java þróun</name>
     <name xml:lang="it">Programmazione Java</name>
-    <name xml:lang="ja">Java 開発環境</name>
+    <name xml:lang="ja">Java 開発</name>
     <name xml:lang="ka">Java-ის პროგრამების შექმნა</name>
     <name xml:lang="kn">ಜಾವಾ ವಿಕಾಸನ</name>
     <name xml:lang="ko">Java 개발용 도구</name>
@@ -11278,7 +11268,7 @@
     <description xml:lang="id">Dukungan untuk mengembangkan program dalam bahasa pemrograman Java. </description>
     <description xml:lang="is">Þróunartól fyrir Java forritunarmálið.</description>
     <description xml:lang="it">Supporto per lo sviluppo di programmi in linguaggio Java.</description>
-    <description xml:lang="ja">Java プログラミング言語のプログラム開発環境のサポート</description>
+    <description xml:lang="ja">Java プログラミング言語のプログラム開発サポート</description>
     <description xml:lang="kn">ಜಾವಾ ಪ್ರೊಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಪ್ರೊಗ್ರಾಂಗಳನ್ನು ವಿಕಸಿಸಲು ಬೆಂಬಲ.</description>
     <description xml:lang="ko">Java 프로그래밍 언어로 작성된 개발용 프로그램 지원.</description>
     <description xml:lang="lv">Atbalsts programmu izstrādāšanai Java programmēšanas valodā.</description>
@@ -11826,9 +11816,6 @@
       <packagereq type="default">kdeutils-printer-applet</packagereq>
       <packagereq type="default">kdm</packagereq>
       <packagereq type="default">kipi-plugins</packagereq>
-      <packagereq type="default">knetworkmanager-openvpn</packagereq>
-      <packagereq type="default">knetworkmanager-pptp</packagereq>
-      <packagereq type="default">knetworkmanager-vpnc</packagereq>
       <packagereq type="default">konq-plugins</packagereq>
       <packagereq type="default">konversation</packagereq>
       <packagereq type="default">kpackagekit</packagereq>
@@ -11840,7 +11827,6 @@
       <packagereq type="default">qtcurve-kde4</packagereq>
       <packagereq type="default">scribus</packagereq>
       <packagereq type="default">system-config-printer-kde</packagereq>
-      <packagereq type="default">xorg-x11-apps</packagereq>
       <packagereq type="default">xsettings-kde</packagereq>
       <packagereq type="optional">basket</packagereq>
       <packagereq type="optional">bespin</packagereq>
@@ -11906,11 +11892,11 @@
       <packagereq type="optional">transmission-qt</packagereq>
       <packagereq type="optional">uim-qt3</packagereq>
       <packagereq type="optional">yakuake</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">compiz-fusion-extras</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">compiz-fusion</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">compiz-fusion-unsupported</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">compizconfig-backend-kconfig4</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">fusion-icon-qt</packagereq>
+      <packagereq type="condtional" requires="compiz-kde">compiz-fusion-extras</packagereq>
+      <packagereq type="condtional" requires="compiz-kde">compiz-fusion</packagereq>
+      <packagereq type="condtional" requires="compiz-kde">compiz-fusion-unsupported</packagereq>
+      <packagereq type="condtional" requires="compiz-kde">compizconfig-backend-kconfig4</packagereq>
+      <packagereq type="condtional" requires="compiz-kde">fusion-icon-qt</packagereq>
     </packagelist>
   </group>
    <group>
@@ -11982,7 +11968,7 @@
     <name xml:lang="id">Pengembangan Piranti Lunak KDE</name>
     <name xml:lang="is">Hugbúnaðarþróun fyrir KDE</name>
     <name xml:lang="it">Sviluppo applicazioni KDE</name>
-    <name xml:lang="ja">KDE ソフトウェア開発環境</name>
+    <name xml:lang="ja">KDE ソフトウェア開発</name>
     <name xml:lang="ka">KDE-ის პროგრამების შექმნა</name>
     <name xml:lang="kn">KDE ತಂತ್ರಾಂಶ ವಿಕಾಸನ</name>
     <name xml:lang="ko">KDE 소프트웨어 개발</name>
@@ -12057,7 +12043,7 @@
     <description xml:lang="id">Install paket ini untuk develop QT dan aplikasi grafis KDE.</description>
     <description xml:lang="is">Settu þessa pakka inn ef þú vilt þróa QT og KDE forrit</description>
     <description xml:lang="it">Installare questi pacchetti per sviluppare applicazioni grafiche per QT e KDE.</description>
-    <description xml:lang="ja">QT 及び KDE のグラフィカルアプリケーション開発するためにはこれらのパッケージをインストールしてください。</description>
+    <description xml:lang="ja">QT 及び KDE のグラフィカルアプリケーション開発にはこれらのパッケージをインストールしてください。</description>
     <description xml:lang="ka">QT-ის და KDE-ის გრაფიკული პროგრამების შემუშავებისთვის დააყენეთ ეს პაკეტები.</description>
     <description xml:lang="kn">QT ಮತ್ತು KDE ಚಿತ್ರಾತ್ಮಕ ಅನ್ವಯಗಳನ್ನು ವಿಕಸಿಸಲು ಈಪ್ಯಾಕೇಜ್‍ಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸಿ.</description>
     <description xml:lang="ko">QT와 KDE용 그래픽 응용 프로그램을 개발하시려면 이 패키지를 설치하십시오.</description>
@@ -13048,7 +13034,7 @@
     <name xml:lang="id">Legacy Software Development</name>
     <name xml:lang="is">Þróunartól fyrir gömul forrit</name>
     <name xml:lang="it">Sviluppo software legacy</name>
-    <name xml:lang="ja">レガシーなソフトウェアの開発環境</name>
+    <name xml:lang="ja">レガシーなソフトウェアの開発</name>
     <name xml:lang="ka">მოძველებული პროგრამების შემუშავება</name>
     <name xml:lang="kn">ಬಾಧ್ಯ (legacy) ತಂತ್ರಾಂಶ ವಿಕಾಸನ</name>
     <name xml:lang="ko">레거시 소프트웨어 개발</name>
@@ -13519,7 +13505,7 @@
     <description xml:lang="hi">LXDE एक हल्का X11 डेस्कटॉप वातावरण है जो कि वैसे कंप्यूटरों के लिए डिजायन किया गया है जो नेटबुक, मोबाइल युक्तियाँ या पुराने कंप्यूटर हैं.</description>
     <description xml:lang="hu">Az LXDE egy pehelykönnyű X11 asztal környezet alacsony hardverspecifikációjú számítógépek számára mint például netbookok, mobil eszközök vagy régebbi számítógépek.</description>
     <description xml:lang="it">LXDE è un ambiente desktop X11 semplice ideato per computer con poche specifiche hardware come ad esempio netbook, dispositivi mobili e computer più vecchi.</description>
-    <description xml:lang="ja">LXDE は、ネットブックや、携帯デバイスや、旧型のコンピュータのような低スペックなハードウェアのために設計された軽量のデスクトップ環境です。</description>
+    <description xml:lang="ja">LXDE は、ネットブックや、携帯デバイスや、旧型のコンピュータの様な低仕様のハードウェアを 持つコンピュータの為に設計された軽量の X11 デスクトップ環境です。</description>
     <description xml:lang="kn">LXDE ಯು ಒಂದು ಹಗುರತೂಕದ X11 ಗಣಕತೆರೆ ಪರಿಸರವಾಗಿದ್ದು, ನೋಟ್‌ಬುಕ್‌ಗಳು, ಮೊಬೈಲ್ ಸಾಧನಗಳು ಹಾಗು ಹಳೆಯ ಗಣಕಗಳಂತಹ ಕಡಿಮೆ ಯಂತ್ರಾಂಶ ವಿಶೇಷತೆಗಳನ್ನು ಹೊಂದಿರುವ ಗಣಕಗಳಿಗೆ ಸೂಕ್ತವಾಗುವ ರೀತಿಯಲ್ಲಿ ವಿನ್ಯಸಿಸಲಾಗಿದೆ.</description>
     <description xml:lang="ko">LXDE는 넷북 및 모바일 장치와 구형 컴퓨터와 같은 낮은 사양의 하드웨어를 갖는 컴퓨터를 위해 설계된 경량 X11 데스크탑 환경입니다. </description>
     <description xml:lang="mai">LXDE एकटा हलुक X11 डेस्कटाप वातावरण अछि जे वहिन कंप्यूटरक लेल डिजायन कएल गेल अछि जे नेटबुक, मोबाइल युक्ति अथवा पुरान कंप्यूटर अछि.</description>
@@ -13541,7 +13527,7 @@
     <description xml:lang="te">నెట్‌బుక్సు, మొబైల్ పరికరములు లేదా పాత కంప్యూటర్లవంటి తక్కువ హార్డువేరు సామర్ధ్యత కంప్యూటర్ల కొరకు రూపొందించబడిందే లైట్‌వెయిట్ X11 డెస్కుటాప్ ఎన్విరాన్మెంట్ LXDE.</description>
     <description xml:lang="uk">LXDE є полегшеним варіантом середовища X11, який оптимально підходить для комп'ютерів з низькою специфікацією обладнання: ноутбуків, мобільних пристроїв та старих комп'ютерів.</description>
     <description xml:lang="zh_CN">LXDE 是一个轻加权 X11 桌面环境，用于使用低硬件配置的计算机，比如上网本、移动设备或者旧的计算机。</description>
-    <description xml:lang="zh_TW">LXDE 是個為低階規格的電腦 (如手提電腦、行動裝置或較舊的電腦) 所設計的輕型 X11 桌面環境。</description>
+    <description xml:lang="zh_TW">LXDE 是個為低階規格的電腦（如手提電腦、行動裝置或較舊的電腦）所設計的輕型 X11 桌面環境。</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -13553,9 +13539,9 @@
       <packagereq type="mandatory">pcmanfm</packagereq>
       <packagereq type="conditional" requires="pinentry">pinentry-gtk</packagereq>
       <packagereq type="default">gpicview</packagereq>
-      <packagereq type="default">gdm</packagereq>
       <packagereq type="default">leafpad</packagereq>
       <packagereq type="default">lxappearance</packagereq>
+      <packagereq type="default">lxdm</packagereq>
       <packagereq type="default">lxinput</packagereq>
       <packagereq type="default">lxpolkit</packagereq>
       <packagereq type="default">lxrandr</packagereq>
@@ -13563,12 +13549,6 @@
       <packagereq type="default">lxshortcut</packagereq>
       <packagereq type="default">lxtask</packagereq>
       <packagereq type="default">lxterminal</packagereq>
-      <packagereq type="default">NetworkManager-gnome</packagereq>
-      <packagereq type="default">NetworkManager-openconnect</packagereq>
-      <packagereq type="default">NetworkManager-openswan</packagereq>
-      <packagereq type="default">NetworkManager-openvpn</packagereq>
-      <packagereq type="default">NetworkManager-pptp</packagereq>
-      <packagereq type="default">NetworkManager-vpnc</packagereq>
       <packagereq type="default">obconf</packagereq>
       <packagereq type="default">xarchiver</packagereq>
       <packagereq type="default">xscreensaver-base</packagereq>
@@ -14391,7 +14371,6 @@
     <name xml:lang="pt">Ambiente de Trabalho MeeGo NetBook UX</name>
     <name xml:lang="pt_BR">Ambiente MeeGo NetBook UX</name>
     <name xml:lang="ru">Среда интерфейса MeeGo для нетбуков</name>
-    <name xml:lang="sk">Pracovné prostredie MeeGo NetBook UX</name>
     <name xml:lang="sv">MeeGo NetBook UX-miljö</name>
     <name xml:lang="uk">Середовище MeeGo NetBook UX</name>
     <name xml:lang="zh_TW">MeeGo NetBook UX 環境</name>
@@ -14415,7 +14394,6 @@
     <description xml:lang="pt">MeeGo NetBook UX é um ambiente de trabalho para dispositivos NetBook/NetTop.</description>
     <description xml:lang="pt_BR">O MeeGo NetBook UX é um ambiente de trabalho para dispositivos NetBook/NetTop.</description>
     <description xml:lang="ru">Окружение рабочего стола для нетбуков и неттопов (MeeGo NetBook UX).</description>
-    <description xml:lang="sk">MeeGo NetBook UX je pracovné prostredie pre NetBook a NetTop zariadenia.</description>
     <description xml:lang="sv">MeeGo NetBook UX är en skrivbordsmiljö för NetBook-/NetTop-enheter.</description>
     <description xml:lang="uk">MeeGo NetBook UX є графічним середовищем для пристроїв NetBook/NetTop/MID.</description>
     <description xml:lang="zh_TW">MeeGo NetBook UX 是用於 NetBook/NetTop 裝置的桌面環境。</description>
@@ -14449,19 +14427,7 @@
   <group>
     <id>milkymist</id>
     <name>Milkymist</name>
-    <name xml:lang="fi">Milkymist</name>
-    <name xml:lang="ja">Milkymist</name>
-    <name xml:lang="nl">Milkymist</name>
-    <name xml:lang="pl">Milkymist</name>
-    <name xml:lang="uk">Milkymist</name>
-    <name xml:lang="zh_TW">Milkymist</name>
     <description>Toolchain for Milkymist hardware engineers.</description>
-    <description xml:lang="fi">Työkaluketju Milkymist-laitteistoinsinööreille</description>
-    <description xml:lang="ja">Milkymist ハードウェアのエンジニア向けのツールチェイン</description>
-    <description xml:lang="nl">Gereedschap keten voor Milkymist hardware ingenieurs.</description>
-    <description xml:lang="pl">Zestaw narzędzi dla inżynierów sprzętu Milkymist.</description>
-    <description xml:lang="uk">Набір інструментів для розробників апаратури Milkymist.</description>
-    <description xml:lang="zh_TW">Milkymist 硬體工程師所需的開發工具鏈</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -15523,7 +15489,7 @@
     <description xml:lang="hu">Támogatás Objective CAML programnyelven illetve programkönyvtárakkal történő fejlesztéshez.</description>
     <description xml:lang="is">Þróunartól fyrir Objective CAML forritunarmálið og tengd aðgerðasöfn.</description>
     <description xml:lang="it">Supporto per lo sviluppo di programmi in linguaggio Objective CAML e per le sue librerie.</description>
-    <description xml:lang="ja">Objective CAML のプログラム開発環境とライブラリーのサポート</description>
+    <description xml:lang="ja">オブジェクト CAML プログラミング言語とライブラリを使用する開発ソフトウェアの サポート</description>
     <description xml:lang="kn">ಆಬ್ಜೆಕ್ಟೀವ್ CAML ಪ್ರೊಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯನ್ನು ಹಾಗು ಲೈಬ್ರರಿಗಳನ್ನು ಬಳಸಿಕೊಂಡು ತಂತ್ರಾಂಶವನ್ನು ವಿಕಸಿಸುವ ಬೆಂಬಲ.</description>
     <description xml:lang="ko">Objective CAML 프로그래밍 언어 및 라이브러리를 사용하여 소프트웨어 개발 지원   </description>
     <description xml:lang="mai">वस्तुनिष्ठ CAML प्रोग्रामिंग भाषा आ लाइब्रेरीक प्रयोगसँ साफ्टवेयर विकासक लेल समर्थन.</description>
@@ -15821,7 +15787,6 @@
       <packagereq type="optional">hnb</packagereq>
       <packagereq type="optional">htmldoc</packagereq>
       <packagereq type="optional">jpilot</packagereq>
-      <packagereq type="optional">kchmviewer-qt</packagereq>
       <packagereq type="optional">kdepim</packagereq>
       <packagereq type="optional">keurocalc</packagereq>
       <packagereq type="optional">klatexformula</packagereq>
@@ -15944,7 +15909,7 @@
     <name xml:lang="hu">OpenOffice.org Fejlesztés</name>
     <name xml:lang="is">OpenOffice.org þróun</name>
     <name xml:lang="it">Sviluppo OpenOffice.org</name>
-    <name xml:lang="ja">OpenOffice.org 開発環境</name>
+    <name xml:lang="ja">OpenOffice.org 開発</name>
     <name xml:lang="nb">OpenOffice.org-utvikling</name>
     <name xml:lang="nl">OpenOffice.org ontwikkeling</name>
     <name xml:lang="pa">ਓਪਨਆਫਿਸ.ਆਰਗ ਡਿਵੈਲਪਮੈਂਟ</name>
@@ -16107,7 +16072,7 @@
     <name xml:lang="hu">Perl programfejlesztés</name>
     <name xml:lang="is">Perl forritun</name>
     <name xml:lang="it">Sviluppo Perl</name>
-    <name xml:lang="ja">Perl 開発環境</name>
+    <name xml:lang="ja">Perl 開発</name>
     <name xml:lang="kn">Perl ವಿಕಸನೆ</name>
     <name xml:lang="ko">Perl 개발  </name>
     <name xml:lang="mai">पर्ल विकास</name>
@@ -16152,7 +16117,7 @@
     <description xml:lang="hu">Támogatás a Perl programozási nyelven történő programfejlesztéshez.</description>
     <description xml:lang="is">Þróunartól fyrir Perl forritunarmálið.</description>
     <description xml:lang="it">Supporto per lo sviluppo di programmi nel linguaggio di programmazione Perl.</description>
-    <description xml:lang="ja">Perl プログラミング言語のプログラム開発環境のサポート</description>
+    <description xml:lang="ja">Perl プログラミング言語のプログラム開発サポート</description>
     <description xml:lang="kn">Perl ಪ್ರೊಗ್ರಾಂಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಪ್ರೊಗ್ರಾಂಗಳನ್ನು ವಿಕಸಿಸಲು ಬೆಂಬಲ.</description>
     <description xml:lang="ko">Perl 프로그래밍 언어로 작성된 개발용 프로그램 지원.  </description>
     <description xml:lang="mai">पर्ल प्रोग्रामिंग भाषामे प्रोग्राम बनैबाक' लेल समर्थन</description>
@@ -16624,7 +16589,6 @@
       <packagereq type="default">system-config-printer</packagereq>
       <packagereq type="default">system-config-printer-udev</packagereq>
       <packagereq type="optional">a2ps</packagereq>
-      <packagereq type="optional">cups-bjnp</packagereq>
       <packagereq type="optional">cups-pdf</packagereq>
       <packagereq type="optional">enscript</packagereq>
     </packagelist>
@@ -17990,7 +17954,7 @@
     <description xml:lang="ur"> یہ مجموعہ اپ کو اجازت د ے  گا ميكروسوفت ونڈوز کے نظام اور Linux کے درمیان فایل کے تبادلے میں</description>
     <description xml:lang="vi">Nhóm gói này cho phép bạn chia sẻ tập tin giữa Linux và MS Windows (tm).</description>
     <description xml:lang="zh_CN">这个软件包组群允许您在 Linux 和 MS Windows（tm）系统间共享文件。</description>
-    <description xml:lang="zh_TW">這個套件群組使您可以在 Linux 與 MS Windows™ 系統間共享檔案。</description>
+    <description xml:lang="zh_TW">這個套件群組使您可以在 Linux 與 MS Windows（tm）系統間共享檔案。</description>
     <description xml:lang="zu">lELeli qembu likuvuma ukuba usebenzise ngokuhlanganyisela amafayela aphakathi kwamasistimu e-Linux kanye namawindi e-MS (tm).</description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -18175,7 +18139,7 @@
     <description xml:lang="id">Dari merekam sampai dengan mainkan  CD dan berkas multimedia, kelompok paket ini membolehkan anda bekerja dengan suara dan video pada sistem.</description>
     <description xml:lang="is">Allt frá brennslu geisladiska til að spila geisladiska og margmiðlunarskrár. Þessi pakkahópur gerir þér kleyft að vinna með hljóð og mynd.</description>
     <description xml:lang="it">Questo gruppo di pacchetti contiene strumenti per lavorare con audio e video nel sistema, dalla masterizzazione di CD alla riproduzione di CD audio e file multimediali.</description>
-    <description xml:lang="ja">CD-R への録音から、音楽 CD やマルチメディアファイルの再生まで、このパッケージグループでシステム上のサウンドとビデオ機能を使用できます。</description>
+    <description xml:lang="ja">CD の録音からオーディオ CD やマルチメディアファイルの再生まで、このパッケージグループでシステム上のサウンドとビデオ機能を使用できます。</description>
     <description xml:lang="kn">CDಯ ಮೇಲೆ ದಾಖಲುಮಾಡುವುದು, CDಗಳನ್ನೂ, ಮಲ್ಟಿಮೀಡಿಯಾ ಕಡತಗಳನ್ನೂ ನಿರೂಪಿಸುವುದು ಇತ್ಯಾದಿಯಾಗಿ, ಈ ಪ್ಯಾಕೇಜ್ ಧ್ವನಿ ಹಾಗೂ ಚಲಚ್ಚಿತ್ರಗಳೊಡನೆ ಒಡನಾಡಲು ಅನುವುಮಾಡಿಕೊಡುತ್ತದೆ.</description>
     <description xml:lang="ko">이 패키지 그룹을 사용하여 CD 녹음에서 오디오 CD 및 멀티미디어 파일 재생에 이르기까지 다양한 사운드와 비디오 작업을 수행하실 수 있습니다.</description>
     <description xml:lang="lv">No CD ierakstīšanas līdz audio CD un multimēdiju atskaņošanai; šī pakotņu grupa satur programmas darbam ar skaņu un video.</description>
@@ -19258,7 +19222,7 @@
     <description xml:lang="ur">س مجموعہ میں بہت سارے  نظامی الات یں جسیے کلينٹ کو SMB کے ساتھ لگانا اور نیٹ ورک کی ٹراففک  کو دیکھنے کے لےالات ہں</description>
     <description xml:lang="vi">Nhóm này là tập hợp các công cụ hệ thống, như client để kết nối chia sẽ SMB và các công cụ theo dõi mạng.</description>
     <description xml:lang="zh_CN">这个组群是系统各种工具的集合，比如连接到 SMB 共享和监控网络流量的客户端。</description>
-    <description xml:lang="zh_TW">這個群組是系統上許多種工具的收集，例如用來連線到網路芳鄰 (SAMBA) 共享的用戶端，以及用來監視網路流量的工具等等。</description>
+    <description xml:lang="zh_TW">這個群組是系統上許多種工具的收集，例如用來連線到網路芳鄰（SAMBA）共享的用戶端，以及用來監視網路流量的工具等等。</description>
     <description xml:lang="zu">Leli qembu liyiqoqo lamathuluzi esistimu ambalwa, njengomthengi wokuxhuma ngokuhlanganyela kwi-SMB kanye namathuluzi okulindwe kuxhumano lomlekeleli.</description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -21216,7 +21180,7 @@
     <name xml:lang="id">Pengembangan Web</name>
     <name xml:lang="is">Vefþróun</name>
     <name xml:lang="it">Sviluppo Web</name>
-    <name xml:lang="ja">Web 開発環境</name>
+    <name xml:lang="ja">ウェブ開発</name>
     <name xml:lang="kn">ಜಾಲ ಅಭಿವೃದ್ಧಿ</name>
     <name xml:lang="ko">웹 개발 </name>
     <name xml:lang="lv">Web attīstība</name>
@@ -21275,7 +21239,7 @@
     <description xml:lang="id">Paket-paket ini sangat membantu untuk mengembangkan aplikasi web atau halaman web.</description>
     <description xml:lang="is">Þessir pakkar gera þér kleyft að þróa vefforrit og vefsíður.</description>
     <description xml:lang="it">Questi pacchetti sono di aiuto per lo sviluppo di applicazioni e pagine web.</description>
-    <description xml:lang="ja">Web アプリケーションや Web ページの開発に役立つパッケージです。</description>
+    <description xml:lang="ja">ウェブアプリケーションやウェブページの開発に役立つパッケージです。</description>
     <description xml:lang="kn">ಜಾಲ ಅನ್ವಯಗಳನ್ನು ಅಥವ ಜಾಲ ಪುಟಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸುವಾಗ ಈ ಪ್ಯಾಕೇಜ್‍ಗಳು ಸಹಕಾರಿಯಾಗುತ್ತವೆ.</description>
     <description xml:lang="ko">이 패키지는 웹 응용 프로그램이나 웹 페이지 개발시 사용합니다. </description>
     <description xml:lang="lv">Šīs pakotnes noder izstrādājot web programmas vai web-lapas.</description>
@@ -21751,6 +21715,7 @@
       <packagereq type="default">NetworkManager-openvpn</packagereq>
       <packagereq type="default">NetworkManager-pptp</packagereq>
       <packagereq type="default">NetworkManager-vpnc</packagereq>
+      <packagereq type="default">WindowMaker</packagereq>
       <packagereq type="optional">bbkeys</packagereq>
       <packagereq type="optional">blackbox</packagereq>
       <packagereq type="optional">fluxconf</packagereq>
@@ -21761,7 +21726,6 @@
       <packagereq type="optional">openbox</packagereq>
       <packagereq type="optional">pekwm</packagereq>
       <packagereq type="optional">ratpoison</packagereq>
-      <packagereq type="optional">WindowMaker</packagereq>
       <packagereq type="optional">wmx</packagereq>
       <packagereq type="optional">xcompmgr</packagereq>
       <packagereq type="optional">xmonad</packagereq>
@@ -21802,7 +21766,7 @@
     <name xml:lang="id">Pengembangan Perangkat Lunak X</name>
     <name xml:lang="is">Hugbúnaðarþróun fyrir X gluggakerfið</name>
     <name xml:lang="it">Sviluppo applicazioni X</name>
-    <name xml:lang="ja">X ソフトウェア開発環境</name>
+    <name xml:lang="ja">X ソフトウェア開発</name>
     <name xml:lang="kn">X ತಂತ್ರಾಂಶ ವಿಕಾಸನ</name>
     <name xml:lang="ko">X 소프트웨어 개발</name>
     <name xml:lang="lv">X programmu izstrāde</name>
@@ -22060,7 +22024,7 @@
     <description xml:lang="id">Lingkungan dekstop yang ringan yang dapat bekerja dengan baik pada mesin yang rendah.</description>
     <description xml:lang="is">Létt skjáborðsumhverfi sem virkar vel á aflminni vélum.</description>
     <description xml:lang="it">Un ambiente desktop performante anche su computer meno potenti.</description>
-    <description xml:lang="ja">低スペックなマシンでもサクサクと動作する軽量デスクトップ環境です。</description>
+    <description xml:lang="ja">ローエンドマシンで問題なく稼動する軽量デスクトップ環境です。</description>
     <description xml:lang="kn">ಕೆಳಮಟ್ಟದ ಗಣಕಗಳಲ್ಲಿಯೂ ಕೆಲಸ ಮಾಡಬಲ್ಲಂತಹ ಒಂದು ಹಗುರ ತೂಕದ ಗಣಕತೆರೆ ಪರಿಸರ.</description>
     <description xml:lang="ko">저 사양 컴퓨터에서도 잘 작동하는 경량의 데스크탑 환경입니다.</description>
     <description xml:lang="mai">हलुक डेस्कटाप वातावरण जे न्यूनांत मशीन पर नीक काज करैत अछि.</description>
@@ -22112,11 +22076,6 @@
       <packagereq type="conditional" requires="pinentry">pinentry-gtk</packagereq>
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">mousepad</packagereq>
-      <packagereq type="default">NetworkManager-gnome</packagereq>
-      <packagereq type="default">NetworkManager-openconnect</packagereq>
-      <packagereq type="default">NetworkManager-openvpn</packagereq>
-      <packagereq type="default">NetworkManager-pptp</packagereq>
-      <packagereq type="default">NetworkManager-vpnc</packagereq>
       <packagereq type="default">orage</packagereq>
       <packagereq type="default">polkit-gnome</packagereq>
       <packagereq type="default">Terminal</packagereq>
@@ -22211,7 +22170,7 @@
     <name xml:lang="id">XFCE Software Development</name>
     <name xml:lang="is">Hugbúnaðarþróun fyrir XFCE umhverfið</name>
     <name xml:lang="it">Sviluppo applicazioni XFCE</name>
-    <name xml:lang="ja">XFCE ソフトウェア開発環境</name>
+    <name xml:lang="ja">XFCE ソフトウェア開発</name>
     <name xml:lang="kn">XFCE ತಂತ್ರಾಂಶ ಅಭಿವೃದ್ಧಿ</name>
     <name xml:lang="ko">XFCE 소프트웨어 개발 </name>
     <name xml:lang="lv">XFCE programmatūras izstrāde</name>
@@ -23075,7 +23034,7 @@
     <name xml:lang="ilo">Panagbukel</name>
     <name xml:lang="is">Þróun</name>
     <name xml:lang="it">Programmazione</name>
-    <name xml:lang="ja">開発環境</name>
+    <name xml:lang="ja">開発</name>
     <name xml:lang="ka">პრიოგრამირება</name>
     <name xml:lang="kn">ವಿಕಾಸನ</name>
     <name xml:lang="ko">개발용 도구</name>
@@ -23144,7 +23103,7 @@
     <description xml:lang="id">Paket yang menyediakan fungsionalitas untuk mengembangkan dan membangun aplikasi.</description>
     <description xml:lang="is">Pakkar sem innihalda virkni til að þróa og smíða hugbúnað.</description>
     <description xml:lang="it">Pacchetti che fornisco funzionalità di sviluppo e compilazione di applicazioni.</description>
-    <description xml:lang="ja">アプリケーションの開発環境および構築機能を提供するパッケージです。</description>
+    <description xml:lang="ja">アプリケーションの開発及び構築機能を提供するパッケージです。</description>
     <description xml:lang="kn">ಅನ್ವಯಗಳನ್ನು ವಿಕಸಿಸಲು ಹಾಗೂ ಕಟ್ಟಲು ಅನುವು ಮಾಡಿಕೊಡುವ ಕಾರ್ಯಾತ್ಮಕ ಪ್ಯಾಕೇಜ್‍ಗಳು.</description>
     <description xml:lang="ko">이 패키지는 응용 프로그램을 개발하기 위한 기능을 제공합니다.</description>
     <description xml:lang="lv">Pakotnes, kas nodrošina programmu izstrādes procesu.</description>
