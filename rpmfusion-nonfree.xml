@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+   <id>base</id>
+   <default>True</default>
+   <uservisible>True</uservisible>
+   <display_order>1024</display_order>
+   <name>Base</name>
+   <description>This group includes a minimal set of packages. Useful for creating small router/firewall boxes, for example.</description>
+   <packagelist>
+      <packagereq type="default">unrar</packagereq>
+   </packagelist>
+  </group>
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <description>Smallest possible installation</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>games</id>
+    <name>Games and Entertainment</name>
+    <description>Various ways to relax and spend your free time.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">d1x-full</packagereq>
+      <packagereq type="optional">d1x-shareware</packagereq>
+      <packagereq type="optional">doom-shareware</packagereq>
+      <packagereq type="optional">ufoai</packagereq>
+      <packagereq type="optional">xrick</packagereq>
+      <packagereq type="optional">dega-sdl</packagereq>
+      <packagereq type="optional">dgen-sdl</packagereq>
+      <packagereq type="optional">e-uae</packagereq>
+      <packagereq type="optional">Frodo</packagereq>
+      <packagereq type="optional">Frodo-gui</packagereq>
+      <packagereq type="optional">gens</packagereq>
+      <packagereq type="optional">mednafen</packagereq>
+      <packagereq type="optional">qmc2</packagereq>
+      <packagereq type="optional">sdlmame</packagereq>
+      <packagereq type="optional">sdlmame-data-artwork</packagereq>
+      <packagereq type="optional">sdlmame-data</packagereq>
+      <packagereq type="optional">sdlmame-data-roms</packagereq>
+      <packagereq type="optional">sdlmame-data-samples</packagereq>
+      <packagereq type="optional">sdlmame-debug</packagereq>
+      <packagereq type="optional">sdlmame-ldplayer</packagereq>
+      <packagereq type="optional">sdlmame-tools</packagereq>
+      <packagereq type="optional">sdlmess</packagereq>
+      <packagereq type="optional">sdlmess-data</packagereq>
+      <packagereq type="optional">sdlmess-debug</packagereq>
+      <packagereq type="optional">sdlmess-tools</packagereq>
+      <packagereq type="optional">xcpc</packagereq>
+      <packagereq type="optional">yapeSDL</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>hardware-support</id>
+    <name>Hardware Support</name>
+    <description>This group is a collection of tools for various hardware specific utilities.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">akmod-madwifi</packagereq>
+      <packagereq type="optional">akmod-nvidia</packagereq>
+      <packagereq type="optional">akmod-nvidia-173xx</packagereq>
+      <packagereq type="optional">akmod-nvidia-96xx</packagereq>
+      <packagereq type="optional">akmod-nvidia-beta</packagereq>
+      <packagereq type="optional">akmod-slmodem</packagereq>
+      <packagereq type="optional">akmod-wl</packagereq>
+      <packagereq type="optional">broadcom-wl</packagereq>
+      <packagereq type="optional">Cg</packagereq>
+      <packagereq type="optional">ogre-cg</packagereq>
+      <packagereq type="optional">slmodem</packagereq>
+      <packagereq type="optional">xorg-x11-drv-fglrx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-173xx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-96xx</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>system-tools</id>
+    <name>System Tools</name>
+    <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">jad</packagereq>
+      <packagereq type="default">unrar</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>base-system</id>
+    <name>Base System</name>
+    <description>Various core pieces of the system.</description>
+    <display_order>99</display_order>
+    <grouplist>
+      <groupid>base</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>system-tools</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>apps</id>
+    <name>Applications</name>
+    <description>Applications to perform a variety of tasks</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>games</groupid>
+    </grouplist>
+  </category>
+</comps>

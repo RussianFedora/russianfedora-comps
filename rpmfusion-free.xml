@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <description>Smallest possible installation</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">rpmfusion-free-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>gnome-desktop</id>
+    <name>GNOME Desktop Environment</name>
+    <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">gnome-mplayer</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>kde-desktop</id>
+    <name>KDE (K Desktop Environment)</name>
+    <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">k9copy</packagereq>
+      <packagereq type="optional">kmediafactory</packagereq>
+      <packagereq type="optional">kplayer</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>graphical-internet</id>
+    <name>Graphical Internet</name>
+    <description>This group includes graphical email, Web, and chat clients.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">amule</packagereq>
+      <packagereq type="optional">comical</packagereq>
+      <packagereq type="optional">gecko-mediaplayer</packagereq>
+      <packagereq type="optional">mozilla-vlc</packagereq>
+      <packagereq type="optional">xchat-amule</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>hardware-support</id>
+    <name>Hardware Support</name>
+    <description>This group is a collection of tools for various hardware specific utilities.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">foo2hiperc</packagereq>
+      <packagereq type="default">foo2hp</packagereq>
+      <packagereq type="default">foo2lava</packagereq>
+      <packagereq type="default">foo2qpdl</packagereq>
+      <packagereq type="default">foo2slx</packagereq>
+      <packagereq type="default">foo2xqx</packagereq>
+      <packagereq type="default">foo2zjs</packagereq>
+      <packagereq type="optional">kmod-em8300</packagereq>
+      <packagereq type="optional">kqemu</packagereq>
+      <packagereq type="optional">ndiswrapper</packagereq>
+      <packagereq type="optional">rt2860</packagereq>
+      <packagereq type="optional">rt2870</packagereq>
+      <packagereq type="optional">rt3070</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>sound-and-video</id>
+    <name>Sound and Video</name>
+    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
+      <packagereq type="conditional" requires="xine-lib">xine-lib-extras-freeworld</packagereq>
+      <packagereq type="default">gstreamer-plugins-bad</packagereq>
+      <packagereq type="default">gstreamer-plugins-bad-free</packagereq>
+      <packagereq type="default">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="default">gstreamer-ffmpeg</packagereq>
+      <packagereq type="default">mplayer</packagereq>
+      <packagereq type="optional">a52dec</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-aac</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-alac</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-mms</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-mp3</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-tta</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-wma</packagereq>
+      <packagereq type="optional">audacity-freeworld</packagereq>
+      <packagereq type="optional">avidemux</packagereq>
+      <packagereq type="optional">devede</packagereq>
+      <packagereq type="optional">dvdauthor</packagereq>
+      <packagereq type="optional">dvdstyler</packagereq>
+      <packagereq type="optional">ffmpeg</packagereq>
+      <packagereq type="optional">ffmpeg2theora</packagereq>
+      <packagereq type="optional">kino</packagereq>
+      <packagereq type="optional">lame-mp3x</packagereq>
+      <packagereq type="optional">lame</packagereq>
+      <packagereq type="optional">lastfm</packagereq>
+      <packagereq type="optional">libquicktime-utils</packagereq>
+      <packagereq type="optional">live555-tools</packagereq>
+      <packagereq type="optional">madplay</packagereq>
+      <packagereq type="optional">mencoder</packagereq>
+      <packagereq type="optional">mjpegtools-gui</packagereq>
+      <packagereq type="optional">mp3gain</packagereq>
+      <packagereq type="optional">mpd</packagereq>
+      <packagereq type="optional">mpeg2dec</packagereq>
+      <packagereq type="optional">mpg321</packagereq>
+      <packagereq type="optional">mpgtx</packagereq>
+      <packagereq type="optional">mplayer-doc</packagereq>
+      <packagereq type="optional">mplayer-gui</packagereq>
+      <packagereq type="optional">qmmp-plugins-freeworld</packagereq>
+      <packagereq type="optional">smplayer</packagereq>
+      <packagereq type="optional">streamripper</packagereq>
+      <packagereq type="optional">transcode</packagereq>
+      <packagereq type="optional">twolame</packagereq>
+      <packagereq type="optional">vdradmin-am</packagereq>
+      <packagereq type="optional">vdr-burn</packagereq>
+      <packagereq type="optional">vdr-dxr3</packagereq>
+      <packagereq type="optional">vdr-mp3</packagereq>
+      <packagereq type="optional">vdr-mplayer</packagereq>
+      <packagereq type="optional">vdr-remote</packagereq>
+      <packagereq type="optional">vdrsync</packagereq>
+      <packagereq type="optional">vlc</packagereq>
+      <packagereq type="optional">x264-gui</packagereq>
+      <packagereq type="optional">xine</packagereq>
+      <packagereq type="optional">xvidcap</packagereq>
+      <packagereq type="optional">y4mscaler</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>games</id>
+    <name>Games and Entertainment</name>
+    <description>Various ways to relax and spend your free time.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">arcem</packagereq>
+      <packagereq type="optional">desmume</packagereq>
+      <packagereq type="optional">desmume-cli</packagereq>
+      <packagereq type="optional">desmume-glade</packagereq>
+      <packagereq type="optional">fceultra</packagereq>
+      <packagereq type="optional">gfceu</packagereq>
+      <packagereq type="optional">gnuboy-fb</packagereq>
+      <packagereq type="optional">gnuboy-sdl</packagereq>
+      <packagereq type="optional">gnuboy-svgalib</packagereq>
+      <packagereq type="optional">gnuboy-x</packagereq>
+      <packagereq type="optional">Nestopia</packagereq>
+      <packagereq type="optional">osmose</packagereq>
+      <packagereq type="optional">plus4emu</packagereq>
+      <packagereq type="optional">scottfree</packagereq>
+      <packagereq type="optional">xroar</packagereq>
+      <packagereq type="optional">zsnes</packagereq>
+   </packagelist>
+  </group>
+  <group>
+    <id>virtualization</id>
+    <name>Virtualization</name>
+    <description>These packages provide a virtualization environment.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">VirtualBox-OSE</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>apps</id>
+    <name>Applications</name>
+    <description>Applications to perform a variety of tasks</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>games</groupid>
+      <groupid>graphical-internet</groupid>
+      <groupid>sound-and-video</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>base-system</id>
+    <name>Base System</name>
+    <description>Various core pieces of the system.</description>
+    <display_order>99</display_order>
+    <grouplist>
+      <groupid>hardware-support</groupid>
+      <groupid>virtualization</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>desktops</id>
+    <name>Desktop Environments</name>
+    <description>Desktop environments</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>gnome-desktop</groupid>
+      <groupid>kde-desktop</groupid>
+    </grouplist>
+  </category>
+</comps>

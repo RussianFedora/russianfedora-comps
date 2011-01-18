@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+<group>
+   <id>authoring-and-publishing</id>
+   <default>False</default>
+   <uservisible>True</uservisible>
+   <display_order>1024</display_order>
+   <name>Authoring and Publishing</name>
+   <description>These tools allow you to create documents in the DocBook format and convert them into HTML, PDF, Postscript, and text.</description>
+    <packagelist>
+      <packagereq type="optional">acroread</packagereq>
+    </packagelist>
+  </group>
+  <group>
+   <id>core</id>
+   <default>True</default>
+   <uservisible>False</uservisible>
+   <name>Core</name>
+   <description>Smallest possible installation</description>
+    <packagelist>
+      <packagereq type="mandatory">russianfedora-nonfree-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+   <id>base-x</id>
+   <default>True</default>
+   <uservisible>True</uservisible>
+   <display_order>1024</display_order>
+   <name>X Window System</name>
+   <description>Install this group of packages to use the base graphical (X) user interface.</description>
+    <packagelist>
+      <packagereq type="optional">xxkb</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>development-tools</id>
+    <name>Development Tools</name>
+    <description>These tools include core development tools such as automake, gcc, perl, python, and debuggers.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">pgadmin3</packagereq>
+    </packagelist>
+  </group>
+  <group>
+   <id>graphical-internet</id>
+   <default>True</default>
+   <uservisible>True</uservisible>
+   <display_order>1024</display_order>
+   <name>Graphical Internet</name>
+   <description>This group includes graphical email, Web, and chat clients.</description>
+    <packagelist>
+      <packagereq type="default">flash-plugin</packagereq>
+      <packagereq type="optional">opera</packagereq>
+    </packagelist>
+  </group>
+  <group>
+   <id>hardware-support</id>
+   <default>True</default>
+   <uservisible>True</uservisible>
+   <display_order>1024</display_order>
+   <name>Hardware Support</name>
+   <description>This group is a collection of tools for various hardware specific utilities.</description>
+    <packagelist>
+      <packagereq type="optional">xorg-x11-drv-nvidia-beta</packagereq>
+      <packagereq type="optional">truecrypt</packagereq>
+    </packagelist>
+  </group>
+  <group>
+   <id>java</id>
+   <default>True</default>
+   <uservisible>False</uservisible>
+   <display_order>1024</display_order>
+   <name>Java</name>
+   <description>Support for running programs written in the Java programming language.</description>
+    <packagelist>
+      <packagereq type="optional">java-1.6.0-sun-compat</packagereq>
+      <packagereq type="optional">jdk</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>russian-support</id>
+    <name>Russian Support</name>
+    <description/>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <langonly>ru</langonly>
+    <packagelist>
+      <packagereq type="optional">stardict-dic-big-soviet-encyclopedia</packagereq>
+      <packagereq type="optional">stardict-dic-en-ru</packagereq>
+      <packagereq type="optional">stardict-dic-ru-en</packagereq>
+      <packagereq type="optional">stardict-dic-rus-explanatory</packagereq>
+      <packagereq type="optional">ttfonts-ru</packagereq>
+      <packagereq type="optional">ttfonts-unicode</packagereq>
+    </packagelist>
+  </group>
+  <group>
+   <id>sound-and-video</id>
+   <default>True</default>
+   <uservisible>True</uservisible>
+   <display_order>1024</display_order>
+   <name>Sound and Video</name>
+   <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
+    <packagelist>
+      <packagereq type="optional">sopcast</packagereq> 
+    </packagelist>
+  </group>
+  <group>
+    <id>web-server</id>
+    <name>Web Server</name>
+	<description>These tools allow you to run a Web server on the system.</description>
+	<default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">traffpro</packagereq>
+    </packagelist>
+  </group>
+  <category>
+   <id>apps</id>
+   <display_order>20</display_order>
+   <name>Applications</name>
+   <description>Applications to perform a variety of tasks</description>
+    <grouplist>
+     <groupid>sound-and-video</groupid>
+     <groupid>graphical-internet</groupid>
+    </grouplist>
+  </category>
+  <category>
+   <id>base-system</id>
+   <display_order>99</display_order>
+   <name>Base System</name>
+   <description>Various core pieces of the system.</description>
+    <grouplist>
+     <groupid>java</groupid>
+     <groupid>base-x</groupid>
+     <groupid>system-tools</groupid>
+     <groupid>hardware-support</groupid>
+    </grouplist>
+  </category>
+  <category>
+   <id>development</id>
+   <display_order>99</display_order>
+   <name>Development</name>
+   <description>Packages which provide functionality for developing and building applications.</description>
+    <grouplist>
+     <groupid>development-tools</groupid>
+    </grouplist>
+  </category>
+  <category>
+   <id>language-support</id>
+   <display_order>1024</display_order>
+   <name>Languages</name>
+   <description>These packages provide support for various locales including fonts and input methods.</description>
+    <grouplist>
+     <groupid>russian-support</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>servers</id>
+    <name>Servers</name>
+	<description>Software used for running network servers</description>
+	<display_order>90</display_order>
+    <grouplist>
+	  <groupid>web-server</groupid>
+	</grouplist>
+  </category>
+</comps>
