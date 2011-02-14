@@ -180,6 +180,7 @@
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
       <packagereq type="default">libdvdcss</packagereq>
+      <packagereq type="optional">bino</packagereq>
       <packagereq type="optional">lives</packagereq>
       <packagereq type="optional">mandvd</packagereq>
       <packagereq type="optional">moc</packagereq>
