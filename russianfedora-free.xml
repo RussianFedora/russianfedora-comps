@@ -12,6 +12,7 @@
       <packagereq type="default">texlive-cm-super-fonts</packagereq>
       <packagereq type="optional">cuneiform</packagereq>
       <packagereq type="optional">cuneiform-qt</packagereq>
+      <packagereq type="optional">yagf</packagereq>
     </packagelist>
   </group>
   <group>
@@ -95,11 +96,8 @@
    <name>GNOME Desktop Environment</name>
    <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
-      <packagereq type="optional">drivel</packagereq>
-      <packagereq type="optional">gnome-applet-globalmenu</packagereq>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
-      <packagereq type="optional">screenlets</packagereq>
     </packagelist>
   </group>
   <group>
@@ -122,8 +120,6 @@
     <packagelist>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
-      <packagereq type="optional">screenlets</packagereq>
-      <packagereq type="optional">xfce4-globalmenu-plugin</packagereq>
     </packagelist>
   </group>
   <group>
@@ -134,28 +130,12 @@
    <name>Graphical Internet</name>
    <description>This group includes graphical email, Web, and chat clients.</description>
     <packagelist>
-      <packagereq type="default">qutim</packagereq>
-      <packagereq type="optional">eiskaltdc</packagereq>
+      <packagereq type="optional">eiskaltdcpp</packagereq>
       <packagereq type="optional">flush</packagereq>
+      <packagereq type="optional">mrim-prpl</packagereq>
+      <packagereq type="optional">pidgin-facebookchat</packagereq>
       <packagereq type="optional">psi-plus</packagereq>
       <packagereq type="optional">psi-plus-plugins</packagereq>
-      <packagereq type="optional">qutim-plugins</packagereq>
-      <packagereq type="optional">qutim-plugin-chess</packagereq>
-      <packagereq type="optional">qutim-plugin-connectioncheck</packagereq>
-      <packagereq type="optional">qutim-plugin-floaties</packagereq>
-      <packagereq type="optional">qutim-plugin-historymanager</packagereq>
-      <packagereq type="optional">qutim-plugin-icq</packagereq>
-      <packagereq type="optional">qutim-plugin-imagepub</packagereq>
-      <packagereq type="optional">qutim-plugin-irc</packagereq>
-      <packagereq type="optional">qutim-plugin-kde</packagereq>
-      <packagereq type="optional">qutim-plugin-mrim</packagereq>
-      <packagereq type="optional">qutim-plugin-plugman</packagereq>
-      <packagereq type="optional">qutim-plugin-protocolicon</packagereq>
-      <packagereq type="optional">qutim-plugin-twitter</packagereq>
-      <packagereq type="optional">qutim-plugin-urlpreview</packagereq>
-      <packagereq type="optional">qutim-plugin-vkontakte</packagereq>
-      <packagereq type="optional">qutim-plugin-weather</packagereq>
-      <packagereq type="optional">qutim-plugin-yandexnarod</packagereq>
       <packagereq type="optional">yachat</packagereq>
     </packagelist>
   </group>
@@ -180,10 +160,13 @@
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
       <packagereq type="default">libdvdcss</packagereq>
-      <packagereq type="optional">lives</packagereq>
+      <packagereq type="optional">aegisub</packagereq>
+      <packagereq type="optional">bino</packagereq>
+      <packagereq type="optional">deadbeef</packagereq>
       <packagereq type="optional">mandvd</packagereq>
       <packagereq type="optional">moc</packagereq>
       <packagereq type="optional">mpg123</packagereq>
+      <packagereq type="optional">openshot</packagereq>
     </packagelist>
   </group>
   <group>
@@ -193,7 +176,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">3proxy</packagereq>
+      <packagereq type="optional">wt</packagereq>
     </packagelist>
   </group>
   <group>
@@ -214,7 +197,18 @@
    <name>System Tools</name>
    <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
     <packagelist>
+      <packagereq type="optional">freerdp</packagereq>
       <packagereq type="optional">shmux</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>virtualization</id>
+    <name>Virtualization</name>
+    <description>These packages provide a virtualization environment.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">RemoteBox</packagereq>
     </packagelist>
   </group>
   <category>
@@ -247,9 +241,11 @@
    <display_order>99</display_order>
    <name>Base System</name>
    <description>Various core pieces of the system.</description>
+    <grouplist>
      <groupid>base-x</groupid>
      <groupid>fonts</groupid>
      <groupid>system-tools</groupid>
+     <groupid>virtualization</groupid>
     </grouplist>
   </category>
   <category>
