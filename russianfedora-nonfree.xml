@@ -64,7 +64,10 @@
    <description>This group is a collection of tools for various hardware specific utilities.</description>
     <packagelist>
       <packagereq type="default">b43-firmware</packagereq>
+      <packagereq type="optional">akmod-catalist</packagereq>
       <packagereq type="optional">truecrypt</packagereq>
+      <packagereq type="optional">xorg-x11-drv-catalyst</packagereq>
+      <packagereq type="conditional" requires="xorg-x11-drv-catalyst">kmod-catalyst</packagereq>
     </packagelist>
   </group>
   <group>
