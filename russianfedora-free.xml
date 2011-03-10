@@ -108,6 +108,25 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="default">madwimax</packagereq>
+      <packagereq type="optional">akmod-rt3062</packagereq>
+      <packagereq type="optional">akmod-rt3090</packagereq>
+      <packagereq type="optional">akmod-samsung-backlight</packagereq>
+      <packagereq type="optional">rt3062</packagereq>
+      <packagereq type="conditional" requires="rt3062">kmod-rt3062</packagereq>
+      <packagereq type="optional">rt3090</packagereq>
+      <packagereq type="conditional" requires="rt3090">kmod-rt3090</packagereq>
+      <packagereq type="optional">samsung-backlight-kmod-common</packagereq>
+      <packagereq type="conditional" requires="samsung-backlight-kmod-common">kmod-samsung-backlight</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>lxde-desktop</id>
+    <name>LXDE</name>
+    <description>LXDE is a lightweight X11 desktop environment designed for computers with low hardware specifications like netbooks, mobile devices or older computers.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">gsmartcontrol</packagereq>
     </packagelist>
   </group>
   <group>
@@ -118,6 +137,7 @@
    <name>XFCE</name>
    <description>A lightweight desktop environment that works well on low end machines.</description>
     <packagelist>
+      <packagereq type="default">gsmartcontrol</packagereq>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
     </packagelist>
@@ -163,6 +183,7 @@
       <packagereq type="optional">aegisub</packagereq>
       <packagereq type="optional">bino</packagereq>
       <packagereq type="optional">deadbeef</packagereq>
+      <packagereq type="optional">foobnix</packagereq>
       <packagereq type="optional">mandvd</packagereq>
       <packagereq type="optional">moc</packagereq>
       <packagereq type="optional">mpg123</packagereq>
@@ -199,6 +220,7 @@
     <packagelist>
       <packagereq type="optional">freerdp</packagereq>
       <packagereq type="optional">shmux</packagereq>
+      <packagereq type="optional">vpnpptp</packagereq>
     </packagelist>
   </group>
   <group>
@@ -219,6 +241,7 @@
     <grouplist>
      <groupid>gnome-desktop</groupid>
      <groupid>kde-desktop</groupid>
+     <groupid>lxde-desktop</groupid>
      <groupid>xfce-desktop</groupid>
      <groupid>window-managers</groupid>
     </grouplist>
