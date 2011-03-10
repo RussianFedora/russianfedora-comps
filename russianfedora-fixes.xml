@@ -11826,9 +11826,9 @@
       <packagereq type="default">kdeutils-printer-applet</packagereq>
       <packagereq type="default">kdm</packagereq>
       <packagereq type="default">kipi-plugins</packagereq>
-      <packagereq type="default">knetworkmanager-openvpn</packagereq>
-      <packagereq type="default">knetworkmanager-pptp</packagereq>
-      <packagereq type="default">knetworkmanager-vpnc</packagereq>
+      <packagereq type="default">kde-plasma-networkmanagement-openvpn</packagereq>
+      <packagereq type="default">kde-plasma-networkmanagement-pptp</packagereq>
+      <packagereq type="default">kde-plasma-networkmanagement-vpnc</packagereq>
       <packagereq type="default">konq-plugins</packagereq>
       <packagereq type="default">konversation</packagereq>
       <packagereq type="default">kpackagekit</packagereq>
@@ -11938,9 +11938,9 @@
       <packagereq type="default">kdeplasma-addons</packagereq>
       <packagereq type="default">kdeutils</packagereq>
       <packagereq type="default">kdm</packagereq>
-      <packagereq type="default">knetworkmanager-openvpn</packagereq>
-      <packagereq type="default">knetworkmanager-pptp</packagereq>
-      <packagereq type="default">knetworkmanager-vpnc</packagereq>
+      <packagereq type="default">kde-plasma-networkmanagement-openvpn</packagereq>
+      <packagereq type="default">kde-plasma-networkmanagement-pptp</packagereq>
+      <packagereq type="default">kde-plasma-networkmanagement-vpnc</packagereq>
       <packagereq type="default">kpackagekit</packagereq>
       <packagereq type="default">phonon-backend-gstreamer</packagereq>
       <packagereq type="default">phonon-backend-xine</packagereq>
@@ -19269,7 +19269,9 @@
       <packagereq type="default">jigdo</packagereq>
       <packagereq type="default">mc</packagereq>
       <packagereq type="default">NetworkManager-openconnect</packagereq>
+      <packagereq type="default">NetworkManager-openswan</packagereq>
       <packagereq type="default">NetworkManager-openvpn</packagereq>
+      <packagereq type="default">NetworkManager-pptp</packagereq>
       <packagereq type="default">NetworkManager-vpnc</packagereq>
       <packagereq type="default">nmap</packagereq>
       <packagereq type="default">ntfs-3g</packagereq>
@@ -21748,7 +21750,9 @@
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">icewm</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
+      <packagereq type="default">NetworkManager-opeconnect</packagereq>
       <packagereq type="default">NetworkManager-openvpn</packagereq>
+      <packagereq type="default">NetworkManager-openswan</packagereq>
       <packagereq type="default">NetworkManager-pptp</packagereq>
       <packagereq type="default">NetworkManager-vpnc</packagereq>
       <packagereq type="optional">bbkeys</packagereq>
@@ -22114,6 +22118,7 @@
       <packagereq type="default">mousepad</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
       <packagereq type="default">NetworkManager-openconnect</packagereq>
+      <packagereq type="default">NetworkManager-openswan</packagereq>
       <packagereq type="default">NetworkManager-openvpn</packagereq>
       <packagereq type="default">NetworkManager-pptp</packagereq>
       <packagereq type="default">NetworkManager-vpnc</packagereq>
