@@ -1475,7 +1475,6 @@
       <packagereq type="default">mesa-libGL</packagereq>
       <packagereq type="default">mesa-libGLU</packagereq>
       <packagereq type="default">mesa-dri-drivers</packagereq>
-      <packagereq type="default">mesa-dri-drivers-experimental</packagereq>
       <packagereq type="default">plymouth-system-theme</packagereq>
       <packagereq type="default">policycoreutils-sandbox</packagereq>
       <packagereq type="default">smolt-firstboot</packagereq>
