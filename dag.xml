@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>base</id>
+    <name>Base</name>
+    <description>The basic installation of Scientific Linux.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">rpmforge-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>general-desktop</id>
+    <name>General Purpose Desktop</name>
+    <description>A general purpose desktop.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">gstreamer-plugins-bad</packagereq>
+      <packagereq type="default">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="default">gstreamer-ffmpeg</packagereq>
+      <packagereq type="default">mplayer</packagereq>
+      <packagereq type="optional">a52dec</packagereq>
+      <packagereq type="optional">gnome-mplayer</packagereq>
+      <packagereq type="optional">xine-lib</packagereq>
+      <packagereq type="optional">dvdauthor</packagereq>
+      <packagereq type="optional">ffmpeg</packagereq>
+      <packagereq type="optional">lame</packagereq>
+      <packagereq type="optional">live555-tools</packagereq>
+      <packagereq type="optional">mencoder</packagereq>
+      <packagereq type="optional">mjpegtools</packagereq>
+      <packagereq type="optional">mp3gain</packagereq>
+      <packagereq type="optional">mpd</packagereq>
+      <packagereq type="optional">mpeg2dec</packagereq>
+      <packagereq type="optional">mpg123</packagereq>
+      <packagereq type="optional">mpgtx</packagereq>
+      <packagereq type="optional">mplayer-gui</packagereq>
+      <packagereq type="optional">smplayer</packagereq>
+      <packagereq type="optional">transcode</packagereq>
+      <packagereq type="optional">twolame</packagereq>
+      <packagereq type="optional">vlc</packagereq>
+      <packagereq type="optional">xine</packagereq>
+      <packagereq type="optional">xvidcore</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>internet-browser</id>
+    <name>Internet Browser</name>
+    <description>Firefox web browser</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">flash-plugin</packagereq>
+      <packagereq type="optional">mozilla-vlc</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>base-system</id>
+    <name>Base System</name>
+    <description>Core system components.</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>base</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>applications</id>
+    <name>Applications</name>
+    <description>Applications to perform a variety of tasks</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>internet-browser</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>desktops</id>
+    <name>Desktops</name>
+    <description>Desktops and thin clients.</description>
+    <display_order>70</display_order>
+    <grouplist>
+      <groupid>general-desktop</groupid>
+    </grouplist>
+  </category>
+</comps>
