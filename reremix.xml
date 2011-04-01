@@ -918,6 +918,7 @@
       <packagereq type='default'>lvm2</packagereq>
       <packagereq type='default'>man-pages</packagereq>
       <packagereq type='default'>man-pages-overrides</packagereq>
+      <packagereq type='default'>mc</packagereq>
       <packagereq type='default'>mdadm</packagereq>
       <packagereq type='default'>microcode_ctl</packagereq>
       <packagereq type='default'>mlocate</packagereq>
