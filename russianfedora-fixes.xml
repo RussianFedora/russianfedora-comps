@@ -3885,6 +3885,57 @@
     </packagelist>
   </group>
   <group>
+    <id>design-suite</id>
+    <name>Design Suite</name>
+    <description>These packages are targeted towards professional designers, like the Fedora Design Team.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">agave</packagereq>
+      <packagereq type="default">blender</packagereq>
+      <packagereq type="default">cinepaint</packagereq>
+      <packagereq type="default">dia</packagereq>
+      <packagereq type="default">entangle</packagereq>
+      <packagereq type="default">fontforge</packagereq>
+      <packagereq type="default">fontmatrix</packagereq>
+      <packagereq type="default">gimp</packagereq>
+      <packagereq type="default">gimp-data-extras</packagereq>
+      <packagereq type="default">gimp-help</packagereq>
+      <packagereq type="default">gimp-help-browser</packagereq>
+      <packagereq type="default">gimpfx-foundry</packagereq>
+      <packagereq type="default">GREYCstoration</packagereq>
+      <packagereq type="default">ImageMagick</packagereq>
+      <packagereq type="default">inkscape</packagereq>
+      <packagereq type="default">mypaint</packagereq>
+      <packagereq type="default">nautilus-image-converter</packagereq>
+      <packagereq type="default">optipng</packagereq>
+      <packagereq type="default">pinta</packagereq>
+      <packagereq type="default">postr</packagereq>
+      <packagereq type="default">rawtherapee</packagereq>
+      <packagereq type="default">scribus</packagereq>
+      <packagereq type="default">shotwell</packagereq>
+      <packagereq type="default">synfig</packagereq>
+      <packagereq type="default">ufraw</packagereq>
+      <packagereq type="optional">alchemy</packagereq>
+      <packagereq type="optional">audacity</packagereq>
+      <packagereq type="optional">digikam</packagereq>
+      <packagereq type="optional">fyre</packagereq>
+      <packagereq type="optional">jokosher</packagereq>
+      <packagereq type="optional">gthumb</packagereq>
+      <packagereq type="optional">hugin</packagereq>
+      <packagereq type="optional">istanbul</packagereq>
+      <packagereq type="optional">koffice-krita</packagereq>
+      <packagereq type="optional">openclipart</packagereq>
+      <packagereq type="optional">openoffice.org-impress</packagereq>
+      <packagereq type="optional">openoffice.org-extendedPDF</packagereq>
+      <packagereq type="optional">pitivi</packagereq>
+      <packagereq type="optional">pngcrush</packagereq>
+      <packagereq type="optional">tracker-search-tool</packagereq>
+      <packagereq type="conditional" requires="gimp">xsane-gimp</packagereq>
+      <packagereq type="conditional" requires="digikam">kipi-plugins</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>development-libs</id>
     <name>Development Libraries</name>
     <name xml:lang="af">Ontwikkelingsprogrammateke</name>
@@ -4082,11 +4133,10 @@
       <packagereq type="default">rpm-devel</packagereq>
       <packagereq type="default">slang-devel</packagereq>
       <packagereq type="optional">check-devel</packagereq>
-      <packagereq type="optional">cvc3-devel</packagereq>
       <packagereq type="optional">expatmm-devel</packagereq>
       <packagereq type="optional">libdwarf-devel</packagereq>
+      <packagereq type="optional">libedit-devel</packagereq>
       <packagereq type="optional">libusb-devel</packagereq>
-      <packagereq type="optional">mona-devel</packagereq>
       <packagereq type="optional">poco-devel</packagereq>
       <packagereq type="optional">poco-doc</packagereq>
     </packagelist>
@@ -4294,6 +4344,7 @@
       <packagereq type="optional">asa</packagereq>
       <packagereq type="optional">astyle</packagereq>
       <packagereq type="optional">bigloo</packagereq>
+      <packagereq type="optional">bigloo-doc</packagereq>
       <packagereq type="optional">bugzilla</packagereq>
       <packagereq type="optional">buildbot</packagereq>
       <packagereq type="optional">bzr</packagereq>
@@ -4330,6 +4381,7 @@
       <packagereq type="optional">ecl</packagereq>
       <packagereq type="optional">ElectricFence</packagereq>
       <packagereq type="optional">elfinfo</packagereq>
+      <packagereq type="optional">emacs-bigloo</packagereq>
       <packagereq type="optional">email2trac</packagereq>
       <packagereq type="optional">epydoc</packagereq>
       <packagereq type="optional">eric</packagereq>
@@ -4404,6 +4456,7 @@
       <packagereq type="optional">plague</packagereq>
       <packagereq type="optional">plague-client</packagereq>
       <packagereq type="optional">polyml</packagereq>
+      <packagereq type="optional">polyml-doc</packagereq>
       <packagereq type="optional">pscan</packagereq>
       <packagereq type="optional">pungi</packagereq>
       <packagereq type="optional">pylint</packagereq>
@@ -5292,6 +5345,7 @@
       <packagereq type="optional">xemacs</packagereq>
       <packagereq type="optional">xemacs-ess</packagereq>
       <packagereq type="optional">xemacs-muse</packagereq>
+      <packagereq type="optional">xemacs-packages-base</packagereq>
       <packagereq type="optional">xemacs-packages-extra</packagereq>
       <packagereq type="optional">xmlcopyeditor</packagereq>
       <packagereq type="optional">zile</packagereq>
@@ -5817,7 +5871,16 @@
       <packagereq type="optional">cdo</packagereq>
       <packagereq type="optional">cernlib-utils</packagereq>
       <packagereq type="optional">chemtool</packagereq>
+      <packagereq type="optional">coq</packagereq>
+      <packagereq type="optional">coq-coqide</packagereq>
+      <packagereq type="optional">coq-doc</packagereq>
+      <packagereq type="optional">coq-emacs</packagereq>
+      <packagereq type="optional">coq-xemacs</packagereq>
+      <packagereq type="optional">csisat</packagereq>
+      <packagereq type="optional">cudd</packagereq>
+      <packagereq type="optional">cudd-devel</packagereq>
       <packagereq type="optional">cvc3</packagereq>
+      <packagereq type="optional">cvc3-devel</packagereq>
       <packagereq type="optional">cvc3-doc</packagereq>
       <packagereq type="optional">cvc3-emacs</packagereq>
       <packagereq type="optional">cvc3-xemacs</packagereq>
@@ -5862,6 +5925,7 @@
       <packagereq type="optional">maxima</packagereq>
       <packagereq type="optional">maxima-gui</packagereq>
       <packagereq type="optional">mona</packagereq>
+      <packagereq type="optional">mona-devel</packagereq>
       <packagereq type="optional">mona-emacs</packagereq>
       <packagereq type="optional">mona-examples</packagereq>
       <packagereq type="optional">mona-xemacs</packagereq>
@@ -5877,6 +5941,8 @@
       <packagereq type="optional">paraview</packagereq>
       <packagereq type="optional">paw</packagereq>
       <packagereq type="optional">perl-bioperl</packagereq>
+      <packagereq type="optional">picosat</packagereq>
+      <packagereq type="optional">picosat-devel</packagereq>
       <packagereq type="optional">plotutils</packagereq>
       <packagereq type="optional">pvm</packagereq>
       <packagereq type="optional">pvs-sbcl</packagereq>
@@ -6918,6 +6984,7 @@
       <packagereq type="default">un-core-dotum-fonts</packagereq>
       <packagereq type="default">vlgothic-fonts</packagereq>
       <packagereq type="default">wqy-zenhei-fonts</packagereq>
+      <packagereq type="optional">aajohan-comfortaa-fonts</packagereq>
       <packagereq type="optional">adf-accanthis-2-fonts</packagereq>
       <packagereq type="optional">adf-accanthis-3-fonts</packagereq>
       <packagereq type="optional">adf-accanthis-fonts</packagereq>
@@ -7148,8 +7215,10 @@
       <packagereq type="optional">tiresias-pc-z-fonts</packagereq>
       <packagereq type="optional">tiresias-sign-fonts</packagereq>
       <packagereq type="optional">tiresias-sign-z-fonts</packagereq>
+      <packagereq type="optional">tlomt-junction-fonts</packagereq>
       <packagereq type="optional">tulrich-tuffy-fonts</packagereq>
       <packagereq type="optional">typemade-josefinsansstd-light-fonts</packagereq>
+      <packagereq type="optional">ubuntu-title-fonts</packagereq>
       <packagereq type="optional">un-core-batang-fonts</packagereq>
       <packagereq type="optional">un-core-dinaru-fonts</packagereq>
       <packagereq type="optional">un-core-graphic-fonts</packagereq>
@@ -8498,7 +8567,6 @@
       <packagereq type="default">glib-networking</packagereq>
       <packagereq type="default">gnome-backgrounds</packagereq>
       <packagereq type="default">gnome-bluetooth</packagereq>
-      <packagereq type="default">gnome-color-manager</packagereq>
       <packagereq type="default">gnome-disk-utility</packagereq>
       <packagereq type="default">gnome-disk-utility-nautilus</packagereq>
       <packagereq type="default">gnome-games</packagereq>
@@ -8512,8 +8580,6 @@
       <packagereq type="default">gnome-terminal</packagereq>
       <packagereq type="default">gnome-user-docs</packagereq>
       <packagereq type="default">gnome-utils</packagereq>
-      <packagereq type="default">gnote</packagereq>
-      <packagereq type="default">gok</packagereq>
       <packagereq type="default">gucharmap</packagereq>
       <packagereq type="default">gvfs-archive</packagereq>
       <packagereq type="default">gvfs-fuse</packagereq>
@@ -8572,6 +8638,7 @@
       <packagereq type="optional">gnome-applet-sensors</packagereq>
       <packagereq type="optional">gnome-applet-timer</packagereq>
       <packagereq type="optional">gnome-applets</packagereq>
+      <packagereq type="optional">gnome-color-manager</packagereq>
       <packagereq type="optional">gnome-commander</packagereq>
       <packagereq type="optional">gnome-device-manager</packagereq>
       <packagereq type="optional">gnome-media-apps</packagereq>
@@ -8582,7 +8649,9 @@
       <packagereq type="optional">gnome-schedule</packagereq>
       <packagereq type="optional">gnome-system-log</packagereq>
       <packagereq type="optional">gnome-theme-curvylooks</packagereq>
+      <packagereq type="optional">gnote</packagereq>
       <packagereq type="optional">gnotime</packagereq>
+      <packagereq type="optional">gok</packagereq>
       <packagereq type="optional">gonvert</packagereq>
       <packagereq type="optional">grsync</packagereq>
       <packagereq type="optional">gthumb</packagereq>
@@ -9086,7 +9155,6 @@
       <packagereq type="optional">filezilla</packagereq>
       <packagereq type="optional">fwbuilder</packagereq>
       <packagereq type="optional">gajim</packagereq>
-      <packagereq type="optional">galeon</packagereq>
       <packagereq type="optional">gftp</packagereq>
       <packagereq type="optional">gnash-plugin</packagereq>
       <packagereq type="optional">gnome-translate</packagereq>
@@ -9576,6 +9644,7 @@
       <packagereq type="conditional" requires="libreoffice-core">libreoffice-langpack-gu</packagereq>
       <packagereq type="conditional" requires="moodle">moodle-gu</packagereq>
       <packagereq type="default">iok</packagereq>
+      <packagereq type="default">gujarati-typing-booster</packagereq>
       <packagereq type="default">samyak-gujarati-fonts</packagereq>
     </packagelist>
   </group>
@@ -10158,6 +10227,7 @@
       <packagereq type="conditional" requires="libreoffice-core">libreoffice-langpack-hi</packagereq>
       <packagereq type="conditional" requires="moodle">moodle-hi</packagereq>
       <packagereq type="default">iok</packagereq>
+      <packagereq type="default">hindi-typing-booster</packagereq>
       <packagereq type="default">samyak-devanagari-fonts</packagereq>
       <packagereq type="default">sarai-fonts</packagereq>
     </packagelist>
@@ -10620,6 +10690,9 @@
       <packagereq type="optional">uim-skk</packagereq>
       <packagereq type="optional">WritRecogn</packagereq>
       <packagereq type="optional">xsunpinyin</packagereq>
+      <packagereq type="optional">marathi-typing-booster</packagereq>
+      <packagereq type="optional">gujarati-typing-booster</packagereq>
+      <packagereq type="optional">hindi-typing-booster</packagereq>
     </packagelist>
   </group>
   <group>
@@ -11860,6 +11933,7 @@
       <packagereq type="default">dejavu-sans-mono-fonts</packagereq>
       <packagereq type="default">dejavu-serif-fonts</packagereq>
       <packagereq type="default">digikam</packagereq>
+      <packagereq type="default">k3b</packagereq>
       <packagereq type="default">kcm-gtk</packagereq>
       <packagereq type="default">kcm_touchpad</packagereq>
       <packagereq type="default">kde-plasma-networkmanagement</packagereq>
@@ -11886,6 +11960,7 @@
       <packagereq type="default">konq-plugins</packagereq>
       <packagereq type="default">konversation</packagereq>
       <packagereq type="default">kpackagekit</packagereq>
+      <packagereq type="default">krusader</packagereq>
       <packagereq type="default">ksshaskpass</packagereq>
       <packagereq type="default">ktorrent</packagereq>
       <packagereq type="default">kwebkitpart</packagereq>
@@ -11946,7 +12021,6 @@
       <packagereq type="optional">koverartist</packagereq>
       <packagereq type="optional">krecipes</packagereq>
       <packagereq type="optional">krename</packagereq>
-      <packagereq type="optional">krusader</packagereq>
       <packagereq type="optional">ksensors</packagereq>
       <packagereq type="optional">kshutdown</packagereq>
       <packagereq type="optional">ksig</packagereq>
@@ -14648,6 +14722,7 @@
       <packagereq type="conditional" requires="libreoffice-core">libreoffice-langpack-mr</packagereq>
       <packagereq type="conditional" requires="moodle">moodle-mr</packagereq>
       <packagereq type="default">iok</packagereq>
+      <packagereq type="default">marathi-typing-booster</packagereq>
       <packagereq type="default">samyak-devanagari-fonts</packagereq>
     </packagelist>
   </group>
@@ -18846,6 +18921,7 @@
       <packagereq type="optional">picard</packagereq>
       <packagereq type="optional">pitivi</packagereq>
       <packagereq type="optional">pocketsphinx</packagereq>
+      <packagereq type="optional">pocketsphinx-plugin</packagereq>
       <packagereq type="optional">pulseaudio-module-lirc</packagereq>
       <packagereq type="optional">pulseaudio-module-zeroconf</packagereq>
       <packagereq type="optional">pyvnc2swf</packagereq>
@@ -22135,12 +22211,12 @@
       <packagereq type="optional">boa</packagereq>
       <packagereq type="optional">cherokee</packagereq>
       <packagereq type="optional">dap-server</packagereq>
-      <packagereq type="optional">drupal</packagereq>
-      <packagereq type="optional">drupal-calendar</packagereq>
-      <packagereq type="optional">drupal-cck</packagereq>
-      <packagereq type="optional">drupal-date</packagereq>
+      <packagereq type="optional">drupal6</packagereq>
+      <packagereq type="optional">drupal6-calendar</packagereq>
+      <packagereq type="optional">drupal6-cck</packagereq>
+      <packagereq type="optional">drupal6-date</packagereq>
       <packagereq type="optional">drupal-service_links</packagereq>
-      <packagereq type="optional">drupal-views</packagereq>
+      <packagereq type="optional">drupal6-views</packagereq>
       <packagereq type="optional">drupal-workspace</packagereq>
       <packagereq type="optional">lighttpd</packagereq>
       <packagereq type="optional">lighttpd-fastcgi</packagereq>
@@ -22386,10 +22462,8 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">fluxbox</packagereq>
-      <packagereq type="default">fvwm</packagereq>
+      <packagereq type="default">enlightenment</packagereq>
       <packagereq type="default">gdm</packagereq>
-      <packagereq type="default">icewm</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
       <packagereq type="default">NetworkManager-opeconnect</packagereq>
       <packagereq type="default">NetworkManager-openvpn</packagereq>
@@ -22398,7 +22472,10 @@
       <packagereq type="default">NetworkManager-vpnc</packagereq>
       <packagereq type="optional">bbkeys</packagereq>
       <packagereq type="optional">blackbox</packagereq>
+      <packagereq type="optional">fluxbox</packagereq>
+      <packagereq type="optional">fvwm</packagereq>
       <packagereq type="optional">hackedbox</packagereq>
+      <packagereq type="optional">icewm</packagereq>
       <packagereq type="optional">matchbox-window-manager</packagereq>
       <packagereq type="optional">obconf</packagereq>
       <packagereq type="optional">obmenu</packagereq>
@@ -22607,6 +22684,7 @@
       <packagereq type="optional">icon-slicer</packagereq>
       <packagereq type="optional">libXp-devel</packagereq>
       <packagereq type="optional">mesa-libGLU-devel</packagereq>
+      <packagereq type="optional">neXtaw-devel</packagereq>
       <packagereq type="optional">xorg-x11-server-devel</packagereq>
       <packagereq type="optional">xorg-x11-xbitmaps</packagereq>
     </packagelist>
@@ -23674,6 +23752,7 @@
     <display_order>20</display_order>
     <grouplist>
       <groupid>authoring-and-publishing</groupid>
+      <groupid>design-suite</groupid>
       <groupid>editors</groupid>
       <groupid>education</groupid>
       <groupid>engineering-and-scientific</groupid>
