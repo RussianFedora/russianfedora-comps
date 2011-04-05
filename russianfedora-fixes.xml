@@ -8641,6 +8641,7 @@
       <packagereq type="mandatory">fedora-gnome-theme</packagereq>
       <packagereq type="mandatory">gnome-panel</packagereq>
       <packagereq type="mandatory">gnome-session</packagereq>
+      <packagereq type="mandatory">gnome-shell</packagereq>
       <packagereq type="mandatory">gnome-terminal</packagereq>
       <packagereq type="mandatory">gvfs-fuse</packagereq>
       <packagereq type="mandatory">metacity</packagereq>
@@ -8652,7 +8653,6 @@
       <packagereq type="default">firefox</packagereq>
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">gdm-user-switch-applet</packagereq>
-      <packagereq type="default">gnome-applets</packagereq>
       <packagereq type="default">gnome-media</packagereq>
       <packagereq type="default">gnome-power-manager</packagereq>
       <packagereq type="default">gnome-screensaver</packagereq>
