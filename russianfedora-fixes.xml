@@ -8545,7 +8545,6 @@
       <packagereq type="conditional" requires="imsettings">imsettings-gnome</packagereq>
       <packagereq type="conditional" requires="pinentry">pinentry-gtk</packagereq>
       <packagereq type="conditional" requires="scim">scim-bridge-gtk</packagereq>
-      <packagereq type="default">alacarte</packagereq>
       <packagereq type="default">abrt-desktop</packagereq>
       <packagereq type="default">at-spi2-atk</packagereq>
       <packagereq type="default">at-spi2-core</packagereq>
@@ -8616,6 +8615,7 @@
       <packagereq type="default">xdg-user-dirs-gtk</packagereq>
       <packagereq type="default">yelp</packagereq>
       <packagereq type="default">zenity</packagereq>
+      <packagereq type="optional">alacarte</packagereq>
       <packagereq type="optional">avant-window-navigator</packagereq>
       <packagereq type="optional">buoh</packagereq>
       <packagereq type="optional">byzanz</packagereq>
