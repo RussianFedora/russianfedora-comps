@@ -8591,6 +8591,7 @@
       <packagereq type="default">libsane-hpaio</packagereq>
       <packagereq type="default">mousetweaks</packagereq>
       <packagereq type="default">nautilus</packagereq>
+      <packagereq type="default">nautilus-open-terminal</packagereq>
       <packagereq type="default">nautilus-sendto</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
       <packagereq type="default">NetworkManager-openconnect</packagereq>
@@ -8665,7 +8666,6 @@
       <packagereq type="optional">lock-keys-applet</packagereq>
       <packagereq type="optional">nautilus-actions</packagereq>
       <packagereq type="optional">nautilus-image-converter</packagereq>
-      <packagereq type="optional">nautilus-open-terminal</packagereq>
       <packagereq type="optional">nautilus-search-tool</packagereq>
       <packagereq type="optional">nautilus-sound-converter</packagereq>
       <packagereq type="optional">pcmanfm</packagereq>
