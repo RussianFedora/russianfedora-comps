@@ -45,15 +45,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">alien</packagereq>
-      <packagereq type="optional">checkinstall</packagereq>
-      <packagereq type="optional">debhelper</packagereq>
-      <packagereq type="optional">devscripts</packagereq>
-      <packagereq type="optional">dpkg</packagereq>
-      <packagereq type="optional">eiskaltdc-devel</packagereq>
-      <packagereq type="optional">pbuilder</packagereq>
-      <packagereq type="optional">rpmrebuild</packagereq>
-      <packagereq type="optional">xneur-devel</packagereq>
+      <packagereq type="optional">deb</packagereq>
     </packagelist>
   </group>
   <group>
@@ -74,6 +66,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="default">ubuntu-font-family</packagereq>
+      <packagereq type="optional">fontconfig-infinality</packagereq>
     </packagelist>
   </group>
   <group>
