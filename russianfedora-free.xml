@@ -33,9 +33,7 @@
    <name>X Window System</name>
    <description>Install this group of packages to use the base graphical (X) user interface.</description>
     <packagelist>
-      <packagereq type="optional">compat-openmotif</packagereq>
       <packagereq type="optional">xneur</packagereq>
-      <packagereq type="optional">xruskb</packagereq>
     </packagelist>
   </group>
   <group>
@@ -161,7 +159,6 @@
    <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
       <packagereq type="default">kvpnc</packagereq>
-      <packagereq type="default">rftask</packagereq>
     </packagelist>
   </group>
   <group>
