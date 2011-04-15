@@ -8552,6 +8552,7 @@
       <packagereq type="default">brasero-nautilus</packagereq>
       <packagereq type="default">caribou</packagereq>
       <packagereq type="default">cheese</packagereq>
+      <packagereq type="default">dconf-editor</packagereq>
       <packagereq type="default">deja-dup</packagereq>
       <packagereq type="default">eog</packagereq>
       <packagereq type="default">evince</packagereq>
