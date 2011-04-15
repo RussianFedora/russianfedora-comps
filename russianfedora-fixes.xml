@@ -22215,6 +22215,7 @@
       <packagereq type="optional">cherokee</packagereq>
       <packagereq type="optional">dap-server</packagereq>
       <packagereq type="optional">drupal6</packagereq>
+      <packagereq type="optional">drupal7</packagereq>
       <packagereq type="optional">drupal6-calendar</packagereq>
       <packagereq type="optional">drupal6-cck</packagereq>
       <packagereq type="optional">drupal6-date</packagereq>
