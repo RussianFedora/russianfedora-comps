@@ -20077,7 +20077,6 @@
       <packagereq type="optional">tn5250</packagereq>
       <packagereq type="optional">torque-client</packagereq>
       <packagereq type="optional">torque-gui</packagereq>
-      <packagereq type="optional">tsclient</packagereq>
       <packagereq type="optional">ttywatch</packagereq>
       <packagereq type="optional">tunctl</packagereq>
       <packagereq type="optional">unison213</packagereq>
