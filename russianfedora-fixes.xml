@@ -8688,13 +8688,8 @@
       <packagereq type="optional">xiphos</packagereq>
       <packagereq type="optional">xscreensaver-extras-gss</packagereq>
       <packagereq type="optional">xscreensaver-gl-extras-gss</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compizconfig-backend-gconf</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-extras-gnome</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-extras</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-gnome</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-unsupported-gnome</packagereq>
-      <packagereq type="conditional" requires="compiz-gnome">compiz-fusion-unsupported</packagereq>
+      <packagereq type="conditional" requires="compiz-gnome">compiz-plugins-main</packagereq>
+      <packagereq type="conditional" requires="compiz-gnome">compiz-plugins-main-gconf</packagereq>
       <packagereq type="conditional" requires="compiz-gnome">fusion-icon-gtk</packagereq>
     </packagelist>
   </group>
@@ -12048,9 +12043,7 @@
       <packagereq type="optional">transmission-qt</packagereq>
       <packagereq type="optional">uim-qt3</packagereq>
       <packagereq type="optional">yakuake</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">compiz-fusion-extras</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">compiz-fusion</packagereq>
-      <packagereq type="conditional" requires="compiz-kde">compiz-fusion-unsupported</packagereq>
+      <packagereq type="conditional" requires="compiz-kde">compiz-plugins-main</packagereq>
       <packagereq type="conditional" requires="compiz-kde">compizconfig-backend-kconfig4</packagereq>
       <packagereq type="conditional" requires="compiz-kde">fusion-icon-qt</packagereq>
     </packagelist>
