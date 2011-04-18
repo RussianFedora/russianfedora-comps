@@ -13897,6 +13897,7 @@
       <packagereq type="conditional" requires="pinentry">pinentry-gtk</packagereq>
       <packagereq type="default">gpicview</packagereq>
       <packagereq type="default">gdm</packagereq>
+      <packagereq type="default">gxmessage</packagereq>
       <packagereq type="default">leafpad</packagereq>
       <packagereq type="default">lxappearance</packagereq>
       <packagereq type="default">lxinput</packagereq>
