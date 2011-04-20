@@ -86,6 +86,16 @@
     </packagelist>
   </group>
   <group>
+    <id>sound-and-video</id>
+    <name>Sound and Video</name>
+    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">gstreamer-plugins-bad-nonfree</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>system-tools</id>
     <name>System Tools</name>
     <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
