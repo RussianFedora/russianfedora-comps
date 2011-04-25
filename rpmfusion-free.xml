@@ -90,6 +90,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
+      <packagereq type="conditional" requires="ffmpeg-libs">libva-freeworld</packagereq>
       <packagereq type="conditional" requires="xine-lib">xine-lib-extras-freeworld</packagereq>
       <packagereq type="default">gstreamer-plugins-bad</packagereq>
       <packagereq type="default">gstreamer-plugins-bad-free</packagereq>
