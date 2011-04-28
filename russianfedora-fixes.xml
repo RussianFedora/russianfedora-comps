@@ -8720,6 +8720,10 @@
       <packagereq type="default">firefox</packagereq>
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">gdm-user-switch-applet</packagereq>
+      <packagereq type="default">gnome-icon-theme</packagereq>
+      <packagereq type="default">gnome-icon-theme-extras</packagereq>
+      <packagereq type="default">gnome-icon-theme-legacy</packagereq>
+      <packagereq type="default">gnome-icon-theme-symbolic</packagereq>
       <packagereq type="default">gnome-media</packagereq>
       <packagereq type="default">gnome-power-manager</packagereq>
       <packagereq type="default">gnome-screensaver</packagereq>
