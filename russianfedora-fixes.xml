@@ -8713,6 +8713,7 @@
       <packagereq type="mandatory">metacity</packagereq>
       <packagereq type="mandatory">nautilus</packagereq>
       <packagereq type="mandatory">polkit-gnome</packagereq>
+      <packagereq type="default">adwaita-gtk3-theme</packagereq>
       <packagereq type="default">at-spi2-atk</packagereq>
       <packagereq type="default">at-spi2-core</packagereq>
       <packagereq type="default">evolution</packagereq>
