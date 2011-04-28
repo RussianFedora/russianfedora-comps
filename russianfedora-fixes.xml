@@ -8724,7 +8724,6 @@
       <packagereq type="default">gnome-power-manager</packagereq>
       <packagereq type="default">gnome-screensaver</packagereq>
       <packagereq type="default">gnome-tweak-tool</packagereq>
-      <packagereq type="default">gtk2-engines</packagereq>
       <packagereq type="default">gvfs-archive</packagereq>
       <packagereq type="default">gvfs-gphoto2</packagereq>
       <packagereq type="default">gvfs-smb</packagereq>
