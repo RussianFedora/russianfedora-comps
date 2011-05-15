@@ -9295,6 +9295,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type="default">gwibber</packagereq>
       <packagereq type="default">empathy</packagereq>
       <packagereq type="default">evolution</packagereq>
       <packagereq type="default">evolution-help</packagereq>
