@@ -44,7 +44,6 @@
       <packagereq type="optional">amule</packagereq>
       <packagereq type="optional">comical</packagereq>
       <packagereq type="optional">gecko-mediaplayer</packagereq>
-      <packagereq type="optional">mozilla-vlc</packagereq>
       <packagereq type="optional">xchat-amule</packagereq>
     </packagelist>
   </group>
