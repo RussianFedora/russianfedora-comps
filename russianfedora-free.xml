@@ -9,7 +9,7 @@
    <name>Authoring and Publishing</name>
    <description>These tools allow you to create documents in the DocBook format and convert them into HTML, PDF, Postscript, and text.</description>
     <packagelist>
-      <packagereq type="default">texlive-cm-super-fonts</packagereq>
+      <packagereq type="conditional" requires="texlive">texlive-cm-super-fonts</packagereq>
       <packagereq type="optional">cuneiform</packagereq>
       <packagereq type="optional">cuneiform-qt</packagereq>
       <packagereq type="optional">yagf</packagereq>
