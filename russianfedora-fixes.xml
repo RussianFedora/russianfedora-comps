@@ -2337,7 +2337,6 @@
       <packagereq type="mandatory">coreutils</packagereq>
       <packagereq type="mandatory">cpio</packagereq>
       <packagereq type="mandatory">diffutils</packagereq>
-      <packagereq type="mandatory">fedora-release</packagereq>
       <packagereq type="mandatory">findutils</packagereq>
       <packagereq type="mandatory">gawk</packagereq>
       <packagereq type="mandatory">gcc</packagereq>
@@ -2348,6 +2347,7 @@
       <packagereq type="mandatory">make</packagereq>
       <packagereq type="mandatory">patch</packagereq>
       <packagereq type="mandatory">redhat-rpm-config</packagereq>
+      <packagereq type="mandatory">rfremix-release</packagereq>
       <packagereq type="mandatory">rpm-build</packagereq>
       <packagereq type="mandatory">sed</packagereq>
       <packagereq type="mandatory">shadow-utils</packagereq>
@@ -3080,7 +3080,6 @@
       <packagereq type="mandatory">cronie-anacron</packagereq>
       <packagereq type="mandatory">dhclient</packagereq>
       <packagereq type="mandatory">e2fsprogs</packagereq>
-      <packagereq type="mandatory">fedora-release</packagereq>
       <packagereq type="mandatory">file</packagereq>
       <packagereq type="mandatory">filesystem</packagereq>
       <packagereq type="mandatory">glibc</packagereq>
@@ -3098,6 +3097,7 @@
       <packagereq type="mandatory">policycoreutils</packagereq>
       <packagereq type="mandatory">procps</packagereq>
       <packagereq type="mandatory">readline</packagereq>
+      <packagereq type="mandatory">rfremix-release</packagereq>
       <packagereq type="mandatory">rootfiles</packagereq>
       <packagereq type="mandatory">rpm</packagereq>
       <packagereq type="mandatory">rsyslog</packagereq>
