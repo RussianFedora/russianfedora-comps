@@ -171,11 +171,11 @@
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
       <packagereq type="default">libdvdcss</packagereq>
+      <packagereq type="optional">2mandvd</packagereq>
       <packagereq type="optional">aegisub</packagereq>
       <packagereq type="optional">bino</packagereq>
       <packagereq type="optional">deadbeef</packagereq>
       <packagereq type="optional">foobnix</packagereq>
-      <packagereq type="optional">mandvd</packagereq>
       <packagereq type="optional">moc</packagereq>
       <packagereq type="optional">mpg123</packagereq>
       <packagereq type="optional">openshot</packagereq>
