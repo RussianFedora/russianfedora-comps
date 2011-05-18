@@ -87,6 +87,7 @@
    <name>GNOME Desktop Environment</name>
    <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
+      <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
     </packagelist>
@@ -129,6 +130,7 @@
    <description>A lightweight desktop environment that works well on low end machines.</description>
     <packagelist>
       <packagereq type="default">gsmartcontrol</packagereq>
+      <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
     </packagelist>
@@ -141,7 +143,6 @@
    <name>Graphical Internet</name>
    <description>This group includes graphical email, Web, and chat clients.</description>
     <packagelist>
-      <packagereq type="optional">eiskaltdcpp</packagereq>
       <packagereq type="optional">flush</packagereq>
       <packagereq type="optional">mrim-prpl</packagereq>
       <packagereq type="optional">pidgin-facebookchat</packagereq>
@@ -158,7 +159,7 @@
    <name>KDE (K Desktop Environment)</name>
    <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
-      <packagereq type="default">kvpnc</packagereq>
+      <packagereq type="optional">eiskaltdcpp-qt</packagereq>
     </packagelist>
   </group>
   <group>
