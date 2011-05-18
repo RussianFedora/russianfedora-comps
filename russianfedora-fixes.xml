@@ -19988,17 +19988,16 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">sugar</packagereq>
+      <packagereq type="default">csound-python</packagereq>
       <packagereq type="default">etoys-sugar</packagereq>
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">sugar-abacus</packagereq>
-      <packagereq type="default">sugar-browse</packagereq>
       <packagereq type="default">sugar-calculator</packagereq>
       <packagereq type="default">sugar-chat</packagereq>
       <packagereq type="default">sugar-log</packagereq>
       <packagereq type="default">sugar-memorize</packagereq>
       <packagereq type="default">sugar-physics</packagereq>
       <packagereq type="default">sugar-pippy</packagereq>
-      <packagereq type="default">sugar-read</packagereq>
       <packagereq type="default">sugar-record</packagereq>
       <packagereq type="default">sugar-speak</packagereq>
       <packagereq type="default">sugar-surf</packagereq>
@@ -20007,6 +20006,7 @@
       <packagereq type="default">sugar-write</packagereq>
       <packagereq type="default">sugar-xoirc</packagereq>
       <packagereq type="optional">sugar-analyze</packagereq>
+      <packagereq type="optional">sugar-browse</packagereq>
       <packagereq type="optional">sugar-clock</packagereq>
       <packagereq type="optional">sugar-connect</packagereq>
       <packagereq type="optional">sugar-distance</packagereq>
@@ -20020,6 +20020,7 @@
       <packagereq type="optional">sugar-jukebox</packagereq>
       <packagereq type="optional">sugar-moon</packagereq>
       <packagereq type="optional">sugar-playgo</packagereq>
+      <packagereq type="optional">sugar-read</packagereq>
       <packagereq type="optional">sugar-xomail</packagereq>
     </packagelist>
   </group>
