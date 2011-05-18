@@ -23024,7 +23024,7 @@
       <packagereq type="default">enlightenment</packagereq>
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
-      <packagereq type="default">NetworkManager-opeconnect</packagereq>
+      <packagereq type="default">NetworkManager-openconnect</packagereq>
       <packagereq type="default">NetworkManager-openvpn</packagereq>
       <packagereq type="default">NetworkManager-openswan</packagereq>
       <packagereq type="default">NetworkManager-pptp</packagereq>
