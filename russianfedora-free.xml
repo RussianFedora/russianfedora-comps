@@ -100,9 +100,12 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="default">madwimax</packagereq>
+      <packagereq type="optional">akmod-brcm80211</packagereq>
       <packagereq type="optional">akmod-rt3062</packagereq>
       <packagereq type="optional">akmod-rt3090</packagereq>
       <packagereq type="optional">akmod-samsung-backlight</packagereq>
+      <packagereq type="optional">brcm80211-common</packagereq>
+      <packagereq type="conditional" requires="brcm80211-common">kmod-brcm80211</packagereq>
       <packagereq type="optional">rt3062</packagereq>
       <packagereq type="conditional" requires="rt3062">kmod-rt3062</packagereq>
       <packagereq type="optional">rt3090</packagereq>
