@@ -3476,6 +3476,11 @@
       <packagereq type="default">libcanberra-gtk3</packagereq>
       <packagereq type="default">nautilus</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
+      <packagereq type="default">NetworkManager-openconnect</packagereq>
+      <packagereq type="default">NetworkManager-openswan</packagereq>
+      <packagereq type="default">NetworkManager-openvpn</packagereq>
+      <packagereq type="default">NetworkManager-pptp</packagereq>
+      <packagereq type="default">NetworkManager-vpnc</packagereq>
       <packagereq type="default">polkit-gnome</packagereq>
       <packagereq type="default">pulseaudio-module-gconf</packagereq>
       <packagereq type="default">pulseaudio-module-x11</packagereq>
@@ -8895,6 +8900,7 @@
       <packagereq type="default">nautilus-sendto</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
       <packagereq type="default">NetworkManager-openconnect</packagereq>
+      <packagereq type="default">NetworkManager-openswan</packagereq>
       <packagereq type="default">NetworkManager-openvpn</packagereq>
       <packagereq type="default">NetworkManager-pptp</packagereq>
       <packagereq type="default">NetworkManager-vpnc</packagereq>
@@ -9031,6 +9037,7 @@
       <packagereq type="default">gvfs-smb</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
       <packagereq type="default">NetworkManager-openconnect</packagereq>
+      <packagereq type="default">NetworkManager-openswan</packagereq>
       <packagereq type="default">NetworkManager-openvpn</packagereq>
       <packagereq type="default">NetworkManager-pptp</packagereq>
       <packagereq type="default">NetworkManager-vpnc</packagereq>
@@ -23320,8 +23327,8 @@
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
       <packagereq type="default">NetworkManager-openconnect</packagereq>
-      <packagereq type="default">NetworkManager-openvpn</packagereq>
       <packagereq type="default">NetworkManager-openswan</packagereq>
+      <packagereq type="default">NetworkManager-openvpn</packagereq>
       <packagereq type="default">NetworkManager-pptp</packagereq>
       <packagereq type="default">NetworkManager-vpnc</packagereq>
       <packagereq type="optional">bbkeys</packagereq>
