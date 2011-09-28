@@ -1238,7 +1238,6 @@
       <packagereq type="default">cifs-utils</packagereq>
       <packagereq type="default">coolkey</packagereq>
       <packagereq type="default">cryptsetup-luks</packagereq>
-      <packagereq type="default">device-mapper-multipath</packagereq>
       <packagereq type="default">dmraid</packagereq>
       <packagereq type="default">dos2unix</packagereq>
       <packagereq type="default">dosfstools</packagereq>
@@ -1277,10 +1276,8 @@
       <packagereq type="default">pam_pkcs11</packagereq>
       <packagereq type="default">passwdqc</packagereq>
       <packagereq type="default">pcmciautils</packagereq>
-      <packagereq type="default">perf</packagereq>
       <packagereq type="default">pinfo</packagereq>
       <packagereq type="default">pm-utils</packagereq>
-      <packagereq type="default">prctl</packagereq>
       <packagereq type="default">prelink</packagereq>
       <packagereq type="default">rdate</packagereq>
       <packagereq type="default">rdist</packagereq>
@@ -3103,7 +3100,6 @@
       <packagereq type="mandatory">iproute</packagereq>
       <packagereq type="mandatory">iprutils</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
-      <packagereq type="mandatory">iptables-ipv6</packagereq>
       <packagereq type="mandatory">iputils</packagereq>
       <packagereq type="mandatory">kbd</packagereq>
       <packagereq type="mandatory">libgcc</packagereq>
@@ -3464,6 +3460,7 @@
       <packagereq type="mandatory">xorg-x11-drv-fbdev</packagereq>
       <packagereq type="mandatory">xorg-x11-drv-intel</packagereq>
       <packagereq type="mandatory">xorg-x11-drv-nouveau</packagereq>
+      <packagereq type="mandatory">xorg-x11-drv-qxl</packagereq>
       <packagereq type="mandatory">xorg-x11-drv-synaptics</packagereq>
       <packagereq type="mandatory">xorg-x11-drv-vesa</packagereq>
       <packagereq type="mandatory">xorg-x11-server-Xorg</packagereq>
@@ -7232,6 +7229,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type="default">cjkuni-uming-fonts</packagereq>
       <packagereq type="default">dejavu-sans-fonts</packagereq>
       <packagereq type="default">dejavu-sans-mono-fonts</packagereq>
       <packagereq type="default">dejavu-serif-fonts</packagereq>
@@ -7261,7 +7259,7 @@
       <packagereq type="default">ucs-miscfixed-fonts</packagereq>
       <packagereq type="default">un-core-dotum-fonts</packagereq>
       <packagereq type="default">vlgothic-fonts</packagereq>
-      <packagereq type="default">wqy-microhei-fonts</packagereq>
+      <packagereq type="default">wqy-zenhei-fonts</packagereq>
       <packagereq type="optional">aajohan-comfortaa-fonts</packagereq>
       <packagereq type="optional">adf-accanthis-2-fonts</packagereq>
       <packagereq type="optional">adf-accanthis-3-fonts</packagereq>
@@ -7308,7 +7306,6 @@
       <packagereq type="optional">chisholm-letterslaughing-fonts</packagereq>
       <packagereq type="optional">chisholm-to-be-continued-fonts</packagereq>
       <packagereq type="optional">cjkuni-ukai-fonts</packagereq>
-      <packagereq type="optional">cjkuni-uming-fonts</packagereq>
       <packagereq type="optional">conakry-fonts</packagereq>
       <packagereq type="optional">ctan-cm-lgc-roman-fonts</packagereq>
       <packagereq type="optional">ctan-cm-lgc-sans-fonts</packagereq>
@@ -7525,7 +7522,7 @@
       <packagereq type="optional">vollkorn-fonts</packagereq>
       <packagereq type="optional">woodardworks-laconic-fonts</packagereq>
       <packagereq type="optional">woodardworks-laconic-shadow-fonts</packagereq>
-      <packagereq type="optional">wqy-zenhei-fonts</packagereq>
+      <packagereq type="optional">wqy-microhei-fonts</packagereq>
       <packagereq type="optional">xorg-x11-fonts-ethiopic</packagereq>
       <packagereq type="optional">yanone-kaffeesatz-fonts</packagereq>
       <packagereq type="optional">yanone-tagesschrift-fonts</packagereq>
@@ -8279,7 +8276,6 @@
       <packagereq type="optional">cdogs-sdl</packagereq>
       <packagereq type="optional">celestia</packagereq>
       <packagereq type="optional">cgoban</packagereq>
-      <packagereq type="optional">chess</packagereq>
       <packagereq type="optional">clanbomber</packagereq>
       <packagereq type="optional">clonekeen</packagereq>
       <packagereq type="optional">coco-coq</packagereq>
@@ -8869,7 +8865,6 @@
       <packagereq type="default">gnome-contacts</packagereq>
       <packagereq type="default">gnome-disk-utility</packagereq>
       <packagereq type="default">gnome-disk-utility-nautilus</packagereq>
-      <packagereq type="default">gnome-documents</packagereq>
       <packagereq type="default">gnome-games</packagereq>
       <packagereq type="default">gnome-icon-theme</packagereq>
       <packagereq type="default">gnome-icon-theme-extras</packagereq>
@@ -14698,6 +14693,7 @@
       <packagereq type="optional">mailman</packagereq>
       <packagereq type="optional">milter-regex</packagereq>
       <packagereq type="optional">mlmmj</packagereq>
+      <packagereq type="optional">opendkim</packagereq>
       <packagereq type="optional">postfix</packagereq>
       <packagereq type="optional">pyzor</packagereq>
       <packagereq type="optional">roundcubemail</packagereq>
@@ -20275,6 +20271,7 @@
       <packagereq type="default">sugar-physics</packagereq>
       <packagereq type="default">sugar-pippy</packagereq>
       <packagereq type="default">sugar-record</packagereq>
+      <packagereq type="default">sugar-ruler</packagereq>
       <packagereq type="default">sugar-speak</packagereq>
       <packagereq type="default">sugar-surf</packagereq>
       <packagereq type="default">sugar-terminal</packagereq>
