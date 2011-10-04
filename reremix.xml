@@ -897,9 +897,11 @@
       <packagereq type='optional'>abrt-addon-kerneloops</packagereq>
       <packagereq type='optional'>abrt-addon-python</packagereq>
       <packagereq type='optional'>abrt-cli</packagereq>
+      <packagereq type='optional'>abrt-plugin-mailx</packagereq>
       <packagereq type='optional'>abrt-plugin-sosreport</packagereq>
       <packagereq type='default'>acpid</packagereq>
       <packagereq type='default'>b43-fwcutter</packagereq>
+      <packagereq type='default'>biosdevname</packagereq>
       <packagereq type='default'>blktrace</packagereq>
       <packagereq type='default'>bridge-utils</packagereq>
       <packagereq type='default'>bzip2</packagereq>
@@ -912,6 +914,7 @@
       <packagereq type='default'>fprintd-pam</packagereq>
       <packagereq type='default'>gnupg2</packagereq>
       <packagereq type='default'>hunspell</packagereq>
+      <packagereq type='default'>hunspell-en</packagereq>
       <packagereq type='default'>irqbalance</packagereq>
       <packagereq type='default'>kexec-tools</packagereq>
       <packagereq type='default'>libaio</packagereq>
@@ -924,6 +927,8 @@
       <packagereq type='default'>mlocate</packagereq>
       <packagereq type='default'>mtr</packagereq>
       <packagereq type='default'>nano</packagereq>
+      <packagereq type='default'>ntp</packagereq>
+      <packagereq type='default'>ntpdate</packagereq>
       <packagereq type='default'>openssh-clients</packagereq>
       <packagereq type='default'>pam_passwdqc</packagereq>
       <packagereq type='default'>pcmciautils</packagereq>
@@ -951,6 +956,7 @@
       <packagereq type='default'>usbutils</packagereq>
       <packagereq type='default'>vconfig</packagereq>
       <packagereq type='default'>vim-enhanced</packagereq>
+      <packagereq type='default'>virt-what</packagereq>
       <packagereq type='default'>wget</packagereq>
       <packagereq type='default'>which</packagereq>
       <packagereq type='default'>wireless-tools</packagereq>
@@ -958,6 +964,8 @@
       <packagereq type='default'>xz</packagereq>
       <packagereq type='default'>yum-utils</packagereq>
       <packagereq type='default'>zip</packagereq>
+      <packagereq type='optional'>PyPAM</packagereq>
+      <packagereq type='optional'>audispd-plugins</packagereq>
       <packagereq type='optional'>brltty</packagereq>
       <packagereq type='optional'>cpufrequtils</packagereq>
       <packagereq type='optional'>dos2unix</packagereq>
@@ -994,7 +1002,6 @@
       <packagereq type='optional'>yum-plugin-aliases</packagereq>
       <packagereq type='optional'>yum-plugin-changelog</packagereq>
       <packagereq type='optional'>yum-plugin-downloadonly</packagereq>
-      <packagereq type='optional'>yum-plugin-protect-packages</packagereq>
       <packagereq type='optional'>yum-plugin-security</packagereq>
       <packagereq type='optional'>yum-plugin-tmprepo</packagereq>
       <packagereq type='optional'>yum-plugin-verify</packagereq>
@@ -1080,6 +1087,7 @@
       <packagereq type='mandatory'>polkit-gnome</packagereq>
       <packagereq type='mandatory'>xdg-user-dirs-gtk</packagereq>
       <packagereq type='mandatory'>yelp</packagereq>
+      <packagereq type='default'>control-center-extra</packagereq>
       <packagereq type='default'>eog</packagereq>
       <packagereq type='default'>gdm-plugin-fingerprint</packagereq>
       <packagereq type='default'>gnome-applets</packagereq>
@@ -1091,9 +1099,9 @@
       <packagereq type='default'>orca</packagereq>
       <packagereq type='default'>pulseaudio-module-gconf</packagereq>
       <packagereq type='default'>pulseaudio-module-x11</packagereq>
+      <packagereq type='optional'>subscription-manager-gnome</packagereq>
       <packagereq type='optional'>rhn-setup-gnome</packagereq>
       <packagereq type='default'>vino</packagereq>
-      <packagereq type='optional'>control-center-extra</packagereq>
       <packagereq type='optional'>sabayon-apply</packagereq>
       <packagereq type='optional'>tigervnc-server</packagereq>
       <packagereq type='optional'>xguest</packagereq>
@@ -2159,6 +2167,61 @@
     </packagelist>
   </group>
   <group>
+    <id>client-mgmt-tools</id>
+    <name>Client management tools</name>
+    <name xml:lang='as'>ক্লাএন্ট ব্যৱস্থাপনা সঁজুলিসমূহ</name>
+    <name xml:lang='bn_IN'>ক্লায়েন্ট সিস্টেম পরিচালনার সামগ্রী</name>
+    <name xml:lang='de'>Tools zur Client-Verwaltung</name>
+    <name xml:lang='es'>Herramientas de administración de clientes</name>
+    <name xml:lang='fr'>Outils de gestion du client</name>
+    <name xml:lang='gu'>ક્લાયન્ટ સંચાલન સાધનો</name>
+    <name xml:lang='hi'>क्लाइंट प्रबंधन औज़ार</name>
+    <name xml:lang='it'>Tool di gestione client</name>
+    <name xml:lang='ja'>クライアント管理ツール</name>
+    <name xml:lang='kn'>ಕ್ಲೈಂಟ್ ನಿರ್ವಹಣಾ ಉಪಕರಣಗಳು</name>
+    <name xml:lang='ko'>클라이언트 관리 도구 </name>
+    <name xml:lang='ml'>ക്ലയന്റ് മാനേജ്മെന്റ് പ്രയോഗങ്ങള്‍</name>
+    <name xml:lang='mr'>क्लाएंट व्यवस्थापन साधने</name>
+    <name xml:lang='or'>କ୍ଲାଏଣ୍ଟ ପରିଚାଳନା ସାଧନଗୁଡ଼ିକ</name>
+    <name xml:lang='pa'>ਕਲਾਂਈਟ ਮੈਨੇਜਮੈਂਟ ਟੂਲ</name>
+    <name xml:lang='pl'>Narzędzia zarządzania klienta</name>
+    <name xml:lang='pt_BR'>Ferramentas de gerenciamento de Cliente</name>
+    <name xml:lang='ru'>Средства управления клиентами</name>
+    <name xml:lang='ta'>கிளையன்ட் நிர்வாக கருவிகள்</name>
+    <name xml:lang='te'>క్లైంట్ నిర్వహణా సాధనాలు</name>
+    <name xml:lang='zh_CN'>客户端管理工具</name>
+    <name xml:lang='zh_TW'>客戶端管理工具</name>
+    <description>Tools and daemons for management of both bare metal hosts and virtualized guests.</description>
+    <description xml:lang='as'>নগ্ন ধাতু হস্ট আৰু ভাৰছুৱেল অতিথিসমূহ ব্যৱস্থাপনাৰ কাৰণে সঁজুলি আৰু ডিমনসমূহ।</description>
+    <description xml:lang='bn_IN'>বেয়ার মেটাল হোস্ট ও ভার্চুয়ালাইজ করা গেস্ট সিস্টেম পরিচালনার জন্য প্রয়োজনীয় সরঞ্জাম ও ডেমন।</description>
+    <description xml:lang='de'>Tools und Daemons zur Verwaltung von Bare Metal Hosts und virtualisierten Gästen.</description>
+    <description xml:lang='es'> Herramientas y demonios para administración de hosts vacíos y huéspedes virtualizados.</description>
+    <description xml:lang='fr'>Outils et démons de gestion des hôtes bare metal et des invités virtualisés.</description>
+    <description xml:lang='gu'>બંને બૅર મેટલ યજમાનો અને વર્ચ્યુઅલાઇઝ થયેલ મહેમાનોનાં સંચાલન માટે સાધનો અને ડિમન.</description>
+    <description xml:lang='hi'>बेअर मेटल मेजबान और वर्चुअलाइज्ड अतिथि दोनों के लिए औज़ार और डेमॉन.</description>
+    <description xml:lang='it'>Tool e demoni per la gestione di guest virtualizzati e host bare metal</description>
+    <description xml:lang='ja'>物理マシンと仮想マシンの両方を管理するためのツールとデーモン</description>
+    <description xml:lang='kn'>ಬೇರ್ ಮೆಟಲ್ ಆತಿಥೇಯಗಳನ್ನು ಹಾಗು ವರ್ಚುವಲೈಸ್ಡ್‍ ಅತಿಥಿಗಳಿಗಾಗಿನ ಉಪಕರಣಗಳು ಹಾಗು ಡೀಮನ್‌ಗಳು.</description>
+    <description xml:lang='ko'>베어 메탈 호스트 및 가상 게스트 모두를 관리하기 위한 도구 및 데몬  </description>
+    <description xml:lang='ml'>ബെയര്‍ മെറ്റല്‍ ഹോസ്റ്റുകളും വിര്‍ച്ച്വലൈസ്ഡ് ഗസ്റ്റുകളും കൈകാര്യം ചെയ്യുന്നതിനുള്ള പ്രയോഗങ്ങളും ഡെമണുകളും.</description>
+    <description xml:lang='mr'>दोंही बेअर मेटल यजमान व वर्च्युअलाइज्ड् अतिथींकरीता साधने व डिमन्स्.</description>
+    <description xml:lang='or'>ଉଭୟ ଖାଲି ଧାତୁ ହୋଷ୍ଟ ଏବଂ ଆଭାସୀ ଅତିଥିମାନଙ୍କ ପାଇଁ ସାଧନ ଏବଂ ଡେମନ।</description>
+    <description xml:lang='pa'>ਬੇਅਰ ਮੈਟਲ ਅਤੇ ਵਰਚੁਅਲਾਈਜ਼ਡ ਗਿਸਟਾਂ ਦੇ ਪਰਬੰਧਨ ਲਈ ਟੂਲ ਅਤੇ ਡੈਮਨ।</description>
+    <description xml:lang='pl'>Narzędzia i demony do zarządzania komputerami fizycznymi i wirtualizowanymi gośćmi.</description>
+    <description xml:lang='pt_BR'>Ferramentas e daemons para administração de ambos novos hosts e visitantes virtualizados.</description>
+    <description xml:lang='ru'>Программные инструменты для управления хостами и их виртуальными системами.</description>
+    <description xml:lang='ta'>பேர் மெட்டல் ஹோஸ்ட்கள் மற்றும் மெய்நிகர் விருந்தினர்களின் நிர்வாகத்திற்கான கருவிகள் மற்றும் டீமான்கள்</description>
+    <description xml:lang='te'>బేర్ మెటల్ హోస్ట్స్ మరియు వర్చ్యులైజ్డ్ గెస్ట్స్ యొక్క నిర్వహణకు సాధనములు మరియు డెమోన్స్.</description>
+    <description xml:lang='zh_CN'>用于管理裸机主机和虚拟客体的工具和守护进程。</description>
+    <description xml:lang='zh_TW'>管理裸機主機與虛擬客座端的工具和 daemon。</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>matahari</packagereq>
+      <packagereq type='optional'>mingw32-matahari</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>compat-libraries</id>
     <name>Compatibility libraries</name>
     <name xml:lang='as'>সুসংগতিৰ বাবে ব্যৱহৃত লাইব্ৰৰি</name>
@@ -2218,12 +2281,12 @@
       <packagereq type='default'>compat-glibc</packagereq>
       <packagereq type='default'>compat-libcap1</packagereq>
       <packagereq type='default'>compat-libf2c-34</packagereq>
-      <packagereq type='default'>compat-libgcc-296</packagereq>
       <packagereq type='default'>compat-libgfortran-41</packagereq>
       <packagereq type='default'>compat-libstdc++-296</packagereq>
       <packagereq type='default'>compat-libstdc++-33</packagereq>
       <packagereq type='default'>compat-libtermcap</packagereq>
       <packagereq type='default'>compat-openldap</packagereq>
+      <packagereq type='default'>compat-readline5</packagereq>
       <packagereq type='default'>openssl098e</packagereq>
     </packagelist>
   </group>
@@ -2517,17 +2580,21 @@
       <packagereq type='mandatory'>ipw2100-firmware</packagereq>
       <packagereq type='mandatory'>ipw2200-firmware</packagereq>
       <packagereq type='mandatory'>ivtv-firmware</packagereq>
+      <packagereq type='mandatory'>iwl100-firmware</packagereq>
       <packagereq type='mandatory'>iwl1000-firmware</packagereq>
       <packagereq type='mandatory'>iwl3945-firmware</packagereq>
       <packagereq type='mandatory'>iwl4965-firmware</packagereq>
       <packagereq type='mandatory'>iwl5000-firmware</packagereq>
       <packagereq type='mandatory'>iwl5150-firmware</packagereq>
       <packagereq type='mandatory'>iwl6000-firmware</packagereq>
+      <packagereq type='mandatory'>iwl6000g2a-firmware</packagereq>
+      <packagereq type='mandatory'>iwl6000g2b-firmware</packagereq>
       <packagereq type='mandatory'>iwl6050-firmware</packagereq>
       <packagereq type='mandatory'>kbd</packagereq>
       <packagereq type='mandatory'>kernel-firmware</packagereq>
       <packagereq type='mandatory'>libertas-usb8388-firmware</packagereq>
       <packagereq type='mandatory'>ncurses</packagereq>
+      <packagereq type='mandatory'>netxen-firmware</packagereq>
       <packagereq type='mandatory'>openssh-server</packagereq>
       <packagereq type='mandatory'>passwd</packagereq>
       <packagereq type='mandatory'>policycoreutils</packagereq>
@@ -2547,6 +2614,8 @@
       <packagereq type='mandatory'>selinux-policy-targeted</packagereq>
       <packagereq type='mandatory'>setup</packagereq>
       <packagereq type='mandatory'>shadow-utils</packagereq>
+      <packagereq type="mandatory">sl-release</packagereq>
+      <packagereq type='optional'>subscription-manager</packagereq>
       <packagereq type='mandatory'>sudo</packagereq>
       <packagereq type='mandatory'>util-linux-ng</packagereq>
       <packagereq type='mandatory'>vim-minimal</packagereq>
@@ -2557,6 +2626,7 @@
       <packagereq type='default'>efibootmgr</packagereq>
       <packagereq type='default'>grub</packagereq>
       <packagereq type='default'>yum-autoupdate</packagereq>
+      <packagereq type='default'>yum-conf-sl-other</packagereq>
       <packagereq type='optional'>dracut-fips</packagereq>
       <packagereq type='optional'>dracut-network</packagereq>
     </packagelist>
@@ -3246,6 +3316,7 @@
       <packagereq type='optional'>gcc-objc++</packagereq>
       <packagereq type='optional'>imake</packagereq>
       <packagereq type='optional'>jpackage-utils</packagereq>
+      <packagereq type='optional'>kdewebdev</packagereq>
       <packagereq type='optional'>libstdc++-docs</packagereq>
       <packagereq type='optional'>mercurial</packagereq>
       <packagereq type='optional'>mod_dav_svn</packagereq>
@@ -3665,7 +3736,7 @@
     <description xml:lang='ml'>എക്ളിപ്പ്സ്-അടിസ്ഥാനത്തിലുള്ള ഇന്റഗ്രേറ്റഡ് ഡെവലപ്പ്മെന്റ് എന്‍വയോണ്മെന്റ്.</description>
     <description xml:lang='mr'>एक्लिप्स एकीकृत विकास वातावरण.</description>
     <description xml:lang='or'>ଇକ୍ଲିପ୍ସ-ଆଧାରିତ ସଂଯୁକ୍ତ ବିକାଶ ପରିବେଶ।</description>
-    <description xml:lang='pa'>ਈਕਲਿਪਸ-ਅਧਾਰਿਤ ਇੰਟੀਗ੍ਰੇਟਡ ਡਿਵੈਂਲਪਮੈਂਟ ਇੰਵਾਇਰਨਮੈੰਟ।</description>
+    <description xml:lang='pa'>ਈਕਲਿਪਸ-ਅਧਾਰਿਤ ਇੰਟ���ਗ੍ਰੇਟਡ ਡਿਵੈਂਲਪਮੈਂਟ ਇੰਵਾਇਰਨਮੈੰਟ।</description>
     <description xml:lang='pl'>Zintegrowane środowisko programistyczne oparte na Eclipse.</description>
     <description xml:lang='pt_BR'>O Ambiente Integrado de desenvolvimento baseado no Eclipse.</description>
     <description xml:lang='ru'>Интегрированная среда разработки Eclipse.</description>
@@ -5030,7 +5101,7 @@
     <name xml:lang='uk'>Графічні засоби адміністрування</name>
     <name xml:lang='zh_CN'>图形管理工具</name>
     <name xml:lang='zh_TW'>圖形化管理工具</name>
-    <description>Graphical system administration tools for managaing many aspects of a system.</description>
+    <description>Graphical system administration tools for managing many aspects of a system.</description>
     <description xml:lang='as'>প্ৰণালীৰ বিভিন্ন অংশবিশেষ পৰিচালনৰ বাবে চিত্ৰাঙ্কিত পৰিবেশৰ প্ৰশাসনিক সৰঞ্জাম ।</description>
     <description xml:lang='bn_IN'>সিস্টেমের বিভিন্ন অংশবিশেষ পরিচালনার জন্য, গ্রাফিক্যাল পরিবেশ থেকে ব্যবহারযোগ্য প্রশাসনিক সরঞ্জাম।</description>
     <description xml:lang='de'>Grafische Systemadministration-Tools zur Verwaltung vieler Aspekte eines Systems.</description>
@@ -5325,6 +5396,135 @@
     </packagelist>
   </group>
   <group>
+    <id>ha</id>
+    <name>High Availability</name>
+    <name xml:lang='as'>অতিমাত্ৰাত উপলব্ধ</name>
+    <name xml:lang='bn_IN'>অতিমাত্রায় উপলব্ধ</name>
+    <name xml:lang='de'>Hochverfügbarkeit</name>
+    <name xml:lang='es'>Alta disponibilidad</name>
+    <name xml:lang='fr'>Haute disponibilité</name>
+    <name xml:lang='gu'>ઊંચી ઉપલબ્ધતા</name>
+    <name xml:lang='hi'>उच्च उपलब्धता</name>
+    <name xml:lang='it'>High Availability</name>
+    <name xml:lang='ja'>High Availability</name>
+    <name xml:lang='kn'>ಅತಿ ಲಭ್ಯತೆ</name>
+    <name xml:lang='ko'>고가용성 </name>
+    <name xml:lang='ml'>ഹൈ അവയിലബിളിറ്റി</name>
+    <name xml:lang='mr'>उच्च उपलब्धता</name>
+    <name xml:lang='or'>ଅଧିକ ମାତ୍ରାରେ ଉପଲବ୍ଧତା</name>
+    <name xml:lang='pa'>ਵੱਧ ਉਪਲੱਬਧਤਾ</name>
+    <name xml:lang='pl'>Wysoka dostępność</name>
+    <name xml:lang='pt_BR'>Alta disponibilidade</name>
+    <name xml:lang='ru'>Высокий уровень доступности</name>
+    <name xml:lang='sv'>Hög tillgänglighet</name>
+    <name xml:lang='ta'>அதிகம் கிடைக்கூடியது</name>
+    <name xml:lang='te'>అత్యధిక అందుబాటు</name>
+    <name xml:lang='uk'>Висока доступність</name>
+    <name xml:lang='zh_CN'>高可用性</name>
+    <name xml:lang='zh_TW'>高可用性</name>
+    <description>Infrastructure for highly available services and/or shared storage.</description>
+    <description xml:lang='as'>অতিমাত্ৰাত উপলব্ধ সেৱা আৰু/বা যৌথ ব্যৱহাৰৰ সংগ্ৰহস্থলৰ বাবে আন্তঃগাথনী ।</description>
+    <description xml:lang='bn_IN'>অতিমাত্রায় উপলব্ধ পরিসেবা এবং/অথবা যৌথ ব্যবহারের সংগ্রহস্থলের জন্য পরিকাঠামো।</description>
+    <description xml:lang='de'>Infrastruktur für Hochverfügbarkeitsdienste und/oder gemeinsame genutzter Storage.</description>
+    <description xml:lang='es'>Infraestructura para servicios altamente disponibles y/o almacenaje compartido.</description>
+    <description xml:lang='fr'>Infrastructure pour services de haute disponibilité et/ou stockage partagé.</description>
+    <description xml:lang='gu'>ટોચની ઉપલબ્ધ સેવાઓ અને/અથવા વહેંચાયેલ સંગ્રહ માટે ઇન્ફ્રાસ્ટ્રક્ચર.</description>
+    <description xml:lang='hi'>उच्च रूप से उपलब्ध सेवाओं और/या साझा भंडार के लिए आधारभूत ढाँचा.</description>
+    <description xml:lang='it'>Infrastruttura per servizi altamente disponibili e/o storage condiviso.</description>
+    <description xml:lang='ja'>High Availability サービスや共有ストレージのインフラストラクチャ</description>
+    <description xml:lang='kn'>ಅತಿಯಾಗಿ ಲಭ್ಯವಿರುವ ಸೇವೆಗಳು ಹಾಗು/ಅಥವ ಹಂಚಲಾದ ಶೇಖರಣೆಯ ಸಂಪನ್ಮೂಲ.</description>
+    <description xml:lang='ko'>고가용성 서비스 또는/그리고 공유 저장소를 위한 인프라 </description>
+    <description xml:lang='ml'>ഹൈ അവയിലബിളിറ്റി സര്‍വീസുകള്‍, പങ്കിടുന്ന സ്റ്റോറേജ് എന്നിവയ്ക്കുള്ള ഇന്‍ഫ്രാസ്ട്രക്ടര്‍.</description>
+    <description xml:lang='mr'>उच्च उपलब्ध सर्व्हिसेस् व/किंवा शेअर्ड स्टोरेजकरीता इंफ्रास्ट्रक्चर.</description>
+    <description xml:lang='or'>ଅଧିକ ମାତ୍ରାରେ ଉପଲବ୍ଧ ସର୍ଭିସଗୁଡ଼ିକ ପାଇଁ ଅବସଂରଚନା ଏବଂ/ଅଥବା ସହଭାଗୀ ଭଣ୍ଡାର।</description>
+    <description xml:lang='pa'>ਵੱਧ ਉਪਲੱਬਧ ਸਰਵਿਸਾਂ ਅਤੇ/ਜਾਂ ਸ਼ੇਅਰ ਸਟੋਰੇਜ਼ ਲਈ ਢਾਂਚਾ।</description>
+    <description xml:lang='pl'>Infrastruktura dla wysoko dostępnych usług i/lub współdzielonego przechowywania danych.</description>
+    <description xml:lang='pt_BR'>Infraestrutura para serviços altamente disponíveis e/ou armazenamento compartilhado.</description>
+    <description xml:lang='ru'>Инфраструктура служб с высоким уровнем доступа и общего хранилища.</description>
+    <description xml:lang='sv'>Infrastruktur för tjänster med hög tillgänglighet och/eller delad lagring.</description>
+    <description xml:lang='ta'>அதிகமாக கிடைக்கக்கூடிய சேவைகள் மற்றும்/அல்லது பகிரப்பட்ட சேமிபக்கதிற்கான உள்ளமைப்பு.</description>
+    <description xml:lang='te'>అధికంగా అందుబాటులోవున్న సేవలు మరియు/లేదా భాగస్వామ్య నిల్వ కొరకు అవస్థాపన.</description>
+    <description xml:lang='uk'>Інфраструктура служб з високим рівнем доступності та спільні сховища.</description>
+    <description xml:lang='zh_CN'>用于高度可用服务和（或者）共享存储的基础设施。</description>
+    <description xml:lang='zh_TW'>高可用性服務與/或共享儲存裝置的架構。</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>cman</packagereq>
+      <packagereq type='default'>ccs</packagereq>
+      <packagereq type='default'>omping</packagereq>
+      <packagereq type='default'>rgmanager</packagereq>
+      <packagereq type='optional'>cluster-cim</packagereq>
+      <packagereq type='optional'>cluster-glue-libs-devel</packagereq>
+      <packagereq type='optional'>cluster-snmp</packagereq>
+      <packagereq type='optional'>clusterlib-devel</packagereq>
+      <packagereq type='optional'>corosynclib-devel</packagereq>
+      <packagereq type='optional'>fence-virtd-checkpoint</packagereq>
+      <packagereq type='optional'>foghorn</packagereq>
+      <packagereq type='optional'>libesmtp-devel</packagereq>
+      <packagereq type='optional'>openaislib-devel</packagereq>
+      <packagereq type='optional'>pacemaker</packagereq>
+      <packagereq type='optional'>pacemaker-libs-devel</packagereq>
+      <packagereq type='optional'>python-repoze-what-quickstart</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>ha-management</id>
+    <name>High Availability Management</name>
+    <name xml:lang='as'>উচ্চ উপলব্ধতা ব্যৱস্থাপনা</name>
+    <name xml:lang='bn_IN'>অতিমাত্রায় উপলব্ধ পরিচালনাব্যবস্থা</name>
+    <name xml:lang='de'>Hochverfügbarkeits-Management</name>
+    <name xml:lang='es'>Administración de alta disponibilidad</name>
+    <name xml:lang='fr'>Gestion de haute disponibilité</name>
+    <name xml:lang='gu'>ઊંચી ઉપલબ્ધતાવાળુ સંચાલન</name>
+    <name xml:lang='hi'>उच्च उपलब्धता प्रबंधन</name>
+    <name xml:lang='it'>High Availability Management</name>
+    <name xml:lang='ja'>High Availability の管理</name>
+    <name xml:lang='kn'>ಅತಿ ಲಭ್ಯತೆಯ ವ್ಯವಸ್ಥಾಪನೆ</name>
+    <name xml:lang='ko'>고가용성 관리</name>
+    <name xml:lang='ml'>ഹൈ അവയിലബിളിറ്റി മാനേജ്മെന്റ്</name>
+    <name xml:lang='mr'>उच्च उपलब्धता व्यवस्थापन</name>
+    <name xml:lang='or'>ଅଧିକ ମାତ୍ରାରେ ଉପଲବ୍ଧତା ପରିଚାଳନା</name>
+    <name xml:lang='pa'>ਵੱਧ ਉਪਲੱਬਧਤਾ ਪਰਬੰਧਨ</name>
+    <name xml:lang='pl'>Zarządzanie wysoką dostępnością</name>
+    <name xml:lang='pt_BR'>Gerenciamento de Disponibilidade Alta </name>
+    <name xml:lang='ru'>Управление ресурсами с высоким уровнем доступности</name>
+    <name xml:lang='sv'>Hantering av hög tillgänglighet</name>
+    <name xml:lang='ta'>அதிக கிடைக்கக்கூடிய மேலாண்மை</name>
+    <name xml:lang='te'>అత్యధిక అందుబాటు నిర్వహణ</name>
+    <name xml:lang='zh_CN'>高可用性管理</name>
+    <name xml:lang='zh_TW'>高可用性管理</name>
+    <description>Management server for the High Availability stack.</description>
+    <description xml:lang='as'>উচ্চ উপলব্ধতা স্টেকৰ বাবে ব্যৱস্থাপনা চাৰ্ভাৰ।</description>
+    <description xml:lang='bn_IN'>অতিমাত্রা উপলব্ধ স্ট্যাক পরিচালনার সার্ভার।</description>
+    <description xml:lang='de'>Management-Server für den Hochverfügbarkeits-Stack.</description>
+    <description xml:lang='es'>Servidor de administración para la pila de alta disponibilidad.</description>
+    <description xml:lang='fr'>Serveur de gestion pour la pile de haute disponibilité.</description>
+    <description xml:lang='gu'>ઊંચી ઉપલબ્ધતા સ્ટેક માટે સંચાલન સર્વર.</description>
+    <description xml:lang='hi'>उच्च उपलब्धता स्टैक के लिए प्रबंधन सर्वर.</description>
+    <description xml:lang='it'>Server di gestione per lo stack ad alta disponibilità.</description>
+    <description xml:lang='ja'>高可用性スタックの管理サーバー</description>
+    <description xml:lang='kn'>ಅತಿ ಲಭ್ಯತೆಯ ಜೋಡಣೆಗಾಗಿ ನಿರ್ವಹಣಾ ಪರಿಚಾರಕ.</description>
+    <description xml:lang='ko'>고가용성 스택 지원을 위한 관리 서버.</description>
+    <description xml:lang='ml'>ഹൈ അവെയിലബിളിറ്റി സ്റ്റാക്കിനുള്ള മാനേജ്മെന്റ് സര്‍വര്‍.</description>
+    <description xml:lang='mr'>उच्च उपलब्धता स्टॅककरीता व्यवस्थापन सर्व्हर.</description>
+    <description xml:lang='or'>ଅଧିକ ମାତ୍ରାରେ ଉପଲବ୍ଧ ଷ୍ଟାକ ପାଇଁ ପରିଚାଳନା ସର୍ଭର।</description>
+    <description xml:lang='pa'>ਵੱਧ ਉਪਲੱਬਧਤਾ ਸਟੈਕ ਲਈ ਪਰਬੰਧਨ ਸਰਵਰ।</description>
+    <description xml:lang='pl'>Serwer zarządzania dla stosu wysokiej dostępności.</description>
+    <description xml:lang='pt_BR'>Servidor de gerenciamento para a pilha de disponibilidade Alta. </description>
+    <description xml:lang='ru'>Сервер управления для стека с высоким уровнем доступа.</description>
+    <description xml:lang='sv'>Hantering av servrar för stacken för hög tillgänglighet.</description>
+    <description xml:lang='ta'>அதிகம் கிடைக்கக்கூடிய ஸ்டாக்கிற்கான மேலாண்மை சேவையகம்.</description>
+    <description xml:lang='te'>అత్యధిక అందుబాటు స్టాక్ కొరకు నిర్వహణా సర్వర్.</description>
+    <description xml:lang='zh_CN'>用于高可用性栈的管理服务器。</description>
+    <description xml:lang='zh_TW'>高可用性堆疊的管理伺服器。</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>luci</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>hardware-monitoring</id>
     <name>Hardware monitoring utilities</name>
     <name xml:lang='bn_IN'>হার্ডওয়্যার নিরীক্ষণের সামগ্রী</name>
@@ -5375,6 +5575,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type='default'>mcelog</packagereq>
       <packagereq type='default'>smartmontools</packagereq>
       <packagereq type='optional'>edac-utils</packagereq>
       <packagereq type='optional'>lm_sensors</packagereq>
@@ -5700,7 +5901,7 @@
   </group>
   <group>
     <id>ice-desktop</id>
-    <name>Ice Desktop Enviroment</name>
+    <name>Ice Desktop Environment</name>
     <description>A lightweight window manager for the X Window System.</description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -5795,6 +5996,69 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-is</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Icelandic</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Icelandic</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>identity-server</id>
+    <name>Enterprise Identity Server Base</name>
+    <name xml:lang='as'>এন্টাৰপ্ৰাইজ পৰিচয় চাৰ্ভাৰ ভিত্তি</name>
+    <name xml:lang='bn_IN'>Enterprise Identity Server Base</name>
+    <name xml:lang='de'>Basis für Unternehmens-Identitätsserver</name>
+    <name xml:lang='es'>Enterprise Identity Server Base</name>
+    <name xml:lang='fr'>Base du serveur d'identités Enterprise</name>
+    <name xml:lang='gu'>એન્ટરપ્રાઇઝ ઓળખાણ સર્વર આધાર</name>
+    <name xml:lang='hi'>एंटरप्राइज आइडेंटिटी सर्वर बेस</name>
+    <name xml:lang='it'>Enterprise Identity Server Base</name>
+    <name xml:lang='ja'>企業向け認証サーバー基盤</name>
+    <name xml:lang='kn'>ಎಂಟರ್ಪ್ರೈಸ್ ಐಡೆಂಟಿಟಿ ಸರ್ವರ್ ಬೇಸ್</name>
+    <name xml:lang='ko'>엔터프라이즈 인증 서버 기반  </name>
+    <name xml:lang='ml'>എന്റര്‍പ്രൈസ് ഐഡന്റിറ്റി സര്‍വര്‍ ബെയിസ്</name>
+    <name xml:lang='mr'>एंटरप्राइज आइडेंटिटि सर्व्हर बेस</name>
+    <name xml:lang='or'>ବାଣିଜ୍ୟିକ ପରିଚୟ ସର୍ଭର ଆଧାର</name>
+    <name xml:lang='pa'>ਇੰਟਰਪਰਾਈਜ਼ ਆਈਡੈਂਟਿਟੀ ਸਰਵਰ ਬੇਸ</name>
+    <name xml:lang='pl'>Baza serwera tożsamości klasy Enterprise</name>
+    <name xml:lang='pt_BR'>Enterprise Identity Server Base</name>
+    <name xml:lang='ru'>Сервер идентификации уровня Enterprise</name>
+    <name xml:lang='ta'>எண்டர்பிரைசஸ் அடையாள சர்வர் அடிப்படை</name>
+    <name xml:lang='te'>ఎంటర్‌ప్రైజ్ ఐడెంటిటి సర్వర్ బేస్</name>
+    <name xml:lang='zh_CN'>企业级身份识别服务器基础</name>
+    <name xml:lang='zh_TW'>企業身份伺服器基礎</name>
+    <description>Enterprise-class machine and user identity servers.</description>
+    <description xml:lang='as'>এন্টাৰপ্ৰাইজ-ক্লাচ মেচিন আৰু ব্যৱহাৰকাৰী পৰিচয় চাৰ্ভাৰসমূহ।</description>
+    <description xml:lang='bn_IN'>এনটারপ্রাইজ-শ্রেণীর মেশিন ও ব্যবহারকারীর পরিচয় নির্ধারণের সার্ভার।</description>
+    <description xml:lang='de'>Rechner- und Benutzer-Identitätsserver der Unternehmensklasse.</description>
+    <description xml:lang='es'>Máquina de clase de empresas y servidores de identidad de usuario.</description>
+    <description xml:lang='fr'>Machine de niveau entreprise et serveurs des identités d'utilisateurs.</description>
+    <description xml:lang='gu'>એન્ટરપ્રાઇઝ-ક્લાસ મશીન અને વપરાશકર્તા ઓળખાણ સર્વરો.</description>
+    <description xml:lang='hi'>एंटरप्राइज क्लास मशीन और उपयोक्ता पहचान सर्वर.</description>
+    <description xml:lang='it'>Server identità utente e macchina di classe Enterprise</description>
+    <description xml:lang='ja'>企業向けのマシンとユーザーに対する認証サーバーに関するパッケージです。</description>
+    <description xml:lang='kn'>ಎಂಟರ್ಪ್ರೈಸ್-ವರ್ಗದ ಗಣಕ ಹಾಗು ಬಳಕೆದಾರರಿಂದ ಗುರುತಿಸಲಾಗುವ ಪರಿಚಾರಕಗಳು.</description>
+    <description xml:lang='ko'>엔터프라이즈급 시스템 및 사용자 인증 서버  </description>
+    <description xml:lang='ml'>എന്റര്‍പ്രൈസ്-ക്ലാസ്സ് മഷീന്‍, ഉപയോക്തൃ തിരിച്ചറിയല്‍ സര്‍വറുകള്‍.</description>
+    <description xml:lang='mr'>एंटरप्राइज-क्लास् मशीन व युजर आइडेंटिटि सर्व्हर्स्.</description>
+    <description xml:lang='or'>ବାଣିଜ୍ୟିକ ଶ୍ରେଣୀ ଯନ୍ତ୍ର ଏବଂ ଚାଳକ ପରିଚୟ ସର୍ଭରଗୁଡ଼ିକ।</description>
+    <description xml:lang='pa'>ਇੰਟਰਪਰਾਈਜ਼-ਕਲਾਸ ਮਸ਼ੀਨ ਅਤੇ ਯੂਜ਼ਰ ਆਈਡੈਂਟਿਟੀ ਸਰਵਰ।</description>
+    <description xml:lang='pl'>Serwery tożsamości komputerów i użytkowników klasy Enterprise.</description>
+    <description xml:lang='pt_BR'>Servidores de Identidade e máquinas Enterprise-class</description>
+    <description xml:lang='ru'>Компьютер Enterprise и серверы идентификации пользователей.</description>
+    <description xml:lang='ta'>எண்டர்பிரைஸ்-கிளாஸ் கணினி மற்றும் பயனர் அடையாள சர்வர்கள்.</description>
+    <description xml:lang='te'>ఎంటర్‌ప్రైజ్-క్లాస్ మిషన్ మరియు వాడుకరి గుర్తింపు సర్వర్లు.</description>
+    <description xml:lang='zh_CN'>企业级机器和用户身份服务器。</description>
+    <description xml:lang='zh_TW'>企業級機器和使用者身份伺服器。</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>389-ds-base</packagereq>
+      <packagereq type='default'>ipa-admintools</packagereq>
+      <packagereq type='default'>ipa-pki-ca-theme</packagereq>
+      <packagereq type='default'>ipa-pki-common-theme</packagereq>
+      <packagereq type='default'>ipa-server</packagereq>
+      <packagereq type='default'>mod_revocator</packagereq>
+      <packagereq type='default'>pki-ca</packagereq>
+      <packagereq type='default'>pki-silent</packagereq>
+      <packagereq type='optional'>nuxwdog</packagereq>
+      <packagereq type='optional'>slapi-nis</packagereq>
     </packagelist>
   </group>
   <group>
@@ -5931,15 +6195,25 @@
       <packagereq type='mandatory'>librdmacm</packagereq>
       <packagereq type='mandatory'>librdmacm-utils</packagereq>
       <packagereq type='mandatory'>rdma</packagereq>
+      <packagereq type='default'>dapl</packagereq>
+      <packagereq type='default'>ibsim</packagereq>
+      <packagereq type='default'>ibutils</packagereq>
       <packagereq type='default'>libcxgb3</packagereq>
       <packagereq type='default'>libibmad</packagereq>
       <packagereq type='default'>libibumad</packagereq>
+      <packagereq type='default'>libipathverbs</packagereq>
       <packagereq type='default'>libmlx4</packagereq>
       <packagereq type='default'>libmthca</packagereq>
+      <packagereq type='default'>libnes</packagereq>
       <packagereq type='default'>rds-tools</packagereq>
+      <packagereq type='optional'>compat-dapl</packagereq>
+      <packagereq type='optional'>infiniband-diags</packagereq>
       <packagereq type='optional'>libibcommon</packagereq>
       <packagereq type='optional'>mstflint</packagereq>
       <packagereq type='optional'>opensm</packagereq>
+      <packagereq type='optional'>perftest</packagereq>
+      <packagereq type='optional'>qperf</packagereq>
+      <packagereq type='optional'>srptools</packagereq>
     </packagelist>
   </group>
   <group>
@@ -6209,8 +6483,8 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='default'>firefox</packagereq>
+      <packagereq type='default'>nspluginwrapper</packagereq>
       <packagereq type='default'>totem-mozplugin</packagereq>
-      <packagereq type='optional'>nspluginwrapper</packagereq>
     </packagelist>
   </group>
   <group>
@@ -6595,6 +6869,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='mandatory'>java-1.6.0-openjdk</packagereq>
+      <packagereq type='optional'>icedtea-web</packagereq>
     </packagelist>
   </group>
   <group>
@@ -7359,6 +7634,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='mandatory'>numactl</packagereq>
+      <packagereq type='default'>hwloc</packagereq>
       <packagereq type='default'>libcgroup</packagereq>
       <packagereq type='default'>libhugetlbfs</packagereq>
       <packagereq type='default'>libhugetlbfs-utils</packagereq>
@@ -7641,7 +7917,7 @@
     <name xml:lang='cy'>Cynhaliaeth Lithwaneg</name>
     <name xml:lang='da'>Understøttelse for litausk</name>
     <name xml:lang='de'>Unterstützung für Litauisch</name>
-    <name xml:lang='el'>Υποστήριξη Λιθουανικώ�</name>
+    <name xml:lang='el'>Υποστήριξη Λιθουανικών</name>
     <name xml:lang='en_GB'>Lithuanian Support</name>
     <name xml:lang='es'>Soporte para lituano</name>
     <name xml:lang='et'>leedu keele toetus</name>
@@ -7704,6 +7980,62 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Lithuanian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Lithuanian</packagereq>
       <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-lt_LT</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>load-balancer</id>
+    <name>Load Balancer</name>
+    <name xml:lang='as'>লোড ভাৰসাম্যক</name>
+    <name xml:lang='bn_IN'>লোড ব্যালেন্সার</name>
+    <name xml:lang='de'>Lastverteiler</name>
+    <name xml:lang='es'>Equilibrador de carga</name>
+    <name xml:lang='fr'>Équilibreur des charges</name>
+    <name xml:lang='gu'>લોડ સમતોલક</name>
+    <name xml:lang='hi'>लोड संतुलनकर्ता</name>
+    <name xml:lang='it'>Load Balancer</name>
+    <name xml:lang='ja'>Load Balancer</name>
+    <name xml:lang='kn'>ಹೊರೆ ಸಮತೋಲನೆಗಾರ</name>
+    <name xml:lang='ko'>로드 밸런싱</name>
+    <name xml:lang='ml'>ലോഡ് ബാലന്‍സര്‍</name>
+    <name xml:lang='mr'>लोड बॅलेंसर</name>
+    <name xml:lang='or'>ଭାର ସନ୍ତୁଳନ</name>
+    <name xml:lang='pa'>ਲੋਡ ਬੈਲੈਂਸਰ</name>
+    <name xml:lang='pl'>Równoważenie obciążenia</name>
+    <name xml:lang='pt_BR'>Balanceador de Carga</name>
+    <name xml:lang='ru'>Распределение нагрузки</name>
+    <name xml:lang='ta'>மீதியை ஏற்று</name>
+    <name xml:lang='te'>భారపు సంభాలిని (లోడ్ బాలెన్సర్)</name>
+    <name xml:lang='zh_CN'>负载平衡器</name>
+    <name xml:lang='zh_TW'>負載平衡器</name>
+    <description>Load balancing support for network traffic</description>
+    <description xml:lang='as'>নেটৱাৰ্ক ট্ৰাফিকৰ বাবে লোড ভাৰসাম্য সমৰ্থন</description>
+    <description xml:lang='bn_IN'>নেটওয়ার্ক ট্রাফিকের উপর চাপের ভারসাম্য নির্ধারণের সমর্থন ব্যবস্থা</description>
+    <description xml:lang='de'>Unterstützung für Lastverteilung für Netzwerkverkehr</description>
+    <description xml:lang='es'>Soporte de equilibrio de carga para tráfico de red</description>
+    <description xml:lang='fr'>Prise en charge de l'équilibrage des charges pour le trafic réseau</description>
+    <description xml:lang='gu'>નેટવર્ક ટ્રાફિક માટે લોડ સમતુલન આધાર</description>
+    <description xml:lang='hi'>संजाल ट्रैफिक के लिए लोड संतुलन समर्थन</description>
+    <description xml:lang='it'>Supporto del bilanciamento del carico per il traffico di rete</description>
+    <description xml:lang='ja'>ネットワークトラフィックの負荷分散のサポート</description>
+    <description xml:lang='kn'>ಜಾಲಬಂಧ ಸಂಚಾರ ಸಂದಣಿಗಾಗಿನ ಹೊರೆ ಸಮತೋಲನೆಗೊಳಿಸುವಿಕೆಯ ಬೆಂಬಲ</description>
+    <description xml:lang='ko'>네트워크 사용량에 대한 로드 밸런싱 지원</description>
+    <description xml:lang='ml'>നെറ്റ്‌വര്‍ക്ക് ട്രാഫിക്കിനുള്ള ലോഡ് ബാലന്‍സിങ് പിന്തുണ</description>
+    <description xml:lang='mr'>नेटवर्क ट्रॅफीककरीता लोड बॅलेंसिंग समर्थन</description>
+    <description xml:lang='or'>ନେଟୱର୍କ ଯାତାୟତ ପାଇଁ ଭାର ସନ୍ତୁଳନ ସମର୍ଥନ</description>
+    <description xml:lang='pa'>ਨੈੱਟਵਰਕ ਟਰੈਫਿਕ ਲਈ ਲੋਡ ਬੈਲਸਿੰਗ ਸਹਿਯੋਗ</description>
+    <description xml:lang='pl'>Obsługa równoważenia obciążenia dla ruchu sieciowego</description>
+    <description xml:lang='pt_BR'>Suporte de balanceamento de carga para transito de rede</description>
+    <description xml:lang='ru'>Поддержка распределения нагрузки для сетевого трафика</description>
+    <description xml:lang='sv'>Lastbalanseringsstöd för nätverkstrafik</description>
+    <description xml:lang='ta'>நெட்வொர்க் போக்குவரத்திற்கான மீதமுள்ள ஏற்றும் துணை</description>
+    <description xml:lang='te'>నెట్వర్కు ట్రాఫిక్ కొరకు లోడ్ బాలెన్సింగ్ మద్దతు</description>
+    <description xml:lang='zh_CN'>网络流量的负载平衡支持</description>
+    <description xml:lang='zh_TW'>網路流量的負載平衡支援</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>ipvsadm</packagereq>
+      <packagereq type='default'>piranha</packagereq>
     </packagelist>
   </group>
   <group>
@@ -8507,6 +8839,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type='optional'>abattis-cantarell-fonts</packagereq>
       <packagereq type='optional'>SL_desktop_tweaks</packagereq>
       <packagereq type='optional'>SL_enable_serialconsole</packagereq>
       <packagereq type='optional'>SL_enable_serialconsole-192</packagereq>
@@ -9558,6 +9891,7 @@
       <packagereq type='optional'>perl-Date-Manip</packagereq>
       <packagereq type='optional'>perl-Frontier-RPC</packagereq>
       <packagereq type='optional'>perl-LDAP</packagereq>
+      <packagereq type='optional'>perl-Mozilla-LDAP</packagereq>
       <packagereq type='optional'>perl-suidperl</packagereq>
     </packagelist>
   </group>
@@ -10258,7 +10592,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type='optional'>rdesktop</packagereq>
+      <packagereq type='default'>rdesktop</packagereq>
       <packagereq type='optional'>spice-client</packagereq>
       <packagereq type='optional'>spice-xpi</packagereq>
       <packagereq type='optional'>tigervnc</packagereq>
@@ -10278,6 +10612,75 @@
       <packagereq type='optional'>elrepo-release</packagereq>
       <packagereq type='optional'>epel-release</packagereq>
       <packagereq type='optional'>rpmforge-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>resilient-storage</id>
+    <name>Resilient Storage</name>
+    <name xml:lang='as'>ৰেচিলিয়েন্ট সংৰক্ষণ</name>
+    <name xml:lang='bn_IN'>রেসিলিয়েন্ট সংগ্রহস্থল</name>
+    <name xml:lang='cs'>Pružné ukládání dat</name>
+    <name xml:lang='de'>Resilient-Speicher</name>
+    <name xml:lang='es'>Almacenamiento resistente</name>
+    <name xml:lang='fr'>Espace de stockage résilient</name>
+    <name xml:lang='gu'>રિઝિલિઅન્ટ સંગ્રહ</name>
+    <name xml:lang='hi'>रेसीलियेंट भंडार</name>
+    <name xml:lang='it'>Resilient Storage</name>
+    <name xml:lang='ja'>Resilient Storage</name>
+    <name xml:lang='kn'>ಮೊದಲಿನಂತಾಗಬಲ್ಲ ಶೇಖರಣೆ</name>
+    <name xml:lang='ko'>내결함성 스토리지</name>
+    <name xml:lang='ml'>റീസീലിയന്റ് സംഭരണം</name>
+    <name xml:lang='mr'>रिझिलिअंट स्टोरेज</name>
+    <name xml:lang='or'>ପୁଞ୍ଜୀଭୂତ ସଂରକ୍ଷଣ</name>
+    <name xml:lang='pa'>ਰੈਜ਼ੀਲੀਏਂਟ ਸਟੋਰੇਜ਼</name>
+    <name xml:lang='pl'>Elastyczne przechowywanie danych</name>
+    <name xml:lang='pt_BR'>Armazenamento Flexível</name>
+    <name xml:lang='ru'>Надёжное хранилище</name>
+    <name xml:lang='ta'>ரீசைலண்ட் சேமிப்பகம்.</name>
+    <name xml:lang='te'>రెసిలియంట్ నిల్వ</name>
+    <name xml:lang='zh_CN'>弹性存储</name>
+    <name xml:lang='zh_TW'>高彈性的儲存裝置</name>
+    <description>Clustered storage, including the GFS2 filesystem.</description>
+    <description xml:lang='as'>GFS2 নথিপত্ৰপ্ৰণালী সহ গোট সংগ্ৰহস্থল ।</description>
+    <description xml:lang='bn_IN'>GFS2 ফাইল-সিস্টেম সহ ক্লাস্টার সংগ্রহস্থল।</description>
+    <description xml:lang='de'>Clustered-Storage, inklusive GFS2-Dateisystem.</description>
+    <description xml:lang='es'>Almacenaje agrupado, incluyendo el sistema de archivos GFS2.</description>
+    <description xml:lang='fr'>Stockage en cluster, incluant le système de fichiers GFS2.</description>
+    <description xml:lang='gu'>ક્લસ્ટર થયેલ સંગ્રહ, GFS2 ફાઇલસિસ્ટમને સમાવી રહ્યા છે.</description>
+    <description xml:lang='hi'>क्लस्टर किया भंडार, GFS2 फाइलसिस्टम के साथ.</description>
+    <description xml:lang='it'>Storage clusterizzato incluso il filesystem GFS2.</description>
+    <description xml:lang='ja'>GFS2 ファイルシステムを含むクラスタ化ストレージ</description>
+    <description xml:lang='kn'>GFS2 ಕಡತವ್ಯವಸ್ಥೆಯನ್ನು ಒಳಗೊಂಡಿರುವ ಕ್ಲಸ್ಟರ್ ಶೇಖರಣೆ.</description>
+    <description xml:lang='ko'>GFS2 파일시스템을 포함하는 클러스터 저장소</description>
+    <description xml:lang='ml'>GFS2 ഫയല്‍സിസ്റ്റം ഉള്‍പ്പെടുന്ന ക്ലസ്റ്റേര്‍ഡ് സ്റ്റോറേജ്.</description>
+    <description xml:lang='mr'>क्लस्टर्ड स्टोरेज, GFS2 फाइलप्रणाली समाविष्टीत.</description>
+    <description xml:lang='or'>କ୍ଲଷ୍ଟର ସଂରକ୍ଷଣ, GFS2 ଫାଇଲତନ୍ତ୍ରକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରି।</description>
+    <description xml:lang='pa'>ਕਲੱਸਟਰ ਸਟੋਰੇਜ਼, GFS2 ਫਾਇਲਸਿਸਟਮ ਸਮੇਤ।</description>
+    <description xml:lang='pl'>Przechowywanie danych w klastrach, w tym system plików GFS2.</description>
+    <description xml:lang='pt_BR'>Armazenamento em clusters, incluindo o filesystem GFS2.</description>
+    <description xml:lang='ru'>Кластерное хранилище и GFS2.</description>
+    <description xml:lang='sv'>Klustrad lagring, inklusive filsystemet GFS2.</description>
+    <description xml:lang='ta'>மொத்த சேமிப்பகம், GFS2 கோப்புமுறையும் சேர்த்து.</description>
+    <description xml:lang='te'>క్లస్టర్డ్ నిల్వ, GFS2 ఫైల్‌సిస్టమ్‌తో కలుపుకొని.</description>
+    <description xml:lang='uk'>Кластерне сховище та GFS2.</description>
+    <description xml:lang='zh_CN'>集群存储，其中包括 GFS2 文件系统。</description>
+    <description xml:lang='zh_TW'>叢集儲存裝置，包含了 GFS2 檔案系統。</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>gfs2-utils</packagereq>
+      <packagereq type='mandatory'>lvm2-cluster</packagereq>
+      <packagereq type='default'>ccs</packagereq>
+      <packagereq type='optional'>cluster-glue-libs-devel</packagereq>
+      <packagereq type='optional'>clusterlib-devel</packagereq>
+      <packagereq type='optional'>cmirror</packagereq>
+      <packagereq type='optional'>corosynclib-devel</packagereq>
+      <packagereq type='optional'>ctdb</packagereq>
+      <packagereq type='optional'>ctdb-devel</packagereq>
+      <packagereq type='optional'>fence-virtd-checkpoint</packagereq>
+      <packagereq type='optional'>libesmtp-devel</packagereq>
+      <packagereq type='optional'>openaislib-devel</packagereq>
+      <packagereq type='optional'>pacemaker-libs-devel</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10607,6 +11010,8 @@
     <packagelist>
       <packagereq type='mandatory'>xfsprogs</packagereq>
       <packagereq type='default'>xfsdump</packagereq>
+      <packagereq type='optional'>xfsprogs-devel</packagereq>
+      <packagereq type='optional'>xfsprogs-qa-devel</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10658,7 +11063,7 @@
     <description xml:lang='sv'>Verktyg för matematiska och vetenskapliga beräkningar, och parallellberäkningar.</description>
     <description xml:lang='ta'>கணிதத்திற்கான கருவிகள் மற்றும் அறிவியல் கணக்கீடுகள், மற்றும் இணையான மதிப்பிடுதல்.</description>
     <description xml:lang='te'>గణిత మరియు శాస్త్రీయ లెక్కింపుల కొరకు, మరియు సమాంతర కంప్యూటింగ్ కొరకు సాధనములు.</description>
-    <description xml:lang='uk'>Засоби для математичних та наукових обчислень та перетворень, а також паралельних обчислень.</description>
+    <description xml:lang='uk'>Засоби для математичних та наукових обчислень та перетворень, а також паралел�н��х обчислень.</description>
     <description xml:lang='zh_CN'>用于数学和科学计算以及平行计算的工具。</description>
     <description xml:lang='zh_TW'>用來執行數學與科學的運算，以及平行運算的工具。</description>
     <default>false</default>
@@ -10669,6 +11074,10 @@
       <packagereq type='optional'>atlas</packagereq>
       <packagereq type='optional'>lapack</packagereq>
       <packagereq type='optional'>mpich2</packagereq>
+      <packagereq type='optional'>mpitests-mvapich</packagereq>
+      <packagereq type='optional'>mpitests-mvapich2</packagereq>
+      <packagereq type='optional'>mpitests-openmpi</packagereq>
+      <packagereq type='optional'>mvapich</packagereq>
       <packagereq type='optional'>mvapich2</packagereq>
       <packagereq type='optional'>numpy</packagereq>
       <packagereq type='optional'>openmpi</packagereq>
@@ -12106,13 +12515,14 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type='default'>mc</packagereq>
       <packagereq type='optional'>conman</packagereq>
       <packagereq type='optional'>crypto-utils</packagereq>
       <packagereq type='optional'>dtach</packagereq>
       <packagereq type='optional'>hardlink</packagereq>
       <packagereq type='optional'>lsscsi</packagereq>
-      <packagereq type='optional'>mc</packagereq>
       <packagereq type='optional'>mgetty</packagereq>
+      <packagereq type='optional'>pexpect</packagereq>
       <packagereq type='optional'>rdist</packagereq>
       <packagereq type='optional'>rrdtool</packagereq>
       <packagereq type='optional'>screen</packagereq>
@@ -12241,69 +12651,69 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type='mandatory'>qmf</packagereq>
       <packagereq type='mandatory'>qpid-cpp-client</packagereq>
-      <packagereq type='default'>python-qmf</packagereq>
       <packagereq type='default'>python-qpid</packagereq>
+      <packagereq type='default'>python-qpid-qmf</packagereq>
+      <packagereq type='default'>qpid-qmf</packagereq>
       <packagereq type='default'>qpid-tools</packagereq>
       <packagereq type='optional'>python-saslwrapper</packagereq>
       <packagereq type='optional'>qpid-tests</packagereq>
-      <packagereq type='optional'>ruby-qmf</packagereq>
-      <packagereq type='optional'>ruby-qpid</packagereq>
+      <packagereq type='optional'>ruby-irb</packagereq>
+      <packagereq type='optional'>ruby-qpid-qmf</packagereq>
     </packagelist>
   </group>
   <group>
     <id>system-management-messaging-server</id>
-    <name>Messaging Server Support</name>
-    <name xml:lang='bn_IN'>মেসেজিং সার্ভার সমর্থন ব্যবস্থা</name>
-    <name xml:lang='de'>Unterstützung für Messaging-Server</name>
-    <name xml:lang='es'>Soporte para cliente de mensajes</name>
-    <name xml:lang='fr'>Prise en charge du serveur de messagerie</name>
-    <name xml:lang='gu'>મેસેજિંગ સર્વર આધાર</name>
-    <name xml:lang='hi'>संदेश सर्वर समर्थन</name>
-    <name xml:lang='it'>Supporto per il server di messaggistica</name>
-    <name xml:lang='ja'>メッセージングサーバーのサポート</name>
-    <name xml:lang='kn'>ಸಂದೇಶ ಕಳುಹಿಸುವ ಪರಿಚಾರಕ ಬೆಂಬಲ</name>
-    <name xml:lang='ko'>메시징 클라이언트 지원</name>
-    <name xml:lang='ml'>മെസ്സേജിങ് സര്‍വറിനുള്ള പിന്തുണ</name>
-    <name xml:lang='mr'>मेसेजिंग सर्व्हर समर्थन</name>
-    <name xml:lang='or'>ସନ୍ଦେଶ ପ୍ରବାହ ସର୍ଭର ସହାୟତା</name>
-    <name xml:lang='pa'>ਮੈਸਜਿੰਗ ਸਰਵਰ ਸਹਿਯੋਗ</name>
-    <name xml:lang='pl'>Obsługa serwera komunikatów</name>
-    <name xml:lang='pt_BR'>Enviando mensagem ao Suporte ao Servidor</name>
-    <name xml:lang='ru'>Поддержка сервера обмена сообщениями</name>
-    <name xml:lang='sv'>Meddelandeserverstöd</name>
-    <name xml:lang='ta'>செய்தி சேவையக துணை</name>
-    <name xml:lang='te'>మెసేజింగ్ సర్వర్ మద్దతు</name>
-    <name xml:lang='zh_CN'>消息服务器支持</name>
-    <name xml:lang='zh_TW'>通訊伺服器支援</name>
-    <description>AMQP messaging broker for systems management.</description>
-    <description xml:lang='bn_IN'>সিস্টেম পরিচালনার জন্য AMQP মেসেজিং ব্রোকার।</description>
-    <description xml:lang='de'>AMQP-Messaging-Broker für das System-Management.</description>
-    <description xml:lang='es'>Intermediario de mensajes AMQP para administración de sistemas.</description>
-    <description xml:lang='fr'>Courtier de messagerie AMQP pour gestion de systèmes.</description>
-    <description xml:lang='gu'>સિસ્ટમ સંચાલન માટે AMQP મેસેજિંગ બ્રોકર.</description>
-    <description xml:lang='hi'>तंत्र प्रबंधन के लिए AMQP मैसेजिंग ब्रोकर</description>
-    <description xml:lang='it'>Mediatore di messaggistica AMQP per la gestione dei sistemi.</description>
-    <description xml:lang='ja'>システム管理の為の AMQP メッセージングブローカ</description>
-    <description xml:lang='kn'>ವ್ಯವಸ್ಥೆಗಳ ನಿರ್ವಹಣೆಗಾಗಿನ AMQP ಮೆಸೇಜಿಂಗ್ ಮಧ್ಯವರ್ತಿ.</description>
-    <description xml:lang='ko'>시스템 관리를 위한 AMQP 메시지 브로커</description>
-    <description xml:lang='ml'>സിസ്റ്റം കൈകാര്യം ചെയ്യുന്നതിനുള്ള എഎംക്യൂപി മെസ്സേജിങ് ബ്രോക്കര്‍.</description>
-    <description xml:lang='mr'>प्रणाली व्यवस्थापनकरीता AMQP मेसेजिंग ब्रोकर.</description>
-    <description xml:lang='or'>ତନ୍ତ୍ର ପରିଚାଳନା ପାଇଁ AMQP ସନ୍ଦେଶ ବାହକ।</description>
-    <description xml:lang='pa'>ਸਿਸਟਮ ਮੈਨੇਜਮੈਂਟ ਲਈ AMQP ਮੈਸਜਿੰਗ ਬਰੋਕਰ।</description>
-    <description xml:lang='pl'>Broker komunikatów AMQP do zarządzania systemami.</description>
-    <description xml:lang='pt_BR'>Um broker de envio de mensagens AMQP para gerenciamento de sistemas</description>
-    <description xml:lang='ru'>Брокер AMQP для управления системой</description>
-    <description xml:lang='sv'>Meddelandemäklaren AMQP för systemhantering.</description>
-    <description xml:lang='ta'>கணினிகள் மேலாண்மைகளுக்கான AMQP மெசேஜிங் தரகர்.</description>
-    <description xml:lang='te'>సిస్టమ్స్ నిర్వహణ కొరకు AMQP సందేశీకరణ బ్రోకర్.</description>
-    <description xml:lang='zh_CN'>用于系统管理的 AMQP 消息代理（messaging broker）</description>
-    <description xml:lang='zh_TW'>用於系統管理的 AMQP 訊息代理程式。</description>
+    <name>Systems Management Messaging Server support</name>
+    <name xml:lang='as'>চিস্টেমসমূহৰ ব্যৱস্থাপনা বাৰ্তা চাৰ্ভাৰ সমৰ্থন</name>
+    <name xml:lang='bn_IN'>সিস্টেম ম্যানপজমেন্ট মেসেজিং সার্ভার সমর্থনব্যবস্থা</name>
+    <name xml:lang='de'>Unterstützung für Messaging Server zur Systemverwaltung </name>
+    <name xml:lang='es'>Soporte para Systems Management Messaging Server</name>
+    <name xml:lang='fr'>Support du serveur de messagerie de gestion des systèmes</name>
+    <name xml:lang='gu'>સિસ્ટમ સંચાલન મેસેજિંગ સર્વર આધાર</name>
+    <name xml:lang='hi'>तंत्र प्रबंधन मैसेजिंग सर्वर समर्थन</name>
+    <name xml:lang='it'>Supporto server di messaggistica per la gestione del sistema</name>
+    <name xml:lang='ja'>システム管理 Messaging Server のサポート</name>
+    <name xml:lang='kn'>ಸಿಸ್ಟಮ್ ಮ್ಯಾನೇಜ್‌ಮೆಂಟ್ ಮೆಸೇಜಿಂಗ್ ಸರ್ವರ್ ಬೆಂಬಲ</name>
+    <name xml:lang='ko'>시스템 관리 메세지 서버 지원 </name>
+    <name xml:lang='ml'>സിസ്റ്റംസ് മാനേജ്മെന്റ് മെസ്സേജിങ് സര്‍വര്‍ പിന്തുണ</name>
+    <name xml:lang='mr'>सिस्टम्स् मॅनेजमेंट मेसेजिंग सर्व्हर समर्थन</name>
+    <name xml:lang='or'>ତନ୍ତ୍ର ପରିଚାଳନା ସନ୍ଦେଶ ବାହକ ସର୍ଭର ସହାୟତା</name>
+    <name xml:lang='pa'>ਸਿਸਟਮ ਮੈਨੇਜਮੈਂਟ ਮੈਸੇਜਿੰਗ ਸਰਵਰ ਸਪੋਰਟ</name>
+    <name xml:lang='pl'>Obsługa serwera komunikatów serwera zarządzania  systemami</name>
+    <name xml:lang='pt_BR'>Suporte a Systems Management Messaging Server</name>
+    <name xml:lang='ru'>Поддержка сервера сообщений для управления системами </name>
+    <name xml:lang='ta'>சிஸ்டங்கள் மேலாண்மை மெசேஜிங் சர்வர் சேவை</name>
+    <name xml:lang='te'>సిస్టమ్ మేనేజ్‌మెంట్ మెసేజింగ్ సర్వర్ తోడ్పాటు</name>
+    <name xml:lang='zh_CN'>系统管理消息服务器支持</name>
+    <name xml:lang='zh_TW'>系統管理訊息伺服器支援</name>
+    <description>Messaging Broker for systems management.</description>
+    <description xml:lang='as'>চিস্টেমসমূহৰ ব্যৱস্থাপনাৰ বাবে বাৰ্তা দালাল।</description>
+    <description xml:lang='bn_IN'>সিস্টেম পরিচালনার জন্য মেসেজিং ব্রোকার</description>
+    <description xml:lang='de'>Messaging Broker zur Systemverwaltung.</description>
+    <description xml:lang='es'>Messaging Broker para administración de sistemas.</description>
+    <description xml:lang='fr'>Courtier de messages pour la gestion de systèmes.</description>
+    <description xml:lang='gu'>સિસ્ટમ સંચાલન માટે મેસેજિંગ બ્રોકર.</description>
+    <description xml:lang='hi'>तंत्र प्रबंधन के लिए ब्रोकर का प्रबंधन.</description>
+    <description xml:lang='it'>Broker di messaggistica per la gestione dei sistemi</description>
+    <description xml:lang='ja'>システム管理用のメッセージングブローカー。</description>
+    <description xml:lang='kn'>ವ್ಯವಸ್ಥೆಯ ನಿರ್ವಹಣೆಗಾಗಿನ ಸಂದೇಶ ಮಧ್ಯವರ್ತಿ.</description>
+    <description xml:lang='ko'>시스템 관리를 위한 메세지 브로커 </description>
+    <description xml:lang='ml'>സിസ്റ്റം മാനേജ്മെന്റിനുള്ള മെസ്സേജിങ് ബ്രോക്കര്‍.</description>
+    <description xml:lang='mr'>प्रणाली व्यवस्थापनकरीता मेसेजिंग ब्रोकर.</description>
+    <description xml:lang='or'>ତନ୍ତ୍ର ପରିଚାଳନା ପାଇଁ ସନ୍ଦେଶ ବାହକ।</description>
+    <description xml:lang='pa'>ਸਿਸਟਮ ਪਰਬੰਧਨ ਲਈ ਮੈਸੇਜ ਬਰੋਕਰ</description>
+    <description xml:lang='pl'>Broker komunikatów do zarządzania systemami.</description>
+    <description xml:lang='pt_BR'>Messaging Broker para gerenciamente de sistemas.</description>
+    <description xml:lang='ru'>Брокер сообщений для управления систем.</description>
+    <description xml:lang='ta'>கணினிகள் மேலாண்மைகளுக்கான சிஸ்டங்கள் மெசேஜிங் தரகர்.</description>
+    <description xml:lang='te'>సిస్టమ్స్ నిర్వహణ కొరకు మెసేజింగ్ బ్రోకర్.</description>
+    <description xml:lang='zh_CN'>用于系统管理的消息代理。</description>
+    <description xml:lang='zh_TW'>用於系統管理的訊息代理程式</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type='mandatory'>qpid-cpp-server</packagereq>
+      <packagereq type='mandatory'>matahari-broker</packagereq>
     </packagelist>
   </group>
   <group>
@@ -13866,7 +14276,10 @@
     <description xml:lang='zh_TW'>提供了一個用來 host 虛擬化客座端的環境。</description>
     <default>false</default>
     <uservisible>true</uservisible>
-    <packagelist/>
+    <packagelist>
+      <packagereq type='mandatory'>qemu-kvm</packagereq>
+      <packagereq type='optional'>qemu-kvm-tools</packagereq>
+    </packagelist>
   </group>
   <group>
     <id>virtualization-client</id>
@@ -14047,7 +14460,13 @@
     <description xml:lang='zh_TW'>用來進行離線虛擬映像檔管理的工具。</description>
     <default>false</default>
     <uservisible>true</uservisible>
-    <packagelist/>
+    <packagelist>
+      <packagereq type='default'>libguestfs</packagereq>
+      <packagereq type='optional'>libguestfs-java</packagereq>
+      <packagereq type='optional'>libguestfs-mount</packagereq>
+      <packagereq type='optional'>libguestfs-tools</packagereq>
+      <packagereq type='optional'>virt-v2v</packagereq>
+    </packagelist>
   </group>
   <group>
     <id>walloon-support</id>
@@ -14225,6 +14644,7 @@
       <packagereq type='optional'>mod_auth_pgsql</packagereq>
       <packagereq type='optional'>mod_authz_ldap</packagereq>
       <packagereq type='optional'>mod_nss</packagereq>
+      <packagereq type='optional'>mod_revocator</packagereq>
       <packagereq type='optional'>perl-CGI</packagereq>
       <packagereq type='optional'>perl-CGI-Session</packagereq>
       <packagereq type='optional'>perl-Cache-Memcached</packagereq>
@@ -14480,6 +14900,8 @@
       <packagereq type='default'>glx-utils</packagereq>
       <packagereq type='default'>hal</packagereq>
       <packagereq type='default'>plymouth-system-theme</packagereq>
+      <packagereq type='default'>spice-vdagent</packagereq>
+      <packagereq type='optional'>subscription-manager-firstboot</packagereq>
       <packagereq type='default'>wacomexpresskeys</packagereq>
       <packagereq type='default'>xorg-x11-server-utils</packagereq>
       <packagereq type='default'>xorg-x11-utils</packagereq>
@@ -14726,6 +15148,7 @@
     <grouplist>
       <groupid>backup-client</groupid>
       <groupid>base</groupid>
+      <groupid>client-mgmt-tools</groupid>
       <groupid>compat-libraries</groupid>
       <groupid>console-internet</groupid>
       <groupid>debugging</groupid>
@@ -14858,6 +15281,7 @@
       <groupid>cifs-file-server</groupid>
       <groupid>directory-server</groupid>
       <groupid>ftp-server</groupid>
+      <groupid>identity-server</groupid>
       <groupid>mail-server</groupid>
       <groupid>network-server</groupid>
       <groupid>nfs-file-server</groupid>
@@ -15000,7 +15424,7 @@
     <name xml:lang='ml'>സിസ്റ്റം മാനേജ്മെന്റ്</name>
     <name xml:lang='mr'>प्रणाली व्यवस्थापन</name>
     <name xml:lang='or'>ତନ୍ତ୍ର ପରିଚାଳନା</name>
-    <name xml:lang='pa'>ਸਿਸਟਮ ਪਰਬੰਧਨ</name>
+    <name xml:lang='pa'>ਸਿਸਟਮ ਪਰਬੰ��ਨ</name>
     <name xml:lang='pl'>Zarządzanie systemem</name>
     <name xml:lang='pt_BR'>Gerenciamento de Sistema</name>
     <name xml:lang='ru'>Управление системой</name>
@@ -15458,6 +15882,171 @@
       <groupid>development</groupid>
       <groupid>eclipse</groupid>
       <groupid>server-platform-devel</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>resilient-storage</id>
+    <name>Resilient Storage</name>
+    <name xml:lang='as'>ৰেচিলিয়েন্ট সংৰক্ষণ</name>
+    <name xml:lang='bn_IN'>রেসিলিয়েন্ট সংগ্রহস্থল</name>
+    <name xml:lang='cs'>Pružné ukládání dat</name>
+    <name xml:lang='de'>Resilient-Speicher</name>
+    <name xml:lang='es'>Almacenamiento resistente</name>
+    <name xml:lang='fr'>Espace de stockage résilient</name>
+    <name xml:lang='gu'>રિઝિલિઅન્ટ સંગ્રહ</name>
+    <name xml:lang='hi'>रेसीलियेंट भंडार</name>
+    <name xml:lang='it'>Resilient Storage</name>
+    <name xml:lang='ja'>Resilient Storage</name>
+    <name xml:lang='kn'>ಮೊದಲಿನಂತಾಗಬಲ್ಲ ಶೇಖರಣೆ</name>
+    <name xml:lang='ko'>내결함성 스토리지</name>
+    <name xml:lang='ml'>റീസീലിയന്റ് സംഭരണം</name>
+    <name xml:lang='mr'>रिझिलिअंट स्टोरेज</name>
+    <name xml:lang='or'>ପୁଞ୍ଜୀଭୂତ ସଂରକ୍ଷଣ</name>
+    <name xml:lang='pa'>ਰੈਜ਼ੀਲੀਏਂਟ ਸਟੋਰੇਜ਼</name>
+    <name xml:lang='pl'>Elastyczne przechowywanie danych</name>
+    <name xml:lang='pt_BR'>Armazenamento Flexível</name>
+    <name xml:lang='ru'>Надёжное хранилище</name>
+    <name xml:lang='ta'>ரீசைலண்ட் சேமிப்பகம்.</name>
+    <name xml:lang='te'>రెసిలియంట్ నిల్వ</name>
+    <name xml:lang='zh_CN'>弹性存储</name>
+    <name xml:lang='zh_TW'>高彈性的儲存裝置</name>
+    <description>Clustered storage, including the GFS2 filesystem</description>
+    <description xml:lang='as'>গোট খোৱা সংৰক্ষণ, অন্তৰ্ভুক্ত কৰা হৈছে GFS2 নথিপত্ৰপ্ৰণালী</description>
+    <description xml:lang='bn_IN'>GFS2 ফাইল-সিস্টেম সহ ক্লাস্টার সংগ্রহস্থল</description>
+    <description xml:lang='de'>Clustered-Storage, inklusive GFS2-Dateisystem</description>
+    <description xml:lang='es'>Almacenaje agrupado que incluye el sistema de archivos GFS2</description>
+    <description xml:lang='fr'>Stockage en cluster, incluant le système de fichiers GFS2</description>
+    <description xml:lang='gu'>ક્લસ્ટર થયેલ સંગ્રહ, GFS2 ફાઇલસિસ્ટમને સમાવી રહ્યા છે</description>
+    <description xml:lang='hi'>क्लस्टर किया भंडार, GFS2 फाइलसिस्टम के साथ</description>
+    <description xml:lang='it'>Storage clusterizzato, incluso il file system GFS2</description>
+    <description xml:lang='ja'>GFS2 ファイルシステムを含むクラスタ化ストレージ</description>
+    <description xml:lang='kn'>GFS2 ಕಡತವ್ಯವಸ್ಥೆಯನ್ನು ಒಳಗೊಂಡಿರುವ ಕ್ಲಸ್ಟರ್ ಶೇಖರಣೆ</description>
+    <description xml:lang='ko'>GFS2 파일시스템을 포함하는 클러스터 저장소</description>
+    <description xml:lang='ml'>GFS2 ഫയല്‍സിസ്റ്റം ഉള്‍പ്പെടുന്ന ക്ലസ്റ്റേര്‍ഡ് സ്റ്റോറേജ്.</description>
+    <description xml:lang='mr'>क्लस्टर्ड स्टोरेज, GFS2 फाइलप्रणाली समाविष्टीत</description>
+    <description xml:lang='or'>କ୍ଲଷ୍ଟର ସଂରକ୍ଷଣ, GFS2 ଫାଇଲତନ୍ତ୍ରକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରି।</description>
+    <description xml:lang='pa'>ਕਲੱਸਟਰ ਸਟੋਰੇਜ਼, GFS2 ਫਾਇਲ-ਸਿਸਟਮ ਸਮੇਤ</description>
+    <description xml:lang='pl'>Przechowywanie danych w klastrach, w tym system plików GFS2</description>
+    <description xml:lang='pt_BR'>Armazenamento em clusters, incluindo o filesystem GFS2. </description>
+    <description xml:lang='ru'>Кластерное хранилище и GFS2.</description>
+    <description xml:lang='ta'>GFS2 கோப்புமுறையும் சேர்த்து, கிளஸ்டர் செய்யப்பட்ட சேமிப்பகம் </description>
+    <description xml:lang='te'>క్లస్టర్డ్ నిల్వ, GFS2 ఫైల్‌సిస్టమ్‌తో కలుపుకొని</description>
+    <description xml:lang='zh_CN'>集群存储，其中包括 GFS2 文件系统</description>
+    <description xml:lang='zh_TW'>叢集儲存裝置，包括 GFS2 檔案系統</description>
+    <display_order>95</display_order>
+    <grouplist>
+      <groupid>resilient-storage</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>high-availability</id>
+    <name>High Availability</name>
+    <name xml:lang='as'>অতিমাত্ৰাত উপলব্ধ</name>
+    <name xml:lang='bn_IN'>অতিমাত্রায় উপলব্ধ</name>
+    <name xml:lang='de'>Hochverfügbarkeit</name>
+    <name xml:lang='es'>Alta disponibilidad</name>
+    <name xml:lang='fr'>Haute disponibilité</name>
+    <name xml:lang='gu'>ઊંચી ઉપલબ્ધતા</name>
+    <name xml:lang='hi'>उच्च उपलब्धता</name>
+    <name xml:lang='it'>High Availability</name>
+    <name xml:lang='ja'>High Availability</name>
+    <name xml:lang='kn'>ಅತಿ ಲಭ್ಯತೆ</name>
+    <name xml:lang='ko'>고가용성 </name>
+    <name xml:lang='ml'>ഹൈ അവയിലബിളിറ്റി</name>
+    <name xml:lang='mr'>उच्च उपलब्धता</name>
+    <name xml:lang='or'>ଅଧିକ ମାତ୍ରାରେ ଉପଲବ୍ଧତା</name>
+    <name xml:lang='pa'>ਵੱਧ ਉਪਲੱਬਧਤਾ</name>
+    <name xml:lang='pl'>Wysoka dostępność</name>
+    <name xml:lang='pt_BR'>Alta disponibilidade</name>
+    <name xml:lang='ru'>Высокий уровень доступности</name>
+    <name xml:lang='sv'>Hög tillgänglighet</name>
+    <name xml:lang='ta'>அதிகம் கிடைக்கூடியது</name>
+    <name xml:lang='te'>అత్యధిక అందుబాటు</name>
+    <name xml:lang='uk'>Висока доступність</name>
+    <name xml:lang='zh_CN'>高可用性</name>
+    <name xml:lang='zh_TW'>高可用性</name>
+    <description>High availability support</description>
+    <description xml:lang='as'>উচ্চ উপলব্ধতা সমৰ্থন</description>
+    <description xml:lang='bn_IN'>উচ্চমাত্রার উপলব্ধতা সংক্রান্ত সমর্থন</description>
+    <description xml:lang='cs'>Podpora vysoké dostupnosti</description>
+    <description xml:lang='de'>Unterstützung für Hochverfügbarkeit</description>
+    <description xml:lang='es'>Soporte de alta disponibilidad</description>
+    <description xml:lang='fr'>Prise en charge de haute disponibilité</description>
+    <description xml:lang='gu'>ઊંચી ઉપલબ્ધતા આધાર</description>
+    <description xml:lang='hi'>उच्च उपलब्धता समर्थन</description>
+    <description xml:lang='it'>Supporto High availability</description>
+    <description xml:lang='ja'>High Availability</description>
+    <description xml:lang='kn'>ಅತಿ ಲಭ್ಯತೆ ಬೆಂಬಲ</description>
+    <description xml:lang='ko'>고가용성 지원 </description>
+    <description xml:lang='ml'>ഹൈ അവയിലബിളിറ്റി പിന്തുണ</description>
+    <description xml:lang='mr'>उच्च उपलब्धता समर्थन</description>
+    <description xml:lang='or'>ଅଧିକ ମାତ୍ରାରେ ଉପଲବ୍ଧତା ସମର୍ଥନ</description>
+    <description xml:lang='pa'>ਵੱਧ ਉਪਲੱਬਧਤਾ ਸਹਿਯੋਗ</description>
+    <description xml:lang='pl'>Obsługa wysokiej dostępności</description>
+    <description xml:lang='pt_BR'>Suporte de Alta disponibilidade</description>
+    <description xml:lang='ru'>Высокий уровень доступности</description>
+    <description xml:lang='ta'>அதிகம் கிடைக்கக்கூடியது துணைபுரிதல்</description>
+    <description xml:lang='te'>అత్యధిక అందుబాటు మద్దతు</description>
+    <description xml:lang='zh_CN'>高可用性支持</description>
+    <description xml:lang='zh_TW'>高可用性支援</description>
+    <display_order>96</display_order>
+    <grouplist>
+      <groupid>ha</groupid>
+      <groupid>ha-management</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>load-balancer</id>
+    <name>Load Balancer</name>
+    <name xml:lang='as'>লোড ভাৰসাম্যক</name>
+    <name xml:lang='bn_IN'>লোড ব্যালেন্সার</name>
+    <name xml:lang='de'>Lastverteiler</name>
+    <name xml:lang='es'>Equilibrador de carga</name>
+    <name xml:lang='fr'>Équilibreur des charges</name>
+    <name xml:lang='gu'>લોડ સમતોલક</name>
+    <name xml:lang='hi'>लोड संतुलनकर्ता</name>
+    <name xml:lang='it'>Load Balancer</name>
+    <name xml:lang='ja'>Load Balancer</name>
+    <name xml:lang='kn'>ಹೊರೆ ಸಮತೋಲನೆಗಾರ</name>
+    <name xml:lang='ko'>로드 밸런싱</name>
+    <name xml:lang='ml'>ലോഡ് ബാലന്‍സര്‍</name>
+    <name xml:lang='mr'>लोड बॅलेंसर</name>
+    <name xml:lang='or'>ଭାର ସନ୍ତୁଳନ</name>
+    <name xml:lang='pa'>ਲੋਡ ਬੈਲੈਂਸਰ</name>
+    <name xml:lang='pl'>Równoważenie obciążenia</name>
+    <name xml:lang='pt_BR'>Balanceador de Carga</name>
+    <name xml:lang='ru'>Распределение нагрузки</name>
+    <name xml:lang='ta'>மீதியை ஏற்று</name>
+    <name xml:lang='te'>భారపు సంభాలిని (లోడ్ బాలెన్సర్)</name>
+    <name xml:lang='zh_CN'>负载平衡器</name>
+    <name xml:lang='zh_TW'>負載平衡器</name>
+    <description>Load balancing support for network traffic</description>
+    <description xml:lang='as'>নেটৱাৰ্ক ট্ৰাফিকৰ বাবে লোড ভাৰসাম্য সমৰ্থন</description>
+    <description xml:lang='bn_IN'>নেটওয়ার্ক ট্রাফিকের উপর চাপের ভারসাম্য নির্ধারণের সমর্থন ব্যবস্থা</description>
+    <description xml:lang='de'>Unterstützung für Lastverteilung für Netzwerkverkehr</description>
+    <description xml:lang='es'>Soporte de equilibrio de carga para tráfico de red</description>
+    <description xml:lang='fr'>Prise en charge de l'équilibrage des charges pour le trafic réseau</description>
+    <description xml:lang='gu'>નેટવર્ક ટ્રાફિક માટે લોડ સમતુલન આધાર</description>
+    <description xml:lang='hi'>संजाल ट्रैफिक के लिए लोड संतुलन समर्थन</description>
+    <description xml:lang='it'>Supporto del bilanciamento del carico per il traffico di rete</description>
+    <description xml:lang='ja'>ネットワークトラフィックの負荷分散のサポート</description>
+    <description xml:lang='kn'>ಜಾಲಬಂಧ ಸಂಚಾರ ಸಂದಣಿಗಾಗಿನ ಹೊರೆ ಸಮತೋಲನೆಗೊಳಿಸುವಿಕೆಯ ಬೆಂಬಲ</description>
+    <description xml:lang='ko'>네트워크 사용량에 대한 로드 밸런싱 지원</description>
+    <description xml:lang='ml'>നെറ്റ്‌വര്‍ക്ക് ട്രാഫിക്കിനുള്ള ലോഡ് ബാലന്‍സിങ് പിന്തുണ</description>
+    <description xml:lang='mr'>नेटवर्क ट्रॅफीककरीता लोड बॅलेंसिंग समर्थन</description>
+    <description xml:lang='or'>ନେଟୱର୍କ ଯାତାୟତ ପାଇଁ ଭାର ସନ୍ତୁଳନ ସମର୍ଥନ</description>
+    <description xml:lang='pa'>ਨੈੱਟਵਰਕ ਟਰੈਫਿਕ ਲਈ ਲੋਡ ਬੈਲਸਿੰਗ ਸਹਿਯੋਗ</description>
+    <description xml:lang='pl'>Obsługa równoważenia obciążenia dla ruchu sieciowego</description>
+    <description xml:lang='pt_BR'>Suporte de balanceamento de carga para transito de rede</description>
+    <description xml:lang='ru'>Поддержка распределения нагрузки для сетевого трафика</description>
+    <description xml:lang='sv'>Lastbalanseringsstöd för nätverkstrafik</description>
+    <description xml:lang='ta'>நெட்வொர்க் போக்குவரத்திற்கான மீதமுள்ள ஏற்றும் துணை</description>
+    <description xml:lang='te'>నెట్వర్కు ట్రాఫిక్ కొరకు లోడ్ బాలెన్సింగ్ మద్దతు</description>
+    <description xml:lang='zh_CN'>网络流量的负载平衡支持</description>
+    <description xml:lang='zh_TW'>網路流量的負載平衡支援</description>
+    <display_order>97</display_order>
+    <grouplist>
+      <groupid>load-balancer</groupid>
     </grouplist>
   </category>
   <category>
