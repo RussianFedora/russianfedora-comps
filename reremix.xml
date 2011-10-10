@@ -1067,6 +1067,9 @@
     <packagelist>
       <packagereq type='mandatory'>NetworkManager</packagereq>
       <packagereq type='mandatory'>NetworkManager-gnome</packagereq>
+      <packagereq type='mandatory'>NetworkManager-openvpn</packagereq>
+      <packagereq type='mandatory'>NetworkManager-pptp</packagereq>
+      <packagereq type='mandatory'>NetworkManager-vpnc</packagereq>
       <packagereq type='mandatory'>alsa-plugins-pulseaudio</packagereq>
       <packagereq type='mandatory'>at-spi</packagereq>
       <packagereq type='mandatory'>control-center</packagereq>
@@ -7179,6 +7182,9 @@
       <packagereq type='mandatory'>kdelibs</packagereq>
       <packagereq type='mandatory'>xsettings-kde</packagereq>
       <packagereq type='default'>NetworkManager-gnome</packagereq>
+      <packagereq type='default'>NetworkManager-openvpn</packagereq>
+      <packagereq type='default'>NetworkManager-pptp</packagereq>
+      <packagereq type='default'>NetworkManager-vpnc</packagereq>
       <packagereq type='default'>k3b</packagereq>
       <packagereq type='default'>kcoloredit</packagereq>
       <packagereq type='default'>kdeadmin</packagereq>
@@ -7198,7 +7204,6 @@
       <packagereq type='default'>ksig</packagereq>
       <packagereq type='default'>ksshaskpass</packagereq>
       <packagereq type='default'>pinentry-qt</packagereq>
-      <packagereq type='default'>SL_desktop_tweaks</packagereq>
       <packagereq type='optional'>rhn-setup-gnome</packagereq>
       <packagereq type='optional'>kdebase-workspace-akonadi</packagereq>
       <packagereq type='optional'>kdebase-workspace-python-applet</packagereq>
