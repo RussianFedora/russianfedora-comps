@@ -1699,7 +1699,8 @@
       <packagereq type="mandatory">rpm-build</packagereq>
       <packagereq type="mandatory">sed</packagereq>
       <packagereq type="mandatory">shadow-utils</packagereq>
-      <packagereq type="mandatory">sl-release</packagereq>
+      <packagereq type="mandatory">reremix-release</packagereq>
+      <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
       <packagereq type="mandatory">tar</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">util-linux-ng</packagereq>
