@@ -23378,7 +23378,9 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">enlightenment</packagereq>
+      <packagereq type="default">e16</packagereq>
+      <packagereq type="default">e16-epplets</packagereq>
+      <packagereq type="default">e16-themes</packagereq>
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">NetworkManager-gnome</packagereq>
       <packagereq type="default">NetworkManager-openconnect</packagereq>
