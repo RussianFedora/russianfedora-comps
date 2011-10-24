@@ -18,6 +18,8 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type="default">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="default">gstreamer-ffmpeg</packagereq>
       <packagereq type="optional">gnome-mplayer</packagereq>
     </packagelist>
   </group>
@@ -29,6 +31,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="conditional" requires="kdemultimedia">kdemultimedia-extras-freeworld</packagereq>
+      <packagereq type="conditional" requires="libtunepimp">libtunepimp-extras-freeworld</packagereq>
       <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kmediafactory</packagereq>
       <packagereq type="optional">kplayer</packagereq>
@@ -44,6 +47,9 @@
       <packagereq type="optional">amule</packagereq>
       <packagereq type="optional">comical</packagereq>
       <packagereq type="optional">gecko-mediaplayer</packagereq>
+      <packagereq type="optional">mozilla-vlc</packagereq>
+      <packagereq type="optional">mythbrowser</packagereq>
+      <packagereq type="optional">thunderbird-enigmail</packagereq>
       <packagereq type="optional">xchat-amule</packagereq>
     </packagelist>
   </group>
@@ -61,6 +67,7 @@
       <packagereq type="default">foo2slx</packagereq>
       <packagereq type="default">foo2xqx</packagereq>
       <packagereq type="default">foo2zjs</packagereq>
+      <packagereq type="default">freetype-freeworld</packagereq>
       <packagereq type="optional">akmod-em8300</packagereq>
       <packagereq type="optional">akmod-kqemu</packagereq>
       <packagereq type="optional">akmod-ndiswrapper</packagereq>
@@ -91,14 +98,17 @@
       <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
       <packagereq type="conditional" requires="ffmpeg-libs">libva-freeworld</packagereq>
       <packagereq type="conditional" requires="xine-lib">xine-lib-extras-freeworld</packagereq>
-      <packagereq type="default">gstreamer-plugins-bad</packagereq>
-      <packagereq type="default">gstreamer-plugins-bad-free</packagereq>
-      <packagereq type="default">gstreamer-plugins-ugly</packagereq>
-      <packagereq type="default">gstreamer-ffmpeg</packagereq>
+      <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-bad</packagereq>
+      <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-bad-free</packagereq>
+      <packagereq type="conditional" requires="gstreamer">gstreamer-ffmpeg</packagereq>
       <packagereq type="default">mplayer</packagereq>
       <packagereq type="optional">a52dec</packagereq>
+      <packagereq type="optional">alsa-plugins-freeworld-a52</packagereq>
+      <packagereq type="optional">alsa-plugins-freeworld-lavcrate</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld-aac</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld-alac</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-lame</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld-mms</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld-mp3</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld</packagereq>
@@ -108,29 +118,45 @@
       <packagereq type="optional">avidemux</packagereq>
       <packagereq type="optional">devede</packagereq>
       <packagereq type="optional">dvdauthor</packagereq>
+      <packagereq type="optional">dvdrip</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
+      <packagereq type="optional">ffmpeg2dirac</packagereq>
       <packagereq type="optional">ffmpeg2theora</packagereq>
-      <packagereq type="optional">kino</packagereq>
+      <packagereq type="optional">get_iplayer</packagereq>
+      <packagereq type="optional">k9copy</packagereq>
+      <packagereq type="optional">kmediafactory</packagereq>
+      <packagereq type="optional">kplayer</packagereq>
       <packagereq type="optional">lame-mp3x</packagereq>
       <packagereq type="optional">lame</packagereq>
       <packagereq type="optional">lastfm</packagereq>
       <packagereq type="optional">libquicktime-utils</packagereq>
+      <packagereq type="conditional" requires="libtunepimp">libtunepimp-extras-freeworld</packagereq>
       <packagereq type="optional">live555-tools</packagereq>
       <packagereq type="optional">madplay</packagereq>
       <packagereq type="optional">mencoder</packagereq>
       <packagereq type="optional">mjpegtools-gui</packagereq>
+      <packagereq type="optional">motion</packagereq>
       <packagereq type="optional">mp3gain</packagereq>
       <packagereq type="optional">mpd</packagereq>
       <packagereq type="optional">mpeg2dec</packagereq>
       <packagereq type="optional">mpg321</packagereq>
       <packagereq type="optional">mpgtx</packagereq>
-      <packagereq type="optional">mplayer-doc</packagereq>
       <packagereq type="optional">mplayer-gui</packagereq>
-      <packagereq type="optional">qmmp-plugins-freeworld</packagereq>
+      <packagereq type="optional">mythmusic</packagereq>
+      <packagereq type="optional">mythtv-backend</packagereq>
+      <packagereq type="optional">mythtv-frontend</packagereq>
+      <packagereq type="optional">mythtv-setup</packagereq>
+      <packagereq type="optional">mythvideo</packagereq>
+      <packagereq type="conditional" requires="picard">picard-freeworld</packagereq>
+      <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
+      <packagereq type="optional">qtractor</packagereq>
+      <packagereq type="optional">rtpmdump</packagereq>
       <packagereq type="optional">smplayer</packagereq>
+      <packagereq type="optional">sonic-visualiser-freeworld</packagereq>
       <packagereq type="optional">streamripper</packagereq>
       <packagereq type="optional">transcode</packagereq>
+      <packagereq type="optional">traverso</packagereq>
       <packagereq type="optional">twolame</packagereq>
       <packagereq type="optional">vdradmin-am</packagereq>
       <packagereq type="optional">vdr-burn</packagereq>
@@ -140,8 +166,11 @@
       <packagereq type="optional">vdr-remote</packagereq>
       <packagereq type="optional">vdrsync</packagereq>
       <packagereq type="optional">vlc</packagereq>
+      <packagereq type="optional">vlmc</packagereq>
       <packagereq type="optional">x264-gui</packagereq>
+      <packagereq type="optional">xbmc</packagereq>
       <packagereq type="optional">xine</packagereq>
+      <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
       <packagereq type="optional">xvidcap</packagereq>
       <packagereq type="optional">y4mscaler</packagereq>
     </packagelist>
@@ -154,22 +183,40 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">arcem</packagereq>
+      <packagereq type="optional">bubbros</packagereq>
       <packagereq type="optional">desmume</packagereq>
       <packagereq type="optional">desmume-cli</packagereq>
       <packagereq type="optional">desmume-glade</packagereq>
+      <packagereq type="optional">fakenes</packagereq>
       <packagereq type="optional">fceultra</packagereq>
+      <packagereq type="optional">gambatte-qt</packagereq>
+      <packagereq type="optional">gambatte-sdl</packagereq>
+      <packagereq type="optional">gcube</packagereq>
       <packagereq type="optional">gfceu</packagereq>
+      <packagereq type="optional">gltron</packagereq>
       <packagereq type="optional">gnuboy-fb</packagereq>
       <packagereq type="optional">gnuboy-sdl</packagereq>
       <packagereq type="optional">gnuboy-svgalib</packagereq>
       <packagereq type="optional">gnuboy-x</packagereq>
+      <packagereq type="optional">gtetrinet</packagereq>
+      <packagereq type="optional">ltris</packagereq>
+      <packagereq type="optional">lxdream</packagereq>
+      <packagereq type="optional">megamario</packagereq>
+      <packagereq type="optional">mythgame</packagereq>
       <packagereq type="optional">Nestopia</packagereq>
       <packagereq type="optional">osmose</packagereq>
       <packagereq type="optional">plus4emu</packagereq>
       <packagereq type="optional">scottfree</packagereq>
+      <packagereq type="optional">smc</packagereq>
+      <packagereq type="optional">snowballz</packagereq>
+      <packagereq type="optional">stella</packagereq>
+      <packagereq type="optional">ultrastardx</packagereq>
+      <packagereq type="optional">wormsofprey</packagereq>
+      <packagereq type="optional">wormsofprey-data</packagereq>
       <packagereq type="optional">xroar</packagereq>
+      <packagereq type="optional">yabause</packagereq>
       <packagereq type="optional">zsnes</packagereq>
-   </packagelist>
+    </packagelist>
   </group>
   <group>
     <id>virtualization</id>
