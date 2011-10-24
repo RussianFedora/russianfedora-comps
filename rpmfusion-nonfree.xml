@@ -29,6 +29,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type="optional">bsnes</packagereq>
       <packagereq type="optional">d1x-full</packagereq>
       <packagereq type="optional">d1x-shareware</packagereq>
       <packagereq type="optional">doom-shareware</packagereq>
@@ -39,9 +40,12 @@
       <packagereq type="optional">e-uae</packagereq>
       <packagereq type="optional">Frodo</packagereq>
       <packagereq type="optional">Frodo-gui</packagereq>
+      <packagereq type="optional">fuse-emulator-roms</packagereq>
       <packagereq type="optional">gens</packagereq>
       <packagereq type="optional">mednafen</packagereq>
+      <packagereq type="optional">plus4emu</packagereq>
       <packagereq type="optional">qmc2</packagereq>
+      <packagereq type="optional">raine</packagereq>
       <packagereq type="optional">sdlmame</packagereq>
       <packagereq type="optional">sdlmame-data-artwork</packagereq>
       <packagereq type="optional">sdlmame-data</packagereq>
@@ -54,6 +58,8 @@
       <packagereq type="optional">sdlmess-data</packagereq>
       <packagereq type="optional">sdlmess-debug</packagereq>
       <packagereq type="optional">sdlmess-tools</packagereq>
+      <packagereq type="optional">snes9x</packagereq>
+      <packagereq type="optional">vice</packagereq>
       <packagereq type="optional">xcpc</packagereq>
       <packagereq type="optional">yapeSDL</packagereq>
     </packagelist>
@@ -92,7 +98,9 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">gstreamer-plugins-bad-nonfree</packagereq>
+      <packagereq type="optional">gstreamer-plugins-bad-nonfree</packagereq>
+      <packagereq type="optional">sidplay</packagereq>
+      <packagereq type="optional">uade</packagereq>
     </packagelist>
   </group>
   <group>
@@ -102,8 +110,22 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">jad</packagereq>
       <packagereq type="default">unrar</packagereq>
+      <packagereq type="optional">jad</packagereq>
+      <packagereq type="optional">lha</packagereq>
+      <packagereq type="optional">unace</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>fonts</id>
+    <name>Fonts</name>
+    <description>Fonts packages for rendering text on the desktop.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">larabie-decorative-fonts</packagereq>
+      <packagereq type="optional">larabie-straight-fonts</packagereq>
+      <packagereq type="optional">larabie-uncommon-fonts</packagereq>
     </packagelist>
   </group>
   <category>
