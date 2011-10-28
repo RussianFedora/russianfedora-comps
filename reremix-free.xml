@@ -151,6 +151,7 @@
       <packagereq type="optional">pidgin-facebookchat</packagereq>
       <packagereq type="optional">psi-plus</packagereq>
       <packagereq type="optional">psi-plus-plugins</packagereq>
+      <packagereq type="optional">thunderbird</packagereq>
       <packagereq type="optional">vacuum</packagereq>
       <packagereq type="optional">yachat</packagereq>
     </packagelist>

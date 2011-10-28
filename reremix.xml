@@ -237,7 +237,7 @@
     <packagelist>
       <packagereq requires='autocorr-en' type='conditional'>autocorr-af</packagereq>
       <packagereq requires='hyphen' type='conditional'>hyphen-af</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-af_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-af_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -449,7 +449,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-ar</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Arabic</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Arabic</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ar</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ar</packagereq>
     </packagelist>
   </group>
   <group>
@@ -599,7 +599,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-as</packagereq>
       <packagereq requires='hyphen' type='conditional'>hyphen-as</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-as_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-as_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1186,7 +1186,7 @@
       <packagereq requires='autocorr-en' type='conditional'>autocorr-eu</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-eu</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Basque</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-eu_ES</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-eu_ES</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1335,7 +1335,7 @@
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Bengali</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Bengali-India</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-bn</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-bn</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1394,7 +1394,7 @@
     <langonly>dz</langonly>
     <packagelist>
       <packagereq type='mandatory'>jomolhari-fonts</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-dz</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-dz</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1476,7 +1476,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Brazil</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Brazil</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-pt</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-pt_BR</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-pt_BR</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1787,7 +1787,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Bulgarian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Bulgarian</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-bg</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-bg_BG</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-bg_BG</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1929,7 +1929,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Catalan</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Catalan</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-ca</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ca_ES</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ca_ES</packagereq>
     </packagelist>
   </group>
   <group>
@@ -2108,8 +2108,8 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Chinese-Big5</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Chinese</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Chinese-Traditional</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-zh_CN</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-zh_TW</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-zh_CN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-zh_TW</packagereq>
     </packagelist>
   </group>
   <group>
@@ -2711,7 +2711,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-hr</packagereq>
       <packagereq requires='hyphen' type='conditional'>hyphen-hr</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Croatian</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-hr_HR</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-hr_HR</packagereq>
     </packagelist>
   </group>
   <group>
@@ -2803,7 +2803,7 @@
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Czech</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-cs</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-cs</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-cs_CZ</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-cs_CZ</packagereq>
     </packagelist>
   </group>
   <group>
@@ -2892,7 +2892,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Danish</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Danish</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-da</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-da_DK</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-da_DK</packagereq>
     </packagelist>
   </group>
   <group>
@@ -3655,7 +3655,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Dutch</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Dutch</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-nl</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-nl</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-nl</packagereq>
     </packagelist>
   </group>
   <group>
@@ -4004,7 +4004,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-et</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Estonian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Estonian</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-et_EE</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-et_EE</packagereq>
     </packagelist>
   </group>
   <group>
@@ -4298,7 +4298,7 @@
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-fi</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Finnish</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Finnish</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-fi_FI</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-fi_FI</packagereq>
     </packagelist>
   </group>
   <group>
@@ -4507,7 +4507,7 @@
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-French</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-fr</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-fr</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-fr</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-fr</packagereq>
     </packagelist>
   </group>
   <group>
@@ -4814,7 +4814,7 @@
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-gl</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Galician</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-gl_ES</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-gl_ES</packagereq>
     </packagelist>
   </group>
   <group>
@@ -5075,7 +5075,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-German</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-German</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-de</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-de</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-de</packagereq>
     </packagelist>
   </group>
   <group>
@@ -5311,7 +5311,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Greek</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Greek</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-el</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-el_GR</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-el_GR</packagereq>
       <packagereq requires='texlive' type='conditional'>tex-cm-lgc</packagereq>
       <packagereq requires='texlive' type='conditional'>tex-kerkis</packagereq>
     </packagelist>
@@ -5396,7 +5396,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-gu</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Gujarati</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-gu_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-gu_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -5679,7 +5679,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-he</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Hebrew</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Hebrew</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-he_IL</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-he_IL</packagereq>
     </packagelist>
   </group>
   <group>
@@ -5811,7 +5811,7 @@
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Hindi</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Hindi</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-hi_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-hi_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -5900,7 +5900,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-hu</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Hungarian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Hungarian</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-hu_HU</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-hu_HU</packagereq>
     </packagelist>
   </group>
   <group>
@@ -6626,7 +6626,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-ga</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Irish</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-ga</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ga_IE</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ga_IE</packagereq>
     </packagelist>
   </group>
   <group>
@@ -6717,7 +6717,7 @@
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Italian</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-it</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-it</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-it</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-it</packagereq>
     </packagelist>
   </group>
   <group>
@@ -6813,7 +6813,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Japanese</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Japanese</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-ja</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ja_JP</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ja_JP</packagereq>
       <packagereq requires='poppler' type='conditional'>poppler-data</packagereq>
     </packagelist>
   </group>
@@ -6955,7 +6955,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-kn</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Kannada</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-kn_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-kn_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -7209,6 +7209,7 @@
       <packagereq type='optional'>kdebase-workspace-akonadi</packagereq>
       <packagereq type='optional'>kdebase-workspace-python-applet</packagereq>
       <packagereq requires='ibus' type='conditional'>ibus-qt</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-kde</packagereq>
     </packagelist>
   </group>
   <group>
@@ -7475,7 +7476,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Korean</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Korean</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-ko</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ko_KR</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ko_KR</packagereq>
       <packagereq requires='poppler' type='conditional'>poppler-data</packagereq>
     </packagelist>
   </group>
@@ -7985,7 +7986,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-lt</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Lithuanian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Lithuanian</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-lt_LT</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-lt_LT</packagereq>
     </packagelist>
   </group>
   <group>
@@ -8392,7 +8393,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-mai</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Maithili</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-mai_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-mai_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -8518,7 +8519,7 @@
     <langonly>ms</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-ms</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ms_MY</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ms_MY</packagereq>
     </packagelist>
   </group>
   <group>
@@ -8605,7 +8606,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-ml</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Malayalam</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ml_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ml_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -8835,7 +8836,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-mr</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Marathi</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-mr_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-mr_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -9442,7 +9443,7 @@
     <langonly>nso</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-nso</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-nso_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-nso_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -9537,8 +9538,8 @@
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Norwegian-Nynorsk</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-nb</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-nn</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-nb_NO</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-nn_NO</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-nb_NO</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-nn_NO</packagereq>
     </packagelist>
   </group>
   <group>
@@ -9645,24 +9646,24 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type='default'>openoffice.org-calc</packagereq>
-      <packagereq type='default'>openoffice.org-draw</packagereq>
-      <packagereq type='default'>openoffice.org-graphicfilter</packagereq>
-      <packagereq type='default'>openoffice.org-impress</packagereq>
-      <packagereq type='default'>openoffice.org-math</packagereq>
-      <packagereq type='default'>openoffice.org-writer</packagereq>
-      <packagereq type='default'>openoffice.org-xsltfilter</packagereq>
-      <packagereq type='optional'>openoffice.org-base</packagereq>
-      <packagereq type='optional'>openoffice.org-emailmerge</packagereq>
-      <packagereq type='optional'>openoffice.org-headless</packagereq>
-      <packagereq type='optional'>openoffice.org-javafilter</packagereq>
-      <packagereq type='optional'>openoffice.org-ogltrans</packagereq>
-      <packagereq type='optional'>openoffice.org-presentation-minimizer</packagereq>
-      <packagereq type='optional'>openoffice.org-report-builder</packagereq>
-      <packagereq type='optional'>openoffice.org-wiki-publisher</packagereq>
+      <packagereq type='default'>libreoffice-calc</packagereq>
+      <packagereq type='default'>libreoffice-draw</packagereq>
+      <packagereq type='default'>libreoffice-graphicfilter</packagereq>
+      <packagereq type='default'>libreoffice-impress</packagereq>
+      <packagereq type='default'>libreoffice-math</packagereq>
+      <packagereq type='default'>libreoffice-writer</packagereq>
+      <packagereq type='default'>libreoffice-xsltfilter</packagereq>
+      <packagereq type='optional'>libreoffice-base</packagereq>
+      <packagereq type='optional'>libreoffice-emailmerge</packagereq>
+      <packagereq type='optional'>libreoffice-headless</packagereq>
+      <packagereq type='optional'>libreoffice-javafilter</packagereq>
+      <packagereq type='optional'>libreoffice-ogltrans</packagereq>
+      <packagereq type='optional'>libreoffice-presentation-minimizer</packagereq>
+      <packagereq type='optional'>libreoffice-report-builder</packagereq>
+      <packagereq type='optional'>libreoffice-wiki-publisher</packagereq>
       <packagereq type='optional'>planner</packagereq>
       <packagereq type='optional'>taskjuggler</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-en</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-en</packagereq>
     </packagelist>
   </group>
   <group>
@@ -9756,7 +9757,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-or</packagereq>
       <packagereq requires='hyphen' type='conditional'>hyphen-or</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-or_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-or_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10120,7 +10121,7 @@
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Polish</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-pl</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-pl</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-pl_PL</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-pl_PL</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10210,7 +10211,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Portuguese</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Portuguese</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-pt</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-pt_PT</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-pt_PT</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10564,7 +10565,7 @@
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Punjabi</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Punjabi</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-pa</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-pa</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10610,14 +10611,17 @@
     <id>repos</id>
     <name>Yum Repositories</name>
     <description>Various Yum Repositories.  These are not supported by Scientific Linux but are here for your convenience.</description>
-    <default>false</default>
+    <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type='mandatory'>epel-release</packagereq>
+      <packagereq type='mandatory'>rpmforge-release</packagereq>
+      <packagereq type='mandatory'>russianfedora-fixes-release</packagereq>
+      <packagereq type='mandatory'>russianfedora-free-release</packagereq>
+      <packagereq type='mandatory'>russianfedora-nonfree-release</packagereq>
       <packagereq type='optional'>adobe-release</packagereq>
       <packagereq type='optional'>atrpms-repo</packagereq>
       <packagereq type='optional'>elrepo-release</packagereq>
-      <packagereq type='optional'>epel-release</packagereq>
-      <packagereq type='optional'>rpmforge-release</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10775,7 +10779,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Romanian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Romanian</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-ro</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ro</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ro</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10865,7 +10869,7 @@
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Russian</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-ru</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-ru</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ru</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ru</packagereq>
     </packagelist>
   </group>
   <group>
@@ -11234,7 +11238,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-sr</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Serbian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Serbian</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-sr</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-sr</packagereq>
     </packagelist>
   </group>
   <group>
@@ -11584,7 +11588,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Slovak</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Slovak</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-sk</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-sk_SK</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-sk_SK</packagereq>
     </packagelist>
   </group>
   <group>
@@ -11672,7 +11676,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Slovenian</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Slovenian</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-sl</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-sl_SI</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-sl_SI</packagereq>
     </packagelist>
   </group>
   <group>
@@ -11861,7 +11865,7 @@
     <langonly>nr</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-nr</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-nr_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-nr_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -11928,7 +11932,7 @@
     <langonly>st</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-st</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-st_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-st_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -12020,7 +12024,7 @@
       <packagereq requires='man-pages' type='conditional'>man-pages-es</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-es-extra</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-es</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-es</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-es</packagereq>
     </packagelist>
   </group>
   <group>
@@ -12374,7 +12378,7 @@
     <langonly>ss</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-ss</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ss_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ss_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -12463,7 +12467,7 @@
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Swedish</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Swedish</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-sv</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-sv</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-sv</packagereq>
     </packagelist>
   </group>
   <group>
@@ -13056,7 +13060,7 @@
       <packagereq requires='hyphen' type='conditional'>hyphen-ta</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Tamil</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ta_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ta_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -13202,7 +13206,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-te</packagereq>
       <packagereq requires='hyphen' type='conditional'>hyphen-te</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-te_IN</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-te_IN</packagereq>
     </packagelist>
   </group>
   <group>
@@ -13399,7 +13403,7 @@
       <packagereq requires='hunspell' type='conditional'>hunspell-th</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Thai</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-th_TH</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-th_TH</packagereq>
       <packagereq requires='poppler' type='conditional'>poppler-data</packagereq>
     </packagelist>
   </group>
@@ -13531,7 +13535,7 @@
     <langonly>ts</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-ts</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ts_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ts_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -13601,7 +13605,7 @@
     <langonly>tn</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-tn</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-tn_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-tn_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -13746,7 +13750,7 @@
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-tr</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Turkish</packagereq>
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Turkish</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-tr_TR</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-tr_TR</packagereq>
     </packagelist>
   </group>
   <group>
@@ -13884,7 +13888,7 @@
       <packagereq requires='kdelibs' type='conditional'>kde-l10n-Ukrainian</packagereq>
       <packagereq requires='man-pages' type='conditional'>man-pages-uk</packagereq>
       <packagereq requires='mythes-en' type='conditional'>mythes-uk</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-uk</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-uk</packagereq>
     </packagelist>
   </group>
   <group>
@@ -14002,7 +14006,7 @@
       <packagereq type='default'>nafees-web-naskh-fonts</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-ur</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ur</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ur</packagereq>
     </packagelist>
   </group>
   <group>
@@ -14128,7 +14132,7 @@
       <packagereq type='mandatory'>dejavu-sans-mono-fonts</packagereq>
       <packagereq type='mandatory'>dejavu-serif-fonts</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-ve</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-ve_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-ve_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -14793,7 +14797,7 @@
     <langonly>cy</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-cy</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-cy_GB</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-cy_GB</packagereq>
     </packagelist>
   </group>
   <group>
@@ -14979,7 +14983,7 @@
     <langonly>xh</langonly>
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-xh</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-xh_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-xh_ZA</packagereq>
     </packagelist>
   </group>
   <group>
@@ -15059,7 +15063,7 @@
     <packagelist>
       <packagereq requires='hunspell' type='conditional'>hunspell-zu</packagereq>
       <packagereq requires='hyphen' type='conditional'>hyphen-zu</packagereq>
-      <packagereq requires='openoffice.org-core' type='conditional'>openoffice.org-langpack-zu_ZA</packagereq>
+      <packagereq requires='libreoffice-core' type='conditional'>libreoffice-langpack-zu_ZA</packagereq>
     </packagelist>
   </group>
   <category>
