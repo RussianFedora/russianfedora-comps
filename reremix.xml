@@ -913,6 +913,7 @@
       <packagereq type='default'>ethtool</packagereq>
       <packagereq type='default'>fprintd-pam</packagereq>
       <packagereq type='default'>gnupg2</packagereq>
+      <packagereq type='default'>gpm</packagereq>
       <packagereq type='default'>hunspell</packagereq>
       <packagereq type='default'>hunspell-en</packagereq>
       <packagereq type='default'>irqbalance</packagereq>
@@ -973,7 +974,6 @@
       <packagereq type='optional'>ecryptfs-utils</packagereq>
       <packagereq type='optional'>edac-utils</packagereq>
       <packagereq type='optional'>genisoimage</packagereq>
-      <packagereq type='optional'>gpm</packagereq>
       <packagereq type='optional'>kabi-yum-plugins</packagereq>
       <packagereq type='optional'>kernel-doc</packagereq>
       <packagereq type='optional'>logwatch</packagereq>
@@ -4881,6 +4881,7 @@
       <packagereq type='default'>evince-dvi</packagereq>
       <packagereq type='default'>file-roller</packagereq>
       <packagereq type='default'>gcalctool</packagereq>
+      <packagereq type='default'>gconf-editor</packagereq>
       <packagereq type='default'>gedit</packagereq>
       <packagereq type='default'>gnome-backgrounds</packagereq>
       <packagereq type='default'>gnome-bluetooth</packagereq>
@@ -4912,7 +4913,6 @@
       <packagereq type='default'>totem-nautilus</packagereq>
       <packagereq type='optional'>alacarte</packagereq>
       <packagereq type='optional'>dvgrab</packagereq>
-      <packagereq type='optional'>gconf-editor</packagereq>
       <packagereq type='optional'>gedit-plugins</packagereq>
       <packagereq type='optional'>gnome-games</packagereq>
       <packagereq type='optional'>gnome-pilot</packagereq>

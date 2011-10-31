@@ -133,6 +133,7 @@
    <description>A lightweight desktop environment that works well on low end machines.</description>
     <packagelist>
       <packagereq type="default">gsmartcontrol</packagereq>
+      <packagereq type="default">thunderbird</packagereq>
       <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
