@@ -53,6 +53,7 @@
     <packagelist>
       <packagereq type="default">flash-plugin</packagereq>
       <packagereq type="optional">opera</packagereq>
+      <packagereq type="optional">opera-next</packagereq>
     </packagelist>
   </group>
   <group>
@@ -106,6 +107,9 @@
    <name>Sound and Video</name>
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
+      <packagereq type="optional">mplayer-faac</packagereq> 
+      <packagereq type="optional">skype</packagereq> 
+      <packagereq type="optional">skype4pidgin</packagereq> 
       <packagereq type="optional">sopcast</packagereq> 
     </packagelist>
   </group>

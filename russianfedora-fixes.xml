@@ -159,12 +159,12 @@
       <packagereq type="default">gnome-disk-utility</packagereq>
       <packagereq type="default">gnome-packagekit</packagereq>
       <packagereq type="default">setroubleshoot</packagereq>
-      <packagereq type="default">system-config-boot</packagereq>
       <packagereq type="default">system-config-date</packagereq>
       <packagereq type="default">system-config-firewall</packagereq>
       <packagereq type="default">system-config-keyboard</packagereq>
       <packagereq type="default">system-config-language</packagereq>
       <packagereq type="default">system-config-users</packagereq>
+      <packagereq type="optional">apper</packagereq>
       <packagereq type="optional">cacti</packagereq>
       <packagereq type="optional">dbench</packagereq>
       <packagereq type="optional">etherape</packagereq>
@@ -173,12 +173,12 @@
       <packagereq type="optional">gparted</packagereq>
       <packagereq type="optional">gpointing-device-settings</packagereq>
       <packagereq type="optional">kde-partitionmanager</packagereq>
-      <packagereq type="optional">kpackagekit</packagereq>
       <packagereq type="optional">lshw-gui</packagereq>
       <packagereq type="optional">luma</packagereq>
       <packagereq type="optional">ntop</packagereq>
       <packagereq type="optional">pessulus</packagereq>
       <packagereq type="optional">qtparted</packagereq>
+      <packagereq type="optional">system-config-boot</packagereq>
       <packagereq type="optional">system-config-kickstart</packagereq>
       <packagereq type="optional">system-config-lvm</packagereq>
       <packagereq type="optional">system-config-network</packagereq>
@@ -1341,6 +1341,7 @@
       <packagereq type="optional">squashfs-tools</packagereq>
       <packagereq type="optional">star</packagereq>
       <packagereq type="optional">syslinux</packagereq>
+      <packagereq type="optional">tboot</packagereq>
       <packagereq type="optional">tcsh</packagereq>
       <packagereq type="optional">x86info</packagereq>
       <packagereq type="optional">xfsprogs</packagereq>
@@ -5907,10 +5908,8 @@
       <packagereq type="default">gputils</packagereq>
       <packagereq type="default">gresistor</packagereq>
       <packagereq type="default">gsim85</packagereq>
-      <packagereq type="default">gspiceui</packagereq>
       <packagereq type="default">gtkterm</packagereq>
       <packagereq type="default">gtkwave</packagereq>
-      <packagereq type="default">gwave</packagereq>
       <packagereq type="default">hct</packagereq>
       <packagereq type="default">irsim</packagereq>
       <packagereq type="default">iverilog</packagereq>
@@ -8335,6 +8334,7 @@
       <packagereq type="optional">fbg</packagereq>
       <packagereq type="optional">fbg2</packagereq>
       <packagereq type="optional">fillets-ng</packagereq>
+      <packagereq type="optional">findthatword</packagereq>
       <packagereq type="optional">flight-of-the-amazon-queen</packagereq>
       <packagereq type="optional">flight-of-the-amazon-queen-cd</packagereq>
       <packagereq type="optional">FlightGear</packagereq>
@@ -12354,6 +12354,7 @@
       <packagereq type="conditional" requires="scim">scim-bridge-qt</packagereq>
       <packagereq type="default">abrt-desktop</packagereq>
       <packagereq type="default">amarok</packagereq>
+      <packagereq type="default">apper</packagereq>
       <packagereq type="default">bluedevil</packagereq>
       <packagereq type="default">cagibi</packagereq>
       <packagereq type="default">cups-pk-helper</packagereq>
@@ -12388,7 +12389,6 @@
       <packagereq type="default">kipi-plugins</packagereq>
       <packagereq type="default">konq-plugins</packagereq>
       <packagereq type="default">konversation</packagereq>
-      <packagereq type="default">kpackagekit</packagereq>
       <packagereq type="default">krusader</packagereq>
       <packagereq type="default">ksshaskpass</packagereq>
       <packagereq type="default">ktorrent</packagereq>
@@ -12494,6 +12494,7 @@
       <packagereq type="mandatory">kdebase-workspace</packagereq>
       <packagereq type="mandatory">kdelibs</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-good</packagereq>
+      <packagereq type="default">apper</packagereq>
       <packagereq type="default">kcm_touchpad</packagereq>
       <packagereq type="default">kde-plasma-networkmanagement</packagereq>
       <packagereq type="default">kde-settings-pulseaudio</packagereq>
@@ -12508,7 +12509,6 @@
       <packagereq type="default">kde-plasma-networkmanagement-openvpn</packagereq>
       <packagereq type="default">kde-plasma-networkmanagement-pptp</packagereq>
       <packagereq type="default">kde-plasma-networkmanagement-vpnc</packagereq>
-      <packagereq type="default">kpackagekit</packagereq>
       <packagereq type="default">phonon-backend-gstreamer</packagereq>
       <packagereq type="default">phonon-backend-xine</packagereq>
       <packagereq type="default">xsettings-kde</packagereq>
@@ -17017,7 +17017,6 @@
       <packagereq type="optional">pybliographer</packagereq>
       <packagereq type="optional">qcad</packagereq>
       <packagereq type="optional">rednotebook</packagereq>
-      <packagereq type="optional">referencer</packagereq>
       <packagereq type="optional">revelation</packagereq>
       <packagereq type="optional">skrooge</packagereq>
       <packagereq type="optional">starcal</packagereq>
