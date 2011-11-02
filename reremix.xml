@@ -2574,6 +2574,8 @@
       <packagereq type='mandatory'>cronie</packagereq>
       <packagereq type='mandatory'>dhclient</packagereq>
       <packagereq type='mandatory'>e2fsprogs</packagereq>
+      <packagereq type="mandatory">epel-release</packagereq>
+      <packagereq type="mandatory">rpmforge-release</packagereq>
       <packagereq type='mandatory'>filesystem</packagereq>
       <packagereq type='mandatory'>glibc</packagereq>
       <packagereq type='mandatory'>initscripts</packagereq>
@@ -2618,7 +2620,8 @@
       <packagereq type='mandatory'>selinux-policy-targeted</packagereq>
       <packagereq type='mandatory'>setup</packagereq>
       <packagereq type='mandatory'>shadow-utils</packagereq>
-      <packagereq type="mandatory">sl-release</packagereq>
+      <packagereq type="mandatory">reremix-release</packagereq>
+      <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
       <packagereq type='optional'>subscription-manager</packagereq>
       <packagereq type='mandatory'>sudo</packagereq>
       <packagereq type='mandatory'>util-linux-ng</packagereq>
