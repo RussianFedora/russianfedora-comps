@@ -22,6 +22,7 @@
    <name>Core</name>
    <description>Smallest possible installation</description>
     <packagelist>
+      <packagereq type="mandatory">puias-release</packagereq>
       <packagereq type="mandatory">russianfedora-free-release</packagereq>
     </packagelist>
   </group>
