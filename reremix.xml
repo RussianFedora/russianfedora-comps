@@ -1695,6 +1695,7 @@
       <packagereq type="mandatory">info</packagereq>
       <packagereq type="mandatory">make</packagereq>
       <packagereq type="mandatory">patch</packagereq>
+      <packagereq type="mandatory">puias-release</packagereq>
       <packagereq type="mandatory">redhat-rpm-config</packagereq>
       <packagereq type="mandatory">rpm-build</packagereq>
       <packagereq type="mandatory">sed</packagereq>
