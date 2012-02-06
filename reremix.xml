@@ -917,7 +917,7 @@
       <packagereq type='default'>hunspell</packagereq>
       <packagereq type='default'>hunspell-en</packagereq>
       <packagereq type='default'>irqbalance</packagereq>
-      <packagereq type='default'>kexec-tools</packagereq>
+      <packagereq type='optional'>kexec-tools</packagereq>
       <packagereq type='default'>libaio</packagereq>
       <packagereq type='default'>lvm2</packagereq>
       <packagereq type='default'>man-pages</packagereq>
@@ -2955,7 +2955,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='mandatory'>gdb</packagereq>
-      <packagereq type='mandatory'>kexec-tools</packagereq>
+      <packagereq type='optional'>kexec-tools</packagereq>
       <packagereq type='mandatory'>latrace</packagereq>
       <packagereq type='mandatory'>report</packagereq>
       <packagereq type='mandatory'>strace</packagereq>
@@ -5141,7 +5141,7 @@
       <packagereq type='default'>gnome-disk-utility</packagereq>
       <packagereq type='default'>gnome-packagekit</packagereq>
       <packagereq type='default'>system-config-firewall</packagereq>
-      <packagereq type='default'>system-config-kdump</packagereq>
+      <packagereq type='optional'>system-config-kdump</packagereq>
       <packagereq type='default'>system-config-keyboard</packagereq>
       <packagereq type='default'>system-config-services</packagereq>
       <packagereq type='default'>system-config-users</packagereq>
