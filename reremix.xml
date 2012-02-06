@@ -1068,6 +1068,7 @@
       <packagereq type='mandatory'>NetworkManager</packagereq>
       <packagereq type='mandatory'>NetworkManager-gnome</packagereq>
       <packagereq type='mandatory'>NetworkManager-openvpn</packagereq>
+      <packagereq type='mandatory'>NetworkManager-openswan</packagereq>
       <packagereq type='mandatory'>NetworkManager-pptp</packagereq>
       <packagereq type='mandatory'>NetworkManager-vpnc</packagereq>
       <packagereq type='mandatory'>alsa-plugins-pulseaudio</packagereq>
@@ -2565,7 +2566,6 @@
       <packagereq type='mandatory'>atmel-firmware</packagereq>
       <packagereq type='mandatory'>attr</packagereq>
       <packagereq type='mandatory'>audit</packagereq>
-      <packagereq type='mandatory'>b43-openfwwf</packagereq>
       <packagereq type='mandatory'>basesystem</packagereq>
       <packagereq type='mandatory'>bash</packagereq>
       <packagereq type='mandatory'>bfa-firmware</packagereq>
@@ -2575,7 +2575,6 @@
       <packagereq type='mandatory'>dhclient</packagereq>
       <packagereq type='mandatory'>e2fsprogs</packagereq>
       <packagereq type="mandatory">epel-release</packagereq>
-      <packagereq type="mandatory">rpmforge-release</packagereq>
       <packagereq type='mandatory'>filesystem</packagereq>
       <packagereq type='mandatory'>glibc</packagereq>
       <packagereq type='mandatory'>initscripts</packagereq>
@@ -2636,6 +2635,8 @@
       <packagereq type='default'>yum-conf-sl-other</packagereq>
       <packagereq type='optional'>dracut-fips</packagereq>
       <packagereq type='optional'>dracut-network</packagereq>
+      <packagereq type="optional">rpmforge-release</packagereq>
+      <packagereq type='optional'>b43-openfwwf</packagereq>
     </packagelist>
   </group>
   <group>
@@ -4386,6 +4387,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='default'>abyssinica-fonts</packagereq>
+      <packagereq type='default'>bitmap-fixed-fonts</packagereq>
       <packagereq type='default'>cjkuni-uming-fonts</packagereq>
       <packagereq type='default'>dejavu-sans-fonts</packagereq>
       <packagereq type='default'>dejavu-sans-mono-fonts</packagereq>
@@ -4417,7 +4419,6 @@
       <packagereq type='default'>un-core-dotum-fonts</packagereq>
       <packagereq type='default'>vlgothic-fonts</packagereq>
       <packagereq type='default'>wqy-zenhei-fonts</packagereq>
-      <packagereq type='optional'>bitmap-fixed-fonts</packagereq>
       <packagereq type='optional'>bitmap-lucida-typewriter-fonts</packagereq>
       <packagereq type='optional'>cjkuni-fonts-ghostscript</packagereq>
     </packagelist>
@@ -4908,7 +4909,6 @@
       <packagereq type='default'>rhythmbox</packagereq>
       <packagereq type='default'>scenery-backgrounds</packagereq>
       <packagereq type='default'>seahorse</packagereq>
-      <packagereq type='default'>SL_desktop_tweaks</packagereq>
       <packagereq type='default'>sound-juicer</packagereq>
       <packagereq type='default'>system-config-firewall</packagereq>
       <packagereq type='default'>system-config-users</packagereq>
@@ -6490,8 +6490,8 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='default'>firefox</packagereq>
-      <packagereq type='default'>nspluginwrapper</packagereq>
       <packagereq type='default'>totem-mozplugin</packagereq>
+      <packagereq type='optional'>nspluginwrapper</packagereq>
     </packagelist>
   </group>
   <group>
@@ -7187,6 +7187,7 @@
       <packagereq type='mandatory'>xsettings-kde</packagereq>
       <packagereq type='default'>NetworkManager-gnome</packagereq>
       <packagereq type='default'>NetworkManager-openvpn</packagereq>
+      <packagereq type='default'>NetworkManager-openswan</packagereq>
       <packagereq type='default'>NetworkManager-pptp</packagereq>
       <packagereq type='default'>NetworkManager-vpnc</packagereq>
       <packagereq type='default'>k3b</packagereq>
@@ -10618,13 +10619,13 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='mandatory'>epel-release</packagereq>
-      <packagereq type='mandatory'>rpmforge-release</packagereq>
       <packagereq type='mandatory'>russianfedora-fixes-release</packagereq>
       <packagereq type='mandatory'>russianfedora-free-release</packagereq>
       <packagereq type='mandatory'>russianfedora-nonfree-release</packagereq>
       <packagereq type='optional'>adobe-release</packagereq>
       <packagereq type='optional'>atrpms-repo</packagereq>
       <packagereq type='optional'>elrepo-release</packagereq>
+      <packagereq type='optional'>rpmforge-release</packagereq>
     </packagelist>
   </group>
   <group>

@@ -23,28 +23,7 @@
     </packagelist>
   </group>
   <group>
-   <id>base-x</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
-   <name>X Window System</name>
-   <description>Install this group of packages to use the base graphical (X) user interface.</description>
-    <packagelist>
-      <packagereq type="optional">xxkb</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>development-tools</id>
-    <name>Development Tools</name>
-    <description>These tools include core development tools such as automake, gcc, perl, python, and debuggers.</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">pgadmin3</packagereq>
-    </packagelist>
-  </group>
-  <group>
-   <id>graphical-internet</id>
+   <id>internet-browser</id>
    <default>True</default>
    <uservisible>True</uservisible>
    <display_order>1024</display_order>
@@ -64,38 +43,18 @@
    <description>This group is a collection of tools for various hardware specific utilities.</description>
     <packagelist>
       <packagereq type="default">b43-firmware</packagereq>
-      <packagereq type="optional">akmod-catalist</packagereq>
       <packagereq type="optional">truecrypt</packagereq>
-      <packagereq type="optional">xorg-x11-drv-catalyst</packagereq>
-      <packagereq type="conditional" requires="xorg-x11-drv-catalyst">kmod-catalyst</packagereq>
     </packagelist>
   </group>
   <group>
-   <id>java</id>
-   <default>True</default>
-   <uservisible>False</uservisible>
+   <id>java-platform</id>
+   <default>False</default>
+   <uservisible>True</uservisible>
    <display_order>1024</display_order>
-   <name>Java</name>
-   <description>Support for running programs written in the Java programming language.</description>
+   <name>Java Platform</name>
+    <description>Java support for the Enterprise Linux Server and Desktop Platforms.</description>
     <packagelist>
-      <packagereq type="optional">java-1.6.0-sun-compat</packagereq>
-      <packagereq type="optional">jdk</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>russian-support</id>
-    <name>Russian Support</name>
-    <description/>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <langonly>ru</langonly>
-    <packagelist>
-      <packagereq type="optional">stardict-dic-big-soviet-encyclopedia</packagereq>
-      <packagereq type="optional">stardict-dic-en-ru</packagereq>
-      <packagereq type="optional">stardict-dic-ru-en</packagereq>
-      <packagereq type="optional">stardict-dic-rus-explanatory</packagereq>
-      <packagereq type="optional">ttfonts-ru</packagereq>
-      <packagereq type="optional">ttfonts-unicode</packagereq>
+      <packagereq type="optional">java-1.6.0-sun</packagereq>
     </packagelist>
   </group>
   <group>
@@ -109,24 +68,14 @@
       <packagereq type="optional">sopcast</packagereq> 
     </packagelist>
   </group>
-  <group>
-    <id>web-server</id>
-    <name>Web Server</name>
-	<description>These tools allow you to run a Web server on the system.</description>
-	<default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">traffpro</packagereq>
-    </packagelist>
-  </group>
   <category>
-   <id>apps</id>
+   <id>applications</id>
    <display_order>20</display_order>
    <name>Applications</name>
    <description>Applications to perform a variety of tasks</description>
     <grouplist>
      <groupid>sound-and-video</groupid>
-     <groupid>graphical-internet</groupid>
+     <groupid>internet-browser</groupid>
     </grouplist>
   </category>
   <category>
@@ -139,24 +88,6 @@
      <groupid>base-x</groupid>
      <groupid>system-tools</groupid>
      <groupid>hardware-support</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>development</id>
-   <display_order>99</display_order>
-   <name>Development</name>
-   <description>Packages which provide functionality for developing and building applications.</description>
-    <grouplist>
-     <groupid>development-tools</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>language-support</id>
-   <display_order>1024</display_order>
-   <name>Languages</name>
-   <description>These packages provide support for various locales including fonts and input methods.</description>
-    <grouplist>
-     <groupid>russian-support</groupid>
     </grouplist>
   </category>
   <category>

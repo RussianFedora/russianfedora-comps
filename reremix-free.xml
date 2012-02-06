@@ -2,17 +2,14 @@
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
-   <id>authoring-and-publishing</id>
+   <id>tex</id>
    <default>False</default>
    <uservisible>True</uservisible>
    <display_order>1024</display_order>
-   <name>Authoring and Publishing</name>
-   <description>These tools allow you to create documents in the DocBook format and convert them into HTML, PDF, Postscript, and text.</description>
+   <name>TeX support</name>
+   <description>Support for the TeX document formatting system.</description>
     <packagelist>
       <packagereq type="conditional" requires="texlive">texlive-cm-super-fonts</packagereq>
-      <packagereq type="optional">cuneiform</packagereq>
-      <packagereq type="optional">cuneiform-qt</packagereq>
-      <packagereq type="optional">yagf</packagereq>
     </packagelist>
   </group>
   <group>
@@ -27,37 +24,6 @@
     </packagelist>
   </group>
   <group>
-   <id>base-x</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
-   <name>X Window System</name>
-   <description>Install this group of packages to use the base graphical (X) user interface.</description>
-    <packagelist>
-      <packagereq type="optional">xneur</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>development-tools</id>
-    <name>Development Tools</name>
-    <description>These tools include core development tools such as automake, gcc, perl, python, and debuggers.</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">deb</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>education</id>
-    <name>Educational Software</name>
-    <description>Educational software for learning</description>
-    <default>false</default> 
-    <uservisible>true</uservisible>
-    <packagelist>
-    <packagereq type="optional">itest</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>fonts</id>
     <name>Fonts</name>
     <description>Fonts packages for rendering text on the desktop.</description>
@@ -69,60 +35,20 @@
     </packagelist>
   </group>
   <group>
-    <id>games</id>
-    <name>Games and Entertainment</name>
-    <description>Various ways to relax and spend your free time.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">dreamchess</packagereq>
-      <packagereq type="optional">playonlinux</packagereq>
-      <packagereq type="optional">playonlinux-dosbox-support</packagereq>
-    </packagelist>
-  </group>
-  <group>
-   <id>gnome-desktop</id>
+   <id>general-desktop</id>
    <default>True</default>
    <uservisible>True</uservisible>
    <display_order>1024</display_order>
-   <name>GNOME Desktop Environment</name>
-   <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
+    <name>General Purpose Desktop</name>
+    <description>A general purpose desktop.</description>
     <packagelist>
+      <packagereq type="default">paman</packagereq>
+      <packagereq type="default">paprefs</packagereq>
+      <packagereq type="default">pavucontrol</packagereq>
+      <packagereq type="default">pavumeter</packagereq>
+      <packagereq type="optional">deadbeef</packagereq>
       <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
-      <packagereq type="optional">gtk-nimbus-engine</packagereq>
-      <packagereq type="optional">gxneur</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>hardware-support</id>
-    <name>Hardware Support</name>
-    <description>This group is a collection of tools for various hardware specific utilities.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="default">madwimax</packagereq>
-      <packagereq type="optional">akmod-brcm80211</packagereq>
-      <packagereq type="optional">akmod-rt3062</packagereq>
-      <packagereq type="optional">akmod-rt3090</packagereq>
-      <packagereq type="optional">akmod-samsung-backlight</packagereq>
-      <packagereq type="optional">brcm80211-common</packagereq>
-      <packagereq type="conditional" requires="brcm80211-common">kmod-brcm80211</packagereq>
-      <packagereq type="optional">rt3062</packagereq>
-      <packagereq type="conditional" requires="rt3062">kmod-rt3062</packagereq>
-      <packagereq type="optional">rt3090</packagereq>
-      <packagereq type="conditional" requires="rt3090">kmod-rt3090</packagereq>
-      <packagereq type="optional">samsung-backlight-kmod-common</packagereq>
-      <packagereq type="conditional" requires="samsung-backlight-kmod-common">kmod-samsung-backlight</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>lxde-desktop</id>
-    <name>LXDE</name>
-    <description>LXDE is a lightweight X11 desktop environment designed for computers with low hardware specifications like netbooks, mobile devices or older computers.</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="default">gsmartcontrol</packagereq>
+      <packagereq type='optional'>evince-djvu-backend</packagereq>
     </packagelist>
   </group>
   <group>
@@ -133,30 +59,15 @@
    <name>XFCE</name>
    <description>A lightweight desktop environment that works well on low end machines.</description>
     <packagelist>
+      <packagereq type="default">paman</packagereq>
+      <packagereq type="default">paprefs</packagereq>
+      <packagereq type="default">pavucontrol</packagereq>
+      <packagereq type="default">pavumeter</packagereq>
       <packagereq type="default">gsmartcontrol</packagereq>
       <packagereq type="default">thunderbird</packagereq>
-      <packagereq type="default">gtk-xfce-engine</packagereq>
+      <packagereq type="optional">deadbeef</packagereq>
       <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
-      <packagereq type="optional">gtk-nimbus-engine</packagereq>
-      <packagereq type="optional">gxneur</packagereq>
-    </packagelist>
-  </group>
-  <group>
-   <id>graphical-internet</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
-   <name>Graphical Internet</name>
-   <description>This group includes graphical email, Web, and chat clients.</description>
-    <packagelist>
-      <packagereq type="optional">flush</packagereq>
-      <packagereq type="optional">mrim-prpl</packagereq>
-      <packagereq type="optional">pidgin-facebookchat</packagereq>
-      <packagereq type="optional">psi-plus</packagereq>
-      <packagereq type="optional">psi-plus-plugins</packagereq>
-      <packagereq type="optional">thunderbird</packagereq>
-      <packagereq type="optional">vacuum</packagereq>
-      <packagereq type="optional">yachat</packagereq>
+      <packagereq type="optional">qbittorrent</packagereq>
     </packagelist>
   </group>
   <group>
@@ -164,72 +75,11 @@
    <default>False</default>
    <uservisible>True</uservisible>
    <display_order>1024</display_order>
-   <name>KDE (K Desktop Environment)</name>
-   <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
+    <name>KDE Desktop</name>
+    <description>A KDE desktop.</description>
     <packagelist>
+      <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
       <packagereq type="optional">eiskaltdcpp-qt</packagereq>
-    </packagelist>
-  </group>
-  <group>
-   <id>sound-and-video</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
-   <name>Sound and Video</name>
-   <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
-    <packagelist>
-      <packagereq type="default">libdvdcss</packagereq>
-      <packagereq type="optional">2mandvd</packagereq>
-      <packagereq type="optional">aegisub</packagereq>
-      <packagereq type="optional">bino</packagereq>
-      <packagereq type="optional">deadbeef</packagereq>
-      <packagereq type="optional">foobnix</packagereq>
-      <packagereq type="optional">moc</packagereq>
-      <packagereq type="optional">mpg123</packagereq>
-      <packagereq type="optional">openshot</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>web-server</id>
-    <name>Web Server</name>
-    <description>These tools allow you to run a Web server on the system.</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">wt</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>window-managers</id>
-    <name>Window Managers</name>
-    <description>Simple window managers that aren't part of a larger desktop environment.</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">sawfish</packagereq>
-    </packagelist>
-  </group>
-  <group>
-   <id>system-tools</id>
-   <default>False</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
-   <name>System Tools</name>
-   <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
-    <packagelist>
-      <packagereq type="optional">freerdp</packagereq>
-      <packagereq type="optional">shmux</packagereq>
-      <packagereq type="optional">vpnpptp</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>virtualization</id>
-    <name>Virtualization</name>
-    <description>These packages provide a virtualization environment.</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">RemoteBox</packagereq>
     </packagelist>
   </group>
   <category>
@@ -238,54 +88,27 @@
    <name>Desktop Environments</name>
    <description>Desktop environments</description>
     <grouplist>
-     <groupid>gnome-desktop</groupid>
+     <groupid>general-desktop</groupid>
      <groupid>kde-desktop</groupid>
-     <groupid>lxde-desktop</groupid>
      <groupid>xfce-desktop</groupid>
-     <groupid>window-managers</groupid>
     </grouplist>
   </category>
   <category>
-   <id>apps</id>
-   <display_order>20</display_order>
+   <id>applications</id>
+   <display_order>80</display_order>
    <name>Applications</name>
    <description>Applications to perform a variety of tasks</description>
     <grouplist>
-     <groupid>authoring-and-publishing</groupid>
-     <groupid>education</groupid>
-     <groupid>games</groupid>
-     <groupid>graphical-internet</groupid>
-     <groupid>sound-and-video</groupid>
+     <groupid>tex</groupid>
     </grouplist>
   </category>
   <category>
-   <id>base-system</id>
-   <display_order>99</display_order>
-   <name>Base System</name>
-   <description>Various core pieces of the system.</description>
+   <id>desktops</id>
+   <display_order>70</display_order>
+   <name>Desktops</name>
+   <description>Desktops and thin clients.</description>
     <grouplist>
-     <groupid>base-x</groupid>
      <groupid>fonts</groupid>
-     <groupid>system-tools</groupid>
-     <groupid>virtualization</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>development</id>
-   <display_order>99</display_order>
-   <name>Development</name>
-   <description>Packages which provide functionality for developing and building applications.</description>
-    <grouplist>
-     <groupid>development-tools</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>servers</id>
-   <display_order>99</display_order>
-   <name>Servers</name>
-   <description>Software used for running network servers</description>
-    <grouplist>
-     <groupid>web-server</groupid>
     </grouplist>
   </category>
 </comps>
