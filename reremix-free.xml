@@ -52,6 +52,15 @@
     </packagelist>
   </group>
   <group>
+    <id>internet-applications</id>
+    <name>Internet Applications</name>
+    <description>Email, chat, and video conferencing software.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='optional'>chromium</packagereq>
+    </packagelist>
+  <group>
    <id>xfce-desktop</id>
    <default>False</default>
    <uservisible>True</uservisible>
@@ -79,6 +88,7 @@
     <description>A KDE desktop.</description>
     <packagelist>
       <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
+      <packagereq type="default">clementine</packagereq>
       <packagereq type="optional">eiskaltdcpp-qt</packagereq>
     </packagelist>
   </group>
@@ -99,6 +109,7 @@
    <name>Applications</name>
    <description>Applications to perform a variety of tasks</description>
     <grouplist>
+     <groupid>internet-applications</groupid>
      <groupid>tex</groupid>
     </grouplist>
   </category>
