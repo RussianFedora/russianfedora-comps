@@ -60,6 +60,7 @@
     <packagelist>
       <packagereq type='optional'>chromium</packagereq>
     </packagelist>
+  </group>
   <group>
    <id>xfce-desktop</id>
    <default>False</default>
