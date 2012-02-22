@@ -59,6 +59,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type='optional'>chromium</packagereq>
+      <packagereq type='optional'>seamonkey</packagereq>
     </packagelist>
   </group>
   <group>
