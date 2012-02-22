@@ -13,6 +13,16 @@
     </packagelist>
   </group>
   <group>
+    <id>addons-video</id>
+    <name>Video Creation/Playback Tools</name>
+    <description>Software for creation and manipulation of videos.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">mplayer2</packagereq>
+    </packagelist>
+  </group>
+  <group>
    <id>core</id>
    <default>True</default>
    <uservisible>False</uservisible>
