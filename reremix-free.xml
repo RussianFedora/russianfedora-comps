@@ -54,6 +54,7 @@
     <packagelist>
       <packagereq type="default">paman</packagereq>
       <packagereq type="default">paprefs</packagereq>
+      <packagereq type="default">parcellite</packagereq>
       <packagereq type="default">pavucontrol</packagereq>
       <packagereq type="default">pavumeter</packagereq>
       <packagereq type="optional">deadbeef</packagereq>
