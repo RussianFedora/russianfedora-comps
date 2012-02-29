@@ -56,6 +56,12 @@
       <packagereq type="default">paprefs</packagereq>
       <packagereq type="default">parcellite</packagereq>
       <packagereq type="default">pavucontrol</packagereq>
+      <packagereq type='default'>libdvdcss</packagereq>
+      <packagereq type='default'>libdvdnav</packagereq>
+      <packagereq type='default'>gstreamer-ffmpeg</packagereq>
+      <packagereq type='default'>gstreamer-plugins-bad</packagereq>
+      <packagereq type='default'>gstreamer-plugins-bad-nonfree</packagereq>
+      <packagereq type='default'>gstreamer-plugins-ugly</packagereq>
       <packagereq type="default">pavumeter</packagereq>
       <packagereq type="optional">deadbeef</packagereq>
       <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
@@ -89,6 +95,12 @@
       <packagereq type="default">pavumeter</packagereq>
       <packagereq type="default">gsmartcontrol</packagereq>
       <packagereq type="default">thunderbird</packagereq>
+      <packagereq type='default'>libdvdcss</packagereq>
+      <packagereq type='default'>libdvdnav</packagereq>
+      <packagereq type='default'>gstreamer-ffmpeg</packagereq>
+      <packagereq type='default'>gstreamer-plugins-bad</packagereq>
+      <packagereq type='default'>gstreamer-plugins-bad-nonfree</packagereq>
+      <packagereq type='default'>gstreamer-plugins-ugly</packagereq>
       <packagereq type="optional">deadbeef</packagereq>
       <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
       <packagereq type="optional">qbittorrent</packagereq>
@@ -103,7 +115,16 @@
     <description>A KDE desktop.</description>
     <packagelist>
       <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
+      <packagereq type='default'>libdvdcss</packagereq>
+      <packagereq type='default'>libdvdnav</packagereq>
+      <packagereq type='default'>gstreamer-ffmpeg</packagereq>
+      <packagereq type='default'>gstreamer-plugins-bad</packagereq>
+      <packagereq type='default'>gstreamer-plugins-bad-nonfree</packagereq>
+      <packagereq type='default'>gstreamer-plugins-ugly</packagereq>
       <packagereq type="default">clementine</packagereq>
+      <packagereq type='default'>vlc</packagereq>
+      <packagereq type='default'>vlc-core</packagereq>
+      <packagereq type='default'>vlc-extras</packagereq>
       <packagereq type="optional">eiskaltdcpp-qt</packagereq>
     </packagelist>
   </group>
