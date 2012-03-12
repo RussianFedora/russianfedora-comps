@@ -24099,11 +24099,8 @@
     <description xml:lang="zh_TW">桌面環境</description>
     <display_order>10</display_order>
     <grouplist>
-      <groupid>desktop-minimal</groupid>
       <groupid>gnome-desktop</groupid>
-      <groupid>gnome-desktop-minimal</groupid>
       <groupid>kde-desktop</groupid>
-      <groupid>kde-desktop-minimal</groupid>
       <groupid>lxde-desktop</groupid>
       <groupid>meego-netbook</groupid>
       <groupid>sugar-desktop</groupid>
