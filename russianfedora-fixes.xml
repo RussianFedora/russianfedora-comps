@@ -12353,10 +12353,10 @@
       <packagereq type="conditional" requires="pinentry">pinentry-qt</packagereq>
       <packagereq type="conditional" requires="scim">scim-bridge-qt</packagereq>
       <packagereq type="default">abrt-desktop</packagereq>
-      <packagereq type="default">amarok</packagereq>
       <packagereq type="default">apper</packagereq>
       <packagereq type="default">bluedevil</packagereq>
       <packagereq type="default">cagibi</packagereq>
+      <packagereq type="default">clementine</packagereq>
       <packagereq type="default">cups-pk-helper</packagereq>
       <packagereq type="default">dejavu-sans-fonts</packagereq>
       <packagereq type="default">dejavu-sans-mono-fonts</packagereq>
@@ -12406,6 +12406,7 @@
       <packagereq type="default">xsettings-kde</packagereq>
       
       <packagereq type="default">xterm</packagereq>
+      <packagereq type="optional">amarok</packagereq>
       <packagereq type="optional">basket</packagereq>
       <packagereq type="optional">bespin</packagereq>
       <packagereq type="optional">bibletime</packagereq>

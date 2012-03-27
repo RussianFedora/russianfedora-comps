@@ -146,6 +146,7 @@
    <name>Graphical Internet</name>
    <description>This group includes graphical email, Web, and chat clients.</description>
     <packagelist>
+      <packagereq type="optional">chromium</packagereq>
       <packagereq type="optional">flush</packagereq>
       <packagereq type="optional">mrim-prpl</packagereq>
       <packagereq type="optional">pidgin-facebookchat</packagereq>
