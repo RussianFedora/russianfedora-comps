@@ -160,7 +160,6 @@
       <packagereq type="default">gnome-packagekit</packagereq>
       <packagereq type="default">setroubleshoot</packagereq>
       <packagereq type="default">system-config-date</packagereq>
-      <packagereq type="default">system-config-firewall</packagereq>
       <packagereq type="default">system-config-keyboard</packagereq>
       <packagereq type="default">system-config-language</packagereq>
       <packagereq type="default">system-config-users</packagereq>
@@ -179,6 +178,7 @@
       <packagereq type="optional">pessulus</packagereq>
       <packagereq type="optional">qtparted</packagereq>
       <packagereq type="optional">system-config-boot</packagereq>
+      <packagereq type="optional">system-config-firewall</packagereq>
       <packagereq type="optional">system-config-kickstart</packagereq>
       <packagereq type="optional">system-config-lvm</packagereq>
       <packagereq type="optional">system-config-network</packagereq>
@@ -1193,13 +1193,13 @@
       <packagereq type="mandatory">cyrus-sasl-plain</packagereq>
       <packagereq type="mandatory">dbus</packagereq>
       <packagereq type="mandatory">ed</packagereq>
+      <packagereq type="mandatory">firewalld</packagereq>
       <packagereq type="mandatory">logrotate</packagereq>
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">mailcap</packagereq>
       <packagereq type="mandatory">man-db</packagereq>
       <packagereq type="mandatory">NetworkManager</packagereq>
       <packagereq type="mandatory">ntsysv</packagereq>
-      <packagereq type="mandatory">parted</packagereq>
       <packagereq type="mandatory">pciutils</packagereq>
       <packagereq type="mandatory">psacct</packagereq>
       <packagereq type="mandatory">quota</packagereq>
@@ -1268,7 +1268,6 @@
       <packagereq type="default">stunnel</packagereq>
       <packagereq type="default">sudo</packagereq>
       <packagereq type="default">symlinks</packagereq>
-      <packagereq type="default">system-config-firewall-tui</packagereq>
       <packagereq type="default">system-config-network-tui</packagereq>
       <packagereq type="default">talk</packagereq>
       <packagereq type="default">tcpdump</packagereq>
@@ -1486,6 +1485,7 @@
       <packagereq type="default">plymouth-system-theme</packagereq>
       <packagereq type="default">policycoreutils-sandbox</packagereq>
       <packagereq type="default">smolt-firstboot</packagereq>
+      <packagereq type="default">spice-vdagent</packagereq>
       <packagereq type="default">xorg-x11-drv-ast</packagereq>
       <packagereq type="default">xorg-x11-drv-ati</packagereq>
       <packagereq type="default">xorg-x11-drv-cirrus</packagereq>
@@ -1842,6 +1842,21 @@
       <packagereq type="mandatory">jomolhari-fonts</packagereq>
     </packagelist>
   </group>
+  <group>
+     <id>bodo-support</id>
+     <name>Bodo Support</name>
+     <description/>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <langonly>brx</langonly>
+     <packagelist>
+       <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+       <packagereq type="mandatory">m17n-contrib</packagereq>
+       <packagereq type="conditional" requires="xorg-x11-server-Xorg">ibus-m17n</packagereq>
+       <packagereq type="default">iok</packagereq>
+       <packagereq type="default">samyak-devanagari-fonts</packagereq>
+     </packagelist>
+   </group>
   <group>
     <id>books</id>
     <name>Books and Guides</name>
@@ -3055,13 +3070,14 @@
       <packagereq type="mandatory">initscripts</packagereq>
       <packagereq type="mandatory">iproute</packagereq>
       <packagereq type="mandatory">iprutils</packagereq>
-      <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">iputils</packagereq>
       <packagereq type="mandatory">kbd</packagereq>
       <packagereq type="mandatory">libgcc</packagereq>
       <packagereq type="mandatory">ncurses</packagereq>
       <packagereq type="mandatory">openssh-server</packagereq>
+      <packagereq type="mandatory">parted</packagereq>
       <packagereq type="mandatory">passwd</packagereq>
+      <packagereq type="mandatory">plymouth</packagereq>
       <packagereq type="mandatory">policycoreutils</packagereq>
       <packagereq type="mandatory">procps</packagereq>
       <packagereq type="mandatory">readline</packagereq>
@@ -3078,6 +3094,7 @@
       <packagereq type="mandatory">util-linux</packagereq>
       <packagereq type="mandatory">vim-minimal</packagereq>
       <packagereq type="mandatory">yum</packagereq>
+      <packagereq type="default">NetworkManager</packagereq>
       <packagereq type="default">ppc64-utils</packagereq>
       <packagereq type="default">s390utils</packagereq>
       <packagereq type="default">sendmail</packagereq>
@@ -5011,6 +5028,21 @@
       <packagereq type="optional">unbound</packagereq>
     </packagelist>
   </group>
+  <group>
+     <id>dogri-support</id>
+     <name>Dogri Support</name>
+     <description/>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <langonly>doi</langonly>
+     <packagelist>
+       <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+       <packagereq type="mandatory">m17n-contrib</packagereq>
+       <packagereq type="conditional" requires="xorg-x11-server-Xorg">ibus-m17n</packagereq>
+       <packagereq type="default">iok</packagereq>
+       <packagereq type="default">samyak-devanagari-fonts</packagereq>
+     </packagelist>
+   </group>
   <group>
     <id>dogtag</id>
     <name>Dogtag Certificate System</name>
@@ -7326,6 +7358,10 @@
       <packagereq type="optional">gnu-free-mono-fonts</packagereq>
       <packagereq type="optional">gnu-free-sans-fonts</packagereq>
       <packagereq type="optional">gnu-free-serif-fonts</packagereq>
+      <packagereq type="optional">google-croscore-arimo-fonts</packagereq>
+      <packagereq type="optional">google-croscore-cousine-fonts</packagereq>
+      <packagereq type="optional">google-croscore-symbolneu-fonts</packagereq>
+      <packagereq type="optional">google-croscore-tinos-fonts</packagereq>
       <packagereq type="optional">google-droid-sans-fonts</packagereq>
       <packagereq type="optional">google-droid-sans-mono-fonts</packagereq>
       <packagereq type="optional">google-droid-serif-fonts</packagereq>
@@ -8441,7 +8477,7 @@
       <packagereq type="optional">wordwarvi</packagereq>
       <packagereq type="optional">worldofpadman</packagereq>
       <packagereq type="optional">worminator</packagereq>
-      <packagereq type="optional">wormux</packagereq>
+      <packagereq type="optional">warmux</packagereq>
       <packagereq type="optional">xaos</packagereq>
       <packagereq type="optional">xarchon</packagereq>
       <packagereq type="optional">xblast</packagereq>
@@ -8787,6 +8823,7 @@
       <packagereq type="default">at-spi2-atk</packagereq>
       <packagereq type="default">at-spi2-core</packagereq>
       <packagereq type="default">avahi</packagereq>
+      <packagereq type="default">baobab</packagereq>
       <packagereq type="default">brasero-nautilus</packagereq>
       <packagereq type="default">caribou</packagereq>
       <packagereq type="default">cheese</packagereq>
@@ -8810,6 +8847,7 @@
       <packagereq type="default">gnome-bluetooth</packagereq>
       <packagereq type="default">gnome-color-manager</packagereq>
       <packagereq type="default">gnome-contacts</packagereq>
+      <packagereq type="default">gnome-dictionary</packagereq>
       <packagereq type="default">gnome-disk-utility</packagereq>
       <packagereq type="default">gnome-disk-utility-nautilus</packagereq>
       <packagereq type="default">gnome-documents</packagereq>
@@ -8821,11 +8859,13 @@
       <packagereq type="default">gnome-packagekit</packagereq>
       <packagereq type="default">gnome-power-manager</packagereq>
       <packagereq type="default">gnome-screensaver</packagereq>
+      <packagereq type="default">gnome-screenshot</packagereq>
+      <packagereq type="default">gnome-search-tool</packagereq>
+      <packagereq type="default">gnome-system-log</packagereq>
       <packagereq type="default">gnome-system-monitor</packagereq>
       <packagereq type="default">gnome-terminal</packagereq>
       <packagereq type="default">gnome-tweak-tool</packagereq>
       <packagereq type="default">gnome-user-docs</packagereq>
-      <packagereq type="default">gnome-utils</packagereq>
       <packagereq type="default">gucharmap</packagereq>
       <packagereq type="default">gvfs-archive</packagereq>
       <packagereq type="default">gvfs-fuse</packagereq>
@@ -8861,7 +8901,6 @@
       <packagereq type="default">shotwell</packagereq>
       <packagereq type="default">simple-scan</packagereq>
       <packagereq type="default">sushi</packagereq>
-      <packagereq type="default">system-config-firewall</packagereq>
       <packagereq type="default">vinagre</packagereq>
       <packagereq type="default">vino</packagereq>
       <packagereq type="default">xdg-user-dirs-gtk</packagereq>
@@ -9696,6 +9735,7 @@
       <packagereq type="optional">kolourpaint</packagereq>
       <packagereq type="optional">kphotoalbum</packagereq>
       <packagereq type="optional">ksnapshot</packagereq>
+      <packagereq type="optional">luminance-hdr</packagereq>
       <packagereq type="optional">makehuman</packagereq>
       <packagereq type="optional">mirage</packagereq>
       <packagereq type="optional">netpbm-progs</packagereq>
@@ -10896,6 +10936,7 @@
       <packagereq type="default">ibus-anthy</packagereq>
       <packagereq type="default">ibus-chewing</packagereq>
       <packagereq type="default">ibus-hangul</packagereq>
+      <packagereq type="default">ibus-hunspell-table</packagereq>
       <packagereq type="default">ibus-m17n</packagereq>
       <packagereq type="default">ibus-pinyin</packagereq>
       <packagereq type="default">libpinyin-data</packagereq>
@@ -11539,7 +11580,6 @@
       <packagereq type="mandatory">java-1.7.0-openjdk</packagereq>
       <packagereq type="default">icedtea-web</packagereq>
       <packagereq type="optional">java-1.5.0-gcj</packagereq>
-      <packagereq type="optional">java-1.6.0-openjdk</packagereq>
       <packagereq type="optional">libgcj</packagereq>
     </packagelist>
   </group>
@@ -11750,10 +11790,6 @@
       <packagereq type="optional">ant-findbugs</packagereq>
       <packagereq type="optional">findbugs</packagereq>
       <packagereq type="optional">findbugs-tools</packagereq>
-      <packagereq type="optional">java-1.6.0-openjdk-demo</packagereq>
-      <packagereq type="optional">java-1.6.0-openjdk-devel</packagereq>
-      <packagereq type="optional">java-1.6.0-openjdk-javadoc</packagereq>
-      <packagereq type="optional">java-1.6.0-openjdk-src</packagereq>
       <packagereq type="optional">jcip-annotations</packagereq>
       <packagereq type="optional">jsr-305</packagereq>
       <packagereq type="optional">pmd</packagereq>
@@ -12197,7 +12233,6 @@
       <packagereq type="default">scribus</packagereq>
       <packagereq type="default">svnpart</packagereq>
       <packagereq type="default">system-config-date</packagereq>
-      <packagereq type="default">system-config-firewall</packagereq>
       <packagereq type="default">system-config-printer-kde</packagereq>
       <packagereq type="default">system-config-services</packagereq>
       
@@ -12256,6 +12291,7 @@
       <packagereq type="optional">kmid2</packagereq>
       <packagereq type="optional">kmymoney</packagereq>
       <packagereq type="optional">knemo</packagereq>
+      <packagereq type="optional">ksecrets</packagereq>
       <packagereq type="optional">calligra-suite</packagereq>
       <packagereq type="optional">koverartist</packagereq>
       <packagereq type="optional">krecipes</packagereq>
@@ -14268,6 +14304,7 @@
       <packagereq type="conditional" requires="imsettings">imsettings-lxde</packagereq>
       <packagereq type="conditional" requires="pinentry">pinentry-gtk</packagereq>
       <packagereq type="default">abrt-desktop</packagereq>
+      <packagereq type="default">fedora-icon-theme</packagereq>
       <packagereq type="default">gpicview</packagereq>
       <packagereq type="default">leafpad</packagereq>
       <packagereq type="default">lxappearance</packagereq>
@@ -14880,6 +14917,20 @@
     <packagelist>
     </packagelist>
   </group>
+  <group>
+     <id>manipuri-support</id>
+     <name>Manipuri Support</name>
+     <description/>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <langonly>mni</langonly>
+     <packagelist>
+       <packagereq type="mandatory">lohit-bengali-fonts</packagereq>
+       <packagereq type="mandatory">m17n-contrib</packagereq>
+       <packagereq type="conditional" requires="xorg-x11-server-Xorg">ibus-m17n</packagereq>
+       <packagereq type="default">iok</packagereq>
+     </packagelist>
+   </group>
   <group>
     <id>manx-support</id>
     <name>Manx Support</name>
@@ -18190,6 +18241,21 @@
     </packagelist>
   </group>
   <group>
+     <id>santali-support</id>
+     <name>Santali Support</name>
+     <description/>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <langonly>sat</langonly>
+     <packagelist>
+       <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+       <packagereq type="mandatory">m17n-contrib</packagereq>
+       <packagereq type="conditional" requires="xorg-x11-server-Xorg">ibus-m17n</packagereq>
+       <packagereq type="default">iok</packagereq>
+       <packagereq type="default">samyak-devanagari-fonts</packagereq>
+     </packagelist>
+   </group>
+  <group>
     <id>sardinian-support</id>
     <name>Sardinian Support</name>
     <name xml:lang="ar">دعم سردينيا</name>
@@ -19942,6 +20008,7 @@
       <packagereq type="default">sugar-calculator</packagereq>
       <packagereq type="default">sugar-chat</packagereq>
       <packagereq type="default">sugar-clock</packagereq>
+      <packagereq type="default">sugar-countries</packagereq>
       <packagereq type="default">sugar-imageviewer</packagereq>
       <packagereq type="default">sugar-jukebox</packagereq>
       <packagereq type="default">sugar-log</packagereq>
@@ -19962,18 +20029,23 @@
       <packagereq type="default">sugar-write</packagereq>
       <packagereq type="default">sugar-xoirc</packagereq>
       <packagereq type="optional">sugar-analyze</packagereq>
+      <packagereq type="optional">sugar-calendario</packagereq>
       <packagereq type="optional">sugar-connect</packagereq>
       <packagereq type="optional">sugar-distance</packagereq>
       <packagereq type="optional">sugar-emulator</packagereq>
       <packagereq type="optional">sugar-finance</packagereq>
       <packagereq type="optional">sugar-flipsticks</packagereq>
+      <packagereq type="optional">sugar-getiabooks</packagereq>
       <packagereq type="optional">sugar-help</packagereq>
       <packagereq type="optional">sugar-implode</packagereq>
       <packagereq type="optional">sugar-infoslicer</packagereq>
+      <packagereq type="optional">sugar-labyrinth</packagereq>
       <packagereq type="optional">sugar-paint</packagereq>
       <packagereq type="optional">sugar-playgo</packagereq>
       <packagereq type="optional">sugar-pukllanapac</packagereq>
       <packagereq type="optional">sugar-ruler</packagereq>
+      <packagereq type="optional">sugar-stopwatch</packagereq>
+      <packagereq type="optional">sugar-view-slides</packagereq>
       <packagereq type="optional">sugar-xomail</packagereq>
     </packagelist>
   </group>
@@ -23256,6 +23328,7 @@
       <packagereq type="conditional" requires="imsettings">imsettings-xfce</packagereq>
       <packagereq type="conditional" requires="pinentry">pinentry-gtk</packagereq>
       <packagereq type="default">abrt-desktop</packagereq>
+      <packagereq type="default">fedora-icon-theme</packagereq>
       <packagereq type="default">gdm</packagereq>
       <packagereq type="default">gtk-xfce-engine</packagereq>
       <packagereq type="default">leafpad</packagereq>
@@ -23834,6 +23907,7 @@
       <groupid>belarusian-support</groupid>
       <groupid>bengali-support</groupid>
       <groupid>bhutanese-support</groupid>
+      <groupid>bodo-support</groupid>
       <groupid>bosnian-support</groupid>
       <groupid>brazilian-support</groupid>
       <groupid>breton-support</groupid>
@@ -23848,6 +23922,7 @@
       <groupid>croatian-support</groupid>
       <groupid>czech-support</groupid>
       <groupid>danish-support</groupid>
+      <groupid>dogri-support</groupid>
       <groupid>dutch-support</groupid>
       <groupid>esperanto-support</groupid>
       <groupid>estonian-support</groupid>
@@ -23903,6 +23978,7 @@
       <groupid>malay-support</groupid>
       <groupid>malayalam-support</groupid>
       <groupid>maltese-support</groupid>
+      <groupid>manipuri-support</groupid>
       <groupid>manx-support</groupid>
       <groupid>maori-support</groupid>
       <groupid>marathi-support</groupid>
@@ -23924,6 +24000,7 @@
       <groupid>russian-support</groupid>
       <groupid>samoan-support</groupid>
       <groupid>sanskrit-support</groupid>
+      <groupid>santali-support</groupid>
       <groupid>sardinian-support</groupid>
       <groupid>serbian-support</groupid>
       <groupid>shuswap-support</groupid>
