@@ -86,6 +86,7 @@
       <packagereq type="conditional" requires="rt2870">kmod-rt2870</packagereq>
       <packagereq type="optional">rt3070</packagereq>
       <packagereq type="conditional" requires="rt3070">kmod-rt3070</packagereq>
+      <packagereq type="optional">kmod-staging</packagereq>
     </packagelist>
   </group>
   <group>
