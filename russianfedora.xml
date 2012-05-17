@@ -4698,6 +4698,7 @@
       <packagereq type="optional">ghc</packagereq>
       <packagereq type="optional">giggle</packagereq>
       <packagereq type="optional">git-cola</packagereq>
+      <packagereq type="optional">gitg</packagereq>
       <packagereq type="optional">gnu-smalltalk</packagereq>
       <packagereq type="optional">gphpedit</packagereq>
       <packagereq type="optional">gprolog</packagereq>
@@ -4777,6 +4778,7 @@
       <packagereq type="optional">sysconftool</packagereq>
       <packagereq type="optional">tailor</packagereq>
       <packagereq type="optional">tclpro</packagereq>
+      <packagereq type="optional">tig</packagereq>
       <packagereq type="optional">tkcon</packagereq>
       <packagereq type="optional">tkcvs</packagereq>
       <packagereq type="optional">tla</packagereq>
@@ -9096,7 +9098,6 @@
       <packagereq type="optional">gnote</packagereq>
       <packagereq type="optional">gok</packagereq>
       <packagereq type="optional">gonvert</packagereq>
-      <packagereq type="optional">grsync</packagereq>
       <packagereq type="optional">gthumb</packagereq>
       <packagereq type="optional">gtkhash-nautilus</packagereq>
       <packagereq type="optional">gtrayicon</packagereq>
@@ -17051,7 +17052,6 @@
       <packagereq type="optional">gbirthday</packagereq>
       <packagereq type="optional">gdeskcal</packagereq>
       <packagereq type="optional">glabels</packagereq>
-      <packagereq type="optional">glista</packagereq>
       <packagereq type="optional">glom</packagereq>
       <packagereq type="optional">gnucash</packagereq>
       <packagereq type="optional">gnumeric</packagereq>
@@ -20816,6 +20816,7 @@
       <packagereq type="optional">gnutls-utils</packagereq>
       <packagereq type="optional">greadelf</packagereq>
       <packagereq type="optional">grepmail</packagereq>
+      <packagereq type="optional">grsync</packagereq>
       <packagereq type="optional">gssdp</packagereq>
       <packagereq type="optional">gtkhash</packagereq>
       <packagereq type="optional">gtkterm</packagereq>
