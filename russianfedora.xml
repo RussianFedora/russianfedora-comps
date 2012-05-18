@@ -445,6 +445,44 @@
     </packagelist>
   </group>
   <group>
+    <id>anaconda-tools</id>
+    <name>Anaconda tools</name>
+    <description/>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="default">authconfig</packagereq>
+      <packagereq type="default">btrfs-progs</packagereq>
+      <packagereq type="default">chkconfig</packagereq>
+      <packagereq type="default">cryptsetup-luks</packagereq>
+      <packagereq type="default">device-mapper-multipath</packagereq>
+      <packagereq type="default">dmraid</packagereq>
+      <packagereq type="default">dosfstools</packagereq>
+      <packagereq type="default">dracut-network</packagereq>
+      <packagereq type="default">e2fsprogs</packagereq>
+      <packagereq type="default">efibootmgr</packagereq>
+      <packagereq type="default">fcoe-utils</packagereq>
+      <packagereq type="default">gfs2-utils</packagereq>
+      <packagereq type="default">grub2</packagereq>
+      <packagereq type="default">grub-efi</packagereq>
+      <packagereq type="default">grub</packagereq>
+      <packagereq type="default">hfsplus-tools</packagereq>
+      <packagereq type="default">iscsi-initiator-utils</packagereq>
+      <packagereq type="default">lvm2</packagereq>
+      <packagereq type="default">mactel-boot</packagereq>
+      <packagereq type="default">mdadm</packagereq>
+      <packagereq type="default">ntfsprogs</packagereq>
+      <packagereq type="default">reiserfs-utils</packagereq>
+      <packagereq type="default">s390utils-base</packagereq>
+      <packagereq type="default">s390utils</packagereq>
+      <packagereq type="default">silo</packagereq>
+      <packagereq type="default">system-config-firewall-base</packagereq>
+      <packagereq type="default">tboot</packagereq>
+      <packagereq type="default">xfsprogs</packagereq>
+      <packagereq type="default">yaboot</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>arabic-support</id>
     <name>Arabic Support</name>
     <name xml:lang="af">Arabiese taalsteun</name>
