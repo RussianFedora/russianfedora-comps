@@ -20885,7 +20885,6 @@
       <packagereq type="optional">lslk</packagereq>
       <packagereq type="optional">lzop</packagereq>
       <packagereq type="optional">macchanger</packagereq>
-      <packagereq type="optional">mc</packagereq>
       <packagereq type="optional">mmv</packagereq>
       <packagereq type="optional">mrtg</packagereq>
       <packagereq type="optional">mtx</packagereq>
