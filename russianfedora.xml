@@ -9694,8 +9694,9 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="default">empathy</packagereq>
+      <packagereq type="conditional" requires="NetworkManager-gnome">transmission-gtk</packagereq>
       <packagereq type="default">firefox</packagereq>
+      <packagereq type="default">flash-plugin</packagereq>
       <packagereq type="default">icedtea-web</packagereq>
       <packagereq type="default">libreoffice-calc</packagereq>
       <packagereq type="default">libreoffice-draw</packagereq>
@@ -9705,7 +9706,6 @@
       <packagereq type="default">libreoffice-writer</packagereq>
       <packagereq type="default">libreoffice-xsltfilter</packagereq>
       <packagereq type="default">thunderbird</packagereq>
-      <packagereq type="default">transmission-gtk</packagereq>
     </packagelist>
   </group>
   <group>
