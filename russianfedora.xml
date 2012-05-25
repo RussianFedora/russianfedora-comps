@@ -1736,6 +1736,9 @@
     <langonly>be</langonly>
     <packagelist>
       <packagereq type="optional">apanov-edrip-fonts</packagereq>
+      <packagereq type="conditional" requires="hunspell">hunspell-be</packagereq>
+      <packagereq type="conditional" requires="hyphen">hyphen-be</packagereq>
+      <packagereq type="conditional" requires="moodle">moodle-be</packagereq>
     </packagelist>
   </group>
   <group>
@@ -18453,6 +18456,19 @@
       <packagereq type="optional">scim-tables-russian</packagereq>
       <packagereq type="optional">stardict-dic-ru</packagereq>
       <packagereq type="optional">xorg-x11-fonts-cyrillic</packagereq>
+      <packagereq type="conditional" requires="aspell">aspell-ru</packagereq>
+      <packagereq type="conditional" requires="autocorr-en">autocorr-ru</packagereq>
+      <packagereq type="conditional" requires="childsplay">childsplay-alphabet_sounds_ru</packagereq>
+      <packagereq type="conditional" requires="eclipse-platform">eclipse-nls-ru</packagereq>
+      <packagereq type="conditional" requires="gcompris">gcompris-sound-ru</packagereq>
+      <packagereq type="conditional" requires="hunspell">hunspell-ru</packagereq>
+      <packagereq type="conditional" requires="hyphen">hyphen-ru</packagereq>
+      <packagereq type="conditional" requires="kdelibs3">kde-i18n-Russian</packagereq>
+      <packagereq type="conditional" requires="kdelibs">kde-l10n-Russian</packagereq>
+      <packagereq type="conditional" requires="libreoffice-core">libreoffice-langpack-ru</packagereq>
+      <packagereq type="conditional" requires="man-pages">man-pages-ru</packagereq>
+      <packagereq type="conditional" requires="moodle">moodle-ru</packagereq>
+      <packagereq type="conditional" requires="mythes-en">mythes-ru</packagereq>
     </packagelist>
   </group>
   <group>
@@ -22248,6 +22264,15 @@
       <packagereq type="optional">fonts-KOI8-R-100dpi</packagereq>
       <packagereq type="optional">fonts-KOI8-R-75dpi</packagereq>
       <packagereq type="optional">xorg-x11-fonts-cyrillic</packagereq>
+      <packagereq type="conditional" requires="eclipse-platform">eclipse-nls-uk</packagereq>
+      <packagereq type="conditional" requires="hunspell">hunspell-uk</packagereq>
+      <packagereq type="conditional" requires="hyphen">hyphen-uk</packagereq>
+      <packagereq type="conditional" requires="kdelibs3">kde-i18n-Ukrainian</packagereq>
+      <packagereq type="conditional" requires="kdelibs">kde-l10n-Ukrainian</packagereq>
+      <packagereq type="conditional" requires="koffice-core">koffice-langpack-uk</packagereq>
+      <packagereq type="conditional" requires="libreoffice-core">libreoffice-langpack-uk</packagereq>
+      <packagereq type="conditional" requires="moodle">moodle-uk</packagereq>
+      <packagereq type="conditional" requires="mythes-en">mythes-uk</packagereq>
     </packagelist>
   </group>
   <group>
