@@ -185,6 +185,7 @@
       <packagereq type="optional">moc</packagereq>
       <packagereq type="optional">mpg123</packagereq>
       <packagereq type="optional">openshot</packagereq>
+      <packagereq type="optional">rosa-media-player</packagereq>
     </packagelist>
   </group>
   <group>
