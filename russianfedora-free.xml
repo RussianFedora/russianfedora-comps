@@ -9,7 +9,7 @@
    <name>Authoring and Publishing</name>
    <description>These tools allow you to create documents in the DocBook format and convert them into HTML, PDF, Postscript, and text.</description>
     <packagelist>
-      <packagereq type="default">texlive-cm-super-fonts</packagereq>
+      <packagereq type="conditional" requires="texlive">texlive-cm-super-fonts</packagereq>
       <packagereq type="optional">cuneiform</packagereq>
       <packagereq type="optional">cuneiform-qt</packagereq>
       <packagereq type="optional">yagf</packagereq>
@@ -33,9 +33,7 @@
    <name>X Window System</name>
    <description>Install this group of packages to use the base graphical (X) user interface.</description>
     <packagelist>
-      <packagereq type="optional">compat-openmotif</packagereq>
       <packagereq type="optional">xneur</packagereq>
-      <packagereq type="optional">xruskb</packagereq>
     </packagelist>
   </group>
   <group>
@@ -45,15 +43,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">alien</packagereq>
-      <packagereq type="optional">checkinstall</packagereq>
-      <packagereq type="optional">debhelper</packagereq>
-      <packagereq type="optional">devscripts</packagereq>
-      <packagereq type="optional">dpkg</packagereq>
-      <packagereq type="optional">eiskaltdc-devel</packagereq>
-      <packagereq type="optional">pbuilder</packagereq>
-      <packagereq type="optional">rpmrebuild</packagereq>
-      <packagereq type="optional">xneur-devel</packagereq>
+      <packagereq type="optional">deb</packagereq>
     </packagelist>
   </group>
   <group>
@@ -74,6 +64,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="default">ubuntu-font-family</packagereq>
+      <packagereq type="optional">fontconfig-infinality</packagereq>
     </packagelist>
   </group>
   <group>
@@ -96,6 +87,7 @@
    <name>GNOME Desktop Environment</name>
    <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
+      <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
     </packagelist>
@@ -108,9 +100,12 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="default">madwimax</packagereq>
+      <packagereq type="optional">akmod-brcm80211</packagereq>
       <packagereq type="optional">akmod-rt3062</packagereq>
       <packagereq type="optional">akmod-rt3090</packagereq>
       <packagereq type="optional">akmod-samsung-backlight</packagereq>
+      <packagereq type="optional">brcm80211-common</packagereq>
+      <packagereq type="conditional" requires="brcm80211-common">kmod-brcm80211</packagereq>
       <packagereq type="optional">rt3062</packagereq>
       <packagereq type="conditional" requires="rt3062">kmod-rt3062</packagereq>
       <packagereq type="optional">rt3090</packagereq>
@@ -138,6 +133,7 @@
    <description>A lightweight desktop environment that works well on low end machines.</description>
     <packagelist>
       <packagereq type="default">gsmartcontrol</packagereq>
+      <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
       <packagereq type="optional">gtk-nimbus-engine</packagereq>
       <packagereq type="optional">gxneur</packagereq>
     </packagelist>
@@ -150,12 +146,12 @@
    <name>Graphical Internet</name>
    <description>This group includes graphical email, Web, and chat clients.</description>
     <packagelist>
-      <packagereq type="optional">eiskaltdcpp</packagereq>
       <packagereq type="optional">flush</packagereq>
       <packagereq type="optional">mrim-prpl</packagereq>
       <packagereq type="optional">pidgin-facebookchat</packagereq>
       <packagereq type="optional">psi-plus</packagereq>
       <packagereq type="optional">psi-plus-plugins</packagereq>
+      <packagereq type="optional">vacuum</packagereq>
       <packagereq type="optional">yachat</packagereq>
     </packagelist>
   </group>
@@ -167,8 +163,7 @@
    <name>KDE (K Desktop Environment)</name>
    <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
-      <packagereq type="default">kvpnc</packagereq>
-      <packagereq type="default">rftask</packagereq>
+      <packagereq type="optional">eiskaltdcpp-qt</packagereq>
     </packagelist>
   </group>
   <group>
@@ -180,14 +175,15 @@
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
       <packagereq type="default">libdvdcss</packagereq>
+      <packagereq type="optional">2mandvd</packagereq>
       <packagereq type="optional">aegisub</packagereq>
       <packagereq type="optional">bino</packagereq>
       <packagereq type="optional">deadbeef</packagereq>
       <packagereq type="optional">foobnix</packagereq>
-      <packagereq type="optional">mandvd</packagereq>
       <packagereq type="optional">moc</packagereq>
       <packagereq type="optional">mpg123</packagereq>
       <packagereq type="optional">openshot</packagereq>
+      <packagereq type="optional">rosa-media-player</packagereq>
     </packagelist>
   </group>
   <group>
