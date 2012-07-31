@@ -2600,6 +2600,8 @@
       <packagereq type='mandatory'>libertas-usb8388-firmware</packagereq>
       <packagereq type='mandatory'>ncurses</packagereq>
       <packagereq type='mandatory'>netxen-firmware</packagereq>
+      <packagereq type='mandatory'>nss</packagereq>
+      <packagereq type='mandatory'>nspr</packagereq>
       <packagereq type='mandatory'>openssh-server</packagereq>
       <packagereq type='mandatory'>passwd</packagereq>
       <packagereq type='mandatory'>policycoreutils</packagereq>

@@ -20,6 +20,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">mplayer2</packagereq>
+      <packagereq type="optional">rosa-media-player</packagereq>
     </packagelist>
   </group>
   <group>
