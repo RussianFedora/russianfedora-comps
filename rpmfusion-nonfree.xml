@@ -2,21 +2,10 @@
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
-   <id>base</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
-   <name>Base</name>
-   <description>This group includes a minimal set of packages. Useful for creating small router/firewall boxes, for example.</description>
-   <packagelist>
-      <packagereq type="default">unrar</packagereq>
-   </packagelist>
-  </group>
-  <group>
     <id>core</id>
     <name>Core</name>
     <description>Smallest possible installation</description>
-    <default>true</default>
+    <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
@@ -68,8 +57,8 @@
     <id>hardware-support</id>
     <name>Hardware Support</name>
     <description>This group is a collection of tools for various hardware specific utilities.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
+    <default>false</default>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="optional">akmod-madwifi</packagereq>
       <packagereq type="optional">akmod-nvidia</packagereq>
@@ -95,7 +84,7 @@
     <id>sound-and-video</id>
     <name>Sound and Video</name>
     <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
-    <default>true</default>
+    <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">gstreamer-plugins-bad-nonfree</packagereq>
@@ -120,32 +109,12 @@
     <id>fonts</id>
     <name>Fonts</name>
     <description>Fonts packages for rendering text on the desktop.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
+    <default>false</default>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="optional">larabie-decorative-fonts</packagereq>
       <packagereq type="optional">larabie-straight-fonts</packagereq>
       <packagereq type="optional">larabie-uncommon-fonts</packagereq>
     </packagelist>
   </group>
-  <category>
-    <id>base-system</id>
-    <name>Base System</name>
-    <description>Various core pieces of the system.</description>
-    <display_order>99</display_order>
-    <grouplist>
-      <groupid>base</groupid>
-      <groupid>hardware-support</groupid>
-      <groupid>system-tools</groupid>
-    </grouplist>
-  </category>
-  <category>
-    <id>apps</id>
-    <name>Applications</name>
-    <description>Applications to perform a variety of tasks</description>
-    <display_order>20</display_order>
-    <grouplist>
-      <groupid>games</groupid>
-    </grouplist>
-  </category>
 </comps>

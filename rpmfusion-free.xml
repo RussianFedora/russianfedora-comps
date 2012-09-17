@@ -5,7 +5,7 @@
     <id>core</id>
     <name>Core</name>
     <description>Smallest possible installation</description>
-    <default>true</default>
+    <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">rpmfusion-free-release</packagereq>
@@ -15,12 +15,11 @@
     <id>gnome-desktop</id>
     <name>GNOME Desktop Environment</name>
     <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
+    <default>false</default>
+    <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="default">gstreamer-plugins-ugly</packagereq>
-      <packagereq type="default">gstreamer-ffmpeg</packagereq>
-      <packagereq type="optional">gnome-mplayer</packagereq>
+      <packagereq>gstreamer-plugins-ugly</packagereq>
+      <packagereq>gstreamer-ffmpeg</packagereq>
     </packagelist>
   </group>
   <group>
@@ -28,21 +27,18 @@
     <name>KDE (K Desktop Environment)</name>
     <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="conditional" requires="kdemultimedia">kdemultimedia-extras-freeworld</packagereq>
       <packagereq type="conditional" requires="libtunepimp">libtunepimp-extras-freeworld</packagereq>
-      <packagereq type="optional">k9copy</packagereq>
-      <packagereq type="optional">kmediafactory</packagereq>
-      <packagereq type="optional">kplayer</packagereq>
     </packagelist>
   </group>
   <group>
     <id>graphical-internet</id>
     <name>Graphical Internet</name>
     <description>This group includes graphical email, Web, and chat clients.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
+    <default>false</default>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="optional">amule</packagereq>
       <packagereq type="optional">comical</packagereq>
@@ -57,8 +53,8 @@
     <id>hardware-support</id>
     <name>Hardware Support</name>
     <description>This group is a collection of tools for various hardware specific utilities.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
+    <default>false</default>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="default">foo2hiperc</packagereq>
       <packagereq type="default">foo2hp</packagereq>
@@ -93,7 +89,7 @@
     <id>sound-and-video</id>
     <name>Sound and Video</name>
     <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
-    <default>true</default>
+    <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
@@ -179,7 +175,7 @@
     <id>games</id>
     <name>Games and Entertainment</name>
     <description>Various ways to relax and spend your free time.</description>
-    <default>true</default>
+    <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">arcem</packagereq>
@@ -223,42 +219,11 @@
     <name>Virtualization</name>
     <description>These packages provide a virtualization environment.</description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="optional">akmod-VirtualBox-OSE</packagereq>
       <packagereq type="optional">VirtualBox-OSE</packagereq>
       <packagereq type="conditional" requires="VirtualBox-OSE">kmod-VirtualBox-OSE</packagereq>
     </packagelist>
   </group>
-  <category>
-    <id>apps</id>
-    <name>Applications</name>
-    <description>Applications to perform a variety of tasks</description>
-    <display_order>20</display_order>
-    <grouplist>
-      <groupid>games</groupid>
-      <groupid>graphical-internet</groupid>
-      <groupid>sound-and-video</groupid>
-    </grouplist>
-  </category>
-  <category>
-    <id>base-system</id>
-    <name>Base System</name>
-    <description>Various core pieces of the system.</description>
-    <display_order>99</display_order>
-    <grouplist>
-      <groupid>hardware-support</groupid>
-      <groupid>virtualization</groupid>
-    </grouplist>
-  </category>
-  <category>
-    <id>desktops</id>
-    <name>Desktop Environments</name>
-    <description>Desktop environments</description>
-    <display_order>10</display_order>
-    <grouplist>
-      <groupid>gnome-desktop</groupid>
-      <groupid>kde-desktop</groupid>
-    </grouplist>
-  </category>
 </comps>
