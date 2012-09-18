@@ -9327,8 +9327,8 @@
   </group>
   <group>
     <id>kde-desktop-minimal</id>
-    <name>KDE Minimal Software Compilation</name>
-    <description>The KDE Minimal Comfiguration.</description>
+    <name>KDE Desktop Minimal</name>
+    <description>The Minimal KDE Desktop Configuration.</description>
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
