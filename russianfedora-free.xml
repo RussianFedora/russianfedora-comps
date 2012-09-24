@@ -25,6 +25,16 @@
     </packagelist>
   </group>
   <group>
+    <id>chromium</id>
+    <name>Chromium browser</name>
+    <description>The Chromium web browser</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>chromium</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>fonts</id>
     <name>Fonts</name>
     <description>Fonts packages for rendering text on the desktop.</description>
