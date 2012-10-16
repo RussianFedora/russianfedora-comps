@@ -27,7 +27,9 @@
   <group>
     <id>chromium</id>
     <name>Chromium browser</name>
+    <name xml:lang="ru">Браузер Chromium"</name>
     <description>The Chromium web browser</description>
+    <description xml:lang="ru">Веб-браузер Chromium</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
