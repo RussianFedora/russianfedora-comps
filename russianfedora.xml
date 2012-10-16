@@ -170,6 +170,7 @@
       <packagereq>kdebase-workspace</packagereq>
       <packagereq>kdelibs</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-good</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-good</packagereq>
       <packagereq>apper</packagereq>
       <packagereq>kcm_touchpad</packagereq>
       <packagereq>kde-plasma-networkmanagement</packagereq>
@@ -188,6 +189,16 @@
       <packagereq>phonon-backend-gstreamer</packagereq>
       <packagereq>phonon-backend-xine</packagereq>
       <packagereq>xsettings-kde</packagereq>
+     </packagelist>
+  </group>
+  <group>
+    <id>system-tools</id>
+    <name>System Tools</name>
+    <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">NetworkManager-pptp</packagereq>
      </packagelist>
   </group>
   <environment>
