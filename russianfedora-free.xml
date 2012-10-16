@@ -67,6 +67,9 @@
    <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
       <packagereq>mailnag</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>gstreamer1-libev</packagereq>
+      <packagereq>gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
   <group>
@@ -99,6 +102,9 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq>gsmartcontrol</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>gstreamer1-libev</packagereq>
+      <packagereq>gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
   <group>
@@ -109,6 +115,9 @@
    <description>A lightweight desktop environment that works well on low end machines.</description>
     <packagelist>
       <packagereq>gsmartcontrol</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>gstreamer1-libev</packagereq>
+      <packagereq>gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
   <group>
@@ -136,6 +145,9 @@
    <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
       <packagereq type="optional">eiskaltdcpp-qt</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libev</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
   <group>
@@ -147,6 +159,7 @@
     <packagelist>
       <packagereq type="default">libdvdcss</packagereq>
       <packagereq type="conditional" requires="gstreamer1">gstreamer1-libev</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
       <packagereq type="optional">2mandvd</packagereq>
       <packagereq type="optional">aegisub</packagereq>
       <packagereq type="optional">bino</packagereq>
