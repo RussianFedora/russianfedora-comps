@@ -68,7 +68,7 @@
     <packagelist>
       <packagereq>mailnag</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq>gstreamer1-libev</packagereq>
+      <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
@@ -103,7 +103,7 @@
     <packagelist>
       <packagereq>gsmartcontrol</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq>gstreamer1-libev</packagereq>
+      <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
@@ -116,7 +116,7 @@
     <packagelist>
       <packagereq>gsmartcontrol</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq>gstreamer1-libev</packagereq>
+      <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
@@ -146,7 +146,7 @@
     <packagelist>
       <packagereq type="optional">eiskaltdcpp-qt</packagereq>
       <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
-      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libev</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
       <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
@@ -158,7 +158,7 @@
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
       <packagereq type="default">libdvdcss</packagereq>
-      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libev</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
       <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
       <packagereq type="optional">2mandvd</packagereq>
       <packagereq type="optional">aegisub</packagereq>
