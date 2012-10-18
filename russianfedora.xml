@@ -13,6 +13,16 @@
     </packagelist>
   </group>
   <group>
+   <id>core</id>
+   <default>false</default>
+   <uservisible>false</uservisible>
+   <name>Core</name>
+   <description>Smallest possible installation</description>
+    <packagelist>
+      <packagereq type="mandatory">russianfedora-free-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>multimedia</id>
     <name>Multimedia</name>
     <description>Audio/video framework common to desktops</description>
