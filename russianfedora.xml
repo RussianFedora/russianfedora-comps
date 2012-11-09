@@ -42,6 +42,7 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
+      <packagereq>clipit</packagereq>
       <packagereq>dconf-editor</packagereq>
       <packagereq>gconf-editor</packagereq>
       <packagereq>gnome-tweak-tool</packagereq>
@@ -114,6 +115,7 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
+      <packagereq>clipit</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
     </packagelist>
