@@ -88,6 +88,7 @@
       <packagereq>gvfs-smb</packagereq>
       <packagereq>network-manager-applet</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openvpn</packagereq>
       <packagereq>NetworkManager-pptp</packagereq>

@@ -70,6 +70,7 @@
       <packagereq>gstreamer1-plugins-ugly</packagereq>
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
     </packagelist>
   </group>
   <group>
@@ -105,6 +106,7 @@
       <packagereq>gstreamer1-plugins-ugly</packagereq>
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
     </packagelist>
   </group>
   <group>
@@ -118,6 +120,7 @@
       <packagereq>gstreamer1-plugins-ugly</packagereq>
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
     </packagelist>
   </group>
   <group>
@@ -188,6 +191,7 @@
    <name>System Tools</name>
    <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
     <packagelist>
+      <packagereq type="default">NetworkManager-l2tp</packagereq>
       <packagereq type="optional">freerdp</packagereq>
       <packagereq type="optional">shmux</packagereq>
       <packagereq type="optional">vpnpptp</packagereq>
