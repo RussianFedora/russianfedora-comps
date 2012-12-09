@@ -12,7 +12,6 @@
     </packagelist>
   </group>
   <group>
-  <group>
     <id>base-x</id>
     <name>base-x</name>
     <description>Local X.org display server</description>
