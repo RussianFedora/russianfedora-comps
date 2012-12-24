@@ -230,7 +230,7 @@
   </group>
   <environment>
     <id>gnome-desktop-minimal</id>
-    <name>GNOME Desktop Minimal Environment</name>
+    <name>GNOME Desktop Minimal Installation</name>
     <description>This is minimal GNOME installation.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола GNOME.</description>
     <display_order>6</display_order>
