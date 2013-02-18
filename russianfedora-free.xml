@@ -5,7 +5,6 @@
    <id>authoring-and-publishing</id>
    <default>False</default>
    <uservisible>True</uservisible>
-   <display_order>1024</display_order>
    <name>Authoring and Publishing</name>
    <description>These tools allow you to create documents in the DocBook format and convert them into HTML, PDF, Postscript, and text.</description>
     <packagelist>
@@ -17,8 +16,8 @@
   </group>
   <group>
    <id>core</id>
-   <default>True</default>
-   <uservisible>False</uservisible>
+   <default>false</default>
+   <uservisible>false</uservisible>
    <name>Core</name>
    <description>Smallest possible installation</description>
     <packagelist>
@@ -26,42 +25,23 @@
     </packagelist>
   </group>
   <group>
-   <id>base-x</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
-   <name>X Window System</name>
-   <description>Install this group of packages to use the base graphical (X) user interface.</description>
-    <packagelist>
-      <packagereq type="optional">xneur</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>development-tools</id>
-    <name>Development Tools</name>
-    <description>These tools include core development tools such as automake, gcc, perl, python, and debuggers.</description>
+    <id>chromium</id>
+    <name>Chromium browser</name>
+    <name xml:lang="ru">Браузер Chromium</name>
+    <description>The Chromium web browser</description>
+    <description xml:lang="ru">Веб-браузер Chromium</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">deb</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>education</id>
-    <name>Educational Software</name>
-    <description>Educational software for learning</description>
-    <default>false</default> 
-    <uservisible>true</uservisible>
-    <packagelist>
-    <packagereq type="optional">itest</packagereq>
+      <packagereq>chromium</packagereq>
     </packagelist>
   </group>
   <group>
     <id>fonts</id>
     <name>Fonts</name>
     <description>Fonts packages for rendering text on the desktop.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
+    <default>false</default>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="default">ubuntu-font-family</packagereq>
       <packagereq type="optional">fontconfig-infinality</packagereq>
@@ -71,7 +51,7 @@
     <id>games</id>
     <name>Games and Entertainment</name>
     <description>Various ways to relax and spend your free time.</description>
-    <default>true</default>
+    <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">dreamchess</packagereq>
@@ -81,23 +61,24 @@
   </group>
   <group>
    <id>gnome-desktop</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
+   <default>false</default>
+   <uservisible>false</uservisible>
    <name>GNOME Desktop Environment</name>
    <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
-      <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
-      <packagereq type="optional">gtk-nimbus-engine</packagereq>
-      <packagereq type="optional">gxneur</packagereq>
+      <packagereq>mailnag</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>gstreamer1-libav</packagereq>
+      <packagereq>gstreamer1-plugins-bad</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
     </packagelist>
   </group>
   <group>
     <id>hardware-support</id>
     <name>Hardware Support</name>
     <description>This group is a collection of tools for various hardware specific utilities.</description>
-    <default>true</default>
-    <uservisible>true</uservisible>
+    <default>false</default>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="default">madwimax</packagereq>
       <packagereq type="optional">akmod-brcm80211</packagereq>
@@ -119,33 +100,37 @@
     <name>LXDE</name>
     <description>LXDE is a lightweight X11 desktop environment designed for computers with low hardware specifications like netbooks, mobile devices or older computers.</description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="default">gsmartcontrol</packagereq>
+      <packagereq>gsmartcontrol</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>gstreamer1-libav</packagereq>
+      <packagereq>gstreamer1-plugins-bad</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
     </packagelist>
   </group>
   <group>
    <id>xfce-desktop</id>
-   <default>False</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
+   <default>false</default>
+   <uservisible>false</uservisible>
    <name>XFCE</name>
    <description>A lightweight desktop environment that works well on low end machines.</description>
     <packagelist>
-      <packagereq type="default">gsmartcontrol</packagereq>
-      <packagereq type="optional">eiskaltdcpp-gtk</packagereq>
-      <packagereq type="optional">gtk-nimbus-engine</packagereq>
-      <packagereq type="optional">gxneur</packagereq>
+      <packagereq>gsmartcontrol</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>gstreamer1-libav</packagereq>
+      <packagereq>gstreamer1-plugins-bad</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
     </packagelist>
   </group>
   <group>
    <id>graphical-internet</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
+   <default>false</default>
+   <uservisible>false</uservisible>
    <name>Graphical Internet</name>
    <description>This group includes graphical email, Web, and chat clients.</description>
     <packagelist>
+      <packagereq type="optional">chromium</packagereq>
       <packagereq type="optional">flush</packagereq>
       <packagereq type="optional">mrim-prpl</packagereq>
       <packagereq type="optional">pidgin-facebookchat</packagereq>
@@ -157,24 +142,27 @@
   </group>
   <group>
    <id>kde-desktop</id>
-   <default>False</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
+   <default>false</default>
+   <uservisible>false</uservisible>
    <name>KDE (K Desktop Environment)</name>
    <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
       <packagereq type="optional">eiskaltdcpp-qt</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-bad</packagereq>
     </packagelist>
   </group>
   <group>
    <id>sound-and-video</id>
-   <default>True</default>
-   <uservisible>True</uservisible>
-   <display_order>1024</display_order>
+   <default>false</default>
+   <uservisible>false</uservisible>
    <name>Sound and Video</name>
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
       <packagereq type="default">libdvdcss</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
       <packagereq type="optional">2mandvd</packagereq>
       <packagereq type="optional">aegisub</packagereq>
       <packagereq type="optional">bino</packagereq>
@@ -191,29 +179,19 @@
     <name>Web Server</name>
     <description>These tools allow you to run a Web server on the system.</description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="optional">wt</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>window-managers</id>
-    <name>Window Managers</name>
-    <description>Simple window managers that aren't part of a larger desktop environment.</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">sawfish</packagereq>
     </packagelist>
   </group>
   <group>
    <id>system-tools</id>
    <default>False</default>
    <uservisible>True</uservisible>
-   <display_order>1024</display_order>
    <name>System Tools</name>
    <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
     <packagelist>
+      <packagereq type="default">NetworkManager-l2tp</packagereq>
       <packagereq type="optional">freerdp</packagereq>
       <packagereq type="optional">shmux</packagereq>
       <packagereq type="optional">vpnpptp</packagereq>
@@ -224,65 +202,9 @@
     <name>Virtualization</name>
     <description>These packages provide a virtualization environment.</description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="optional">RemoteBox</packagereq>
     </packagelist>
   </group>
-  <category>
-   <id>desktops</id>
-   <display_order>10</display_order>
-   <name>Desktop Environments</name>
-   <description>Desktop environments</description>
-    <grouplist>
-     <groupid>gnome-desktop</groupid>
-     <groupid>kde-desktop</groupid>
-     <groupid>lxde-desktop</groupid>
-     <groupid>xfce-desktop</groupid>
-     <groupid>window-managers</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>apps</id>
-   <display_order>20</display_order>
-   <name>Applications</name>
-   <description>Applications to perform a variety of tasks</description>
-    <grouplist>
-     <groupid>authoring-and-publishing</groupid>
-     <groupid>education</groupid>
-     <groupid>games</groupid>
-     <groupid>graphical-internet</groupid>
-     <groupid>sound-and-video</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>base-system</id>
-   <display_order>99</display_order>
-   <name>Base System</name>
-   <description>Various core pieces of the system.</description>
-    <grouplist>
-     <groupid>base-x</groupid>
-     <groupid>fonts</groupid>
-     <groupid>system-tools</groupid>
-     <groupid>virtualization</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>development</id>
-   <display_order>99</display_order>
-   <name>Development</name>
-   <description>Packages which provide functionality for developing and building applications.</description>
-    <grouplist>
-     <groupid>development-tools</groupid>
-    </grouplist>
-  </category>
-  <category>
-   <id>servers</id>
-   <display_order>99</display_order>
-   <name>Servers</name>
-   <description>Software used for running network servers</description>
-    <grouplist>
-     <groupid>web-server</groupid>
-    </grouplist>
-  </category>
 </comps>
