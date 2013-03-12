@@ -22,6 +22,7 @@
    <description>Smallest possible installation</description>
     <packagelist>
       <packagereq type="mandatory">russianfedora-free-release</packagereq>
+      <packagereq type="mandatory">workaround-cyrillic-console</packagereq>
     </packagelist>
   </group>
   <group>
