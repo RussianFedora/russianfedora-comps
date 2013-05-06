@@ -29,6 +29,7 @@
    <name>Core</name>
    <description>Smallest possible installation</description>
     <packagelist>
+      <packagereq type="mandatory">kernel-modules-extra</packagereq>
       <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
     </packagelist>
   </group>
