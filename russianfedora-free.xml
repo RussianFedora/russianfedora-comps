@@ -111,18 +111,6 @@
     </packagelist>
   </group>
   <group>
-    <id>mate-desktop</id>
-    <name>MATE</name>
-<description>MATE Desktop is based on GNOME 2 and provides a powerful graphical user interface for users who seek a simple easy to use traditional desktop interface.</description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq>gstreamer1-libav</packagereq>
-      <packagereq>gstreamer1-plugins-bad</packagereq>
-    </packagelist>
-  </group>
-  <group>
    <id>xfce-desktop</id>
    <default>false</default>
    <uservisible>false</uservisible>

@@ -29,7 +29,6 @@
    <name>Core</name>
    <description>Smallest possible installation</description>
     <packagelist>
-      <packagereq type="mandatory">kernel-modules-extra</packagereq>
       <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
     </packagelist>
   </group>
@@ -58,11 +57,58 @@
       <packagereq>gconf-editor</packagereq>
       <packagereq>gnome-tweak-tool</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
-      <packagereq>NetworkManager-openvpn-gnome</packagereq>
-      <packagereq>NetworkManager-pptp-gnome</packagereq>
-      <packagereq>NetworkManager-ssh-gnome</packagereq>
-      <packagereq>NetworkManager-vpnc-gnome</packagereq>
-      <packagereq>NetworkManager-wimax</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>gnome-desktop-minimal</id>
+    <name>GNOME Desktop Minimal Environment</name>
+    <description>This is minimal GNOME installation.</description>
+    <description xml:lang="ru">Минимальная установка рабочего стола GNOME.</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>control-center</packagereq>
+      <packagereq>dejavu-sans-fonts</packagereq>
+      <packagereq>dejavu-sans-mono-fonts</packagereq>
+      <packagereq>dejavu-serif-fonts</packagereq>
+      <packagereq>fedora-gnome-theme</packagereq>
+      <packagereq>firstboot</packagereq>
+      <packagereq>gnome-panel</packagereq>
+      <packagereq>gnome-session</packagereq>
+      <packagereq>gnome-shell</packagereq>
+      <packagereq>gnome-terminal</packagereq>
+      <packagereq>gvfs-fuse</packagereq>
+      <packagereq>metacity</packagereq>
+      <packagereq>nautilus</packagereq>
+      <packagereq>polkit-gnome</packagereq>
+      <packagereq>adwaita-gtk3-theme</packagereq>
+      <packagereq>at-spi2-atk</packagereq>
+      <packagereq>at-spi2-core</packagereq>
+      <packagereq>firefox</packagereq>
+      <packagereq>gdm</packagereq>
+      <packagereq>gdm-user-switch-applet</packagereq>
+      <packagereq>gnome-icon-theme</packagereq>
+      <packagereq>gnome-icon-theme-extras</packagereq>
+      <packagereq>gnome-icon-theme-legacy</packagereq>
+      <packagereq>gnome-icon-theme-symbolic</packagereq>
+      <packagereq>gnome-media</packagereq>
+      <packagereq>gnome-power-manager</packagereq>
+      <packagereq>gnome-screensaver</packagereq>
+      <packagereq>gnome-tweak-tool</packagereq>
+      <packagereq>gvfs-archive</packagereq>
+      <packagereq>gvfs-gphoto2</packagereq>
+      <packagereq>gvfs-smb</packagereq>
+      <packagereq>network-manager-applet</packagereq>
+      <packagereq>NetworkManager-openconnect</packagereq>
+      <packagereq>NetworkManager-l2tp</packagereq>
+      <packagereq>NetworkManager-openswan</packagereq>
+      <packagereq>NetworkManager-openvpn</packagereq>
+      <packagereq>NetworkManager-pptp</packagereq>
+      <packagereq>NetworkManager-vpnc</packagereq>
+      <packagereq>notification-daemon</packagereq>
+      <packagereq>pulseaudio-module-gconf</packagereq>
+      <packagereq>pulseaudio-module-x11</packagereq>
+      <packagereq>xdg-user-dirs-gtk</packagereq>
     </packagelist>
   </group>
   <group>
@@ -85,11 +131,6 @@
       <packagereq>clipit</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
-      <packagereq>NetworkManager-openvpn-gnome</packagereq>
-      <packagereq>NetworkManager-pptp-gnome</packagereq>
-      <packagereq>NetworkManager-ssh-gnome</packagereq>
-      <packagereq>NetworkManager-vpnc-gnome</packagereq>
-      <packagereq>NetworkManager-wimax</packagereq>
     </packagelist>
   </group>
   <group>
@@ -102,11 +143,9 @@
       <packagereq>network-manager-applet</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
-      <packagereq>NetworkManager-openvpn-gnome</packagereq>
-      <packagereq>NetworkManager-pptp-gnome</packagereq>
-      <packagereq>NetworkManager-ssh-gnome</packagereq>
-      <packagereq>NetworkManager-vpnc-gnome</packagereq>
-      <packagereq>NetworkManager-wimax</packagereq>
+      <packagereq>NetworkManager-openvpn</packagereq>
+      <packagereq>NetworkManager-pptp</packagereq>
+      <packagereq>NetworkManager-vpnc</packagereq>
     </packagelist>
   </group>
   <group>
@@ -190,6 +229,31 @@
      </packagelist>
   </group>
   <environment>
+    <id>gnome-desktop-minimal</id>
+    <name>GNOME Desktop Minimal Installation</name>
+    <description>This is minimal GNOME installation.</description>
+    <description xml:lang="ru">Минимальная установка рабочего стола GNOME.</description>
+    <display_order>6</display_order>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>standard</groupid>
+      <groupid>core</groupid>
+      <groupid>fonts</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>printing</groupid>
+      <groupid>firefox</groupid>
+      <groupid>gnome-desktop-minimal</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>gnome-apps</groupid>
+      <groupid>gnome-media</groupid>
+      <groupid>epiphany</groupid>
+      <groupid>libreoffice</groupid>
+    </optionlist>
+  </environment>
+  <environment>
     <id>kde-desktop-minimal</id>
     <name>KDE Plasma Workspaces Minimal Installation</name>
     <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
@@ -220,6 +284,7 @@
     <description>Desktop environments</description>
    <display_order>10</display_order>
     <grouplist>
+      <groupid>gnome-desktop-minimal</groupid>
       <groupid>kde-desktop-minimal</groupid>
     </grouplist>
   </category>
