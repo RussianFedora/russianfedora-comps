@@ -191,6 +191,7 @@
   <group>
     <id>kde-desktop-minimal</id>
     <name>KDE Plasma Workspaces Minimal Installation</name>
+    <name xml:lang="ru">Минимальная установка KDE Plasma Workspaces</name>
     <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола Plasma.</description>
     <default>false</default>
@@ -264,7 +265,7 @@
   <environment>
     <id>kde-desktop-minimal</id>
     <name>KDE Plasma Workspaces Minimal Installation</name>
-    <name xml:lang="ru">Минимальная установка KDE KDE Plasma Workspaces</name>
+    <name xml:lang="ru">Минимальная установка KDE Plasma Workspaces</name>
     <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола Plasma.</description>
     <display_order>11</display_order>
