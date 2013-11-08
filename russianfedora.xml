@@ -238,6 +238,7 @@
   <environment>
     <id>gnome-desktop-minimal</id>
     <name>GNOME Desktop Minimal Installation</name>
+    <name xml:lang="ru">Минимальная установка рабочего стола GNOME</name>
     <description>This is minimal GNOME installation.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола GNOME.</description>
     <display_order>6</display_order>
@@ -263,6 +264,7 @@
   <environment>
     <id>kde-desktop-minimal</id>
     <name>KDE Plasma Workspaces Minimal Installation</name>
+    <name xml:lang="ru">Минимальная установка KDE KDE Plasma Workspaces</name>
     <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола Plasma.</description>
     <display_order>11</display_order>
