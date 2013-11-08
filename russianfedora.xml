@@ -97,6 +97,7 @@
       <packagereq>gnome-icon-theme-extras</packagereq>
       <packagereq>gnome-icon-theme-legacy</packagereq>
       <packagereq>gnome-icon-theme-symbolic</packagereq>
+      <packagereq>gnome-initial-setup</packagereq>
       <packagereq>gnome-media</packagereq>
       <packagereq>gnome-power-manager</packagereq>
       <packagereq>gnome-screensaver</packagereq>
