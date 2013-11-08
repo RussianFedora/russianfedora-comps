@@ -80,7 +80,7 @@
       <packagereq>fedora-gnome-theme</packagereq>
       <packagereq>firstboot</packagereq>
       <packagereq>gnome-panel</packagereq>
-      <packagereq>gnome-session</packagereq>
+      <packagereq>gnome-session-xsession</packagereq>
       <packagereq>gnome-shell</packagereq>
       <packagereq>gnome-terminal</packagereq>
       <packagereq>gvfs-fuse</packagereq>
