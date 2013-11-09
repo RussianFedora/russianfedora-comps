@@ -29,6 +29,7 @@
    <name>Core</name>
    <description>Smallest possible installation</description>
     <packagelist>
+      <packagereq type="mandatory">kernel-modules-extra</packagereq>
       <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
     </packagelist>
   </group>
@@ -57,6 +58,11 @@
       <packagereq>gconf-editor</packagereq>
       <packagereq>gnome-tweak-tool</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
+      <packagereq>NetworkManager-openvpn-gnome</packagereq>
+      <packagereq>NetworkManager-pptp-gnome</packagereq>
+      <packagereq>NetworkManager-ssh-gnome</packagereq>
+      <packagereq>NetworkManager-vpnc-gnome</packagereq>
+      <packagereq>NetworkManager-wimax</packagereq>
     </packagelist>
   </group>
   <group>
@@ -74,7 +80,7 @@
       <packagereq>fedora-gnome-theme</packagereq>
       <packagereq>firstboot</packagereq>
       <packagereq>gnome-panel</packagereq>
-      <packagereq>gnome-session</packagereq>
+      <packagereq>gnome-session-xsession</packagereq>
       <packagereq>gnome-shell</packagereq>
       <packagereq>gnome-terminal</packagereq>
       <packagereq>gvfs-fuse</packagereq>
@@ -91,6 +97,7 @@
       <packagereq>gnome-icon-theme-extras</packagereq>
       <packagereq>gnome-icon-theme-legacy</packagereq>
       <packagereq>gnome-icon-theme-symbolic</packagereq>
+      <packagereq>gnome-initial-setup</packagereq>
       <packagereq>gnome-media</packagereq>
       <packagereq>gnome-power-manager</packagereq>
       <packagereq>gnome-screensaver</packagereq>
@@ -184,6 +191,7 @@
   <group>
     <id>kde-desktop-minimal</id>
     <name>KDE Plasma Workspaces Minimal Installation</name>
+    <name xml:lang="ru">Минимальная установка KDE Plasma Workspaces</name>
     <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола Plasma.</description>
     <default>false</default>
@@ -192,7 +200,7 @@
       <packagereq>dejavu-sans-fonts</packagereq>
       <packagereq>dejavu-sans-mono-fonts</packagereq>
       <packagereq>dejavu-serif-fonts</packagereq>
-      <packagereq>firstboot</packagereq>
+      <packagereq>initial-setup</packagereq>
       <packagereq>kdebase-runtime</packagereq>
       <packagereq>kdebase-workspace</packagereq>
       <packagereq>kdelibs</packagereq>
@@ -231,6 +239,7 @@
   <environment>
     <id>gnome-desktop-minimal</id>
     <name>GNOME Desktop Minimal Installation</name>
+    <name xml:lang="ru">Минимальная установка рабочего стола GNOME</name>
     <description>This is minimal GNOME installation.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола GNOME.</description>
     <display_order>6</display_order>
@@ -256,6 +265,7 @@
   <environment>
     <id>kde-desktop-minimal</id>
     <name>KDE Plasma Workspaces Minimal Installation</name>
+    <name xml:lang="ru">Минимальная установка KDE Plasma Workspaces</name>
     <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
     <description xml:lang="ru">Минимальная установка рабочего стола Plasma.</description>
     <display_order>11</display_order>
