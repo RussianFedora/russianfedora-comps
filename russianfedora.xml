@@ -200,7 +200,7 @@
       <packagereq>dejavu-sans-fonts</packagereq>
       <packagereq>dejavu-sans-mono-fonts</packagereq>
       <packagereq>dejavu-serif-fonts</packagereq>
-      <packagereq>firstboot</packagereq>
+      <packagereq>initial-setup</packagereq>
       <packagereq>kdebase-runtime</packagereq>
       <packagereq>kdebase-workspace</packagereq>
       <packagereq>kdelibs</packagereq>
