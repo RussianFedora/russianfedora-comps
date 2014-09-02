@@ -537,6 +537,7 @@
     <id>rfremix-workstation-product-environment</id>
     <name>RFRemix Workstation</name>
     <description>RFRemix Workstation is a user friendly desktop system for laptops and PCs.</description>
+    <description xml:lang="ru">Рабочая станция RFRemix - это дружественная десктопная система для ноутбуков и PC.</description>
     <display_order>2</display_order>
     <grouplist>
       <groupid>base-x</groupid>
