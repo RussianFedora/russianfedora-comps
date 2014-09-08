@@ -431,6 +431,8 @@
       <packagereq>rhythmbox</packagereq>
       <packagereq>rng-tools</packagereq>
       <packagereq>rp-pppoe</packagereq>
+      <packagereq>rpmfusion-free-release</packagereq>
+      <packagereq>rpmfusion-nonfree-release</packagereq>
       <packagereq>rsync</packagereq>
       <packagereq>rsyslog</packagereq>
       <packagereq>russianfedora-branding-release</packagereq>
