@@ -236,7 +236,21 @@
       <packagereq type="default">NetworkManager-pptp</packagereq>
      </packagelist>
   </group>
-<group>
+  <group>
+    <id>rfremix-server-product</id>
+    <name>RFRemix Server product core</name>
+    <description>Packages mandatory for the server product.</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">rfremix-release-server</packagereq>
+      <packagereq type="mandatory">russianfedora-branding-release</packagereq>
+      <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
+      <packagereq type="mandatory">russianfedora-free-release</packagereq>
+      <packagereq type="mandatory">russianfedora-nonfree-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>rfremix-workstation-product</id>
     <name>RFRemix Workstation product core</name>
     <description>Packages mandatory for the workstation product.</description>
@@ -554,6 +568,39 @@
       <groupid>rfremix-workstation-product</groupid>
     </grouplist>
   </environment>
+  <environment>
+   <id>rfremix-server-product-environment</id>
+   <display_order>1</display_order>
+   <name>RFRemix Server</name>
+   <description>An integrated, easier to manage server.</description>
+    <grouplist>
+     <groupid>core</groupid>
+     <groupid>rfremix-server-product</groupid>
+     <groupid>domain-client</groupid>
+     <groupid>hardware-support</groupid>
+     <groupid>standard</groupid>
+     <groupid>headless-management</groupid>
+     <groupid>container-management</groupid>
+    </grouplist>
+    <optionlist>
+     <groupid>web-server</groupid>
+     <groupid>dns-server</groupid>
+     <groupid>guest-agents</groupid>
+     <groupid>smb-server</groupid>
+     <groupid>sql-server</groupid>
+     <groupid>directory-server</groupid>
+     <groupid>dogtag</groupid>
+     <groupid>freeipa-server</groupid>
+     <groupid>mail-server</groupid>
+     <groupid>printing</groupid>
+     <groupid>virtualization</groupid>
+     <groupid>mysql</groupid>
+     <groupid>ftp-server</groupid>
+     <groupid>ha</groupid>
+     <groupid>network-server</groupid>
+     <groupid>load-balancer</groupid>
+    </optionlist>
+  </environment>
   <category>
     <id>desktops</id>
     <name>Desktop Environments</name>
@@ -562,6 +609,7 @@
     <grouplist>
       <groupid>gnome-desktop-minimal</groupid>
       <groupid>kde-desktop-minimal</groupid>
+      <groupid>rfremix-gnome-desktop</groupid>
     </grouplist>
   </category>
 </comps>
