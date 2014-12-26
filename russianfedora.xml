@@ -592,7 +592,6 @@
     <display_order>2</display_order>
     <grouplist>
       <groupid>base-x</groupid>
-      <groupid>standard</groupid>
       <groupid>core</groupid>
       <groupid>fonts</groupid>
       <groupid>guest-desktop-agents</groupid>
@@ -613,7 +612,6 @@
       <groupid>firefox</groupid>
       <groupid>epiphany</groupid>
       <groupid>libreoffice</groupid>
-      <groupid>gnome-apps</groupid>
       <groupid>rfremix-desktop-product-environment</groupid>
     </grouplist>
   </environment>
