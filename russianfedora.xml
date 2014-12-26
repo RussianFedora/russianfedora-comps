@@ -253,20 +253,6 @@
     </packagelist>
   </group>
   <group>
-    <id>rfremix-desktop-product-environment</id>
-    <name>RFRemix Desktop product core</name>
-    <description>Packages mandatory for the desktop product.</description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">rfremix-release-nonproduct</packagereq>
-      <packagereq type="mandatory">russianfedora-branding-release</packagereq>
-      <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
-      <packagereq type="mandatory">russianfedora-free-release</packagereq>
-      <packagereq type="mandatory">russianfedora-nonfree-release</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>rfremix-workstation-product</id>
     <name>RFRemix Workstation product core</name>
     <description>Packages mandatory for the workstation product.</description>
@@ -585,37 +571,6 @@
     </grouplist>
   </environment>
   <environment>
-    <id>rfremix-desktop-product-environment</id>
-    <name>RFRemix Desktop</name>
-    <description>RFRemix Desktop is a kit with many popular desktops.</description>
-    <description xml:lang="ru">RFRemix Desktop - это набор популярных рабочих столов.</description>
-    <display_order>2</display_order>
-    <grouplist>
-      <groupid>base-x</groupid>
-      <groupid>core</groupid>
-      <groupid>fonts</groupid>
-      <groupid>guest-desktop-agents</groupid>
-      <groupid>hardware-support</groupid>
-      <groupid>libreoffice</groupid>
-      <groupid>multimedia</groupid>
-      <groupid>networkmanager-submodules</groupid>
-      <groupid>printing</groupid>
-      <groupid>cinnamon-desktop</groupid>
-      <groupid>gnome-desktop</groupid>
-      <groupid>kde-desktop</groupid>
-      <groupid>lxde-desktop</groupid>
-      <groupid>mate-desktop</groupid>
-      <groupid>sugar-desktop</groupid>
-      <groupid>xfce-desktop</groupid>
-      <groupid>chromium</groupid>
-      <groupid>opera</groupid>
-      <groupid>firefox</groupid>
-      <groupid>epiphany</groupid>
-      <groupid>libreoffice</groupid>
-      <groupid>rfremix-desktop-product-environment</groupid>
-    </grouplist>
-  </environment>
-  <environment>
    <id>rfremix-server-product-environment</id>
    <display_order>1</display_order>
    <name>RFRemix Server</name>
@@ -656,6 +611,7 @@
     <grouplist>
       <groupid>gnome-desktop-minimal</groupid>
       <groupid>kde-desktop-minimal</groupid>
+      <groupid>rfremix-gnome-desktop</groupid>
     </grouplist>
   </category>
 </comps>
