@@ -248,6 +248,8 @@
       <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
       <packagereq type="mandatory">russianfedora-free-release</packagereq>
       <packagereq type="mandatory">russianfedora-nonfree-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-free-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
     </packagelist>
   </group>
   <group>
