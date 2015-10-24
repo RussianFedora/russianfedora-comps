@@ -551,6 +551,43 @@
       <groupid>kde-office</groupid>
     </optionlist>
   </environment>
+<environment>
+
+    <id>rfremix-server-product-environment</id>
+    <name>RFRemix Server</name>
+
+    <description>An integrated, easier to manage server.</description>
+    <display_order>2</display_order>
+    <grouplist>
+      <groupid>rfremix-server-product</groupid>
+      <groupid>standard</groupid>
+      <groupid>core</groupid>
+      <groupid>server-hardware-support</groupid>
+      <groupid>headless-management</groupid>
+      <groupid>container-management</groupid>
+      <groupid>domain-client</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>dogtag</groupid>
+      <groupid>directory-server</groupid>
+      <groupid>dns-server</groupid>
+      <groupid>freeipa-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>ha</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>load-balancer</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>mysql</groupid>
+      <groupid>network-server</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>smb-server</groupid>
+      <groupid>sql-server</groupid>
+      <groupid>virtualization-headless</groupid>
+      <groupid>web-server</groupid>
+    </optionlist>
+  </environment>
   <environment>
     <id>rfremix-workstation-product-environment</id>
     <name>RFRemix Workstation</name>
@@ -560,6 +597,7 @@
     <grouplist>
       <groupid>base-x</groupid>
       <groupid>core</groupid>
+      <groupid>firefox</groupid>
       <groupid>fonts</groupid>
       <groupid>guest-desktop-agents</groupid>
       <groupid>hardware-support</groupid>
@@ -570,39 +608,6 @@
       <groupid>rfremix-workstation-product</groupid>
     </grouplist>
   </environment>
-  <environment>
-   <id>rfremix-server-product-environment</id>
-   <display_order>1</display_order>
-   <name>RFRemix Server</name>
-   <description>An integrated, easier to manage server.</description>
-    <grouplist>
-     <groupid>core</groupid>
-     <groupid>rfremix-server-product</groupid>
-     <groupid>domain-client</groupid>
-     <groupid>hardware-support</groupid>
-     <groupid>standard</groupid>
-     <groupid>headless-management</groupid>
-     <groupid>container-management</groupid>
-    </grouplist>
-    <optionlist>
-     <groupid>web-server</groupid>
-     <groupid>dns-server</groupid>
-     <groupid>guest-agents</groupid>
-     <groupid>smb-server</groupid>
-     <groupid>sql-server</groupid>
-     <groupid>directory-server</groupid>
-     <groupid>dogtag</groupid>
-     <groupid>freeipa-server</groupid>
-     <groupid>mail-server</groupid>
-     <groupid>printing</groupid>
-     <groupid>virtualization</groupid>
-     <groupid>mysql</groupid>
-     <groupid>ftp-server</groupid>
-     <groupid>ha</groupid>
-     <groupid>network-server</groupid>
-     <groupid>load-balancer</groupid>
-    </optionlist>
-  </environment>
   <category>
     <id>desktops</id>
     <name>Desktop Environments</name>
@@ -611,7 +616,6 @@
     <grouplist>
       <groupid>gnome-desktop-minimal</groupid>
       <groupid>kde-desktop-minimal</groupid>
-      <groupid>rfremix-gnome-desktop</groupid>
     </grouplist>
   </category>
 </comps>
