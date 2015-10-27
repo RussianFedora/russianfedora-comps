@@ -52,7 +52,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq>opera</packagereq>
+      <packagereq>opera-stable</packagereq>
       <packagereq>flash-plugin</packagereq>
     </packagelist>
   </group>
