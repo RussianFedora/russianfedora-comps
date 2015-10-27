@@ -435,6 +435,7 @@
       <packagereq>rdist</packagereq>
       <packagereq>realmd</packagereq>
       <packagereq>rfremix-release-workstation</packagereq>
+      <packagereq>rfremix-config</packagereq>
       <packagereq>rhythmbox</packagereq>
       <packagereq>rng-tools</packagereq>
       <packagereq>rp-pppoe</packagereq>
