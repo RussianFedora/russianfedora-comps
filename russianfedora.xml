@@ -20,6 +20,9 @@
    <description>Smallest possible installation</description>
     <packagelist>
       <packagereq type="mandatory">kernel-modules-extra</packagereq>
+      <packagereq type="mandatory">rfremix-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-free-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
       <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
     </packagelist>
   </group>
