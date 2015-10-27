@@ -129,6 +129,7 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq>clipit</packagereq>
+      <packagereq>rfremix-config</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
     </packagelist>
