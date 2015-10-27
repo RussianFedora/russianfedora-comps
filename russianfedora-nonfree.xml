@@ -20,7 +20,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq>flash-plugin</packagereq>
+      <packagereq>chromium-pepper-flash</packagereq>
     </packagelist>
   </group>
   <group>
@@ -52,8 +52,9 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq>chromium-pepper-flash</packagereq>
       <packagereq>opera-stable</packagereq>
-      <packagereq>flash-plugin</packagereq>
+      <packagereq>opera-stable-libffmpeg</packagereq>
     </packagelist>
   </group>
   <group>
@@ -64,8 +65,6 @@
    <description>This group includes graphical email, Web, and chat clients.</description>
     <packagelist>
       <packagereq type="default">flash-plugin</packagereq>
-      <packagereq type="optional">opera</packagereq>
-      <packagereq type="optional">opera-next</packagereq>
     </packagelist>
   </group>
   <group>
@@ -83,14 +82,15 @@
     </packagelist>
   </group>
   <group>
-   <id>java</id>
-   <default>false</default>
-   <uservisible>false</uservisible>
-   <name>Java</name>
-   <description>Support for running programs written in the Java programming language.</description>
+    <id>skype</id>
+    <name>Skype</name>
+    <name xml:lang="ru">Skype</name>
+    <description>Free Internet telephony that just works</description>
+    <description xml:lang="ru">Свободная интернет телефония, которая работает</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">java-1.6.0-sun-compat</packagereq>
-      <packagereq type="optional">jdk</packagereq>
+      <packagereq>skype</packagereq>
     </packagelist>
   </group>
   <group>
@@ -101,8 +101,6 @@
    <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
     <packagelist>
       <packagereq type="optional">mplayer-faac</packagereq> 
-      <packagereq type="optional">skype</packagereq> 
-      <packagereq type="optional">skype4pidgin</packagereq> 
       <packagereq type="optional">sopcast</packagereq> 
     </packagelist>
   </group>
