@@ -50,12 +50,15 @@
       <packagereq>dconf-editor</packagereq>
       <packagereq>gconf-editor</packagereq>
       <packagereq>gnome-tweak-tool</packagereq>
+      <packagereq>evopop-gtk-theme</packagereq>
+      <packagereq>evopop-icon-theme</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openvpn-gnome</packagereq>
       <packagereq>NetworkManager-pptp-gnome</packagereq>
       <packagereq>NetworkManager-ssh-gnome</packagereq>
       <packagereq>NetworkManager-vpnc-gnome</packagereq>
       <packagereq>NetworkManager-wimax</packagereq>
+      <packagereq>ozon-shell-theme</packagereq>
     </packagelist>
   </group>
   <group>
@@ -300,6 +303,8 @@
       <packagereq>evolution-ews</packagereq>
       <packagereq>evolution-help</packagereq>
       <packagereq>evolution</packagereq>
+      <packagereq>evopop-gtk-theme</packagereq>
+      <packagereq>evopop-icon-theme</packagereq>
       <packagereq>fedora-release-notes</packagereq>
       <packagereq>file</packagereq>
       <packagereq>file-roller-nautilus</packagereq>
@@ -409,6 +414,7 @@
       <packagereq>ntfs-3g</packagereq>
       <packagereq>ntfsprogs</packagereq>
       <packagereq>orca</packagereq>
+      <packagereq>ozon-shell-theme</packagereq>
       <packagereq>p7zip</packagereq>
       <packagereq>PackageKit-command-not-found</packagereq>
       <packagereq>PackageKit-gtk3-module</packagereq>
