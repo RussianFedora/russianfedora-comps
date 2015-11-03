@@ -91,7 +91,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq>skype</packagereq>
-      <packagereq type="conditional" requires="plasma-desktop">sni-qt-i386</packagereq>
+      <packagereq type="conditional" requires="plasma-desktop">sni-qt</packagereq>
     </packagelist>
   </group>
   <group>
