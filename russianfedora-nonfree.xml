@@ -94,6 +94,18 @@
     </packagelist>
   </group>
   <group>
+    <id>sublime</id>
+    <name>Sublime Text Editor</name>
+    <name xml:lang="ru">Текстовый редактор Sublime</name>
+    <description>Sublime Text is a sophisticated text editor for code, markup and prose</description>
+    <description xml:lang="ru">Sublime Text представляет собой сложный текстовый редактор для кода, разметки и прозы</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>sublime_text</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>viber</id>
     <name>Viber</name>
     <name xml:lang="ru">Viber</name>
