@@ -62,59 +62,6 @@
     </packagelist>
   </group>
   <group>
-    <id>gnome-desktop-minimal</id>
-    <name>GNOME Desktop Minimal Environment</name>
-    <description>This is minimal GNOME installation.</description>
-    <description xml:lang="ru">Минимальная установка рабочего стола GNOME.</description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq>control-center</packagereq>
-      <packagereq>dejavu-sans-fonts</packagereq>
-      <packagereq>dejavu-sans-mono-fonts</packagereq>
-      <packagereq>dejavu-serif-fonts</packagereq>
-      <packagereq>fedora-gnome-theme</packagereq>
-      <packagereq>firstboot</packagereq>
-      <packagereq>gnome-panel</packagereq>
-      <packagereq>gnome-session-xsession</packagereq>
-      <packagereq>gnome-shell</packagereq>
-      <packagereq>gnome-terminal</packagereq>
-      <packagereq>gvfs-fuse</packagereq>
-      <packagereq>metacity</packagereq>
-      <packagereq>nautilus</packagereq>
-      <packagereq>polkit-gnome</packagereq>
-      <packagereq>adwaita-gtk3-theme</packagereq>
-      <packagereq>at-spi2-atk</packagereq>
-      <packagereq>at-spi2-core</packagereq>
-      <packagereq>firefox</packagereq>
-      <packagereq>gdm</packagereq>
-      <packagereq>gdm-user-switch-applet</packagereq>
-      <packagereq>gnome-icon-theme</packagereq>
-      <packagereq>gnome-icon-theme-extras</packagereq>
-      <packagereq>gnome-icon-theme-legacy</packagereq>
-      <packagereq>gnome-icon-theme-symbolic</packagereq>
-      <packagereq>gnome-initial-setup</packagereq>
-      <packagereq>gnome-media</packagereq>
-      <packagereq>gnome-power-manager</packagereq>
-      <packagereq>gnome-screensaver</packagereq>
-      <packagereq>gnome-tweak-tool</packagereq>
-      <packagereq>gvfs-archive</packagereq>
-      <packagereq>gvfs-gphoto2</packagereq>
-      <packagereq>gvfs-smb</packagereq>
-      <packagereq>network-manager-applet</packagereq>
-      <packagereq>NetworkManager-openconnect</packagereq>
-      <packagereq>NetworkManager-l2tp</packagereq>
-      <packagereq>NetworkManager-openswan</packagereq>
-      <packagereq>NetworkManager-openvpn</packagereq>
-      <packagereq>NetworkManager-pptp</packagereq>
-      <packagereq>NetworkManager-vpnc</packagereq>
-      <packagereq>notification-daemon</packagereq>
-      <packagereq>pulseaudio-module-gconf</packagereq>
-      <packagereq>pulseaudio-module-x11</packagereq>
-      <packagereq>xdg-user-dirs-gtk</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>gnome-apps</id>
     <name>Applications for the GNOME Desktop</name>
     <description>A set of commonly used applications for the GNOME Desktop</description>
@@ -184,44 +131,6 @@
     <packagelist>
       <packagereq type="default">ucs-miscfixed-fonts</packagereq>
     </packagelist>
-  </group>
-  <group>
-    <id>kde-desktop-minimal</id>
-    <name>KDE Plasma Workspaces Minimal Installation</name>
-    <name xml:lang="ru">Минимальная установка KDE Plasma Workspaces</name>
-    <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
-    <description xml:lang="ru">Минимальная установка рабочего стола Plasma.</description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq>dejavu-sans-fonts</packagereq>
-      <packagereq>dejavu-sans-mono-fonts</packagereq>
-      <packagereq>dejavu-serif-fonts</packagereq>
-      <packagereq>initial-setup</packagereq>
-      <packagereq>kdebase-runtime</packagereq>
-      <packagereq>kdebase-workspace</packagereq>
-      <packagereq>kdelibs</packagereq>
-      <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-good</packagereq>
-      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-good</packagereq>
-      <packagereq>apper</packagereq>
-      <packagereq>kcm_touchpad</packagereq>
-      <packagereq>kde-plasma-networkmanagement</packagereq>
-      <packagereq>kde-settings-pulseaudio</packagereq>
-      <packagereq>kdeartwork-screensavers</packagereq>
-      <packagereq>kdebase</packagereq>
-      <packagereq>kdebase-workspace-python-applet</packagereq>
-      <packagereq>kdenetwork</packagereq>
-      <packagereq>kdepim</packagereq>
-      <packagereq>kdeplasma-addons</packagereq>
-      <packagereq>kdeutils</packagereq>
-      <packagereq>kdm</packagereq>
-      <packagereq>kde-plasma-networkmanagement-openvpn</packagereq>
-      <packagereq>kde-plasma-networkmanagement-pptp</packagereq>
-      <packagereq>kde-plasma-networkmanagement-vpnc</packagereq>
-      <packagereq>phonon-backend-gstreamer</packagereq>
-      <packagereq>phonon-backend-xine</packagereq>
-      <packagereq>xsettings-kde</packagereq>
-     </packagelist>
   </group>
   <group>
     <id>system-tools</id>
@@ -446,6 +355,7 @@
       <packagereq>realmd</packagereq>
       <packagereq>rfremix-release-workstation</packagereq>
       <packagereq>rfremix-config</packagereq>
+      <packagereq>rfremix-logos</packagereq>
       <packagereq>rhythmbox</packagereq>
       <packagereq>rng-tools</packagereq>
       <packagereq>rp-pppoe</packagereq>
@@ -502,58 +412,6 @@
     </packagelist>
   </group>
   <environment>
-    <id>gnome-desktop-minimal</id>
-    <name>GNOME Desktop Minimal Installation</name>
-    <name xml:lang="ru">Минимальная установка рабочего стола GNOME</name>
-    <description>This is minimal GNOME installation.</description>
-    <description xml:lang="ru">Минимальная установка рабочего стола GNOME.</description>
-    <display_order>6</display_order>
-    <grouplist>
-      <groupid>base-x</groupid>
-      <groupid>standard</groupid>
-      <groupid>core</groupid>
-      <groupid>fonts</groupid>
-      <groupid>input-methods</groupid>
-      <groupid>multimedia</groupid>
-      <groupid>hardware-support</groupid>
-      <groupid>printing</groupid>
-      <groupid>firefox</groupid>
-      <groupid>gnome-desktop-minimal</groupid>
-    </grouplist>
-    <optionlist>
-      <groupid>gnome-apps</groupid>
-      <groupid>gnome-media</groupid>
-      <groupid>epiphany</groupid>
-      <groupid>libreoffice</groupid>
-    </optionlist>
-  </environment>
-  <environment>
-    <id>kde-desktop-minimal</id>
-    <name>KDE Plasma Workspaces Minimal Installation</name>
-    <name xml:lang="ru">Минимальная установка KDE Plasma Workspaces</name>
-    <description>This Is Minimal Installation Of KDE Plasma Workspaces.</description>
-    <description xml:lang="ru">Минимальная установка рабочего стола Plasma.</description>
-    <display_order>11</display_order>
-    <grouplist>
-      <groupid>base-x</groupid>
-      <groupid>standard</groupid>
-      <groupid>core</groupid>
-      <groupid>dial-up</groupid>
-      <groupid>fonts</groupid>
-      <groupid>input-methods</groupid>
-      <groupid>multimedia</groupid>
-      <groupid>hardware-support</groupid>
-      <groupid>printing</groupid>
-      <groupid>kde-desktop-minimal</groupid>
-    </grouplist>
-    <optionlist>
-      <groupid>kde-apps</groupid>
-      <groupid>kde-education</groupid>
-      <groupid>kde-media</groupid>
-      <groupid>kde-office</groupid>
-    </optionlist>
-  </environment>
-<environment>
 
     <id>rfremix-server-product-environment</id>
     <name>RFRemix Server</name>
@@ -610,14 +468,4 @@
       <groupid>rfremix-workstation-product</groupid>
     </grouplist>
   </environment>
-  <category>
-    <id>desktops</id>
-    <name>Desktop Environments</name>
-    <description>Desktop environments</description>
-   <display_order>10</display_order>
-    <grouplist>
-      <groupid>gnome-desktop-minimal</groupid>
-      <groupid>kde-desktop-minimal</groupid>
-    </grouplist>
-  </category>
 </comps>
