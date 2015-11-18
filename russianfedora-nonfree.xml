@@ -44,6 +44,34 @@
     </packagelist>
   </group>
   <group>
+    <id>java-1.8.0-oracle</id>
+    <name>Oracle Java 1.8</name>
+    <name xml:lang="ru">Oracle Java SDK 1.8</name>
+    <description>Original Oracle Java SDK 1.8</description>
+    <description xml:lang="ru">Оригинальная Oracle Java SDK 1.8</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>java-1.8.0-oracle</packagereq>
+      <packagereq>java-1.8.0-oracle-plugin</packagereq>
+      <packagereq>system-switch-java</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>java-1.7.0-oracle</id>
+    <name>Oracle Java 1.7</name>
+    <name xml:lang="ru">Oracle Java SDK 1.7</name>
+    <description>Original Oracle Java SDK 1.7</description>
+    <description xml:lang="ru">Оригинальная Oracle Java SDK 1.7</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>java-1.7.0-oracle</packagereq>
+      <packagereq>java-1.7.0-oracle-plugin</packagereq>
+      <packagereq>system-switch-java</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>opera</id>
     <name>Opera browser</name>
     <name xml:lang="ru">Браузер Opera</name>
