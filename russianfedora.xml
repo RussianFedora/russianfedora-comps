@@ -58,7 +58,7 @@
       <packagereq>NetworkManager-ssh-gnome</packagereq>
       <packagereq>NetworkManager-vpnc-gnome</packagereq>
       <packagereq>NetworkManager-wimax</packagereq>
-      <packagereq>ozon-shell-theme</packagereq>
+      <packagereq>gnome-shell-theme-korora</packagereq>
     </packagelist>
   </group>
   <group>
@@ -323,7 +323,7 @@
       <packagereq>ntfs-3g</packagereq>
       <packagereq>ntfsprogs</packagereq>
       <packagereq>orca</packagereq>
-      <packagereq>ozon-shell-theme</packagereq>
+      <packagereq>gnome-shell-theme-korora</packagereq>
       <packagereq>p7zip</packagereq>
       <packagereq>PackageKit-command-not-found</packagereq>
       <packagereq>PackageKit-gtk3-module</packagereq>
