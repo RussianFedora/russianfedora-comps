@@ -68,6 +68,7 @@
    <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
       <packagereq>mailnag</packagereq>
+      <packagereq>gnome-shell-theme-korora</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad</packagereq>
@@ -183,6 +184,16 @@
       <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
       <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-bad</packagereq>
       <packagereq>rfremix-logos</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rfremix-workstation-product</id>
+    <name>RFRemix Workstation product core</name>
+    <description>Packages mandatory for the workstation product.</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>gnome-shell-theme-korora</packagereq>
     </packagelist>
   </group>
   <group>
