@@ -353,6 +353,7 @@
       <packagereq>realmd</packagereq>
       <packagereq>rfremix-release-workstation</packagereq>
       <packagereq>rfremix-config</packagereq>
+      <packagereq>rfremix-config-gnome</packagereq>
       <packagereq>rfremix-logos</packagereq>
       <packagereq>rhythmbox</packagereq>
       <packagereq>rng-tools</packagereq>
