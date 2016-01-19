@@ -11,4 +11,27 @@
       <packagereq type="mandatory">russianfedora-branding-release</packagereq>
     </packagelist>
   </group>
+  <group>
+    <id>rfremix-workstation-product</id>
+    <name>RFRemix Workstation product core</name>
+    <description>Packages mandatory for the workstation product.</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>rfremix-config-gnome</packagereq>
+      <packagereq>rfremix-config</packagereq>
+      <packagereq>rfremix-logos</packagereq>
+      <packagereq>rfremix-release-workstation</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>xfce-desktop</id>
+    <name>Xfce</name>
+    <description>A lightweight desktop environment that works well on low end machines.</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>rfremix-config</packagereq>
+    </packagelist>
+  </group>
 </comps>
