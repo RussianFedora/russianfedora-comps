@@ -241,6 +241,7 @@
       <groupid>core</groupid>
       <groupid>firefox</groupid>
       <groupid>fonts</groupid>
+      <groupid>gnome-desktop</groupid>
       <groupid>guest-desktop-agents</groupid>
       <groupid>hardware-support</groupid>
       <groupid>libreoffice</groupid>
