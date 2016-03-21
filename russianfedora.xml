@@ -201,33 +201,35 @@
     <description>An integrated, easier to manage server.</description>
     <display_order>2</display_order>
     <grouplist>
-      <groupid>rfremix-server-product</groupid>
-      <groupid>standard</groupid>
-      <groupid>core</groupid>
-      <groupid>server-hardware-support</groupid>
       <groupid>headless-management</groupid>
-      <groupid>container-management</groupid>
-      <groupid>domain-client</groupid>
+      <groupid>core</groupid>
+      <groupid>rfremix-server-product</groupid>
+      <groupid>server-product</groupid>
+      <groupid>standard</groupid>
     </grouplist>
     <optionlist>
-      <groupid>dogtag</groupid>
-      <groupid>directory-server</groupid>
-      <groupid>dns-server</groupid>
-      <groupid>freeipa-server</groupid>
-      <groupid>ftp-server</groupid>
-      <groupid>guest-agents</groupid>
-      <groupid>ha</groupid>
-      <groupid>hardware-support</groupid>
-      <groupid>load-balancer</groupid>
-      <groupid>mail-server</groupid>
-      <groupid>mysql</groupid>
-      <groupid>network-server</groupid>
-      <groupid>networkmanager-submodules</groupid>
-      <groupid>printing</groupid>
-      <groupid>smb-server</groupid>
-      <groupid>sql-server</groupid>
-      <groupid>virtualization-headless</groupid>
-      <groupid>web-server</groupid>
+     <groupid>ftp-server</groupid>
+     <groupid>container-management</groupid>
+     <groupid>mysql</groupid>
+     <groupid>mail-server</groupid>
+     <groupid>domain-client</groupid>
+     <groupid>sql-server</groupid>
+     <groupid>directory-server</groupid>
+     <groupid>dogtag</groupid>
+     <groupid>smb-server</groupid>
+     <groupid>load-balancer</groupid>
+     <groupid>dns-server</groupid>
+     <groupid>server-hardware-support</groupid>
+     <groupid>ansible-node</groupid>
+     <groupid>freeipa-server</groupid>
+     <groupid>virtualization-headless</groupid>
+     <groupid>web-server</groupid>
+     <groupid>ha</groupid>
+     <groupid>network-server</groupid>
+     <groupid>guest-agents</groupid>
+     <groupid>networkmanager-submodules</groupid>
+     <groupid>hardware-support</groupid>
+     <groupid>printing</groupid>
     </optionlist>
   </environment>
   <environment>
@@ -237,17 +239,18 @@
     <description xml:lang="ru">Рабочая станция RFRemix - это дружественная десктопная система для ноутбуков и PC.</description>
     <display_order>2</display_order>
     <grouplist>
-      <groupid>base-x</groupid>
       <groupid>core</groupid>
-      <groupid>firefox</groupid>
-      <groupid>fonts</groupid>
       <groupid>gnome-desktop</groupid>
-      <groupid>guest-desktop-agents</groupid>
-      <groupid>hardware-support</groupid>
-      <groupid>libreoffice</groupid>
       <groupid>multimedia</groupid>
-      <groupid>networkmanager-submodules</groupid>
+      <groupid>firefox</groupid>
+      <groupid>base-x</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>fonts</groupid>
+      <groupid>hardware-support</groupid>
       <groupid>printing</groupid>
+      <groupid>workstation-product</groupid>
+      <groupid>libreoffice</groupid>
+      <groupid>networkmanager-submodules</groupid>
       <groupid>rfremix-workstation-product</groupid>
     </grouplist>
   </environment>
