@@ -155,7 +155,6 @@
       <packagereq type="mandatory">russianfedora-nonfree-release</packagereq>
       <packagereq type="mandatory">rpmfusion-free-release</packagereq>
       <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
-      <packagereq type="mandatory">chrony</packagereq>
     </packagelist>
   </group>
   <group>
@@ -165,147 +164,10 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
-      <packagereq>abrt-cli</packagereq>
-      <packagereq>abrt-desktop</packagereq>
-      <packagereq>abrt-java-connector</packagereq>
-      <packagereq>acl</packagereq>
-      <packagereq>at</packagereq>
-      <packagereq>at-spi2-atk</packagereq>
-      <packagereq>at-spi2-core</packagereq>
-      <packagereq>attr</packagereq>
-      <packagereq>avahi</packagereq>
-      <packagereq>bash-completion</packagereq>
-      <packagereq>bc</packagereq>
-      <packagereq>bijiben</packagereq>
-      <packagereq>bind-utils</packagereq>
-      <packagereq>brasero-nautilus</packagereq>
-      <packagereq>brasero</packagereq>
-      <packagereq>bridge-utils</packagereq>
-      <packagereq>btrfs-progs</packagereq>
-      <packagereq>bzip2</packagereq>
-      <packagereq>caribou-gtk2-module</packagereq>
-      <packagereq>caribou-gtk3-module</packagereq>
-      <packagereq>caribou</packagereq>
-      <packagereq>cheese</packagereq>
-      <packagereq>chrony</packagereq>
-      <packagereq>cifs-utils</packagereq>
-      <packagereq>clipit</packagereq>
-      <packagereq>control-center</packagereq>
-      <packagereq>cpio</packagereq>
-      <packagereq>crontabs</packagereq>
-      <packagereq>cryptsetup</packagereq>
-      <packagereq>cyrus-sasl-plain</packagereq>
-      <packagereq>dbus</packagereq>
-      <packagereq>dconf-editor</packagereq>
-      <packagereq>dconf</packagereq>
-      <packagereq>deltarpm</packagereq>
-      <packagereq>desktop-backgrounds-basic</packagereq>
-      <packagereq>devassistant</packagereq>
-      <packagereq>dos2unix</packagereq>
-      <packagereq>dosfstools</packagereq>
-      <packagereq>empathy</packagereq>
-      <packagereq>eog</packagereq>
-      <packagereq>ethtool</packagereq>
-      <packagereq>evince-nautilus</packagereq>
-      <packagereq>evince</packagereq>
-      <packagereq>evolution-ews</packagereq>
-      <packagereq>evolution-help</packagereq>
-      <packagereq>evolution</packagereq>
-      <packagereq>evopop-gtk-theme</packagereq>
-      <packagereq>evopop-icon-theme</packagereq>
-      <packagereq>fedora-release-notes</packagereq>
-      <packagereq>file</packagereq>
-      <packagereq>file-roller-nautilus</packagereq>
-      <packagereq>file-roller</packagereq>
-      <packagereq>firefox</packagereq>
-      <packagereq>firewalld-config-workstation</packagereq>
-      <packagereq>flash-plugin</packagereq>
-      <packagereq>fpaste</packagereq>
-      <packagereq>fprintd-pam</packagereq>
-      <packagereq>gconf-editor</packagereq>
-      <packagereq>gdm</packagereq>
-      <packagereq>gedit</packagereq>
-      <packagereq>glib-networking</packagereq>
-      <packagereq>gnome-backgrounds</packagereq>
-      <packagereq>gnome-bluetooth</packagereq>
-      <packagereq>gnome-boxes</packagereq>
-      <packagereq>gnome-calculator</packagereq>
-      <packagereq>gnome-classic-session</packagereq>
-      <packagereq>gnome-clocks</packagereq>
-      <packagereq>gnome-color-manager</packagereq>
-      <packagereq>gnome-contacts</packagereq>
-      <packagereq>gnome-dictionary</packagereq>
-      <packagereq>gnome-disk-utility</packagereq>
-      <packagereq>gnome-documents</packagereq>
-      <packagereq>gnome-font-viewer</packagereq>
-      <packagereq>gnome-getting-started-docs</packagereq>
-      <packagereq>gnome-initial-setup</packagereq>
-      <packagereq>gnome-logs</packagereq>
-      <packagereq>gnome-maps</packagereq>
-      <packagereq>gnome-packagekit</packagereq>
-      <packagereq>gnome-screenshot</packagereq>
-      <packagereq>gnome-session-xsession</packagereq>
-      <packagereq>gnome-settings-daemon</packagereq>
-      <packagereq>gnome-shell</packagereq>
-      <packagereq>gnome-software</packagereq>
-      <packagereq>gnome-sound-recorder</packagereq>
-      <packagereq>gnome-system-monitor</packagereq>
-      <packagereq>gnome-terminal</packagereq>
-      <packagereq>gnome-themes-standard</packagereq>
-      <packagereq>gnome-tweak-tool</packagereq>
-      <packagereq>gnome-user-docs</packagereq>
-      <packagereq>gnome-user-share</packagereq>
-      <packagereq>gnome-weather</packagereq>
-      <packagereq>gnupg2</packagereq>
-      <packagereq>gpm</packagereq>
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad-free</packagereq>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq>gucharmap</packagereq>
-      <packagereq>gvfs-afc</packagereq>
-      <packagereq>gvfs-afp</packagereq>
-      <packagereq>gvfs-archive</packagereq>
-      <packagereq>gvfs-fuse</packagereq>
-      <packagereq>gvfs-goa</packagereq>
-      <packagereq>gvfs-gphoto2</packagereq>
-      <packagereq>gvfs-mtp</packagereq>
-      <packagereq>gvfs-smb</packagereq>
-      <packagereq>hunspell</packagereq>
-      <packagereq>ibus-chewing</packagereq>
-      <packagereq>ibus-gtk2</packagereq>
-      <packagereq>ibus-gtk3</packagereq>
-      <packagereq>ibus-hangul</packagereq>
-      <packagereq>ibus-kkc</packagereq>
-      <packagereq>ibus-libpinyin</packagereq>
-      <packagereq>ibus-m17n</packagereq>
-      <packagereq>ibus-rawcode</packagereq>
-      <packagereq>ibus-typing-booster</packagereq>
-      <packagereq>iptstate</packagereq>
-      <packagereq>jwhois</packagereq>
-      <packagereq>libcanberra-gtk2</packagereq>
-      <packagereq>libcanberra-gtk3</packagereq>
-      <packagereq>libproxy-mozjs</packagereq>
-      <packagereq>librsvg2</packagereq>
-      <packagereq>libsane-hpaio</packagereq>
-      <packagereq>logrotate</packagereq>
-      <packagereq>lrzsz</packagereq>
-      <packagereq>lsof</packagereq>
-      <packagereq>mailcap</packagereq>
-      <packagereq>man-pages</packagereq>
-      <packagereq>mcelog</packagereq>
-      <packagereq>mc</packagereq>
-      <packagereq>mdadm</packagereq>
-      <packagereq>mesa-libGL</packagereq>
-      <packagereq>mesa-libGLU</packagereq>
-      <packagereq>microcode_ctl</packagereq>
-      <packagereq>mlocate</packagereq>
-      <packagereq>ModemManager</packagereq>
-      <packagereq>mousetweaks</packagereq>
-      <packagereq>mtr</packagereq>
-      <packagereq>nautilus</packagereq>
-      <packagereq>nautilus-sendto</packagereq>
-      <packagereq>net-tools</packagereq>
       <packagereq>NetworkManager-adsl</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
@@ -315,99 +177,20 @@
       <packagereq>NetworkManager-ssh-gnome</packagereq>
       <packagereq>NetworkManager-vpnc-gnome</packagereq>
       <packagereq>NetworkManager-wimax</packagereq>
-      <packagereq>nfs-utils</packagereq>
-      <packagereq>nmap-ncat</packagereq>
-      <packagereq>nm-connection-editor</packagereq>
-      <packagereq>nss-mdns</packagereq>
-      <packagereq>ntfs-3g</packagereq>
-      <packagereq>ntfsprogs</packagereq>
-      <packagereq>orca</packagereq>
-      <packagereq>p7zip</packagereq>
-      <packagereq>PackageKit-command-not-found</packagereq>
-      <packagereq>PackageKit-gtk3-module</packagereq>
-      <packagereq>PackageKit-yum-plugin</packagereq>
-      <packagereq>paman</packagereq>
-      <packagereq>pam_krb5</packagereq>
-      <packagereq>pam_pkcs11</packagereq>
-      <packagereq>paprefs</packagereq>
-      <packagereq>passwdqc</packagereq>
-      <packagereq>pavucontrol</packagereq>
-      <packagereq>pavumeter</packagereq>
-      <packagereq>pciutils</packagereq>
-      <packagereq>pcmciautils</packagereq>
-      <packagereq>pinfo</packagereq>
-      <packagereq>plymouth</packagereq>
-      <packagereq>pm-utils</packagereq>
-      <packagereq>polkit-js-engine</packagereq>
-      <packagereq>ppp</packagereq>
-      <packagereq>psacct</packagereq>
-      <packagereq>qt5-qtbase-gui</packagereq>
-      <packagereq>qt5-qtbase</packagereq>
-      <packagereq>qt5-qtdeclarative</packagereq>
-      <packagereq>qt5-qtxmlpatterns</packagereq>
-      <packagereq>qt</packagereq>
-      <packagereq>qt-settings</packagereq>
-      <packagereq>qt-x11</packagereq>
-      <packagereq>quota</packagereq>
-      <packagereq>rdist</packagereq>
-      <packagereq>realmd</packagereq>
       <packagereq>rfremix-release-workstation</packagereq>
       <packagereq>rfremix-config</packagereq>
       <packagereq>rfremix-config-gnome</packagereq>
       <packagereq>rfremix-logos</packagereq>
-      <packagereq>rhythmbox</packagereq>
-      <packagereq>rng-tools</packagereq>
-      <packagereq>rp-pppoe</packagereq>
       <packagereq>rpmfusion-free-release</packagereq>
       <packagereq>rpmfusion-nonfree-release</packagereq>
-      <packagereq>rsync</packagereq>
-      <packagereq>rsyslog</packagereq>
       <packagereq>russianfedora-branding-release</packagereq>
       <packagereq>russianfedora-fixes-release</packagereq>
       <packagereq>russianfedora-free-release</packagereq>
       <packagereq>russianfedora-nonfree-release</packagereq>
-      <packagereq>rygel</packagereq>
-      <packagereq>sane-backends-drivers-scanners</packagereq>
-      <packagereq>scl-utils</packagereq>
-      <packagereq>seahorse</packagereq>
-      <packagereq>setroubleshoot</packagereq>
-      <packagereq>setuptool</packagereq>
-      <packagereq>shotwell</packagereq>
-      <packagereq>simple-scan</packagereq>
-      <packagereq>sos</packagereq>
-      <packagereq>sssd</packagereq>
-      <packagereq>stunnel</packagereq>
-      <packagereq>sudo</packagereq>
-      <packagereq>sushi</packagereq>
-      <packagereq>symlinks</packagereq>
-      <packagereq>tar</packagereq>
-      <packagereq>tcpdump</packagereq>
-      <packagereq>tcp_wrappers</packagereq>
-      <packagereq>telnet</packagereq>
-      <packagereq>time</packagereq>
-      <packagereq>totem-nautilus</packagereq>
-      <packagereq>totem</packagereq>
-      <packagereq>traceroute</packagereq>
-      <packagereq>transmission-gtk</packagereq>
-      <packagereq>tree</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-ffmpeg</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-bad-free</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-bad</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-ugly</packagereq>
-      <packagereq>unzip</packagereq>
-      <packagereq>usbutils</packagereq>
-      <packagereq>vconfig</packagereq>
-      <packagereq>vinagre</packagereq>
-      <packagereq>wget</packagereq>
-      <packagereq>which</packagereq>
-      <packagereq>wireless-tools</packagereq>
-      <packagereq>words</packagereq>
-      <packagereq>wvdial</packagereq>
-      <packagereq>xdg-user-dirs-gtk</packagereq>
-      <packagereq>yelp</packagereq>
-      <packagereq>yum-langpacks</packagereq>
-      <packagereq>yum-utils</packagereq>
-      <packagereq>zip</packagereq>
     </packagelist>
   </group>
   <environment>
