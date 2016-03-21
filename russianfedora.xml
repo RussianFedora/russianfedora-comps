@@ -107,7 +107,6 @@
     <packagelist>
       <packagereq>gpm</packagereq>
       <packagereq>mc</packagereq>
-      <packagereq>p7zip</packagereq>
     </packagelist>
   </group>
   <group>
