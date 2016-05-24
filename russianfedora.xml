@@ -143,7 +143,9 @@
   <group>
     <id>rfremix-server-product</id>
     <name>RFRemix Server product core</name>
+    <name xml:lang="ru">Ядро сервера RFRemix</name>
     <description>Packages mandatory for the server product.</description>
+    <description xml:lang="ru">Обязательные пакеты для сервера.</description>
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
@@ -159,7 +161,9 @@
   <group>
     <id>rfremix-workstation-product</id>
     <name>RFRemix Workstation product core</name>
+    <name xml:lang="ru">Ядро рабочей станции RFRemix</name>
     <description>Packages mandatory for the workstation product.</description>
+    <description xml:lang="ru">Обязательные пакеты для рабочей станции.</description>
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
@@ -196,8 +200,9 @@
 
     <id>rfremix-server-product-environment</id>
     <name>RFRemix Server</name>
-
+    <name xml:lang="ru">Серверная редакция RFRemix</name>
     <description>An integrated, easier to manage server.</description>
+    <description xml:lang="ru">Интегрированный, простой в управлении сервер.</description>
     <display_order>2</display_order>
     <grouplist>
       <groupid>headless-management</groupid>
@@ -234,6 +239,7 @@
   <environment>
     <id>rfremix-workstation-product-environment</id>
     <name>RFRemix Workstation</name>
+    <name xml:lang="ru">Рабочая станция RFRemix</name>
     <description>RFRemix Workstation is a user friendly desktop system for laptops and PCs.</description>
     <description xml:lang="ru">Рабочая станция RFRemix - это дружественная десктопная система для ноутбуков и PC.</description>
     <display_order>2</display_order>
