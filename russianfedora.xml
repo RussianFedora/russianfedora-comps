@@ -149,6 +149,11 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
+      <packagereq type="default">NetworkManager-team</packagereq>
+      <packagereq type="mandatory">chrony</packagereq>
+      <packagereq type="mandatory">PackageKit</packagereq>
+      <packagereq type="mandatory">polkit</packagereq>
+      <packagereq type="mandatory">realmd</packagereq>
       <packagereq type="mandatory">rfremix-release-server</packagereq>
       <packagereq type="mandatory">russianfedora-branding-release</packagereq>
       <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
@@ -167,33 +172,153 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
+      <packagereq>abrt-cli</packagereq>
+      <packagereq>abrt-desktop</packagereq>
+      <packagereq>abrt-java-connector</packagereq>
+      <packagereq>acl</packagereq>
+      <packagereq>adwaita-qt4</packagereq>
+      <packagereq>adwaita-qt5</packagereq>
+      <packagereq>at</packagereq>
+      <packagereq>attr</packagereq>
+      <packagereq>bash-completion</packagereq>
+      <packagereq>bc</packagereq>
+      <packagereq>bind-utils</packagereq>
+      <packagereq>bridge-utils</packagereq>
+      <packagereq>btrfs-progs</packagereq>
+      <packagereq>bzip2</packagereq>
+      <packagereq>chrony</packagereq>
+      <packagereq>cifs-utils</packagereq>
+      <packagereq>cpio</packagereq>
+      <packagereq>crontabs</packagereq>
+      <packagereq>cryptsetup</packagereq>
+      <packagereq>cyrus-sasl-plain</packagereq>
+      <packagereq>deltarpm</packagereq>
+      <packagereq>dnf-langpacks</packagereq>
+      <packagereq>dnf</packagereq>
+      <packagereq>dnf-plugins-core</packagereq>
+      <packagereq>dos2unix</packagereq>
+      <packagereq>dosfstools</packagereq>
+      <packagereq>ethtool</packagereq>
+      <packagereq>evolution-ews</packagereq>
+      <packagereq>evolution-help</packagereq>
+      <packagereq>evolution</packagereq>
+      <packagereq>fedora-productimg-workstation</packagereq>
+      <packagereq>fedora-user-agent-chrome</packagereq>
+      <packagereq>file</packagereq>
+      <packagereq>fpaste</packagereq>
+      <packagereq>fros-gnome</packagereq>
+      <packagereq>git</packagereq>
+      <packagereq>glibc-all-langpacks</packagereq>
+      <packagereq>gnome-shell-extension-background-logo</packagereq>
+      <packagereq>gnupg2</packagereq>
+      <packagereq>google-android-emoji-fonts</packagereq>
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad-free</packagereq>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>hunspell</packagereq>
+      <packagereq>ibus-gtk2</packagereq>
+      <packagereq>ibus-gtk3</packagereq>
+      <packagereq>ibus-hangul</packagereq>
+      <packagereq>ibus-kkc</packagereq>
+      <packagereq>ibus-libpinyin</packagereq>
+      <packagereq>ibus-libzhuyin</packagereq>
+      <packagereq>ibus-m17n</packagereq>
+      <packagereq>ibus-qt</packagereq>
+      <packagereq>ibus-rawcode</packagereq>
+      <packagereq>ibus-typing-booster</packagereq>
+      <packagereq>iptstate</packagereq>
+      <packagereq>jwhois</packagereq>
+      <packagereq>logrotate</packagereq>
+      <packagereq>lrzsz</packagereq>
+      <packagereq>lsof</packagereq>
+      <packagereq>mailcap</packagereq>
+      <packagereq>man-pages</packagereq>
+      <packagereq>mcelog</packagereq>
+      <packagereq>mdadm</packagereq>
+      <packagereq>microcode_ctl</packagereq>
+      <packagereq>mlocate</packagereq>
+      <packagereq>mtr</packagereq>
+      <packagereq>net-tools</packagereq>
       <packagereq>NetworkManager-adsl</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openvpn-gnome</packagereq>
       <packagereq>NetworkManager-pptp-gnome</packagereq>
-      <packagereq>NetworkManager-pptp-gnome</packagereq>
       <packagereq>NetworkManager-ssh-gnome</packagereq>
       <packagereq>NetworkManager-vpnc-gnome</packagereq>
       <packagereq>NetworkManager-wimax</packagereq>
-      <packagereq>rfremix-release-workstation</packagereq>
-      <packagereq>rfremix-config</packagereq>
+      <packagereq>nfs-utils</packagereq>
+      <packagereq>nmap-ncat</packagereq>
+      <packagereq>nss-mdns</packagereq>
+      <packagereq>ntfs-3g</packagereq>
+      <packagereq>ntfsprogs</packagereq>
+      <packagereq>pam_krb5</packagereq>
+      <packagereq>pam_pkcs11</packagereq>
+      <packagereq>passwdqc</packagereq>
+      <packagereq>pciutils</packagereq>
+      <packagereq>pinentry-gnome3</packagereq>
+      <packagereq>pinfo</packagereq>
+      <packagereq>plymouth</packagereq>
+      <packagereq>polkit</packagereq>
+      <packagereq>ppp</packagereq>
+      <packagereq>psacct</packagereq>
+      <packagereq>qgnomeplatform</packagereq>
+      <packagereq>qt5-qtbase-gui</packagereq>
+      <packagereq>qt5-qtbase</packagereq>
+      <packagereq>qt5-qtdeclarative</packagereq>
+      <packagereq>qt5-qtxmlpatterns</packagereq>
+      <packagereq>qt</packagereq>
+      <packagereq>qt-settings</packagereq>
+      <packagereq>qt-x11</packagereq>
+      <packagereq>quota</packagereq>
+      <packagereq>rdist</packagereq>
+      <packagereq>realmd</packagereq>
       <packagereq>rfremix-config-gnome</packagereq>
+      <packagereq>rfremix-config</packagereq>
       <packagereq>rfremix-logos</packagereq>
+      <packagereq>rfremix-release-workstation</packagereq>
+      <packagereq>rhythmbox</packagereq>
+      <packagereq>rng-tools</packagereq>
       <packagereq>rpmfusion-free-release</packagereq>
       <packagereq>rpmfusion-nonfree-release</packagereq>
+      <packagereq>rp-pppoe</packagereq>
+      <packagereq>rsync</packagereq>
       <packagereq>russianfedora-branding-release</packagereq>
       <packagereq>russianfedora-fixes-release</packagereq>
       <packagereq>russianfedora-free-release</packagereq>
       <packagereq>russianfedora-nonfree-release</packagereq>
+      <packagereq>scl-utils</packagereq>
+      <packagereq>setroubleshoot</packagereq>
+      <packagereq>setuptool</packagereq>
+      <packagereq>shotwell</packagereq>
+      <packagereq>sos</packagereq>
+      <packagereq>sssd</packagereq>
+      <packagereq>sudo</packagereq>
+      <packagereq>symlinks</packagereq>
+      <packagereq>systemd-udev</packagereq>
+      <packagereq>tar</packagereq>
+      <packagereq>tcpdump</packagereq>
+      <packagereq>tcp_wrappers</packagereq>
+      <packagereq>telnet</packagereq>
+      <packagereq>time</packagereq>
+      <packagereq>traceroute</packagereq>
+      <packagereq>tree</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-ffmpeg</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-bad-free</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-bad</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-ugly</packagereq>
+      <packagereq>unoconv</packagereq>
+      <packagereq>unzip</packagereq>
+      <packagereq>usbutils</packagereq>
+      <packagereq>vconfig</packagereq>
+      <packagereq>wget</packagereq>
+      <packagereq>which</packagereq>
+      <packagereq>wireless-tools</packagereq>
+      <packagereq>words</packagereq>
+      <packagereq>wvdial</packagereq>
+      <packagereq>xorg-x11-drv-libinput</packagereq>
+      <packagereq>zip</packagereq>
     </packagelist>
   </group>
   <environment>
@@ -205,35 +330,34 @@
     <description xml:lang="ru">Интегрированный, простой в управлении сервер.</description>
     <display_order>2</display_order>
     <grouplist>
-      <groupid>headless-management</groupid>
-      <groupid>core</groupid>
       <groupid>rfremix-server-product</groupid>
-      <groupid>server-product</groupid>
       <groupid>standard</groupid>
+      <groupid>core</groupid>
+      <groupid>headless-management</groupid>
     </grouplist>
     <optionlist>
-     <groupid>ftp-server</groupid>
-     <groupid>container-management</groupid>
-     <groupid>mysql</groupid>
-     <groupid>mail-server</groupid>
-     <groupid>domain-client</groupid>
-     <groupid>sql-server</groupid>
-     <groupid>directory-server</groupid>
-     <groupid>dogtag</groupid>
-     <groupid>smb-server</groupid>
-     <groupid>load-balancer</groupid>
-     <groupid>dns-server</groupid>
-     <groupid>server-hardware-support</groupid>
-     <groupid>ansible-node</groupid>
-     <groupid>freeipa-server</groupid>
-     <groupid>virtualization-headless</groupid>
-     <groupid>web-server</groupid>
-     <groupid>ha</groupid>
-     <groupid>network-server</groupid>
-     <groupid>guest-agents</groupid>
-     <groupid>networkmanager-submodules</groupid>
-     <groupid>hardware-support</groupid>
-     <groupid>printing</groupid>
+      <groupid>ansible-node</groupid>
+      <groupid>container-management</groupid>
+      <groupid>dogtag</groupid>
+      <groupid>domain-client</groupid>
+      <groupid>directory-server</groupid>
+      <groupid>dns-server</groupid>
+      <groupid>freeipa-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>ha</groupid>
+      <groupid>server-hardware-support</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>load-balancer</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>mysql</groupid>
+      <groupid>network-server</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>smb-server</groupid>
+      <groupid>sql-server</groupid>
+      <groupid>virtualization-headless</groupid>
+      <groupid>web-server</groupid>
     </optionlist>
   </environment>
   <environment>
@@ -244,18 +368,17 @@
     <description xml:lang="ru">Рабочая станция RFRemix - это дружественная десктопная система для ноутбуков и PC.</description>
     <display_order>2</display_order>
     <grouplist>
-      <groupid>core</groupid>
-      <groupid>gnome-desktop</groupid>
-      <groupid>multimedia</groupid>
-      <groupid>firefox</groupid>
       <groupid>base-x</groupid>
-      <groupid>guest-desktop-agents</groupid>
+      <groupid>core</groupid>
+      <groupid>firefox</groupid>
       <groupid>fonts</groupid>
+      <groupid>gnome-desktop</groupid>
+      <groupid>guest-desktop-agents</groupid>
       <groupid>hardware-support</groupid>
-      <groupid>printing</groupid>
-      <groupid>workstation-product</groupid>
       <groupid>libreoffice</groupid>
+      <groupid>multimedia</groupid>
       <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
       <groupid>rfremix-workstation-product</groupid>
     </grouplist>
   </environment>
