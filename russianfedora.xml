@@ -167,10 +167,12 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
+      <packagereq>gpm</packagereq>
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad-free</packagereq>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>mc</packagereq>
       <packagereq>NetworkManager-adsl</packagereq>
       <packagereq>NetworkManager-openconnect</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
