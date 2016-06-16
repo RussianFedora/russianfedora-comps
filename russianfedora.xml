@@ -47,6 +47,7 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq>adapta-gtk-theme</packagereq>
+      <packagereq>evopop-gtk-theme</packagereq>
       <packagereq>clipit</packagereq>
       <packagereq>dconf-editor</packagereq>
       <packagereq>gconf-editor</packagereq>
