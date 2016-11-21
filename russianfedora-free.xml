@@ -176,13 +176,13 @@
    <id>kde-desktop</id>
    <default>false</default>
    <uservisible>false</uservisible>
-   <name>KDE (K Desktop Environment)</name>
+   <name>KDE</name>
    <description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</description>
     <packagelist>
       <packagereq type="optional">eiskaltdcpp-qt</packagereq>
-      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
-      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
-      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-bad</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>gstreamer1-libav</packagereq>
+      <packagereq>gstreamer1-plugins-bad</packagereq>
       <packagereq>rfremix-logos</packagereq>
     </packagelist>
   </group>
