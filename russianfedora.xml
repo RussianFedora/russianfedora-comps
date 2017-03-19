@@ -27,19 +27,6 @@
     </packagelist>
   </group>
   <group>
-    <id>multimedia</id>
-    <name>Multimedia</name>
-    <description>Audio/video framework common to desktops</description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq>paman</packagereq>
-      <packagereq>paprefs</packagereq>
-      <packagereq>pavucontrol</packagereq>
-      <packagereq>pavumeter</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>gnome-desktop</id>
     <name>GNOME Desktop Environment</name>
     <description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager</description>
