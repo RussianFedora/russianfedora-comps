@@ -47,12 +47,12 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq>adapta-gtk-theme</packagereq>
-      <packagereq>evopop-gtk-theme</packagereq>
-      <packagereq>clipit</packagereq>
       <packagereq>dconf-editor</packagereq>
-      <packagereq>gconf-editor</packagereq>
-      <packagereq>gnome-tweak-tool</packagereq>
+      <packagereq>evopop-gtk-theme</packagereq>
       <packagereq>evopop-icon-theme</packagereq>
+      <packagereq>gconf-editor</packagereq>
+      <packagereq>gnome-shell-extension-gpaste</packagereq>
+      <packagereq>gnome-tweak-tool</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openvpn-gnome</packagereq>
       <packagereq>NetworkManager-pptp-gnome</packagereq>
