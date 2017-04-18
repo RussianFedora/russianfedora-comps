@@ -194,6 +194,12 @@
       <packagereq type="mandatory">cloud-utils-growpart</packagereq>
       <packagereq type="mandatory">dracut-config-generic</packagereq>
       <packagereq type="mandatory">rfremix-release-cloud</packagereq>
+      <packagereq type="mandatory">russianfedora-branding-release</packagereq>
+      <packagereq type="mandatory">russianfedora-fixes-release</packagereq>
+      <packagereq type="mandatory">russianfedora-free-release</packagereq>
+      <packagereq type="mandatory">russianfedora-nonfree-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-free-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
       <packagereq type="mandatory">grubby</packagereq>
       <packagereq type="mandatory">heat-cfntools</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
