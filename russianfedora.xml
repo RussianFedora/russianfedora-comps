@@ -147,6 +147,61 @@
     </packagelist>
   </group>
   <group>
+    <id>rfremix-cloud-server</id>
+    <name>RFRemix Cloud Server Tools</name>
+    <name xml:lang="bg">Инструменти за облачни сървъри</name>
+    <name xml:lang="ca">Eines de servidor de núvols</name>
+    <name xml:lang="cs">Nástroje pro cloud server</name>
+    <name xml:lang="de">Cloud Server Werkzeuge</name>
+    <name xml:lang="es">Herramientas de servidores de nube</name>
+    <name xml:lang="fi">Pilvipalvelintyökalut</name>
+    <name xml:lang="fr">Outils serveurs Cloud</name>
+    <name xml:lang="he">כלי שרת ענן</name>
+    <name xml:lang="it">Strumenti per Server Cloud</name>
+    <name xml:lang="nl">Cloudservergereedschappen</name>
+    <name xml:lang="pl">Narzędzia serwera chmury</name>
+    <name xml:lang="pt">Ferramentas de Servidor na Cloud</name>
+    <name xml:lang="pt_BR">Ferramentas de Servidor Cloud</name>
+    <name xml:lang="ru">Инструменты для облачных серверов</name>
+    <name xml:lang="sk">Nástroje pre cloud server</name>
+    <name xml:lang="sq">Mjete për Servera Cloud</name>
+    <name xml:lang="sv">Molnserververktyg</name>
+    <name xml:lang="uk">Інструменти сервера «хмари»</name>
+    <name xml:lang="zh_CN">云端服务器工具</name>
+    <name xml:lang="zh_TW">雲端伺服器工具</name>
+    <description>Software for servers and system images that run in "cloud" environments</description>
+    <description xml:lang="bg">Софтуер за образи на сървъри и системи, работещи в "облачни" среди</description>
+    <description xml:lang="cs">Software pro servery a obrazy systému, které lze provozovat v "cloudových" prostředích</description>
+    <description xml:lang="de">Software für Server und Cloud-Abbilder </description>
+    <description xml:lang="es">Software para servidores e imágenes de sistema que se ejecutan en entornos de "nube".</description>
+    <description xml:lang="fi">Ohjelmistoja pilvipalvelimille ja -järjestelmäkuville</description>
+    <description xml:lang="fr">Logiciel pour les serveurs et images systèmes exécutés dans un environnement « Cloud »</description>
+    <description xml:lang="it">Software per server e immagini di sistema  eseguiti in ambienti "cloud"</description>
+    <description xml:lang="nl">Software voor servers en systeemimages die in "cloud"-omgevingen draaien</description>
+    <description xml:lang="pl">Oprogramowanie dla serwerów i obrazów systemów działających w środowiskach „chmury”</description>
+    <description xml:lang="pt">Software para servidores e imagens de sistemas que correm em ambientes na "cloud"</description>
+    <description xml:lang="pt_BR">Software para servidores e imagens de sistemas que rodam em ambientes "cloud"</description>
+    <description xml:lang="ru">Програмное обеспечение для серверов и образов систем, работающих в облачных средах</description>
+    <description xml:lang="sk">Softvér pre servery a obrazy systémov, ktoré bežia v prostredí "cloud"</description>
+    <description xml:lang="sv">Program för servrar och systemavbilder som kör i ”molnmiljöer”</description>
+    <description xml:lang="uk">Програмне забезпечення для серверів та керування образами систем, які працюють у «хмарному» середовищі</description>
+    <description xml:lang="zh_CN">为运行在 "cloud" 环境中的服务器和系统镜像提供的软件</description>
+    <description xml:lang="zh_TW">用於伺服器和「雲端」環境中執行之系統映像檔的軟體</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">cloud-init</packagereq>
+      <packagereq type="mandatory">cloud-utils-growpart</packagereq>
+      <packagereq type="mandatory">dracut-config-generic</packagereq>
+      <packagereq type="mandatory">rfremix-release-cloud</packagereq>
+      <packagereq type="mandatory">grubby</packagereq>
+      <packagereq type="mandatory">heat-cfntools</packagereq>
+      <packagereq type="mandatory">rsync</packagereq>
+      <packagereq type="mandatory">syslinux-extlinux</packagereq>
+      <packagereq type="mandatory">tar</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>rfremix-workstation-product</id>
     <name>RFRemix Workstation product core</name>
     <name xml:lang="ru">Ядро рабочей станции RFRemix</name>
@@ -186,6 +241,70 @@
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-ugly</packagereq>
     </packagelist>
   </group>
+  <environment>
+
+    <id>rfremix-cloud-server-environment</id>
+    <name>RFRemix Cloud Server</name>
+    <name xml:lang="bg">RFRemix Cloud Сървър</name>
+    <name xml:lang="ca">Servidor de núvols de RFRemix</name>
+    <name xml:lang="cs">RFRemix Cloud Server</name>
+    <name xml:lang="de">RFRemix Cloud Server</name>
+    <name xml:lang="es">RFRemix Cloud Server</name>
+    <name xml:lang="fi">RFRemix Cloud -palvelin</name>
+    <name xml:lang="fr">RFRemix Cloud Server</name>
+    <name xml:lang="it">RFRemix Cloud Server</name>
+    <name xml:lang="nl">RFRemix Cloud Server</name>
+    <name xml:lang="pl">RFRemix Cloud Server</name>
+    <name xml:lang="pt">RFRemix Servidor na Nuvem</name>
+    <name xml:lang="pt_BR">Servidor RFRemix Cloud</name>
+    <name xml:lang="ru">RFRemix Cloud Server</name>
+    <name xml:lang="sk">RFRemix Cloud Server</name>
+    <name xml:lang="sv">RFRemix Cloud Server</name>
+    <name xml:lang="uk">Сервер «хмари» RFRemix</name>
+    <name xml:lang="zh_CN">RFRemix Cloud Server</name>
+    <name xml:lang="zh_TW">RFRemix Cloud 伺服器</name>
+    <description>A server install with components needed to run in a cloud environment.</description>
+    <description xml:lang="bg">Сървърна инсталация с компоненти, необходими за работа в облачна среда.</description>
+    <description xml:lang="ca">Una instal·lació d'un servidor que inclou els components necessaris per a l'execució d'un entorn de núvol.</description>
+    <description xml:lang="cs">Serverová instalace se součástmi potřebnými pro běh v prostředí cloudu.</description>
+    <description xml:lang="de">Serverinstallation, mit notwendigen Komponenten zum Betrieb in einer Cloud-Umgebung</description>
+    <description xml:lang="es">Instalación de servidor con los componentes necesarios para su ejecución en un entorno de "nube".</description>
+    <description xml:lang="fi">Palvelinasennus ja pilviympäristön vaatimat ohjelmistot.</description>
+    <description xml:lang="fr">Une installation de serveur avec les composants nécessaires pour être lancé dans un environnement Cloud.</description>
+    <description xml:lang="it">Una installazione server con i componenti necessari per l'esecuzione in ambiente cloud.</description>
+    <description xml:lang="nl">Een serverinstallatie met onderdelen die in een cloud-omgeving moeten draaien.</description>
+    <description xml:lang="pl">Instalacja serwerowa ze składnikami wymaganymi do działania w środowisku chmury.</description>
+    <description xml:lang="pt_BR">Uma instalação de servidor com os componentes necessários para rodar em um ambiente cloud.</description>
+    <description xml:lang="ru">Серверная установка с компонентами, необходимыми для запуска облачного окружения.</description>
+    <description xml:lang="sk">Serverová inštalácia obsahujúca súčasti potrebné pre beh v prostredí cloudu.</description>
+    <description xml:lang="sv">En serverinstallation med komponenter som behövs för att köra i en molnmiljö.</description>
+    <description xml:lang="uk">Встановлення сервера із компонентами, потрібними для запуску «хмарного» середовища.</description>
+    <description xml:lang="zh_CN">在云环境中运行服务器所需的组件。</description>
+    <description xml:lang="zh_TW">已安裝雲端環境所需組件的伺服器。</description>
+    <display_order>3</display_order>
+    <grouplist>
+      <groupid>rfremix-cloud-server</groupid>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>standard</groupid>
+      <groupid>headless-management</groupid>
+      <groupid>dogtag</groupid>
+      <groupid>directory-server</groupid>
+      <groupid>dns-server</groupid>
+      <groupid>freeipa-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>ha</groupid>
+      <groupid>load-balancer</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>mysql</groupid>
+      <groupid>network-server</groupid>
+      <groupid>smb-server</groupid>
+      <groupid>sql-server</groupid>
+      <groupid>web-server</groupid>
+    </optionlist>
+  </environment>
   <environment>
 
     <id>rfremix-server-product-environment</id>
