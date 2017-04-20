@@ -146,18 +146,6 @@
     </packagelist>
   </group>
   <group>
-    <id>telegram</id>
-    <name>Telegram</name>
-    <name xml:lang="ru">Telegram</name>
-    <description>Telegram is a new era of messaging</description>
-    <description xml:lang="ru">Telegram - новая эра в обмене сообщениями</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq>telegram-desktop</packagereq>
-    </packagelist>
-  </group>
-  <group>
    <id>sound-and-video</id>
    <default>false</default>
    <uservisible>true</uservisible>

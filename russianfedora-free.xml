@@ -197,6 +197,18 @@
     </packagelist>
   </group>
   <group>
+    <id>telegram</id>
+    <name>Telegram</name>
+    <name xml:lang="ru">Telegram</name>
+    <description>Telegram is a new era of messaging</description>
+    <description xml:lang="ru">Telegram - новая эра в обмене сообщениями</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>telegram-desktop</packagereq>
+    </packagelist>
+  </group>
+  <group>
    <id>sound-and-video</id>
    <default>false</default>
    <uservisible>false</uservisible>
@@ -225,6 +237,18 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="optional">wt</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>wire</id>
+    <name>Wire</name>
+    <name xml:lang="ru">Wire</name>
+    <description>Modern communication, full privacy</description>
+    <description xml:lang="ru">Современное общение, полная конфиденциальность</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>wire-desktop</packagereq>
     </packagelist>
   </group>
   <group>
