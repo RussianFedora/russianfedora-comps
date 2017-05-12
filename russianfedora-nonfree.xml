@@ -50,7 +50,7 @@
     <description>Original Oracle Java SDK 1.8</description>
     <description xml:lang="ru">Оригинальная Oracle Java SDK 1.8</description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq>java-1.8.0-oracle</packagereq>
       <packagereq>java-1.8.0-oracle-plugin</packagereq>
@@ -64,7 +64,7 @@
     <description>Original Oracle Java SDK 1.7</description>
     <description xml:lang="ru">Оригинальная Oracle Java SDK 1.7</description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq>java-1.7.0-oracle</packagereq>
       <packagereq>java-1.7.0-oracle-plugin</packagereq>
