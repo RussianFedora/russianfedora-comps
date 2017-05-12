@@ -12,6 +12,18 @@
     </packagelist>
   </group>
   <group>
+    <id>additional-proprietary-repositories</id>
+    <name>Additional proprietaty repositories support</name>
+    <name xml:lang="ru">Поддержка дополнительных проприетарных репозиториев</name>
+    <description>Enable some additional proprietary repositories, like Skype, Google Chrome, Slack and others.</description>
+    <description xml:lang="ru">Подключение дополнительных проприетарных репозиториев, таких как Skype, Google Chrome, Slack и других.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>rfremix-config-external-repos</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>rfremix-workstation-product</id>
     <name>RFRemix Workstation product core</name>
     <description>Packages mandatory for the workstation product.</description>
