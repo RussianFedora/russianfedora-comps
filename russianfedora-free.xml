@@ -240,6 +240,18 @@
     </packagelist>
   </group>
   <group>
+    <id>whatsapp</id>
+    <name>WhatsApp desktop client</name>
+    <name xml:lang="ru">Клиент WhatsApp</name>
+    <description>WhatsApp desktop client, based on the official WhatsApp web app.</description>
+    <description xml:lang="ru">Клиент WhatsApp, основанный на официальном веб-приложении.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>whatsapp-desktop</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>wire</id>
     <name>Wire</name>
     <name xml:lang="ru">Wire</name>
