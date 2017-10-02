@@ -27,17 +27,7 @@
     <id>firefox</id>
     <name>Firefox Web Browser</name>
     <description>The Firefox web browser</description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq>flash-plugin</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>epiphany</id>
-    <name>Epiphany Web Browser</name>
-    <description>Epiphany Web Browser for GNOME</description>
-    <default>false</default>
+    <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq>flash-plugin</packagereq>
@@ -86,30 +76,6 @@
     </packagelist>
   </group>
   <group>
-   <id>graphical-internet</id>
-   <default>false</default>
-   <uservisible>false</uservisible>
-   <name>Graphical Internet</name>
-   <description>This group includes graphical email, Web, and chat clients.</description>
-    <packagelist>
-      <packagereq type="default">flash-plugin</packagereq>
-    </packagelist>
-  </group>
-  <group>
-   <id>hardware-support</id>
-   <default>false</default>
-   <uservisible>false</uservisible>
-   <name>Hardware Support</name>
-   <description>This group is a collection of tools for various hardware specific utilities.</description>
-    <packagelist>
-      <packagereq type="default">b43-firmware</packagereq>
-      <packagereq type="optional">akmod-catalist</packagereq>
-      <packagereq type="optional">truecrypt</packagereq>
-      <packagereq type="optional">xorg-x11-drv-catalyst</packagereq>
-      <packagereq type="conditional" requires="xorg-x11-drv-catalyst">kmod-catalyst</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>skype</id>
     <name>Skype</name>
     <name xml:lang="ru">Skype</name>
@@ -143,27 +109,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq>viber</packagereq>
-    </packagelist>
-  </group>
-  <group>
-   <id>sound-and-video</id>
-   <default>false</default>
-   <uservisible>true</uservisible>
-   <name>Sound and Video</name>
-   <description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</description>
-    <packagelist>
-      <packagereq type="optional">mplayer-faac</packagereq> 
-      <packagereq type="optional">sopcast</packagereq> 
-    </packagelist>
-  </group>
-  <group>
-    <id>web-server</id>
-    <name>Web Server</name>
-    <description>These tools allow you to run a Web server on the system.</description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq type="optional">traffpro</packagereq>
     </packagelist>
   </group>
 </comps>
