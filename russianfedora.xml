@@ -39,7 +39,7 @@
       <packagereq>evopop-icon-theme</packagereq>
       <packagereq>gconf-editor</packagereq>
       <packagereq>gnome-shell-extension-gpaste</packagereq>
-      <packagereq>gnome-tweak-tool</packagereq>
+      <packagereq>gnome-tweaks</packagereq>
       <packagereq>NetworkManager-openswan</packagereq>
       <packagereq>NetworkManager-openvpn-gnome</packagereq>
       <packagereq>NetworkManager-pptp-gnome</packagereq>
